@@ -1,5 +1,10 @@
 ## 2021
 
+- [ ] 20210724 [2019] Bag of Freebies for Training Object Detection Neural Networks
+- [ ] 20210723 [2021] YOLOX_ Exceeding YOLO Series in 2021
+- [ ] 20210719 [2020 ICLR] CurricularFace_ Adaptive Curriculum Learning Loss For Deep Face Recognition
+- [ ] 20210713 [2016] Simple Online And Realtime Tracking
+- [ ] 20210713 [2017] Simple Online and Realtime Tracking with a Deep Association Metric
 - [ ] 20210628 [2018] The iNaturalist Species Classification and Detection Dataset
 - [ ] 20210627 [2021] TinaFace_ Strong but Simple Baseline for Face Detection
 - [ ] 20210627 [2021 CVPR] EPSANet_ An Efficient Pyramid Split Attention Block on Convolutional Neural Network
