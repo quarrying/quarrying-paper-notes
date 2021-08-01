@@ -1,5 +1,9 @@
 ## 2021
 
+- [ ] 20210730 [2021 CVPR] Exploring Simple Siamese Representation Learning
+- [ ] 20210729 [2019] RetinaFace_ Single-stage Dense Face Localisation in the Wild
+- [ ] 20210728 [2021 CVPR] Multi-Scale Aligned Distillation for Low-Resolution Detection
+- [ ] 20210725 [2018 CVPR] Multi-Oriented Scene Text Detection via Corner Localization and Region Segmentation
 - [ ] 20210724 [2019] Bag of Freebies for Training Object Detection Neural Networks
 - [ ] 20210723 [2021] YOLOX_ Exceeding YOLO Series in 2021
 - [ ] 20210719 [2020 ICLR] CurricularFace_ Adaptive Curriculum Learning Loss For Deep Face Recognition
