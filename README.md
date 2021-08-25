@@ -1,7 +1,10 @@
 ## 2021
 
+- [ ] 20210824 [2020] EfficientDet_ Scalable and Efficient Object Detection
+- [ ] 20210824 [2021] Revisiting Classification Perspective on Scene Text Recognition
+- [ ] 20210809 [2020] Attention_ A Lightweight 2D Hand Pose Estimation Approach
 - [ ] 20210730 [2021 CVPR] Exploring Simple Siamese Representation Learning
-- [ ] 20210729 [2019] RetinaFace_ Single-stage Dense Face Localisation in the Wild
+- [x] 20210729 [2019] RetinaFace_ Single-stage Dense Face Localisation in the Wild
 - [ ] 20210728 [2021 CVPR] Multi-Scale Aligned Distillation for Low-Resolution Detection
 - [ ] 20210725 [2018 CVPR] Multi-Oriented Scene Text Detection via Corner Localization and Region Segmentation
 - [ ] 20210724 [2019] Bag of Freebies for Training Object Detection Neural Networks
