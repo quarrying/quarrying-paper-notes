@@ -214,3 +214,10 @@ Products     | Descriptions
     - https://market.aliyun.com/products/57124001/cmapi031359.html#sku=yuncode2535900001
 - 植物花卉识别
     - https://market.aliyun.com/products/57124001/cmapi028669.html#sku=yuncode2266900001
+
+# 网络页面
+- 2019识花软件大PK，帮你选择最好的APP！
+    - https://zhuanlan.zhihu.com/p/58204875
+- 打造万物识别之利器——微信扫一扫植物识别篇
+    - https://mp.weixin.qq.com/s?__biz=MzI5MTU5OTM1NQ==&mid=2247487497&idx=1&sn=c37eb623a44071794fd6c3cead1b7d98
+    
