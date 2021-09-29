@@ -69,6 +69,12 @@ A high-quality, dataset of images containing fruits and vegetables.
 - [2018] Fruit recognition from images using deep learning
 
 
+## VegFru
+**References**:
+- [2007 ICCV] VegFru_ A Domain-Specific Dataset for Fine-grained Visual Categorization
+- https://pan.baidu.com/s/1boSNcV9#list/path=%2F
+
+
 ## Kaggle flowers-recognition
 只有 5 类.
 

@@ -53,6 +53,39 @@
 - https://github.com/LKKlein/AI-Insects-Challenge
 
 
+## Leeds Butterfly Dataset
+This dataset contains images and textual descriptions for ten categories (species) of butterflies.
+
+The image dataset comprises 832 images in total, with the distribution ranging from 55 to 100 images per category. Images were collected from Google Images by querying with the scientific (Latin) name of the species, for example "Danaus plexippus", and manually filtered for those depicting the butterfly of interest.
+
+The textual descriptions for each butterfly category were obtained from the eNature online nature guide.
+
+Scientific Name         | 中文学名
+------------------------|-------------
+Danaus plexippus        | 黑脉金斑蝶
+Heliconius charitonius  | 黄条袖蝶
+Heliconius erato        | 艺神袖蝶
+Junonia coenia          | 鹿眼蛱蝶
+Lycaena phlaeas         | 红灰蝶
+Nymphalis antiopa       | 黄缘蛱蝶
+Papilio cresphontes     | 美洲大芷凤蝶
+Pieris rapae            | 菜粉蝶
+Vanessa atalanta        | 优红蛱蝶
+Vanessa cardui          | 小红蛱蝶
+
+**References**:
+- http://www.josiahwang.com/dataset/leedsbutterfly/
+- https://www.kaggle.com/veeralakrishna/butterfly-dataset
+- [2009 BMVC] Learning Models for Object Recognition from Natural Language Descriptions
+
+## IP102
+The IP102 datset contains more than 75,000 images belongs to 102 categories. A natural long-tailed distribution presents on it. In addition, we annotate 19,000 images with bounding boxes for object detection. The IP102 has a hierarchical taxonomy and the insect pests which mainly affect one specific agricultural product are grouped into the same upper-level category.
+
+**References**:
+- https://github.com/xpwu95/IP102
+
+
+
 # Products
 - 虫先知
     - https://ai.baidu.com/customer/chongxianzhi

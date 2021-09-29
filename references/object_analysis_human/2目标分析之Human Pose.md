@@ -20,7 +20,7 @@
     - https://github.com/ildoonet/tf-pose-estimation
 - Stacked hourglass networks
     - [2016] Stacked hourglass networks for human pose estimation.
-- Simple 
+- SimpleBaseline 
     - [2018 ECCV] Simple Baselines for Human Pose Estimation and Tracking
     - https://github.com/Microsoft/human-pose-estimation.pytorch
 - CPN, Cascaded Pyramid Network
@@ -39,6 +39,8 @@
     - https://github.com/mks0601/3DMPPE_POSENET_RELEASE
 - [2019 CVPR] V2V-PoseNet: Voxel-to-Voxel Prediction Network for Accurate 3D Hand and Human Pose Estimation from a Single Depth Map
     - https://github.com/mks0601/V2V-PoseNet_RELEASE
+- HigherHRNet
+    [2020] HigherHRNet_ Scale-Aware Representation Learning for Bottom-Up Human Pose Estimation
 - GitHub
     - https://github.com/bearpaw/pytorch-pose
     - https://github.com/princeton-vl/pose-ae-train
