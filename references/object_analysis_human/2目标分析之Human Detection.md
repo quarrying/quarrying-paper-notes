@@ -174,4 +174,16 @@ It consists of 13,382 images with 399,786 annotations, i.e., 29.87 annotations p
 - [2009 TPAMI] Monocular pedestrian detection_ Survey and experiments
 
     
-    
+## Human-Parts
+Human-Parts with 14,962 images and 106,879 annotations.
+**References**:
+- https://github.com/xiaojie1017/Human-Parts
+
+```bibtex
+@article{didnet,
+	title={Detector-in-Detector: Multi-Level Analysis for Human-Parts},
+	author={Xiaojie Li, Lu yang, Qing Song, Fuqiang Zhou},
+	journal={arXiv preprint arXiv:****},
+	year={2019}
+}
+```

@@ -24,6 +24,7 @@
 # Datasets
 
 ## ArTaxOr, arthropod-taxonomy-orders-object-detection-dataset
+该数据集包含如下类别 (约 15,000 张图像, 20211008)
 - Araneae: Spiders
 - Coleoptera: Beetles
 - Diptera: True flies, wich includes mosquitoes, midges, crane flies etc.
