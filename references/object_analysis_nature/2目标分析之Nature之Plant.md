@@ -137,10 +137,10 @@ This dataset consists of 4502 images of healthy and unhealthy plant leaves divid
 # 产品
 Products     | Descriptions
 -------------|------------------
-形色         | 5000 种
+形色         | 4000 种
 花伴侣       | 3000 属, 近 5000 种
 百度植物识别 | 2万多种通用植物识别, 近 8000 种花卉
-支付宝      | 支付宝 -- 扫一扫 -- AR识别
+支付宝       | 支付宝 -- 扫一扫 -- AR识别
 
 ## 形色, picturethis
 **References**:
@@ -163,8 +163,8 @@ Products     | Descriptions
 
 
 ## 百度植物识别
-问题1: 蓝花丹, 蓝雪花
-问题2: 波罗蜜, 菠萝蜜
+- 问题1: 蓝花丹, 蓝雪花
+- 问题2: 波罗蜜, 菠萝蜜
 
 **References**:
 - https://ai.baidu.com/tech/imagerecognition/plant

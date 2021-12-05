@@ -2,6 +2,8 @@
 
 ## 2021
 
+- [ ] 20211118 [2019] M2det_ A single-shot object detector based on multi-level feature pyramid network
+- [ ] 20211118 [2018 CVPR] Scale-Transferrable Object Detection
 - [ ] 20211017 [2021] You Only Look One-level Feature
 - [ ] 20211015 [2021] Hand Image Understanding via Deep Multi-Task Learning
 - [ ] 20210913 [2021] YOLO5Face_ Why Reinventing a Face Detector
