@@ -1,7 +1,16 @@
 # Paper Reading History (incomplete)
 
+记录阅读 1 小时以上的文献, 勾选的表示做了笔记.
+
+## 2022
+- 20220104 [2016] DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations
+- 20220104 [2019 CVPR] DeepFashion2_ A Versatile Benchmark for Detection, Pose Estimation, Segmentation and Re-Identification of Clothing Images
+- 20220105 [2021] PP-YOLOv2_ A Practical Object Detector
+- 20220107 [2021] Residual Attention_ A Simple but Effective Method for Multi-Label Recognition
+
 ## 2021
 
+- [ ] 220211230 [2020] ELF_ An Early-Exiting Framework for Long-Tailed Classification
 - [ ] 20211118 [2019] M2det_ A single-shot object detector based on multi-level feature pyramid network
 - [ ] 20211118 [2018 CVPR] Scale-Transferrable Object Detection
 - [ ] 20211017 [2021] You Only Look One-level Feature

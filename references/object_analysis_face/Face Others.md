@@ -7,7 +7,6 @@
 - http://cvit.iiit.ac.in/projects/IMFDB/
 - https://www.nist.gov/srd/nist-special-database-18
 
-
 ## seeprettyface
 利用 StyleGAN 生成的人脸.
 
@@ -92,6 +91,5 @@ Projects: This dataset can be used to discriminate real and fake images.
 
 **References**
 - https://github.com/NVlabs/ffhq-dataset
-
 
 

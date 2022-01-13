@@ -75,38 +75,19 @@ A high-quality, dataset of images containing fruits and vegetables.
 - https://pan.baidu.com/s/1boSNcV9#list/path=%2F
 
 
-## Kaggle flowers-recognition
-只有 5 类.
-
-**References**:
-- https://www.kaggle.com/alxmamaev/flowers-recognition
-
-
-## Kaggle leaf-classification
-The dataset consists approximately 1,584 images of leaf specimens (16 samples each of 99 species).
-
-**References**:
-- https://www.kaggle.com/c/leaf-classification/
-
-
-## Kaggle global-wheat-detection
-**References**:
-- https://www.kaggle.com/c/global-wheat-detection
-
-
-## Kaggle plant seedlings classification
-包含 12 种植物, 共有将近 960 棵植株, 总共 4750 张图像.
-
-**References**:
-- https://www.kaggle.com/c/plant-seedlings-classification
-
-
-## Kaggle edible-wild-plants
-The dataset contains images of 62 wild edible plants, gathered off the internet. The photos are under the size of 300K.
-
-**References**:
-- https://www.kaggle.com/gverzea/edible-wild-plants
-
+## Dtasets on Kaggle
+- flowers-recognition: 只有 5 类.
+    - https://www.kaggle.com/alxmamaev/flowers-recognition
+- leaf-classification: The dataset consists approximately 1,584 images of leaf specimens (16 samples each of 99 species).
+    - https://www.kaggle.com/c/leaf-classification/
+- global-wheat-detection
+    - https://www.kaggle.com/c/global-wheat-detection
+- plant-seedlings-classification: 包含 12 种植物, 共有将近 960 棵植株, 总共 4750 张图像.
+    - https://www.kaggle.com/c/plant-seedlings-classification
+- edible-wild-plants: The dataset contains images of 62 wild edible plants, gathered off the internet. The photos are under the size of 300K.
+    - https://www.kaggle.com/gverzea/edible-wild-plants
+- cassava-disease
+    - https://www.kaggle.com/c/cassava-disease/overview
 
 ## CWFID, Crop/Weed Field Image Dataset
 **References**:

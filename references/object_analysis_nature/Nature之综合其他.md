@@ -30,20 +30,12 @@ This is a dataset that I collected to train my own Raccoon detector with TensorF
 - https://github.com/datitran/raccoon_dataset
 
 
-## Kaggle Dog Breed
+## Datasets on Kaggle
 **References**:
 - https://www.kaggle.com/c/dog-breed-identification/overview
-
-
-## Kaggle Animals-10
-**References**:
 - https://www.kaggle.com/alessiocorrado99/animals10
-
-
-## Kaggle 10-monkey-species
-**References**:
 - https://www.kaggle.com/slothkong/10-monkey-species
-
+- https://www.kaggle.com/antoreepjana/animals-detection-images-dataset
 
 ## WebFG 5000
 数据集是从网络上收集的图片数据，jpg 格式。数据集中包含的类别包括各种动物和植物。
@@ -99,5 +91,4 @@ Northumberland Dolphin Dataset 2020 (NDD20) is a challenging image dataset annot
 - 生物记
     - http://nol.especies.cn/
     - https://ai.baidu.com/customer/shengwuji
-    
     

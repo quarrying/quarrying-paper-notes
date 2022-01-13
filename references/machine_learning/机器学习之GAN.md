@@ -1,4 +1,4 @@
-# GAN
+# Literature
 - GAN
     - [2014] Generative Adversarial Nets
 - cGAN, Conditional GAN

@@ -1,3 +1,8 @@
+## WebFace260M
+- [2021 CVPR] WebFace260M: A Benchmark Unveiling the Power of Million-Scale Deep Face Recognition
+- https://www.face-benchmark.org/index.html
+
+
 ## Glint360K
 Furthermore, we clean Celeb-500k and add more celebrities to merge into a new training set, which we call Glint360K. The released dataset contains 18 million images of 360K individuals, which is the largest and cleanest training set by far in academia.
 

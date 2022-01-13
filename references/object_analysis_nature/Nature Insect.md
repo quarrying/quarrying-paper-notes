@@ -36,24 +36,6 @@
 **References**
 - https://www.kaggle.com/mistag/arthropod-taxonomy-orders-object-detection-dataset
 
-
-## bee-vs-wasp
-**References**
-- https://www.kaggle.com/jerzydziewierz/bee-vs-wasp
-
-
-## Butterfly-200 Dataset
-**References**
-- https://www.sysuhcp.com/resources/datasets/index.html
-
-
-## 百度 AI 识虫
-**References**
-- https://aistudio.baidu.com/aistudio/datasetdetail/34213
-- https://aistudio.baidu.com/aistudio/competition/detail/24
-- https://github.com/LKKlein/AI-Insects-Challenge
-
-
 ## Leeds Butterfly Dataset
 This dataset contains images and textual descriptions for ten categories (species) of butterflies.
 
@@ -86,6 +68,24 @@ The IP102 datset contains more than 75,000 images belongs to 102 categories. A n
 - https://github.com/xpwu95/IP102
 
 
+## Datasets on Kaggle
+**References**
+- https://www.kaggle.com/jerzydziewierz/bee-vs-wasp
+- https://www.kaggle.com/kmldas/insect-identification-from-habitus-images
+- https://www.kaggle.com/friso1987/yellow-sticky-traps
+- https://www.kaggle.com/gpiosenka/yikes-spiders-15-species
+
+## Butterfly-200 Dataset
+**References**
+- https://www.sysuhcp.com/resources/datasets/index.html
+
+
+## 百度 AI 识虫
+**References**
+- https://aistudio.baidu.com/aistudio/datasetdetail/34213
+- https://aistudio.baidu.com/aistudio/competition/detail/24
+- https://github.com/LKKlein/AI-Insects-Challenge
+
 
 # Products
 - 虫先知
@@ -95,4 +95,4 @@ The IP102 datset contains more than 75,000 images belongs to 102 categories. A n
 - migrationinsect
     - http://migrationinsect.cn/
     - http://migrationinsect.cn:8081/
-    
+- 见虫
