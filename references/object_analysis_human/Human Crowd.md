@@ -58,8 +58,7 @@ consisting of 5,109 images, in a total of 2,133,238 annotated heads.
 - https://pan.baidu.com/s/1nuAYslz
 
     
-## UCF CC 50
-UCF CC, UCF Crowd Counting
+## UCF CC 50, UCF Crowd Counting 50
 
 **References**:
 - [2013 CVPR] Multi-source multi-scale counting in extremely dense crowd images
