@@ -1,6 +1,22 @@
+# Overview
+
+```plantuml
+@startmindmap
+* human pose estimation
+** single-person pose estimation
+** multi-person pose estimation
+** 2D pose estimation
+** 3D pose estimation
+** regression-based pose estimation
+** heatmap-based pose estimation
+@endmindmap
+```
+
 # Literatures
-- [2014 CVPR] DeepPose_ Human Pose Estimation via Deep Neural Networks
+- DeepPose
+    - [2014 CVPR] DeepPose_ Human Pose Estimation via Deep Neural Networks
 - [2014 NIPS] Joint training of a convolutional network and a graphical model for human pose estimation
+    - 该文献是比较早的一篇 heatmap-based 的人体姿态估计算法
 - [2014 CVPR] 2d Human Pose Estimation_ New Benchmark and State of the Art Analysis
 - CPM, Convolutional Pose Machines
     - [2016 CVPR] Convolutional Pose Machines
@@ -20,7 +36,7 @@
     - https://github.com/ildoonet/tf-pose-estimation
 - Stacked hourglass networks
     - [2016] Stacked hourglass networks for human pose estimation.
-- SimpleBaseline 
+- SimplePose, SimpleBaseline
     - [2018 ECCV] Simple Baselines for Human Pose Estimation and Tracking
     - https://github.com/Microsoft/human-pose-estimation.pytorch
 - CPN, Cascaded Pyramid Network
@@ -40,7 +56,10 @@
 - [2019 CVPR] V2V-PoseNet: Voxel-to-Voxel Prediction Network for Accurate 3D Hand and Human Pose Estimation from a Single Depth Map
     - https://github.com/mks0601/V2V-PoseNet_RELEASE
 - HigherHRNet
-    [2020] HigherHRNet_ Scale-Aware Representation Learning for Bottom-Up Human Pose Estimation
+    - [2020] HigherHRNet_ Scale-Aware Representation Learning for Bottom-Up Human Pose Estimation
+- Integral Pose
+    - [2018 ECCV] Integral human pose regression
+    - This paper leverage the soft-argmax operation to retrieve joint locations from heatmaps in a differentiable manner, which allows end-to-end training. It prevents quantization error.
 - GitHub
     - https://github.com/bearpaw/pytorch-pose
     - https://github.com/princeton-vl/pose-ae-train
