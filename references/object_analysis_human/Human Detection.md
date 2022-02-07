@@ -53,7 +53,10 @@
 - LDCF, Locally Decorrelated Channel Features
     - [2014 NIPS] Local decorrelation for improved pedestrian detection
     
-    
+## Hand and face detection
+- https://gitlab.com/StrangeAI/handface_detect.git
+
+
 # 数据集
 
 ## CityPersons

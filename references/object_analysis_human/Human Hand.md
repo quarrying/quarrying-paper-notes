@@ -13,6 +13,12 @@
 - https://github.com/xinghaochen/awesome-hand-pose-estimation
 
 
+## Multiview 3D Hand Pose
+- http://www.rovit.ua.es/dataset/mhpdataset/
+- [2017] Large-scale Multiview 3D Hand Pose Dataset
+- https://gitcode.net/EricLee/handpose_x
+
+
 # Gesture Recognition
 - [2019 CVPR] A neural network based on SPD manifold learning for skeleton-based hand gesture recognition
 - [2019 CVPR] H+O: Unified Egocentric Recognition of 3D Hand-Object Poses and Interactions
