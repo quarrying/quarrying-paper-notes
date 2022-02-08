@@ -1,4 +1,10 @@
-## WebFace260M
+## WebFace260M, WebFace42M
+- WebFace260M : 4M identities / 260M faces
+- WebFace42M:   2M identities / 42M faces
+
+Face number of WebFace42M in each identity varies from 3 to more than 300, and the average face number is 21 per identity.
+
+**References**:
 - [2021 CVPR] WebFace260M: A Benchmark Unveiling the Power of Million-Scale Deep Face Recognition
 - https://www.face-benchmark.org/index.html
 
@@ -96,7 +102,7 @@ There are 22 overlapping subjects between the CASIA WebFace and IJB-A datasets.
 ## MS-Celeb-1M (MS1M)
 从 1M 个名人中, 根据受欢迎程度选择 100K 个. 然后利用搜索引擎, 给 100K 个人, 每人搜大概 100 张图片. 共 `100K*100=10M` 张图片. 测试集包括 1000 个名人, 这 1000 个名人来自于 1M 个明星中随机挑选, 而且经过微软标注, 每个名人大概有 20 张图片. 
 
-该数据集的噪声比较大.
+该数据集的噪声比较大. According to `[2018 ECCV] The devil of face recognition is in the noise`, there are more than 50% noises in MS1M.
 
 **References**:
 - http://www.msceleb.org/
@@ -104,7 +110,7 @@ There are 22 overlapping subjects between the CASIA WebFace and IJB-A datasets.
 - https://www.microsoft.com/en-us/research/project/ms-celeb-1m-challenge-recognizing-one-million-celebrities-real-world/
 - [2016] MS-Celeb-1M: A Dataset and Benchmark for Large-Scale Face Recognition
 
-    
+
 ### MS1M-IBUG
 85K ids/3.8M images
 
@@ -116,6 +122,10 @@ There are 22 overlapping subjects between the CASIA WebFace and IJB-A datasets.
 
 **References**:
 - https://pan.baidu.com/s/1S6LJZGdqcZRle1vlcMzHOQ
+
+### MS1MV2
+**References**:
+- [2019 CVPR] Arcface_ Additive angular margin loss for deep face recognition.
 
 
 ## MegaFace

@@ -30,7 +30,7 @@
     - [2019 ICCV] Batch DropBlock Network for Person Re-identification and Beyond
 - Alignedreid++
     - [2019] Alignedreid++: Dynamically matching local information for person re-identification
-- reid-strong-baseline
+- ReID Strong Baseline
     - [2019 CVPRW] Bag of Tricks and A Strong Baseline for Deep Person Re-identification
     - [2019] A Strong Baseline and Batch Normalization Neck for Deep Person Re-identification
     - https://github.com/michuanhaohao/reid-strong-baseline

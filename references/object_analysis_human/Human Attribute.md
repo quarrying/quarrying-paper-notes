@@ -16,7 +16,7 @@ The PETA dataset consists of 19000 images, with resolution ranging from 17-by-39
 ## Market-1501 Attribute
 We annotate 27 attributes for Market-1501. The original dataset contains 751 identities for training and 750 identities for testing. The attributes are annotated in the identity level, thus the file contains 28 x 751 attributes for training and 28 x 750 attributesfor test.
 
-| attribute | representation in file | label |
+| attribute | repr. in file | label |
 | :----: | :----: | :----: |
 | gender | gender | male(1), female(2) |
 | hair length | hair| short hair(1), long hair(2)    |

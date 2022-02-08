@@ -12,7 +12,7 @@
 
 ## 2021
 
-- [ ] 220211230 [2020] ELF_ An Early-Exiting Framework for Long-Tailed Classification
+- [ ] 20211230 [2020] ELF_ An Early-Exiting Framework for Long-Tailed Classification
 - [ ] 20211118 [2019] M2det_ A single-shot object detector based on multi-level feature pyramid network
 - [ ] 20211118 [2018 CVPR] Scale-Transferrable Object Detection
 - [ ] 20211017 [2021] You Only Look One-level Feature
