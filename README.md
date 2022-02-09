@@ -4,6 +4,7 @@
 
 ## 2022
 
+- 20220209 [2016] Perceptual Losses for Real-Time Style Transfer and Super-Resolution
 - 20220127 [2021] Sample and Computation Redistribution for Efficient Face Detection
 - 20220107 [2021] Residual Attention_ A Simple but Effective Method for Multi-Label Recognition
 - 20220105 [2021] PP-YOLOv2_ A Practical Object Detector
