@@ -74,6 +74,7 @@
 # Datasets & Challenges
 
 ## YouTube Faces Dataset with Facial Keypoints
+---
 This dataset is a processed version of the YouTube Faces Dataset, that basically contained short videos of celebrities that are publicly available and were downloaded from YouTube. There are multiple videos of each celebrity (up to 6 videos per celebrity).
 
 Size: The size of the dataset is 10GB, and it includes approximately 1293 videos with consecutive frames of up to 240 frames for each original video. The overall single image frames are a total of 155,560 images. 
@@ -85,12 +86,14 @@ Projects: This dataset can be used to recognising faces in unconstrained videos.
 
 
 ## Kaggle Facial Keypoints Detection
+---
 **References**:
 - https://www.kaggle.com/c/facial-keypoints-detection
 - https://www.kaggle.com/drgilermo/face-images-with-marked-landmark-points
 
 
 ## 300-W
+---
 300-W (300 Faces in-the-Wild Challenge, 68 landmarks) is short for 300 Faces in-the-Wild. It is created from existing datasets, including LFPW, AFW, Helen, XM2VTS, and a new dataset called IBUG. It is created as a challenge and only provides training data.
 
 300-W is currently the most widely-used inthe-wild dataset for 2D face alignment. Each image was re-annotated in a consistent manner using the 68
@@ -104,6 +107,7 @@ Projects: This dataset can be used to recognising faces in unconstrained videos.
 
 
 ## 300-VW
+---
 300VW is designed as a benchmark for videos, con-
 taining 50 training videos and 64 testing videos. The testing
 set of 300VW is divided into three scenarios, i.e. category
@@ -116,6 +120,7 @@ paper, these two datasets are combined in training.
 
     
 ## RWMB, Real-World Motion Blur
+---
 It currently con-
 tains 20 videos with obvious real-world motion blur picked
 from YouTube, which include dancing, boxing, jumping,
@@ -127,6 +132,7 @@ etc. There are 35,540 frames, which are all annotated with
 
 
 ## WFLW
+---
 Wider Facial Landmarks in-the-wild (WFLW) contains 10000 faces (7500 for training and 2500 for testing) with 98 fully manual annotated landmarks. 
 WFLW 数据集包含大量的遮挡, 光照, 侧脸, 夸张表情, 化妆和模糊的图像.
 
@@ -136,6 +142,7 @@ WFLW 数据集包含大量的遮挡, 光照, 侧脸, 夸张表情, 化妆和模�
 
     
 ## AFLW, Annotated Facial Landmarks in the Wild
+---
 Annotated Facial Landmarks in the Wild (AFLW) provides a large-scale collection of annotated face images gathered from the web, exhibiting a large variety in appearance (e.g., pose, expression, ethnicity, age, gender) as well as general imaging and environmental conditions. In total about 25k faces are annotated with up to 21 landmarks per image.
 
 AFLW is a facial key points detection benchmark which contains 24,386 faces with facial landmarks. This dataset is selected because it is more challenging than other datasets, such as LFPW. For example, AFLW has larger pose variations (39% of faces are non-frontal in our testing images) and severe partial occlusions. AFLW provides a large-scale collection of annotated face images with face location, gender and 21 facial landmarks.
@@ -147,6 +154,7 @@ AFLW is a facial key points detection benchmark which contains 24,386 faces with
 
 
 ## COFW, Caltech Occluded Faces in the Wild
+---
 All images were hand annotated using the same 29 landmarks as in LFPW. 
 COFW 数据集包含 507 张人脸图像, 该数据集中包含大量由物体遮挡的人脸图.
 
@@ -156,6 +164,7 @@ COFW 数据集包含 507 张人脸图像, 该数据集中包含大量由物体�
     
     
 ## MUCT
+---
 The MUCT database consists of 3755 faces with 76 manual landmarks.
 
 **References**:
@@ -164,6 +173,7 @@ The MUCT database consists of 3755 faces with 76 manual landmarks.
 
 
 ## Helen
+---
 Helen (194 landmarks) contains 2,300 high resolution web images.
 
 **References**:
@@ -172,11 +182,13 @@ Helen (194 landmarks) contains 2,300 high resolution web images.
 
 
 ## AFW
+---
 **References**:
 - [2012 CVPR] Face detection, pose estimation, and landmark localization in the wild
 
 
 ## BioID
+---
 This dataset consists of 1521 gray level images of resolution 384×286 for 23 different subjects. The dataset also includes 20 manually marked fiducial points on each face.
 
 **References**:
@@ -184,6 +196,7 @@ This dataset consists of 1521 gray level images of resolution 384×286 for 23 di
 
 
 ## LFPW, Labeled Face Parts in the Wild
+---
 LFPW (29 landmarks) is collected from the web. 
 
 **References**:
@@ -192,6 +205,7 @@ LFPW (29 landmarks) is collected from the web.
 
 
 ## MTFL
+---
 Multi-Task Facial Landmark (MTFL) dataset contains annotations of five facial landmarks and attributes of gender, head pose, etc. consisting of 10,000 outdoor face images from the web. Each image is annotated with bounding box and five landmarks, i.e. centers of the eyes, nose, corners of the mouth.
 
 Multi-Task Facial Landmark (MTFL) dataset contains 12,995 face images annotated with 5 facial landmarks, namely, eye centers, nose tip and mouth corners. The images in the dataset contain various pose angles and occlusion, thus it is challenging to accurately localize facial landmarks.
@@ -203,11 +217,13 @@ Multi-Task Facial Landmark (MTFL) dataset contains 12,995 face images annotated 
 
 
 ## PUT
+---
 **References**:
 - [2008] The put face database
 
 
 ## 300-W-LP
+---
 300-W-LP, a synthetically expanded version of 300-W. 300-W-LP provides both 2D and 3D landmarks allowing for training models and conducting experiments using both types of annotations. 300-W-LP is a synthetically generated dataset obtained by rendering the faces of 300-W into larger poses, ranging from −900 to 900, using the profiling method. The dataset contains 61,225 images providing both 2D (300W-LP-2D) and 3D landmark annotations (300W-LP-3D).
 
 **References**:
@@ -215,11 +231,13 @@ Multi-Task Facial Landmark (MTFL) dataset contains 12,995 face images annotated 
 
 
 ## XM2VTS
+---
 **References**:
 - http://www.ee.surrey.ac.uk/CVSSP/xm2vtsdb/
 
 
 ## Menpo
+---
 The Menpo challenge dataset consists of semi-frontal and profile face image datasets. 
 The dataset consists of training and testing subsets containing 6679 and 5335 images respectively. 
 The training subset consists of images from the FDDB and AFLW datasets.

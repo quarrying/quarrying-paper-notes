@@ -12,6 +12,7 @@
 # Datasets & Challenges
 
 ## Google Facial Expression Comparison Dataset
+---
 This dataset by Google is a large-scale facial expression dataset that consists of face image triplets along with human annotations that specify, which two faces in each triplet form the most similar pair in terms of facial expression. 
 
 Size: The size of the dataset is 200MB, which includes 500K triplets and 156K face images.
@@ -23,6 +24,7 @@ Projects: The dataset is intended to aid researchers working on topics related t
   
 
 ## RAF-DB, Real-world Affective Faces Database
+---
 Real-world Affective Faces Database (RAF-DB) is a large-scale facial expression database with around 30K great-diverse facial images downloaded from the Internet. Based on the crowdsourcing annotation, each image has been independently labeled by about 40 annotators. Images in this database are of great variability in subjects' age, gender and ethnicity, head poses, lighting conditions, occlusions, (e.g. glasses, facial hair or self-occlusion), post-processing operations (e.g. various filters and special effects), etc.
 
 **References**:
@@ -32,23 +34,28 @@ Real-world Affective Faces Database (RAF-DB) is a large-scale facial expression 
 
     
 ## RAF-ML, Real-world Affective Faces Multi Label
+---
 **References**:
 - http://whdeng.cn/RAF/model2.html
 - [2019 IJCV] Blended Emotion in-the-Wild: Multi-label Facial Expression Recognition Using Crowdsourced Annotations and Deep Locality Feature Learning
 
     
 ## BNU-LSVED, BNU Large-scale Spontaneous Visual Expression Database
+---
 **References**:
 - [2016] BNU-LSVED: a multimodal spontaneous expression database in educational environment
 
 
 ## FERPlus
+---
 
 
 ## AffectNet
+---
 
 
 ## FER 2013
+---
 The Facial Expression Recognition 2013 (FER-2013) database was introduced in the ICML 2013 Challenges in Representation Learning. The database was created using the Google image search API and faces have been automatically registered. Faces are labeled as any of the six basic expressions as well as the neutral. The resulting database contains 35,887 images most of them in wild settings.
 
 the FER2013 database (one of the largest recently released FER databases) contains 35,887 images of different subjects yet only 547 of the images portray disgust.
@@ -60,12 +67,14 @@ The FER 2013 challenge was created using Google image search API with 184 emotio
 
 
 ## GENKI-4K
+---
 The GENKI-4K dataset contains 4,000 face images spanning a wide range of subjects, facial appearance, illumination, geographical locations, imaging conditions, and camera models. All images are labeled for both Smile content (1=smile, 0=non-smile) and Head Pose (yaw, pitch, and roll parameters, in radians).
 
 Among these pictures, 2162 images are labeled as smile and 1838 im- ages are labeled as non-smile. 
 
 
 ## JAFFE, The Japanese Female Facial Expression Database
+---
 The database contains 213 images of 7 facial expressions (6 basic facial expressions + 1 neutral) posed by 10 Japanese female models. Each image has been rated on 6 emotion adjectives by 60 Japanese subjects. The database was planned and assembled by Michael Lyons, Miyuki Kamachi, and Jiro Gyoba. We thank Reiko Kubota for her help as a research assistant. The photos were taken at the Psychology Department in Kyushu University.
 
 **References**:
@@ -74,6 +83,7 @@ The database contains 213 images of 7 facial expressions (6 basic facial express
 
     
 ## CK, CK+, Cohn-Kanade AU-Coded Expression Database
+---
 The Extended Cohn-Kanade database (CK+) includes 593 video sequences recorded from 123 subjects ranging from 18 to 30 years old. Subjects displayed different expressions starting from the neutral for all sequences, and some sequences are labeled with basic expressions.
 
 **References**:
@@ -82,6 +92,7 @@ The Extended Cohn-Kanade database (CK+) includes 593 video sequences recorded fr
 
     
 ## NovaEmotions
+---
 NovaEmotions, aim to represent facial expressions and emotional state as captured in a non-controlled environment. The data is collected in a crowd-sourcing manner, where subjects were put in front of a gaming device, which captured their response to scenes and challenges in the game itself. The game, in time, reacted to the player’s response as well. This allowed collecting spontaneous expressions from a large pool of variations. 
 The NovaEmotions dataset consists of over 42,000 images taken from 40 different people. Majority of the participants were college students with ages ranges between 18 and 25. Data presents a variety of poses and illumination. 
 
@@ -91,6 +102,7 @@ The NovaEmotions dataset consists of over 42,000 images taken from 40 different 
 
     
 ## EmotiW
+---
 EmotiW 2015; EmotiW 2016
 
 **References**:
@@ -98,6 +110,7 @@ EmotiW 2015; EmotiW 2016
 
 
 ## AFEW / SFEW
+---
 Acted Facial Expressions In The Wild (AFEW) is a dynamic temporal facial expressions data corpus consisting of close to real world environment extracted from movies. Static Facial Expressions in the Wild (SFEW)  has been developed by selecting frames from AFEW. 
 
 **References**:
@@ -105,21 +118,25 @@ Acted Facial Expressions In The Wild (AFEW) is a dynamic temporal facial express
 
     
 ## MMI
+---
 **References**:
 - http://mmifacedb.eu/ 
 - http://ibug.doc.ic.ac.uk/research/mmi-database/
 
 
 ## USTC-NVIE
+---
 The Key Laboratory of Computing and Communication Software of Anhui Province(CCSL) has constructed the USTC-NVIE (Natural Visible and Infrared facial Expression) database under the sponsor of the 863 project. To date, most facial expression analysis has been based on visible and posed expression databases. Visible images, however, are easily affected by illumination variations, while posed expressions differ in appearance and timing from natural ones. We propose and establish a natural visible and infrared facial expression database, which contains both spontaneous and posed expressions of more than 100 subjects, recorded simultaneously by a visible and an infrared thermal camera, with illumination provided from three different directions. The posed database also includes expression image sequences with and without glasses.
 
 
 ## DISFA/DISFA+
+---
 **References**:
 - http://mohammadmahoor.com/disfa/
 
     
 ## BP4D
+---
 **References**:
 - http://www.cs.binghamton.edu/~lijun/Research/3DFE/3DFE_Analysis.html
 

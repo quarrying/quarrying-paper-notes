@@ -4,12 +4,14 @@
 
 ## 2022
 
-- 20220209 [2016] Perceptual Losses for Real-Time Style Transfer and Super-Resolution
-- 20220127 [2021] Sample and Computation Redistribution for Efficient Face Detection
-- 20220107 [2021] Residual Attention_ A Simple but Effective Method for Multi-Label Recognition
-- 20220105 [2021] PP-YOLOv2_ A Practical Object Detector
-- 20220104 [2016] DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations
-- 20220104 [2019 CVPR] DeepFashion2_ A Versatile Benchmark for Detection, Pose Estimation, Segmentation and Re-Identification of Clothing Images
+- [ ] 20220210 [2021 CVPR] Exploring Simple Siamese Representation Learning
+- [ ] 20220210 [2017] Large batch training of convolutional networks
+- [ ] 20220209 [2016] Perceptual Losses for Real-Time Style Transfer and Super-Resolution
+- [ ] 20220127 [2021] Sample and Computation Redistribution for Efficient Face Detection
+- [ ] 20220107 [2021] Residual Attention_ A Simple but Effective Method for Multi-Label Recognition
+- [ ] 20220105 [2021] PP-YOLOv2_ A Practical Object Detector
+- [ ] 20220104 [2016] DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations
+- [ ] 20220104 [2019 CVPR] DeepFashion2_ A Versatile Benchmark for Detection, Pose Estimation, Segmentation and Re-Identification of Clothing Images
 
 ## 2021
 

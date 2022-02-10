@@ -8,6 +8,6 @@
 - MobileNetV3
     - [2019 ICCV] Searching for mobilenetv3
 - EfficientNet
-    - [2019 ICML} Rethinking model scaling for convolutional neural networks
+    - [2019 ICML] Rethinking model scaling for convolutional neural networks
 - Mnasnet
     - [2019 CVPR] Mnasnet_ Platform-aware neural architecture search for mobile

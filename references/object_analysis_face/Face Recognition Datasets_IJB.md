@@ -1,4 +1,5 @@
 ## IJB-A Dataset
+---
 IJB-A IARPA Janus Benchmark-A (IJB-A) contains 500 subjects with a total of 25, 813 images (5, 399 still images and 20, 414 video frames). 
 
 The IJB-A dataset was released in 2015 in an attempt to push the frontiers of unconstrained face recognition. Given that recognition performance on the LFW dataset has saturated under the standard protocol, the IJB-A dataset contains more challenging face images and specifies both verification and identification (open and close sets) protocols.
@@ -18,6 +19,7 @@ the extended version of IJB-A, Janus Challenge Set 3 (Janus CS3), which is a sup
 
 
 ## IJB-B
+---
 IARPA Janus Benchmark-B (IJB-B) dataset consists of 1,845 subjects with a total of 76,824 images (21,798 still images and 55,026 video frames from 7,011 videos), an average of 41 images per subject. Images in this dataset are labeled with ground truth bounding boxes and other covariate meta-data such as occlusions, facial hair and skin tone.
 
 **References**:
@@ -25,3 +27,4 @@ IARPA Janus Benchmark-B (IJB-B) dataset consists of 1,845 subjects with a total 
     
     
 ## IJB-C
+---

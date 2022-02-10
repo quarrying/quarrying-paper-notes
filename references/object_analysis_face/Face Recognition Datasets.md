@@ -1,4 +1,7 @@
+# *2D Natural*
+---
 ## WebFace260M, WebFace42M
+---
 - WebFace260M : 4M identities / 260M faces
 - WebFace42M:   2M identities / 42M faces
 
@@ -10,6 +13,7 @@ Face number of WebFace42M in each identity varies from 3 to more than 300, and t
 
 
 ## Glint360K
+---
 Furthermore, we clean Celeb-500k and add more celebrities to merge into a new training set, which we call Glint360K. The released dataset contains 18 million images of 360K individuals, which is the largest and cleanest training set by far in academia.
 
 **References**:
@@ -18,6 +22,7 @@ Furthermore, we clean Celeb-500k and add more celebrities to merge into a new tr
 
 
 ## Celeb-500k / Celeb-500K-2R
+---
 In this paper, we propose a large training dataset named Celeb-500K for face recognition, which contains 50M images from 500K persons. To better facilitate academic research, we clean Celeb-500K to obtain Celeb-500K-2R, which contains 25M aligned face images from 365K persons. Based on the developed dataset, we achieve state-of-the-art face recognition performance and reveal two important observations on face recognition study. First, metric learning methods have limited performance gain when the training dataset contains a large number of identities. Second, in order to develop an efficient training dataset, the number of identities is more important than the average image number of each identity from the perspective of face recognition performance. Extensive experimental results show the superiority of Celeb-500K and provide a strong support to the two observations.
 
 **Remarks**: 该数据集只提供下载链接, 另外该数据集比较脏.
@@ -29,12 +34,14 @@ In this paper, we propose a large training dataset named Celeb-500K for face rec
 
 
 ## RFW, Racial Faces in-the-Wild
+---
 **References**:
 - http://whdeng.cn/RFW/index.html
 - [2019 ICCV] Racial Faces in the Wild_ Reducing Racial Bias by Information Maximization Adaptation Network
 
 
 ## Face-Disguise-Dataset
+---
 The dataset contains 4000 images (2000 images each corresponding to simple and complex backgrounds dataset) recorded with male and female subjects aged from 18 years to 30 years. The dataset was collected in 8 different backgrounds,25 subjects and 10 different disguises.
 
 **References**:
@@ -43,27 +50,32 @@ The dataset contains 4000 images (2000 images each corresponding to simple and c
 
 
 ## DFW, Disguised Faces in the Wild
+---
 **References**:
 - [2018 CVPR] Disguised Faces in the Wild
 - http://iab-rubric.org/DFW/index.html
 
 
 ## UHDB31
+---
 **References**:
 - [2017 ICCVW] UHDB31: A dataset for better understanding face recognition across pose and illumination variation
 
 
 ## Trillion Pairs
+---
 **References**:
 - http://trillionpairs.deepglint.com/overview
 
 
 ## LFR 2019
+---
 **References**:
 - https://ibug.doc.ic.ac.uk/resources/lightweight-face-recognition-challenge-workshop/
 
 
 ## VGGFace
+---
 该数据集可以用于训练. 由于版权问题, 官方只提供了图像的下载链接.
 
 The dataset consists of the crawled images of celebrities on the Web. There are 2622 celebrities in the dataset and the dataset is designed to have no overlap with the popular face recognition benchmarks such as Labeled Faces in the Wild (LFW), YouTube Faces Dataset and IARPA Janus Benchmark A (IJB-A).
@@ -77,6 +89,7 @@ VGG-Face dataset which has about 2.6 million images of 2,622 subjects (about 100
 
 
 ## VGGFace2
+---
 The dataset contains 3.31 million images of 9131 subjects, with an average of 362.6 images for each subject. Images are downloaded from Google Image Search and have large variations in pose, age, illumination, ethnicity and profession (e.g. actors, athletes, politicians). The dataset is approximately gender-balanced, with 59.7% males, varying between 87 and 843 images for each identity, with 362.6 images on average. 
 
 **References**:
@@ -84,6 +97,7 @@ The dataset contains 3.31 million images of 9131 subjects, with an average of 36
 
 
 ## CASIA WebFace
+---
 After being cleaned, CASIA-WebFace finally has 10,575 subjects and 494,414 face images. Because the scale of dataset is too large, we can’t promise all faces are detected and annotated correctly. A small amount of miss classified samples don’t affect the training process and may be able to improve the robustness of the model.
 
 CASIA WebFace consists of 494,414 images of 10,575 subjects and it is widely used to train DNNs. In the original dataset, there are some annotation errors. A corrected version of CASIA Webface was later released, which has 455,594 images of 10,575 subjects.
@@ -100,6 +114,7 @@ There are 22 overlapping subjects between the CASIA WebFace and IJB-A datasets.
 
 
 ## MS-Celeb-1M (MS1M)
+---
 从 1M 个名人中, 根据受欢迎程度选择 100K 个. 然后利用搜索引擎, 给 100K 个人, 每人搜大概 100 张图片. 共 `100K*100=10M` 张图片. 测试集包括 1000 个名人, 这 1000 个名人来自于 1M 个明星中随机挑选, 而且经过微软标注, 每个名人大概有 20 张图片. 
 
 该数据集的噪声比较大. According to `[2018 ECCV] The devil of face recognition is in the noise`, there are more than 50% noises in MS1M.
@@ -112,23 +127,27 @@ There are 22 overlapping subjects between the CASIA WebFace and IJB-A datasets.
 
 
 ### MS1M-IBUG
+---
 85K ids/3.8M images
 
 **References**:
 - https://pan.baidu.com/s/1nxmSCch
 
 ### MS1M-ArcFace (推荐采用)
+---
 85K ids/5.8M images
 
 **References**:
 - https://pan.baidu.com/s/1S6LJZGdqcZRle1vlcMzHOQ
 
 ### MS1MV2
+---
 **References**:
 - [2019 CVPR] Arcface_ Additive angular margin loss for deep face recognition.
 
 
 ## MegaFace
+---
 It is a very challenging dataset and aims to evaluate the performance of face recognition algorithms at the million scale of distractors (people who are not in the testing set). MegaFace datasets include gallery set and probe set. The gallery set consists of more than 1 million images from 690K different individuals, as a subset of Flickr photos from Yahoo. The probe set using in this challenge are two existing databases: Facescrub and FGNet. 
 
 **References**:
@@ -137,6 +156,7 @@ It is a very challenging dataset and aims to evaluate the performance of face re
 
 
 ### MF2 Training Dataset
+---
 The MF2 training dataset is the largest (in number of identities) publicly available facial recognition dataset with a 4.7 million faces, 672K identities, and their respective bounding boxes. All images obtained from Flickr (Yahoo's dataset) and licensed under Creative Commons.
 
 **References**:
@@ -145,11 +165,13 @@ The MF2 training dataset is the largest (in number of identities) publicly avail
 
 
 ## NIST FRVT, NIST Face Recognition Vendor Tests
+---
 FRVT 系 Face Recognition Vendor Test 的简称.
 
 Of particular note is the Face Recognition Vendor Tests (FRVT) , which were a set of independent evaluations of commercially available and prototype face recognition technologies conducted by the US government in the years 2000, 2002 and 2006. The FRVT is considered to be a very important milestone in face recognition evaluations; it also includes three previous face recognition evaluations – the FERET evaluations of 1994, 1995 and 1996. 
 
 ### Ongoing FRVT Activities
+---
 - FRVT: FACE MASK EFFECTS
 - FRVT: DEMOGRAPHIC EFFECTS
 - FRVT 1:1 VERIFICATION
@@ -164,6 +186,7 @@ Of particular note is the Face Recognition Vendor Tests (FRVT) , which were a se
 
 
 ## IMDb-Face
+---
 IMDb-Face is a new large-scale noise-controlled dataset for face recognition research. The dataset contains about 1.7 million faces, 59k identities, which is manually cleaned from 2.0 million raw images. All images are obtained from the IMDb website. 
 
 **References**:
@@ -172,11 +195,13 @@ IMDb-Face is a new large-scale noise-controlled dataset for face recognition res
 
 
 ## DiF, Diversity in Faces
+---
 **References**:
 - https://www.research.ibm.com/artificial-intelligence/trusted-ai/diversity-in-faces/
 
 
 ## Public-IvS
+---
 An IvS test dataset from BaiduBaike and official pages, containing 1,262 identities and 5,503 images. 
 
 **References**:
@@ -185,6 +210,7 @@ An IvS test dataset from BaiduBaike and official pages, containing 1,262 identit
 
 
 ## UMDFaces
+---
 - UMDFaces is a face dataset divided into two parts: 
     - Still Images: 367,888 face annotations for 8,277 subjects.
     - Video Frames: Over 3.7 million annotated video frames from over 22,000 videos of 3100 subjects.
@@ -196,6 +222,7 @@ An IvS test dataset from BaiduBaike and official pages, containing 1,262 identit
 
 
 ## CelebFaces+
+---
 The CelebFaces+ dataset was released In 2014, with 202,599 images of 10,177 celebrities.
 
 **References**:
@@ -204,6 +231,7 @@ The CelebFaces+ dataset was released In 2014, with 202,599 images of 10,177 cele
 
 
 ## MSRA-CFW
+---
 In this paper, we present a face annotation system to automatically collect and label celebrity faces from the web. With the proposed system, we have constructed a large-scale dataset called “Celebrities on the Web,” which contains 2.45 million distinct images of 421 436 celebrities and is orders of magnitude larger than previous datasets. 
 
 **References**:
@@ -212,6 +240,7 @@ In this paper, we present a face annotation system to automatically collect and 
 
 
 ## PaSC, Point and Shoot Challenge
+---
 The PaSC dataset is a collection of videos acquired at the University of Notre Dame over seven weeks in the Spring semester of 2011. The human subjects in each video clip performed different pre-determined action each week. The actions were captured using two cameras (handeld and tripod mounted) simultaneously. The handheld videos were acquired with five different cameras, while tripod mounted videos were shot with the same camera. The dataset contains 1,401 videos from handheld cameras and 1,401 videos from the tripod mounted camera. A small training set of 280 videos is also available with the dataset.
 
 **References**:
@@ -219,6 +248,7 @@ The PaSC dataset is a collection of videos acquired at the University of Notre D
 
 
 ## YTF, YouTube Faces Database
+---
 YTF dataset consists of 3,425 videos of 1,595 different people, with an average of 2.15 videos per person. The clip durations vary from 48 frames to 6,070 frames, with an average length of 181.3 frames.
 
 These videos are divided into 5,000 video pairs and 10 splits and used to evaluate the video-level face verification.
@@ -231,6 +261,7 @@ It contains 3,425 videos of 1,595 people collected from YouTube, with an average
 
     
 ## CACD, Cross-Age Celebrity Dataset 或称 CACD 2000
+---
 CACD is built for studying cross-age face recognition, but only 10% of the subjects in CACD are manually annotated.
 
 CACD is a large dataset collected for cross-age face recognition in 2014, which include 2,000 subjects and 163,446 images. The scale of CACD is large enough to train deep models but the dataset contains much noise and incorrect identity labels. The reason is that the images are crawled by Google Image search engine, and just a small subset (200 subjects) is checked by manual.
@@ -242,6 +273,7 @@ CACD is a large dataset collected for cross-age face recognition in 2014, which 
 
 
 ## CFP, Celebrities in Frontal Profile
+---
 CFP dataset consists of 500 subjects, each with 10 frontal and 4 profile images. The evaluation protocol includes frontal-frontal (FF) and frontal-profile (FP) face verification, each having 10 folders with 350 sameperson pairs and 350 different-person pairs.
 
 **References**:
@@ -249,6 +281,7 @@ CFP dataset consists of 500 subjects, each with 10 frontal and 4 profile images.
 
     
 ## CMU Multi-PIE
+---
 The CMU Multi-PIE database contains more than 750000 images with variations in pose, illumination and expression of 337 people. Each subject depicts various facial expressions (Smile, surprise, squint, disgust and scream), and 15 poses under 19 illuminations
 
 **References**:
@@ -256,6 +289,7 @@ The CMU Multi-PIE database contains more than 750000 images with variations in p
 
     
 ## FaceScrub
+---
 All the identities in the FaceScrub dataset are celebrities.
 
 It comprises a total of 106,863 face images of male and female 530 celebrities, with about 200 images per person. The original release of FaceScrub contained slightly more face images (107,818) but included a number of duplicates as well as a few mislabeled and morphed faces. These have been removed from the database with effect from 9-Mar-2016.
@@ -268,6 +302,7 @@ Facescrub dataset is publicly available dataset, containing 100K photos of 530 u
 
     
 ## FG-NET
+---
 FGNet dataset is a face aging dataset, with 1002 images from 82 identities. Each identity has multiple face images at different ages (ranging from 0 to 69)
 
 **References**:
@@ -275,6 +310,7 @@ FGNet dataset is a face aging dataset, with 1002 images from 82 identities. Each
 
 
 ## FERET, The Face Recognition Technology
+---
 ColorFeret consists of 14.1k images of 1.2k different individuals with different poses under controlled conditions. The dataset includes a variety of face poses, facial expressions, and lighting conditions. Each images contains labels of the individual’s gender, ethnicity, head pose, age, glasses, and beard. In total, ColorFeret provides around 183k soft-biometric labels.
 
 **References**: 
@@ -283,23 +319,27 @@ ColorFeret consists of 14.1k images of 1.2k different individuals with different
 
 
 ## FRGC, Face Recognition Grand Challenge
+---
 **References**:
 - http://face.nist.gov/frgc/
 - [2005 CVPR] Overview of the face recognition grand challenge
 
 
 ## Caltech 10,000 Web Faces
+---
 **References**:
 - http://www.vision.caltech.edu/Image_Datasets/Caltech_10K_WebFaces/
 
 
 ## CAS-PEAL, CAS-PEAL-R1
+---
 **References**:
 - http://www.jdl.ac.cn/peal/index.html
 - [2008] The cas-peal large-scale chinese face database and baseline evaluations
 
 
 ## WDRef, Wide and Deep Reference dataset
+---
 The WDRef database contains 99,773 images of 2,995 subjects. Over 2,000 subjects have more than 15 images. They are collected from the Internet with large variations in pose, expression and lighting.
 
 **References**:
@@ -309,6 +349,7 @@ The WDRef database contains 99,773 images of 2,995 subjects. Over 2,000 subjects
 
 
 ## PubFig, Public Figures Face Database
+---
 The PubFig database is a large, real-world face dataset consisting of 58,797 images of 200 people collected from the internet.
 
 **References**:
@@ -317,6 +358,7 @@ The PubFig database is a large, real-world face dataset consisting of 58,797 ima
 
 
 ## PubFig83
+---
 This is a downloadable dataset of 8300 cropped facial images, made up of 100 images for each of 83 public figures. It was derived from the list of URLs compiled by Neeraj Kumar et al and has been screened to remove near-duplicate images. It can be used as a proxy for the problem of recognizing identities from near-frontal faces in personal photo collections.
 
 **References**:
@@ -325,6 +367,7 @@ This is a downloadable dataset of 8300 cropped facial images, made up of 100 ima
 
 
 ## AR Face Database
+---
 The AR database contains more than 4000 frontal images of 126 subjects with variation in expressions, illuminations and occlusions.
 
 **References**:
@@ -333,6 +376,7 @@ The AR database contains more than 4000 frontal images of 126 subjects with vari
 
     
 ## The ORL(Olivetti Research Laboratory) Database of Faces 或称 AT&T The Database of Faces
+---
 There are ten different images of each of 40 distinct subjects. For some subjects, the images were taken at different times, varying the lighting, facial expressions (open / closed eyes, smiling / not smiling) and facial details (glasses / no glasses). All the images were taken against a dark homogeneous background with the subjects in an upright, frontal position (with tolerance for some side movement).
 
 The files are in PGM format, and can conveniently be viewed on UNIX (TM) systems using the 'xv' program. The size of each image is 92x112 pixels, with 256 grey levels per pixel. The images are organised in 40 directories (one for each subject), which have names of the form sX, where X indicates the subject number (between 1 and 40). In each of these directories, there are ten different images of that subject, which have names of the form Y.pgm, where Y is the image number for that subject (between 1 and 10).
@@ -344,10 +388,12 @@ The files are in PGM format, and can conveniently be viewed on UNIX (TM) systems
 
 
 ## Yale Face Database
+---
 The Yale Face Database (size 6.4MB) contains 165 grayscale images in GIF format of 15 individuals. There are 11 images per subject, one per different facial expression or configuration: center-light, w/glasses, happy, left-light, w/no glasses, normal, right-light, sad, sleepy, surprised, and wink.
 
 
 ## Yale Face Database B
+---
 Yale Face Database B contains 5760 single light source images of 10 subjects each seen under 576 viewing conditions (9 poses x 64 illumination conditions).  For every subject in a particular pose, an image with ambient (background) illumination was also captured. Hence, the total number of images is in fact 5760+90=5850. The total size of the compressed database is about 1GB.
 
 The extended Yale Face Database B contains 16128 images of 28 human subjects under 9 poses and 64 illumination conditions. 
@@ -361,27 +407,32 @@ The extended Yale Face Database B contains 16128 images of 28 human subjects und
 
     
 # Infrared Face Datasets
-
+---
 ## CASIA NIR / CASIA NIR-VIS2.0
+---
 **References**:
 - http://vcipl-okstate.org/pbvs/bench/Data/07/download.html
 
 ## PolyU NIR
+---
 **References**:
 - http://www4.comp.polyu.edu.hk/~biometrics/polyudb_face.htm
 
 ## IIT Delhi NIR, IIT Delhi Near IR Face Database (Version 2.0)
+---
 **References**:
 - http://www4.comp.polyu.edu.hk/~csajaykr/IITD/FaceIR.htm
 
 ## LAMP-HQ
+---
 **References**:
 - [2019] LAMP-HQ: A Large-Scale Multi-Pose High-Quality Database for NIR-VIS Face Recognition
 
 
 # Multi-modal Face Datasets
-
+---
 ## Tufts Face Database
+---
 Tufts Face Database is the most comprehensive, large-scale face dataset that contains 7 image modalities: visible, near-infrared, thermal, computerised sketch, LYTRO, recorded video, and 3D images. 
 
 Size: The dataset contains over 10,000 images, where 74 females and 38 males from more than 15 countries with an age range between 4 to 70 years old are included. 
@@ -393,15 +444,18 @@ Projects: This database will be available to researchers worldwide in order to b
 
 
 # Hyperspectral Face Datasets
+---
 
 ## The Hong Kong Polytechnic University Hyperspectral Face Database (PolyU-HSFD)
+---
 **References**:
 - http://www4.comp.polyu.edu.hk/~biometrics/hsi/hyper_face.htm
 
 
-# Surveillance Scene Face Datasets
-
+# *Surveillance Scene Face Datasets*
+---
 ## QMUL-SurvFace
+---
 Surveillance Face Recognition Challenge
 
 **References**:
@@ -410,12 +464,14 @@ Surveillance Face Recognition Challenge
 
     
 ## SCface
+---
 **References**:
 - [2011] SCface_ surveillance cameras face database
 - http://www.scface.org/
 
 
 ## UCCS, UnConstrained College Students
+---
 **References**:
 - [2017 IJCB] Unconstrained Face Detection and Open-Set Face Recognition Challenge
 - http://vast.uccs.edu/Opensetface/

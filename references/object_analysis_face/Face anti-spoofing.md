@@ -26,53 +26,52 @@
 # 数据集
 
 ## NUAA Imposter Database
-**References**
-- [2010 ECCV] Face liveness detection from a single image with sparse low rank bilinear discriminative model
 ---
+- [2010 ECCV] Face liveness detection from a single image with sparse low rank bilinear discriminative model
+
 
 ## Replay-Attack
+---
 50 个人, 每个人 24 段视频.
 
-**References**
 - [2012 ICB] On the effectiveness of Local Binary Patterns in face anti-spoofing
 - https://www.idiap.ch/dataset/replayattack
----
+
 
 ## CASIA FASD (Face Antispoofing Database)
+---
 50 个人, 每个人 12 段视频.
 
-**References**
 - [2012 ICB] face antispoofing database with diverse attacks
----
+
 
 ## MSU MFSD
-**References**
+---
 - [2015] Face spoof detection with image distortion analysis
 - http://biometrics.cse.msu.edu/Publications/Databases/MSUMobileFaceSpoofing/index.htm
----
+
 
 ## MSU USSA
-**References**
-- http://biometrics.cse.msu.edu/Publications/Databases/MSU_USSA/
 ---
+- http://biometrics.cse.msu.edu/Publications/Databases/MSU_USSA/
 
 ## OULU-NPU
-**References**
-- [2017 FG] OULU-NPU: A Mobile Face Presentation Attack Database with Real-World Variations
 ---
+- [2017 FG] OULU-NPU: A Mobile Face Presentation Attack Database with Real-World Variations
+
 
 ## 3DMAD, 3D Mask Attack Dataset
-**References**
-- https://www.idiap.ch/dataset/3dmad 
 ---
+- https://www.idiap.ch/dataset/3dmad 
+
 
 ## SiW, Spoof in the Wild Face Anti-spoofing Database
-**References**
-- http://cvlab.cse.msu.edu/spoof-in-the-wild-siw-face-anti-spoofing-database.html
 ---
+- http://cvlab.cse.msu.edu/spoof-in-the-wild-siw-face-anti-spoofing-database.html
+
 
 ## ROSE-Youtu, ROSE-Youtu Face Liveness Detection Dataset
-**References**
-- http://rose1.ntu.edu.sg/Datasets/faceLivenessDetection.asp
 ---
+- http://rose1.ntu.edu.sg/Datasets/faceLivenessDetection.asp
+
 
