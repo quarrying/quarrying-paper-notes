@@ -1,4 +1,4 @@
-# 常见 CNN
+# Network
 ---
 ### LeNet-5
 ---
@@ -105,3 +105,31 @@
 ---
 - [[2020] MobileNeXt_ Rethinking Bottleneck Structure for Efficient Mobile Network Design](https://arxiv.org/abs/2007.02269)
 - https://github.com/zhoudaquan/rethinking_bottleneck_design
+
+
+# Block or Module
+---
+
+## Deformable convolution
+----
+- [2017] Deformable Convolutional Networks
+
+## SlimConv
+---
+- [如何评价新型即插即用模块SlimConv？](https://www.zhihu.com/question/393850908 )
+- [2020] SlimConv: Reducing Channel Redundancy in Convolutional Neural Networks by Weights Flipping
+
+## SKConv, Selective Kernel Convolution
+---
+- [2019 CVPR] Selective Kernel Networks
+
+## MixConv
+---
+- [2019 BMVC] MixConv: Mixed Depthwise Convolutional Kernels
+
+## OctConv, Octave Convolution
+---
+- [如何评价最新的Octave Convolution？](https://www.zhihu.com/question/320462422)
+- [2019 ICCV] Drop an Octave: Reducing Spatial Redundancy in Convolutional Neural Networks with Octave Convolution
+
+
