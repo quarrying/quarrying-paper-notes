@@ -5,3 +5,5 @@
 - [2020] Visual Transformers_ Token-based Image Representation and Processing for Computer Vision
 - [2020] Toward Transformer-Based Object Detection
 - [2021] A Survey on Visual Transformer
+-  Swin Transformer
+    - [2021] Swin transformer: Hierarchical vision transformer using shifted windows
