@@ -63,9 +63,13 @@ type to be inferred.
     - http://images.cocodataset.org/zips/unlabeled2017.zip
 
 
-## 常见用法
-For COCO, we use a popular split which takes trainval35k for training, minival for validation,
-and we show results on test-dev2017 which is evaluated on the official evaluation server.
+## 常见用法 (MS-COCO 2017)
+
+split       | num_images
+------------|--------
+trainval35k | 115K 
+minival     | 5K 
+test-dev    | 20K 
 
 
 ## COCO-Things 类名

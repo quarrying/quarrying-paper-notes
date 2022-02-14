@@ -136,6 +136,7 @@
 ## Deformable convolution
 ----
 - [2017] Deformable Convolutional Networks
+- [2019 CVPR] Deformable convnets v2: More deformable, better results
 
 ## SlimConv
 ---

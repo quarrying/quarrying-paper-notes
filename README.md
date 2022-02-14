@@ -4,6 +4,7 @@
 
 ## 2022
 
+- [ ] 20220214 Swin transformer: Hierarchical vision transformer using shifted windows
 - [ ] 20220210 [2021 CVPR] Exploring Simple Siamese Representation Learning
 - [ ] 20220210 [2017] Large batch training of convolutional networks
 - [ ] 20220209 [2016] Perceptual Losses for Real-Time Style Transfer and Super-Resolution

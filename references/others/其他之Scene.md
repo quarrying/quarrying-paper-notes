@@ -1,6 +1,11 @@
 # Datasets
 
 ## ADE20K
+ADE20K is composed of more than 27K images from the SUN and Places databases. Images are fully annotated with objects, spanning over 3K object categories. Many of the images also contain object parts, and parts of parts. We also provide the original annotated polygons, as well as object instances for amodal segmentation. Images are also anonymized, blurring faces and license plates.
+
+> ADE20K is a widely-used semantic segentation dataset, covering a broad range of 150 semantic categories. It has 25K images in total, with 20K for training, 2K for validation, and another 3K for testing. (感觉和上述的描述不一致)
+>> [2021] Swin Transformer_ Hierarchical Vision Transformer using Shifted Windows
+
 **References**:
 - http://groups.csail.mit.edu/vision/datasets/ADE20K/
 - [2016] Semantic Understanding of Scenes through ADE20K Dataset.
