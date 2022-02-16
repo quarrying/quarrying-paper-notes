@@ -1,5 +1,12 @@
 # MS-COCO, Microsoft Common Objects in COntext
 
+> The MS COCO (Microsoft Common Objects in Context) dataset is a large-scale object detection, segmentation, key-point detection, and captioning dataset. The dataset consists of 328K images.
+> 
+> Splits: The first version of MS COCO dataset was released in 2014. It contains 164K images split into training (83K), validation (41K) and test (41K) sets. In 2015 additional test set of 81K images was released, including all the previous test images and 40K new images.
+> 
+> Based on community feedback, in 2017 the training/validation split was changed from 83K/41K to 118K/5K. The new split uses the same images and annotations. The 2017 test set is a subset of 41K images of the 2015 test set. Additionally, the 2017 release contains a new unannotated dataset of 123K images.
+>> https://paperswithcode.com/dataset/coco
+
 **References**
 - [2014 ICCV] Microsoft COCO_ Common objects in context
 - http://mscoco.org/home/
@@ -67,10 +74,11 @@ type to be inferred.
 
 split       | num_images
 ------------|--------
-trainval35k | 115K 
+trainval35k | 118K 
 minival     | 5K 
 test-dev    | 20K 
 
+An ablation study is performed using the validation set, and a system-level comparison is reported on test-dev.
 
 ## COCO-Things 类名
 原来有 91 类, 去掉 11 类, 还剩下 80 类.

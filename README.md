@@ -1,10 +1,14 @@
 # Paper Reading History (incomplete)
 
-记录阅读 1 小时以上的文献, 勾选的表示做了笔记.
+记录阅读 1 小时以上的文献, 勾选表示做了笔记.
 
 ## 2022
 
-- [ ] 20220214 Swin transformer: Hierarchical vision transformer using shifted windows
+- [ ] 20220216 [2020 CVPR] Bridging the gap between anchor-based and anchor-free detection via adaptive training sample selection
+- [ ] 20220216 [2017] An Implementation of Faster RCNN with Study for Region Sampling
+- [ ] 20220215 [2018 ECCV] Acquisition of Localization Confidence for Accurate Object Detection
+- [ ] 20220215 [2019] FCOS_ Fully Convolutional One-Stage Object Detection
+- [ ] 20220214 [2021] Swin Transformer_ Hierarchical Vision Transformer using Shifted Windows
 - [ ] 20220210 [2021 CVPR] Exploring Simple Siamese Representation Learning
 - [ ] 20220210 [2017] Large batch training of convolutional networks
 - [ ] 20220209 [2016] Perceptual Losses for Real-Time Style Transfer and Super-Resolution
