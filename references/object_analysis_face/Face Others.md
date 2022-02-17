@@ -79,6 +79,12 @@ labels for soft-biometric attributes.
 ---
 A large collection of mugshot images (not in the public domain) acquired from the Pinellas County Sheriffs Office (PCSO), comprising of 1,447,607 images of 403,619 subjects.
 
+## CelebA-HQ
+---
+contains 30,000 high-quality images
+
+**References**
+- [2018 ICLR] Progressive growing of GANs for improved quality, stability, and variation
 
 ## FFHQ, Flickr-Faces-HQ Dataset
 ---

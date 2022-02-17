@@ -4,6 +4,9 @@
 
 ## 2022
 
+- [ ] 20220217 [2017 ICCV] Arbitrary style transfer in real-time with adaptive instance normalization
+- [ ] 20220217 [2019 ICCV] Image2StyleGAN_ How to Embed Images Into the StyleGAN Latent Space
+- [ ] 20220217 [2021] Encoding in Style_ a StyleGAN Encoder for Image-to-Image Translation
 - [ ] 20220216 [2020 CVPR] Bridging the gap between anchor-based and anchor-free detection via adaptive training sample selection
 - [ ] 20220216 [2017] An Implementation of Faster RCNN with Study for Region Sampling
 - [ ] 20220215 [2018 ECCV] Acquisition of Localization Confidence for Accurate Object Detection
