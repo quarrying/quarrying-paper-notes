@@ -4,6 +4,7 @@
 
 ## 2022
 
+- [ ] 20220222 [2020] Unsupervised Image-to-Image Translation via Pre-trained StyleGAN2 Network
 - [ ] 20220217 [2017 ICCV] Arbitrary style transfer in real-time with adaptive instance normalization
 - [ ] 20220217 [2019 ICCV] Image2StyleGAN_ How to Embed Images Into the StyleGAN Latent Space
 - [ ] 20220217 [2021] Encoding in Style_ a StyleGAN Encoder for Image-to-Image Translation

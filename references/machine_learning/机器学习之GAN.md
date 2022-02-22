@@ -61,6 +61,10 @@
 ---
 - [2018 ICLR] Large scale gan training for high fidelity natural image synthesis
 
+## PCGAN
+---
+- [2019 AAAI] Pcgan_ Partition-controlled human image generation
+
 ## StyleGAN
 ---
 - [2019 CVPR] A style-based generator architecture for generative adversarial networks
