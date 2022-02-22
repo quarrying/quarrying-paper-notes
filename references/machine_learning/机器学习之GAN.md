@@ -18,11 +18,19 @@
 
 ## WGAN, Wasserstein GAN
 ---
+- [2017 ICML] Wasserstein generative adversarial networks
+
+## WGAN-GP, WGAN-Gradient penalty
+---
 - [2017 NIPS] Improved Training of Wasserstein GANs
 
 ## LSGAN, Least Squares GAN
 ---
 - [2017] Least Squares Generative Adversarial Networks
+
+## SNGAN
+--- 
+- [2018 ICLR] Spectral normalization for generative adversarial networks
 
 ## BEGAN, Boundary Equilibrium GAN
 ---
@@ -49,6 +57,10 @@
 ---
 - [2018] Self-Attention Generative Adversarial Networks
 
+## BigGAN
+---
+- [2018 ICLR] Large scale gan training for high fidelity natural image synthesis
+
 ## StyleGAN
 ---
 - [2019 CVPR] A style-based generator architecture for generative adversarial networks
@@ -56,7 +68,14 @@
 ## StyleGAN2
 ----
 - [2020 CVPR] Analyzing and improving the image quality of stylegan
-  
+
+## StyleGAN2-ada
+----
+StyleGAN2-ada proposes an adaptive discriminator augmentation mechanism which reduces the required number of images to several thousands.
+
+> METFACES is our new dataset of 1336 high-quality faces extracted from the collection of Metropolitan Museum of Art (https://metmuseum.github.io/).
+
+- [2020 NeurIPS] Training generative adversarial networks with limited data
 
 ## Others
 ---
