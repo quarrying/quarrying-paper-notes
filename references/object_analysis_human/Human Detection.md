@@ -98,7 +98,9 @@ The standard Caltech pedestrian dataset consists of 4,250 images for training an
 
 
 ## CrowdHuman
-Face++ 开源的一份数据集. 共有 6.7G, 15000 张.
+Face++ 开源的一份数据集. Finally, ∼25,000 images are collected in the CrowdHuman dataset. We randomly select 15,000, 4,370 and 5,000 images for training, validation,
+and testing, respectively.
+
 **References**:
 - [2018] CrowdHuman_ A Benchmark for Detecting Human in a Crowd
 - http://www.crowdhuman.org/
