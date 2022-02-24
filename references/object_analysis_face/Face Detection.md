@@ -3,8 +3,13 @@
 
 
 # 深度学习方法
+
 ## CascadeCNN
 ---
+> Li et al. use cascade CNNs for face detection. An extra calibration stage is added after each detection stage which cost extra computing expense on bounding box calibration.
+> 
+> Li et al. use cascaded CNNs for face detection, but it requires bounding box calibration from face detection with extra computational expense and ignores the inherent correlation between facial landmarks localization and bounding box regression.
+
 - [2015 CVPR] A Convolutional Neural Network Cascade for Face Detection
 
 ## Compact CascadeCNN
@@ -13,8 +18,9 @@
 
 ## Faceness-Net
 ---
-- [2015 ICCV] From Facial Parts Responses to Face Detection_ A Deep Learning Approach
+> Yang et al. extracte the features of hair, eyes, nose, mouth and neck regions with five separate CNNs, combine the result of five CNNs and use the position information to improve face detection result. Due to it’s complex structure, this approach is time costly in practice.
 
+- [2015 ICCV] From Facial Parts Responses to Face Detection_ A Deep Learning Approach
 
 ## DP2MFD
 ---
@@ -30,7 +36,9 @@
 
 ## MTCNN
 ---
-PNet 是全卷积的, RNet 和 ONet 都不是全卷积的 (理论上都可以是全卷积的).
+分为三级: Proposal Net (PNet), Refine Net (R-Net), Output Net (O-Net).
+
+PNet 是全卷积的, RNet 和 ONet 都不是全卷积的 (但理论上都可以是全卷积的).
 
 - [2016] Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks
 - https://github.com/kpzhang93/MTCNN_face_detection_alignment
@@ -148,24 +156,44 @@ PNet 是全卷积的, RNet 和 ONet 都不是全卷积的 (理论上都可以是
 
 
 # 传统方法
-- Viola-Jones 或称 Haar-Cascade
-    - [2004 IJCV] Robust Real-Time Face Detection
-- JDA
-    - [2014 ECCV] Joint Cascade Face Detection and Alignment
-- Real Adaboost
-    - [2004] Fast rotation invariant multi-view face detection based on real Adaboost
-- Pico, Pixel Intensity Comparison-based Object detection
-    - [2014] Object Detection with Pixel Intensity Comparisons Organized in Decision Trees
-- HeadHunter
-    - [2014 ECCV] Face detection without bells and whistles
-- NPD, Normalized Pixel Difference
-    - [2015 TPAMI] A Fast and Accurate Unconstrained Face Detector
-    - https://github.com/biotrump/NPD/tree/master/NPDFaceDetector
-- DPM
-    - [2014 CVPR] The fastest deformable part model for object detection
-    - [2012 CVPR] Face detection, pose estimation, and landmark localization in the wild
-    
-    
+
+## Viola-Jones 或称 Haar-Cascade
+---
+- [2004 IJCV] Robust Real-Time Face Detection
+
+## JDA
+---
+> Chen et al. jointly conduct alignment and detection with random forest using features of pixel value difference. But, these handcraft features limit its performance a lot.
+
+- [2014 ECCV] Joint Cascade Face Detection and Alignment
+
+## Real Adaboost
+---
+- [2004] Fast rotation invariant multi-view face detection based on real Adaboost
+
+## Pico, Pixel Intensity Comparison-based Object detection
+---
+- [2014] Object Detection with Pixel Intensity Comparisons Organized in Decision Trees
+
+## HeadHunter
+---
+- [2014 ECCV] Face detection without bells and whistles
+
+## NPD, Normalized Pixel Difference
+---
+An NPD is computed as the ratio of the difference between any two pixel intensity values to the sum of their values, in the same form as the Weber Fraction in experimental psychology.
+$$NPD\left( {x,y} \right) = \frac{{x - y}}{{x + y}} = \frac{x}{{x + y}} - \frac{y}{{x + y}}$$
+NPD is invariant to scale change of the pixel intensities.
+
+- [2015 TPAMI] A Fast and Accurate Unconstrained Face Detector
+- https://github.com/biotrump/NPD/tree/master/NPDFaceDetector
+
+## DPM
+---
+- [2014 CVPR] The fastest deformable part model for object detection
+- [2012 CVPR] Face detection, pose estimation, and landmark localization in the wild
+
+
 # 戴口罩人脸检测
 - 肺炎疫情攻防战--口罩佩戴识别检测 
     - https://god.yanxishe.com/38

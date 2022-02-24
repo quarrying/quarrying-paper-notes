@@ -80,6 +80,9 @@ StyleGAN2-ada proposes an adaptive discriminator augmentation mechanism which re
 > METFACES is our new dataset of 1336 high-quality faces extracted from the collection of Metropolitan Museum of Art (https://metmuseum.github.io/).
 
 - [2020 NeurIPS] Training generative adversarial networks with limited data
+- https://github.com/NVlabs/stylegan2-ada
+- https://github.com/NVlabs/stylegan2-ada-pytorch
+
 
 ## Others
 ---
@@ -93,3 +96,11 @@ StyleGAN2-ada proposes an adaptive discriminator augmentation mechanism which re
 - https://github.com/zhangqianhui/AdversarialNetsPapers
 - https://github.com/nightrome/really-awesome-gan
 - https://github.com/nashory/gans-awesome-applications
+
+
+## thisxdoesnotexist
+- https://thisxdoesnotexist.com/
+- https://thisvesseldoesnotexist.com/
+- https://thispersondoesnotexist.com/
+- https://thiscatdoesnotexist.com/
+

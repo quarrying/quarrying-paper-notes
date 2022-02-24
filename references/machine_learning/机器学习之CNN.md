@@ -8,12 +8,21 @@
 ---
 - [2012 NIPS] ImageNet Classiﬁcation with Deep Convolutional Neural Networks
 
+## NIN
+----
+最早提出 `1*1` 卷积.
+- [2013] Network in network
+
 ### ZFNet
 ---
 - [2014 ECCV] Visualizing and understanding convolutional networks
 
 ### VGG
 ---
+VGG 是 Visual Geometry Group 的简称. 常见的有: VGG16 和 VGG19, 其中数字指的是卷积层和全连接层的数目.
+
+> So what have we gained by using, for instance, a stack of three 3*3 conv. layers instead of a single 7*7 layer? First, we incorporate three non-linear rectification layers instead of a single one, which makes the decision function more discriminative. Second, we decrease the number of parameters: assuming that both the input and the output of a three-layer 3*3 convolution stack has C channels, the stack is parametrised by 3*3^2*C^2 = 27*C^2 weights; at the same time, a single 7*7 conv. layer would require 7^2*C^2 = 49*C^2 parameters, i.e. 81% more. This can be seen as imposing a regularisation on the 7*7 conv. filters, forcing them to have a decomposition through the 3*3 filters (with non-linearity injected in between).
+
 - [2014] Very Deep Convolutional Networks for Large-Scale Image Recognition
 
 ### Inception
@@ -26,6 +35,8 @@
 
 ### ResNet
 ---
+常见的有: ResNet 18/34/50/101/152/200/1001, 其中数字指的是卷积层和全连接层的数目.
+
 - [2016 CVPR] Deep residual learning for image recognition
 - [2016 ECCV] Identity mappings in deep residual networks
 - [2016] Aggregated Residual Transformations for Deep Neural Networks
