@@ -1,3 +1,18 @@
+## Attention is All You Need
+---
+!TODO
+
+Attention 的定义: 
+$$Attention(\boldsymbol{Q},\boldsymbol{K},\boldsymbol{V}) = softmax\left(\frac{\boldsymbol{Q}\boldsymbol{K}^{\top}}{\sqrt{d_k}}\right)\boldsymbol{V}$$
+
+其中 $\boldsymbol{Q}\in\mathbb{R}^{n\times d_k}, \boldsymbol{K}\in\mathbb{R}^{m\times d_k}, \boldsymbol{V}\in\mathbb{R}^{m\times d_v}$. 可见 attention 将 $n\times d_k$ 的 $\boldsymbol{Q}$ 编码成了一个新的 $n\times d_v$ 的序列. $\boldsymbol{Q},\boldsymbol{K},\boldsymbol{V}$ 分别是 query, key, value 的简写.
+
+当 $\boldsymbol{Q} = \boldsymbol{K} = \boldsymbol{V}$ 时, 称为自注意力 (self attention).
+
+**References**
+- [《Attention is All You Need》浅读（简介+代码）](https://kexue.fm/archives/4765)
+
+
 ## ViT, Vision Transformer
 ---
 - [2020] An image is worth 16x16 words_ Transformers for image recognition at scale

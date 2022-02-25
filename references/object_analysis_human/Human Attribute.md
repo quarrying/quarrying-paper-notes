@@ -6,6 +6,7 @@
 # Challenges & Datasets
 
 ## PETA, PEdesTrian Attribute
+---
 The PETA dataset consists of 19000 images, with resolution ranging from 17-by-39 to 169-by-365 pixels. Those 19000 images include 8705 persons, each annotated with 61 binary and 4 multi-class attributes.
 
 **References**:
@@ -14,6 +15,7 @@ The PETA dataset consists of 19000 images, with resolution ranging from 17-by-39
 
 
 ## Market-1501 Attribute
+---
 We annotate 27 attributes for Market-1501. The original dataset contains 751 identities for training and 750 identities for testing. The attributes are annotated in the identity level, thus the file contains 28 x 751 attributes for training and 28 x 750 attributesfor test.
 
 | attribute | repr. in file | label |
@@ -37,6 +39,7 @@ We annotate 27 attributes for Market-1501. The original dataset contains 751 ide
 
     
 ## DukeMTMC Attribute
+---
 We annotate 23 attributes for DukeMTMC-reID, which is a subset of the DukeMTMC. The original dataset contains 702 identities for training and 1110 identities for testing. The attributes are annotated in the identity level, thus the file contains 24 x 702 attributes for training and 24 x 1110 for test.
 
 | attribute | representation in file | label |
@@ -57,6 +60,7 @@ We annotate 23 attributes for DukeMTMC-reID, which is a subset of the DukeMTMC. 
 
     
 ## MARS-Attribute
+---
 We labeled 32 attributes for MARS, the definition of the attributes is from the MARKET-1501_Attribute, the main difference between these two attributes dataset is that MARKET-1501_Attribute is instance-level, while ours is trackets-level.
 
 **References**:
@@ -64,6 +68,7 @@ We labeled 32 attributes for MARS, the definition of the attributes is from the 
 
 
 ## HAT, Human Attributes
+---
 Our database contains 9344 images, with annotations for 27 attributes.
 
 **References**:
@@ -72,18 +77,21 @@ Our database contains 9344 images, with annotations for 27 attributes.
 
 
 ## WIDERAttribute
+---
 **References**:
 - http://mmlab.ie.cuhk.edu.hk/projects/WIDERAttribute.html
 - [2016 ECCV] Human Attribute Recognition by Deep Hierarchical Contexts
 
 
 ## Berkeley Attributes of People
+---
 **References**:
 - https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/shape/poselets/
 - [2009 ICCV] Poselets_ Body Part Detectors Trained Using 3D Human Pose Annotations
 
 
 ## Parse27k
+---
 - Gender (male, female, ?)
 - Posture (standing, walking, (sitting), ?)
 - Orientation (4 discretizations + ?)
@@ -101,11 +109,13 @@ Our database contains 9344 images, with annotations for 27 attributes.
 
 
 ## DeepFashion
+---
 **References**:
 - [2016 CVPR] DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations
 
 
 ## Safety-Helmet-Wearing
+---
 **References**:
 - https://github.com/njvisionpower/Safety-Helmet-Wearing-Dataset
 

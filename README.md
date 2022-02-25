@@ -4,6 +4,7 @@
 
 ## 2022
 
+- [ ] 20220224 [2021] End-to-End Object Detection with Fully Convolutional Network
 - [ ] 20220223 [2018] Unsupervised Feature Learning via Non-Parametric Instance Discrimination
 - [ ] 20220222 [2020] Unsupervised Image-to-Image Translation via Pre-trained StyleGAN2 Network
 - [ ] 20220217 [2017 ICCV] Arbitrary style transfer in real-time with adaptive instance normalization
