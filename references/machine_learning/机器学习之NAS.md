@@ -1,4 +1,4 @@
-# NAS
+# NAS, Neutral Architecture Search
 - NASNet
     - [2018 CVPR] Learning transferable architectures for scalable image recognition
 - DARTS

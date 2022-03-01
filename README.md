@@ -4,6 +4,7 @@
 
 ## 2022
 
+- [ ] 20220301 [2021] Lite-HRNet_ A Lightweight High-Resolution Network
 - [ ] 20220228 [2021] SimMIM_ A Simple Framework for Masked Image Modeling
 - [ ] 20220224 [2021] End-to-End Object Detection with Fully Convolutional Network
 - [ ] 20220223 [2018] Unsupervised Feature Learning via Non-Parametric Instance Discrimination
