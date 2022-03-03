@@ -3,14 +3,17 @@
 !TODO
 
 Attention 的定义: 
-$$Attention(\boldsymbol{Q},\boldsymbol{K},\boldsymbol{V}) = softmax\left(\frac{\boldsymbol{Q}\boldsymbol{K}^{\top}}{\sqrt{d_k}}\right)\boldsymbol{V}$$
+$$\mathrm{Attention}(\boldsymbol{Q},\boldsymbol{K},\boldsymbol{V}) = \mathrm{softmax}\left(\frac{\boldsymbol{Q}\boldsymbol{K}^{\top}}{\sqrt{d_k}}\right)\boldsymbol{V}$$
 
-其中 $\boldsymbol{Q}\in\mathbb{R}^{n\times d_k}, \boldsymbol{K}\in\mathbb{R}^{m\times d_k}, \boldsymbol{V}\in\mathbb{R}^{m\times d_v}$. 可见 attention 将 $n\times d_k$ 的 $\boldsymbol{Q}$ 编码成了一个新的 $n\times d_v$ 的序列. $\boldsymbol{Q},\boldsymbol{K},\boldsymbol{V}$ 分别是 query, key, value 的简写.
+其中 $\boldsymbol{Q}\in\mathbb{R}^{n\times d_k}, \boldsymbol{K}\in\mathbb{R}^{m\times d_k}, \boldsymbol{V}\in\mathbb{R}^{m\times d_v}$. 可见 attention 将 $n\times d_k$ 的 $\boldsymbol{Q}$ 编码成了一个新的 $n\times d_v$ 的序列. $\boldsymbol{Q},\boldsymbol{K},\boldsymbol{V}$ 分别是 query, (memory) key, (memory) value 的简写.
+
+> We suspect that for large values of $d_k$, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients. To counteract this effect, we scale the dot products by $1/\sqrt{d_k}$ .
 
 当 $\boldsymbol{Q} = \boldsymbol{K} = \boldsymbol{V}$ 时, 称为自注意力 (self attention).
 
 **References**
 - [《Attention is All You Need》浅读（简介+代码）](https://kexue.fm/archives/4765)
+- [2017] Attention is All You Need
 
 
 ## ViT, Vision Transformer

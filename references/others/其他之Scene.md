@@ -1,6 +1,7 @@
 # Datasets
 
 ## ADE20K
+---
 ADE20K is composed of more than 27K images from the SUN and Places databases. Images are fully annotated with objects, spanning over 3K object categories. Many of the images also contain object parts, and parts of parts. We also provide the original annotated polygons, as well as object instances for amodal segmentation. Images are also anonymized, blurring faces and license plates.
 
 > ADE20K is a widely-used semantic segentation dataset, covering a broad range of 150 semantic categories. It has 25K images in total, with 20K for training, 2K for validation, and another 3K for testing. (感觉和上述的描述不一致)
@@ -15,6 +16,7 @@ ADE20K is composed of more than 27K images from the SUN and Places databases. Im
 
 
 ## SUN 
+---
 Scene categorization is a fundamental problem in computer vision. However, scene understanding research has been constrained by the limited scope of currently-used databases which do not capture the full variety of scene categories. Whereas standard databases for object categorization contain hundreds of different classes of objects, the largest available dataset of scene categories contains only 15 classes. In this paper we propose the extensive Scene UNderstanding (SUN) database that contains 899 categories and 130,519 images. We use 397 well-sampled categories to evaluate numerous state-of-the-art algorithms for scene recognition and establish new bounds of performance. We measure human scene classification performance on the SUN database and compare this with computational methods.
 
 **References**:
@@ -24,6 +26,7 @@ Scene categorization is a fundamental problem in computer vision. However, scene
 
 
 ## Cityscapes
+---
 Cityscapes contains 50 scenes of different views, different backgrounds and different seasons.
 
 **References**:
@@ -32,11 +35,13 @@ Cityscapes contains 50 scenes of different views, different backgrounds and diff
 
 
 ## Foggy Cityscapes
+---
 **References**:
 - [2018 IJCV] Semantic foggy scene understanding with synthetic data
 
 
 ## Places
+---
 Scene Places recognition is one of the hallmark tasks of computer vision, allowing defining a context for object recognition. Here we introduce a new scene-centric database called Places, with 205 scene categories and 2.5 millions of images with a category label.
 
 **References**:
@@ -44,6 +49,7 @@ Scene Places recognition is one of the hallmark tasks of computer vision, allowi
 
 
 ## Places2
+---
 **References**:
 - http://places2.csail.mit.edu/index.html
 - 401 scene categories in Places2 Challenge 2015
@@ -51,16 +57,14 @@ Scene Places recognition is one of the hallmark tasks of computer vision, allowi
 
 
 ## LSUN Dataset
+---
 **References**:
 - http://lsun.cs.princeton.edu/2016/
 
 
 ## MIT indoor
-MIT indoor scenes dataset contains 67 indoor scenes
-covering a wide range of domains including: leisure,
-working places, home, stores and public space categories.
-It consists of 15,620 images, 80 images of each class for
-training and 20 images for testing. 
+---
+>MIT indoor scenes dataset contains 67 indoor scenes covering a wide range of domains including: leisure, working places, home, stores and public space categories. It consists of 15,620 images, 80 images of each class for training and 20 images for testing. 
 
 **References**:
 - [2019 CVPR] Recognizing indoor scenes
