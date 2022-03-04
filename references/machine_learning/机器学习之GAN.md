@@ -1,5 +1,7 @@
 ## GAN
 ----
+开山之作, 第一作者是 Ian Goodfellow.
+
 - [2014] Generative Adversarial Nets
 
 ## cGAN, Conditional GAN
@@ -8,6 +10,8 @@
 
 ## DCGAN, Deep Convolutional GAN
 ---
+!TODO
+
 - [2016 ICLR] Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
 - https://github.com/carpedm20/DCGAN-tensorflow
 - https://github.com/Newmu/dcgan_code
@@ -36,7 +40,7 @@
 ---
 - [2017] BEGAN_ Boundary Equilibrium Generative Adversarial Networks
 
-## PG-GAN
+## PG-GAN, PGGAN
 ---
 - [2018 ICLR] Progressive Growing of GANs for Improved Quality, Stability, and Variation
 - https://github.com/nashory/pggan-pytorch
@@ -67,6 +71,8 @@
 
 ## StyleGAN
 ---
+!TODO: truncation trick
+
 - [2019 CVPR] A style-based generator architecture for generative adversarial networks
 
 ## StyleGAN2
@@ -83,6 +89,11 @@ StyleGAN2-ada proposes an adaptive discriminator augmentation mechanism which re
 - https://github.com/NVlabs/stylegan2-ada
 - https://github.com/NVlabs/stylegan2-ada-pytorch
 
+## InterFaceGAN 
+---
+> We therefore make an assumption that for any binary semantic (e.g., male v.s. female), there exists a hyperplane in the latent space serving as the separation boundary. Semantic remains the same when the latent code walks within one side of the hyperplane yet turns into the opposite when across the boundary.
+
+- [2019] Interpreting the Latent Space of GANs for Semantic Face Editing
 
 ## Others
 ---

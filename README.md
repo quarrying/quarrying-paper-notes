@@ -4,6 +4,7 @@
 
 ## 2022
 
+- [ ] 20220304 [2019] Interpreting the Latent Space of GANs for Semantic Face Editing
 - [ ] 20220303 [2020 NeurIPS] Training generative adversarial networks with limited data
 - [ ] 20220301 [2021] Lite-HRNet_ A Lightweight High-Resolution Network
 - [ ] 20220228 [2021] SimMIM_ A Simple Framework for Masked Image Modeling
