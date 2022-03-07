@@ -4,6 +4,7 @@
 
 ## 2022
 
+- [ ] 20220307 [2020] LSUN-Stanford Car Dataset_ Enhancing Large-Scale Car Image Datasets Using Deep Learning for Usage in GAN Training
 - [ ] 20220307 [2022] Self-Distilled StyleGAN_ Towards Generation from Internet Photos
 - [ ] 20220307 [2016] Image-to-Image Translation with Conditional Adversarial Networks
 - [ ] 20220307 [2017 ICCV] Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
