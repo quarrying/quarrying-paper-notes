@@ -4,6 +4,9 @@
 
 ## 2022
 
+- [ ] 20220307 [2022] Self-Distilled StyleGAN_ Towards Generation from Internet Photos
+- [ ] 20220307 [2016] Image-to-Image Translation with Conditional Adversarial Networks
+- [ ] 20220307 [2017 ICCV] Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
 - [ ] 20220304 [2019] Interpreting the Latent Space of GANs for Semantic Face Editing
 - [ ] 20220303 [2020 NeurIPS] Training generative adversarial networks with limited data
 - [ ] 20220301 [2021] Lite-HRNet_ A Lightweight High-Resolution Network
