@@ -141,7 +141,7 @@ PNet 是全卷积的, RNet 和 ONet 都不是全卷积的 (但理论上都可以
 - https://github.com/chenjun2hao/CenterFace.pytorch
 - https://github.com/Star-Clouds/CenterFace
 
-## DSFD
+## DSFD, Dual shot face detector
 ---
 - [2019 CVPR] DSFD: Dual shot face detector
 
@@ -150,7 +150,7 @@ PNet 是全卷积的, RNet 和 ONet 都不是全卷积的 (但理论上都可以
 - [2021] TinaFace_ Strong but Simple Baseline for Face Detection
 - https://github.com/Media-Smart/vedadet/tree/main/configs/trainval/tinaface
 
-## ASFD
+## ASFD, Automatic and Scalable Face Detector
 ---
 - [2020] ASFD_ Automatic and Scalable Face Detector
 

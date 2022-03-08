@@ -73,6 +73,12 @@
 ---
 !TODO: truncation trick
 
+一些标记:
+- input latent space: $\mathcal{Z}$
+- native latent space: $\mathcal{W}$
+- extended latent space: $\mathcal{W}+$
+
+**References**
 - [2019 CVPR] A style-based generator architecture for generative adversarial networks
 
 ## StyleGAN2
@@ -100,7 +106,7 @@ StyleGAN2-ada proposes an adaptive discriminator augmentation mechanism which re
 - [2016 NIPS] Improved Techniques for Training GANs
 - [2017 ICLR] Adversarial Feature Learning
 - [2018] The GAN Landscape_ Losses, Architectures, Regularization, and Normalization
-
+- [2020] LSUN-Stanford Car Dataset_ Enhancing Large-Scale Car Image Datasets Using Deep Learning for Usage in GAN Training
 
 # 一些链接
 - https://github.com/hindupuravinash/the-gan-zoo
