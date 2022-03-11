@@ -44,7 +44,7 @@ A dataset for facial beauty perception
 ---
 **References**
 - http://vasc.ri.cmu.edu/idb/html/face/
--[2002 FG] The cmu pose, illumination, and expression (pie) database
+- [2002 FG] The cmu pose, illumination, and expression (pie) database
 
 
 ## WLFDB
@@ -62,14 +62,7 @@ A dataset for facial beauty perception
 
 ## MORPH (Craniofacial Longitudinal Morphological Face Database)
 ---
-The Morph dataset contains 55.1k frontal face images
-of more than 13.6k individuals. For each image, it provides
-information about the person’s gender, ethnicity, age, beard,
-and glasses. 80.4% of the faces belong to the ethnicity black,
-19.2% to white, and 0.4% to others. The individual’s age vary
-from 16-77 years. 79.4% of the faces are within an age-range
-of [20, 50]. In total, the Morph database provides over 0.5M
-labels for soft-biometric attributes.
+The Morph dataset contains 55.1k frontal face images of more than 13.6k individuals. For each image, it provides information about the person’s gender, ethnicity, age, beard, and glasses. 80.4% of the faces belong to the ethnicity black, 19.2% to white, and 0.4% to others. The individual’s age vary from 16-77 years. 79.4% of the faces are within an age-range of [20, 50]. In total, the Morph database provides over 0.5M labels for soft-biometric attributes.
 
 **References**
 - http://www.faceaginggroup.com/morph/

@@ -108,6 +108,45 @@ StyleGAN2-ada proposes an adaptive discriminator augmentation mechanism which re
 - [2018] The GAN Landscape_ Losses, Architectures, Regularization, and Normalization
 - [2020] LSUN-Stanford Car Dataset_ Enhancing Large-Scale Car Image Datasets Using Deep Learning for Usage in GAN Training
 
+
+# GAN Inversion, Image-to-code inversion
+----
+GAN Inversion 由 [2016 ECCV] Generative visual manipulation on the natural image manifold 提出. In this task, the latent vector from which a pretrained GAN most accurately reconstructs a given, known image, is sought.
+
+## [2021] GAN inversion: A survey
+---
+
+## IcGAN
+---
+- [2016] Invertible conditional gans for image editing
+
+## AEGAN
+---
+- [2017] Learning inverse mapping by autoencoder based generative adversarial nets
+
+## IDInvert, In-domain invert encoding and inversion
+---
+- [2020 ECCV] In-domain gan inversion for real image editing
+
+## Image2StyleGAN
+----
+- [2019 ICCV] Image2stylegan_ How to embed images into the stylegan latent space?
+
+## StyleGAN2 projection
+---
+- [2019] Analyzing and improving the image quality of StyleGAN
+
+## ALAE
+---
+- [2020 CVPR] Adversarial latent autoencoders
+
+## PTI, Pivotal Tuning Inversion
+---
+本文提出的 Inversion 方法是一种基于优化的方法.
+
+- [2021] Pivotal Tuning for Latent-based Editing of Real Images
+
+
 # 一些链接
 - https://github.com/hindupuravinash/the-gan-zoo
 - https://github.com/zhangqianhui/AdversarialNetsPapers
