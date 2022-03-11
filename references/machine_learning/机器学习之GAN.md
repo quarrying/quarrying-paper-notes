@@ -40,7 +40,7 @@
 ---
 - [2017] BEGAN_ Boundary Equilibrium Generative Adversarial Networks
 
-## PG-GAN, PGGAN
+## PG-GAN, PGGAN, ProGAN
 ---
 - [2018 ICLR] Progressive Growing of GANs for Improved Quality, Stability, and Variation
 - https://github.com/nashory/pggan-pytorch
@@ -100,6 +100,13 @@ StyleGAN2-ada proposes an adaptive discriminator augmentation mechanism which re
 > We therefore make an assumption that for any binary semantic (e.g., male v.s. female), there exists a hyperplane in the latent space serving as the separation boundary. Semantic remains the same when the latent code walks within one side of the hyperplane yet turns into the opposite when across the boundary.
 
 - [2019] Interpreting the Latent Space of GANs for Semantic Face Editing
+- https://github.com/a312863063/generators-with-stylegan2
+
+## [2022 WACV] Latent to Latent_ A Learned Mapper for Identity Preserving Editing of Multiple Face Attributes in StyleGAN-generated Images
+---
+该论文提出的方法与 InterFaceGAN, GANSpace 和 StyleFlow 是一类方法.
+
+论文方法用到了多个预训练模型: 人脸识憋模型, 人脸属性分类模型和 StyleGAN-v2. 这些预训练模型的参数在训练中是冻结的.
 
 ## Others
 ---
@@ -115,6 +122,9 @@ GAN Inversion 由 [2016 ECCV] Generative visual manipulation on the natural imag
 
 ## [2021] GAN inversion: A survey
 ---
+!TODO
+
+- https://github.com/weihaox/awesome-gan-inversion
 
 ## IcGAN
 ---

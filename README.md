@@ -4,6 +4,7 @@
 
 ## 2022
 
+- [ ] 20220311 [2022 WACV] Latent to Latent_ A Learned Mapper for Identity Preserving Editing of Multiple Face Attributes in StyleGAN-generated Images
 - [ ] 20220308 [2021] Pivotal Tuning for Latent-based Editing of Real Images
 - [ ] 20220307 [2020] LSUN-Stanford Car Dataset_ Enhancing Large-Scale Car Image Datasets Using Deep Learning for Usage in GAN Training
 - [ ] 20220307 [2022] Self-Distilled StyleGAN_ Towards Generation from Internet Photos
