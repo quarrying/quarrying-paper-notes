@@ -58,7 +58,10 @@ Scene Places recognition is one of the hallmark tasks of computer vision, allowi
 
 ## LSUN Dataset
 ---
+> LSUN contains approximately one million labeled images for each of 10 scene categories (e.g., bedroom, church, or tower) and 20 object classes (e.g., bird, cat, or bus).
+
 **References**:
+- [2015] Lsun: Construction of a large-scale image dataset using deep learning with humans in the loop
 - http://lsun.cs.princeton.edu/2016/
 
 

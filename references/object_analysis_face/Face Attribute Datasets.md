@@ -11,7 +11,7 @@ MAAD-Face is build on the VGGFace2 database and thus, consists of **3.3M faces o
 ---
 CelebA 系 CelebFaces Attributes 的简称. CelebA 包含 200K 张图像, 40 个属性. CelebA 和 LFW 之间没有身份重叠.
 
-CelebFaces Attributes Dataset (CelebA) is a large-scale face attributes dataset with more than 200K celebrity images, each with 40 attribute annotations.
+CelebA 的衍生数据集有: CelebA-HQ (主要用于人脸生成), CelebAMask-HQ (主要用于人脸解析, 人脸生成和编辑), CelebA-Spoof (主要用于人脸防作伪).
 
 **References**:
 - http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html

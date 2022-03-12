@@ -8,7 +8,8 @@
 ## [2020 CVPRW] Fast Human Head and Shoulder Detection Using Convolutional Networks and RGBD Data
 ---
 
-# Head Pose
+# Head Pose Estimation, HPE
+---
 
 ## [2002 ICPR] Head pose estimation using view based eigenspaces
 ---
@@ -31,6 +32,8 @@
 
 ## [2017] Fine-Grained Head Pose Estimation Without Keypoints
 ---
+> In this work, a ResNet50 is used along with multi-loss technique where loss consists of binned pose classification and regression for all three angles separately.
+
 - https://github.com/natanielruiz/deep-head-pose
 
 ## [2017] From Depth Data to Head Pose Estimation_ a Siamese approach
@@ -48,6 +51,8 @@
 
 ## 3DDFA
 ---
+!TODO
+
 - [2016 CVPR] Face alignment across large poses: A 3d solution
 
 ## DeFA
@@ -59,6 +64,11 @@
 - [2018] QuatNet: Quaternion-based Head Pose Estimation with Multi-regression Loss
 
 ## [2020] Improving head pose estimation using two-stage ensembles with top-k regression
+---
+
+## [2022 WACV] LwPosr_ Lightweight Efficient Fine Grained Head Pose Estimation
+---
+`3.3. Transformer Encoder` 似乎有错误.
 
 
 # Datasets & Challenges
@@ -96,7 +106,7 @@ Brainwash dataset contains 11917 images with 91146 labeled people.
 
 ## Biwi Kinect Head Pose Database
 ---
-The Biwi head-pose data set consists of over 15, 000 RGB-D images corresponding to video recordings of 20 people (16 men and 4 women, some of whom recorded twice) using a Kinect camera.
+The Biwi head-pose data set consists of over 15,000 RGB-D images corresponding to video recordings of 20 people (16 men and 4 women, some of whom recorded twice) using a Kinect camera.
 
 **References**:
 - [2013 IJCV] Random Forests for Real Time 3D Face Analysis

@@ -40,7 +40,7 @@
 ---
 - [2017] BEGAN_ Boundary Equilibrium Generative Adversarial Networks
 
-## PG-GAN, PGGAN, ProGAN
+## PG-GAN, PGGAN, ProGAN, Progressive GAN
 ---
 - [2018 ICLR] Progressive Growing of GANs for Improved Quality, Stability, and Variation
 - https://github.com/nashory/pggan-pytorch
@@ -87,7 +87,7 @@
 
 ## StyleGAN2-ada
 ----
-StyleGAN2-ada proposes an adaptive discriminator augmentation mechanism which reduces the required number of images to several thousands.
+StyleGAN2-ada 提出了 adaptive discriminator augmentation (ADA), 可以将所需训练图像数减少至数千张.
 
 > METFACES is our new dataset of 1336 high-quality faces extracted from the collection of Metropolitan Museum of Art (https://metmuseum.github.io/).
 
@@ -106,7 +106,7 @@ StyleGAN2-ada proposes an adaptive discriminator augmentation mechanism which re
 ---
 该论文提出的方法与 InterFaceGAN, GANSpace 和 StyleFlow 是一类方法.
 
-论文方法用到了多个预训练模型: 人脸识憋模型, 人脸属性分类模型和 StyleGAN-v2. 这些预训练模型的参数在训练中是冻结的.
+论文方法用到了多个预训练模型: 人脸识别模型, 人脸属性分类模型和 StyleGAN-v2. 这些预训练模型的参数在训练中是冻结的.
 
 ## Others
 ---
@@ -122,8 +122,16 @@ GAN Inversion 由 [2016 ECCV] Generative visual manipulation on the natural imag
 
 ## [2021] GAN inversion: A survey
 ---
-!TODO
+关于 GAN inversion 的第一篇综述文献. 
 
+GAN inversion 的问题定义:
+$$ \mathbf{z}^* = \argmin_\mathbf{z} \ell\left( G(\mathbf{z}), x\right) \tag{1}$$ 
+
+式中, $\ell\left( \cdot \right)$ 表示图像域或特征域上的损失函数 (论文中称 distance metric, 是等价的概念), 常用的有 $\ell_1$, $\ell_2$, perceptual 和 LPIPS; $G$ 是前馈神经网络模型, 在求解中其参数是冻结的. 
+
+方程 (1) 有三大类解法: 1) learning-based; 2) optimization-based; 3) hybrid. 基于学习的方法速度快, 但重建误差大; 基于优化的方法重建精度高, 但速度慢. 
+
+**References:**
 - https://github.com/weihaox/awesome-gan-inversion
 
 ## IcGAN

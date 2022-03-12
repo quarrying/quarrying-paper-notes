@@ -1,76 +1,128 @@
 # 深度学习方法
-- Sun et al. 
-    - [2013 CVPR] Deep convolutional network cascade for facial point detection
-    - https://github.com/mariolew/TF-FaceLandmarkDetection
-    - https://github.com/luoyetx/deep-landmark
-- Zhou et al.
-    - [2013 ICCVW] Extensive facial landmark localization with coarse-to-fine convolutional network cascade
-- TCDCN
-    - [2014 ECCV] Facial landmark detection by deep multi-task learning
-    - [2016 TPAMI] Learning Deep Representation for Face Alignment with Auxiliary Attributes
-    - https://github.com/flyingzhao/tfTCDCN
-- CFAN
-    - [2014 ECCV] Coarse-to-fine autoencoder networks (CFAN) for real-time face alignment
-- Liang et al
-    - [2015] Unconstrained facial landmark localization with backbone-branches fully-convolutional networks
-- DAN
-    - [2017 CVPRW] Deep Alignment Network_ A convolutional neural network for robust face alignment
-- FAN
-    - [2017 ICCV] How far are we from solving the 2D & 3D Face Alignment problem?
-    - https://github.com/1adrianb/face-alignment
-    - https://github.com/1adrianb/2D-and-3D-face-alignment
-- Face++ Series
-    - [2013 Face++] Extensive Facial Landmark Localization with Coarse-to-fine Convolutional Network Cascade
-    - [2015 Face++] Coarse-to-fine Face Alignment with Multi-Scale Local Patch Regression
-    - [2016 Face++] Approaching Human Level Facial Landmark Localization by Deep Learning
-    - [2017 Face++] Delving Deep into Coarse-to-fine Framework for Facial Landmark Localization
-- Wing Loss
-    - [2018 CVPR] Wing Loss for Robust Facial Landmark Localisation with Convolutional Neural Networks
-    - https://github.com/TropComplique/wing-loss
-- DSRN
-    - [2018 CVPR] Direct shape regression networks for end-to-end face alignment
-- LAB
-    - [2018 CVPR] Look at Boundary_ A Boundary-Aware Face Alignment Algorithm
-    - https://github.com/wywu/LAB
-- RFLD
-    - [2018 CVPR] Robust facial landmark detection via a fully-convolutional local-global context network
-- SAN
-    - [2018 CVPR] Style aggregated network for facial landmark detection
-- TCNN
-    - [2018 TPAMI] Facial Landmark Detection with Tweaked Convolutional Neural Networks
-- PFLD
-    - [2019] PFLD_ A Practical Facial Landmark Detector
-    
+---
+
+## Sun et al. 
+---
+- [2013 CVPR] Deep convolutional network cascade for facial point detection
+- https://github.com/mariolew/TF-FaceLandmarkDetection
+- https://github.com/luoyetx/deep-landmark
+
+## Zhou et al.
+---
+- [2013 ICCVW] Extensive facial landmark localization with coarse-to-fine convolutional network cascade
+
+## TCDCN
+---
+- [2014 ECCV] Facial landmark detection by deep multi-task learning
+- [2016 TPAMI] Learning Deep Representation for Face Alignment with Auxiliary Attributes
+- https://github.com/flyingzhao/tfTCDCN
+
+## CFAN
+---
+- [2014 ECCV] Coarse-to-fine autoencoder networks (CFAN) for real-time face alignment
+
+## Liang et al
+- [2015] Unconstrained facial landmark localization with backbone-branches fully-convolutional networks
+
+## DAN
+---
+- [2017 CVPRW] Deep Alignment Network_ A convolutional neural network for robust face alignment
+
+## FAN
+---
+- [2017 ICCV] How far are we from solving the 2D & 3D Face Alignment problem?
+- https://github.com/1adrianb/face-alignment
+- https://github.com/1adrianb/2D-and-3D-face-alignment
+
+## Face++ Series
+---
+- [2013 Face++] Extensive Facial Landmark Localization with Coarse-to-fine Convolutional Network Cascade
+- [2015 Face++] Coarse-to-fine Face Alignment with Multi-Scale Local Patch Regression
+- [2016 Face++] Approaching Human Level Facial Landmark Localization by Deep Learning
+- [2017 Face++] Delving Deep into Coarse-to-fine Framework for Facial Landmark Localization
+
+## Wing Loss
+---
+- [2018 CVPR] Wing Loss for Robust Facial Landmark Localisation with Convolutional Neural Networks
+- https://github.com/TropComplique/wing-loss
+
+## DSRN
+---
+- [2018 CVPR] Direct shape regression networks for end-to-end face alignment
+## LAB
+---
+- [2018 CVPR] Look at Boundary_ A Boundary-Aware Face Alignment Algorithm
+- https://github.com/wywu/LAB
+
+## RFLD
+---
+- [2018 CVPR] Robust facial landmark detection via a fully-convolutional local-global context network
+
+## SAN
+---
+- [2018 CVPR] Style aggregated network for facial landmark detection
+
+## TCNN
+---
+- [2018 TPAMI] Facial Landmark Detection with Tweaked Convolutional Neural Networks
+
+## PFLD
+---
+- [2019] PFLD_ A Practical Facial Landmark Detector
+
 
 # 传统方法
-- ASM
-    - Active Shape Models-Their Training and Application
-    - Boosted Regression Active Shape Models
-- AAM
-    - [1998 ECCV] Active appearance models
-    - [2004 IJCV] Active appearance models revisited
-    - [2011 BMVC] Accurate regression procedures for active appearance models
-    - [2007 ICCV] A nonlinear discriminative approach to aam fitting
-- CRF
-    - [2012 CVPR] Real-time Facial Feature Detection using Conditional Regression Forests
-- TSPM
-    - [2012 CVPR] Face detection, pose estimation, and landmark localization in the wild
-- ESR, Explicit Shape Regression
-    - [2012 CVPR] Face alignment by explicit shape regression
-- SDM, Supervised Descent Method
-    - [2013 CVPR] Supervised descent method and its applications to face alignment
-    - https://github.com/RoboPai/sdm
-- CDM, cascaded deformable shape model
-    - [2013 ICCV] Pose-free facial landmark fitting via optimized part mixtures and cascaded deformable shape model
-- LBF, Local Binary Features
-    - [2014 CVPR] Face Alignment at 3000 FPS via Regressing Local Binary Features
-    - https://github.com/jwyang/face-alignment
-- RCPR, Robust Cascaded Pose Regression
-    - [2013 ICCV] Robust face landmark estimation under occlusion 
-- ERT, Ensemble of Regression Trees (Dlib 库中有实现)
-    - [2014 CVPR] One millisecond face alignment with an ensemble of regression trees
+---
 
-    
+## ASM
+---
+- Active Shape Models-Their Training and Application
+- Boosted Regression Active Shape Models
+
+## AAM
+---
+- [1998 ECCV] Active appearance models
+- [2004 IJCV] Active appearance models revisited
+- [2011 BMVC] Accurate regression procedures for active appearance models
+- [2007 ICCV] A nonlinear discriminative approach to aam fitting
+
+## CRF
+---
+- [2012 CVPR] Real-time Facial Feature Detection using Conditional Regression Forests
+
+## TSPM
+---
+- [2012 CVPR] Face detection, pose estimation, and landmark localization in the wild
+
+## ESR, Explicit Shape Regression
+---
+- [2012 CVPR] Face alignment by explicit shape regression
+
+## SDM, Supervised Descent Method
+---
+- [2013 CVPR] Supervised descent method and its applications to face alignment
+- https://github.com/RoboPai/sdm
+
+## CDM, cascaded deformable shape model
+---
+- [2013 ICCV] Pose-free facial landmark fitting via optimized part mixtures and cascaded deformable shape model
+
+## LBF, Local Binary Features
+---
+- [2014 CVPR] Face Alignment at 3000 FPS via Regressing Local Binary Features
+- https://github.com/jwyang/face-alignment
+
+## RCPR, Robust Cascaded Pose Regression
+---
+- [2013 ICCV] Robust face landmark estimation under occlusion 
+
+## ERT, Ensemble of Regression Trees
+---
+该方法在 Dlib 库中有实现.
+
+- [2014 CVPR] One millisecond face alignment with an ensemble of regression trees
+
+
 # Datasets & Challenges
 
 ## YouTube Faces Dataset with Facial Keypoints
@@ -222,9 +274,11 @@ Multi-Task Facial Landmark (MTFL) dataset contains 12,995 face images annotated 
 - [2008] The put face database
 
 
-## 300-W-LP
+## 300-W-LP, 300W-LP
 ---
-300-W-LP, a synthetically expanded version of 300-W. 300-W-LP provides both 2D and 3D landmarks allowing for training models and conducting experiments using both types of annotations. 300-W-LP is a synthetically generated dataset obtained by rendering the faces of 300-W into larger poses, ranging from −900 to 900, using the profiling method. The dataset contains 61,225 images providing both 2D (300W-LP-2D) and 3D landmark annotations (300W-LP-3D).
+> 300-W-LP, a synthetically expanded version of 300-W. 300-W-LP provides both 2D and 3D landmarks allowing for training models and conducting experiments using both types of annotations. 300-W-LP is a synthetically generated dataset obtained by rendering the faces of 300-W into larger poses, ranging from −900 to 900, using the profiling method. The dataset contains 61,225 images providing both 2D (300W-LP-2D) and 3D landmark annotations (300W-LP-3D).
+
+300-W-LP 是 300-W across large poses 的简称. 该数据可以用做人脸关键点检测和人头姿态估计任务.
 
 **References**:
 - [2016 CVPR] Face alignment across large poses: A 3d solution

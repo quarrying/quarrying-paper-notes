@@ -1,9 +1,10 @@
 # Paper Reading History (incomplete)
 
-记录阅读 1 小时以上的文献, 勾选表示做了笔记.
+记录阅读 1 小时以上的文献 (不一定读完), 勾选表示做了笔记.
 
 ## 2022
 
+- [ ] 20220312 [2021] GAN inversion: A survey
 - [ ] 20220311 [2022 WACV] Latent to Latent_ A Learned Mapper for Identity Preserving Editing of Multiple Face Attributes in StyleGAN-generated Images
 - [ ] 20220308 [2021] Pivotal Tuning for Latent-based Editing of Real Images
 - [ ] 20220307 [2020] LSUN-Stanford Car Dataset_ Enhancing Large-Scale Car Image Datasets Using Deep Learning for Usage in GAN Training
