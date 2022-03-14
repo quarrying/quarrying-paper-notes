@@ -19,13 +19,13 @@ The Stanford Dogs dataset contains images of 120 breeds of dogs from around the 
 We have created a 37 category pet dataset with roughly 200 images for each class. The images have a large variations in scale, pose and lighting. All images have an associated ground truth annotation of breed, head ROI, and pixel level trimap segmentation.
 
 **References**:
-- Parkhi, O.M., Vedaldi, A., Zisserman, A., Jawahar, C.V.: Cats and dogs. In: CVPR (2012)
+- [2012 CVPR] Cats and dogs
 - http://www.robots.ox.ac.uk/~vgg/data/pets/
 
 
 ## Raccoon Detector Dataset
 ---
-This is a dataset that I collected to train my own Raccoon detector with TensorFlow's Object Detection API. Images are from Google and Pixabay. In total, there are 200 images (160 are used for training and 40 for validation).
+> This is a dataset that I collected to train my own Raccoon detector with TensorFlow's Object Detection API. Images are from Google and Pixabay. In total, there are 200 images (160 are used for training and 40 for validation).
 
 **Remarks**: Raccoon 意即浣熊; 北美浣熊.
 
@@ -79,32 +79,28 @@ Total                   | 5,089 | 579,184 | 95,986 | 561,767
 **References**:
 - [2018] The iNaturalist Species Classification and Detection Dataset
 - https://github.com/visipedia/inat_comp/tree/master/2017
-- 
+
 
 ## AwA2, Animals with Attributes v2
 ----
 It consists of 37322 images of 50 animals classes with pre-extracted feature representations for each image. 
+
 **References**:
 - https://cvml.ist.ac.at/AwA2/
 
 
 ## NDD20, Northumberland Dolphin Dataset 2020
 ----
-Northumberland Dolphin Dataset 2020 (NDD20) is a challenging image dataset annotated for both coarse and fine-grained instance segmentation and categorisation. This dataset, the first release of the NDD, was created in response to the rapid expansion of computer vision into conservation research and the production of field-deployable systems suited to extreme environmental conditions -- an area with few open source datasets. NDD20 contains a large collection of above and below water images of two different dolphin species for traditional coarse and fine-grained segmentation.
+> Northumberland Dolphin Dataset 2020 (NDD20) is a challenging image dataset annotated for both coarse and fine-grained instance segmentation and categorisation. This dataset, the first release of the NDD, was created in response to the rapid expansion of computer vision into conservation research and the production of field-deployable systems suited to extreme environmental conditions -- an area with few open source datasets. NDD20 contains a large collection of above and below water images of two different dolphin species for traditional coarse and fine-grained segmentation.
 
 **References**:
 - https://www.paperswithcode.com/dataset/ndd20
 
 ## AFHQ, Animal faces
 ---
+该数据集包含猫, 狗, 野生动物三大类的面部特写照片, 每一类大约 5000 张. 
+
 Animal faces (AFHQ) includes ∼5k closeups per category for dogs, cats, and wild life.
 
 **References**:
 - [2020 CVPR] StarGAN v2: Diverse image synthesis for multiple domains
-
-
-# Products
-- 生物记
-    - http://nol.especies.cn/
-    - https://ai.baidu.com/customer/shengwuji
-    

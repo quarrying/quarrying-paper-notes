@@ -6,7 +6,7 @@
 # Datasets
 
 ## CASIA-B
-
+---
 **References**:
 - [2006 ICPR] A framework for evaluating the effect of view angle, clothing and carrying condition on gait recognition
 

@@ -24,6 +24,7 @@
 # Datasets
 
 ## ArTaxOr, arthropod-taxonomy-orders-object-detection-dataset
+---
 该数据集包含如下类别 (约 15,000 张图像, 20211008)
 - Araneae: Spiders
 - Coleoptera: Beetles
@@ -37,6 +38,7 @@
 - https://www.kaggle.com/mistag/arthropod-taxonomy-orders-object-detection-dataset
 
 ## Leeds Butterfly Dataset
+---
 This dataset contains images and textual descriptions for ten categories (species) of butterflies.
 
 The image dataset comprises 832 images in total, with the distribution ranging from 55 to 100 images per category. Images were collected from Google Images by querying with the scientific (Latin) name of the species, for example "Danaus plexippus", and manually filtered for those depicting the butterfly of interest.
@@ -62,6 +64,7 @@ Vanessa cardui          | 小红蛱蝶
 - [2009 BMVC] Learning Models for Object Recognition from Natural Language Descriptions
 
 ## IP102
+---
 The IP102 datset contains more than 75,000 images belongs to 102 categories. A natural long-tailed distribution presents on it. In addition, we annotate 19,000 images with bounding boxes for object detection. The IP102 has a hierarchical taxonomy and the insect pests which mainly affect one specific agricultural product are grouped into the same upper-level category.
 
 **References**:
@@ -69,6 +72,7 @@ The IP102 datset contains more than 75,000 images belongs to 102 categories. A n
 
 
 ## Datasets on Kaggle
+---
 **References**
 - https://www.kaggle.com/jerzydziewierz/bee-vs-wasp
 - https://www.kaggle.com/kmldas/insect-identification-from-habitus-images
@@ -76,11 +80,13 @@ The IP102 datset contains more than 75,000 images belongs to 102 categories. A n
 - https://www.kaggle.com/gpiosenka/yikes-spiders-15-species
 
 ## Butterfly-200 Dataset
+---
 **References**
 - https://www.sysuhcp.com/resources/datasets/index.html
 
 
 ## 百度 AI 识虫
+---
 **References**
 - https://aistudio.baidu.com/aistudio/datasetdetail/34213
 - https://aistudio.baidu.com/aistudio/competition/detail/24

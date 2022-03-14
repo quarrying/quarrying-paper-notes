@@ -1,6 +1,6 @@
 ## Attention is All You Need
 ---
-!TODO
+!TODO: 精读
 
 Attention 的定义: 
 $$\mathrm{Attention}(\boldsymbol{Q},\boldsymbol{K},\boldsymbol{V}) = \mathrm{softmax}\left(\frac{\boldsymbol{Q}\boldsymbol{K}^{\top}}{\sqrt{d_k}}\right)\boldsymbol{V}$$

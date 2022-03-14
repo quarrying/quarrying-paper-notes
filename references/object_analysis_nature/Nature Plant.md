@@ -18,6 +18,7 @@
 # Datasets
 
 ## FGVC5 Flowers2018
+---
 数据是由 "形色" 提供的, 包含 997 种花卉, 共计 669,000 张标注图像.
  
 **References**:
@@ -27,6 +28,7 @@
 
 
 ## Oxford Flowers
+---
 包含两个数据集: Oxford Flowers 17 和 Oxford Flowers 102. 前者包含 17 种花卉, 每一类包含 80 张图像, 后者包含 102 种花卉, 每一类包含 20-258 张图像. 该数据集常用于细粒度分类和检索的研究.
 
 **References**:
@@ -38,6 +40,7 @@
 
 
 ## CNH-98
+---
 The Chinese-Herbs Dataset (CNH-98) is a collection of 9184 images of 98 classes, which can be divided into 8 categories including Fruits & Seeds, Rhizome, Flowers, Bark, Thallphyte, Whole Herbs, Leaves, Resin.
 
 **References**:
@@ -46,6 +49,7 @@ The Chinese-Herbs Dataset (CNH-98) is a collection of 9184 images of 98 classes,
 
 
 ## DeepWeeds
+---
 The DeepWeeds dataset consists of 17,509 images capturing eight different weed species native to Australia in situ with neighbouring flora. 
 
 **References**:
@@ -54,6 +58,7 @@ The DeepWeeds dataset consists of 17,509 images capturing eight different weed s
 
 
 ## Flavia
+---
 树叶数据集.
 
 **References**:
@@ -62,6 +67,7 @@ The DeepWeeds dataset consists of 17,509 images capturing eight different weed s
 
 
 ## Fruits-360
+---
 A high-quality, dataset of images containing fruits and vegetables. 
 
 **References**:
@@ -70,12 +76,14 @@ A high-quality, dataset of images containing fruits and vegetables.
 
 
 ## VegFru
+---
 **References**:
 - [2007 ICCV] VegFru_ A Domain-Specific Dataset for Fine-grained Visual Categorization
 - https://pan.baidu.com/s/1boSNcV9#list/path=%2F
 
 
 ## Dtasets on Kaggle
+---
 - flowers-recognition: 只有 5 类.
     - https://www.kaggle.com/alxmamaev/flowers-recognition
 - leaf-classification: The dataset consists approximately 1,584 images of leaf specimens (16 samples each of 99 species).
@@ -90,17 +98,20 @@ A high-quality, dataset of images containing fruits and vegetables.
     - https://www.kaggle.com/c/cassava-disease/overview
 
 ## CWFID, Crop/Weed Field Image Dataset
+---
 **References**:
 - https://github.com/cwfid/dataset
 - [2014 CVPRW] A Crop/Weed Field Image Dataset for the Evaluation of Computer Vision Based Precision Agriculture Tasks
 
 
 ## Leafsnap
+---
 **References**:
 - http://leafsnap.com/dataset/
 
 
 ## 罗大钧
+---
 只有 5 种花卉植物.
 
 **References**:
@@ -109,6 +120,7 @@ A high-quality, dataset of images containing fruits and vegetables.
 
 
 ## 植物叶片病害分类
+---
 This dataset consists of 4502 images of healthy and unhealthy plant leaves divided into 22 categories by species and state of health.
 
 **References**:

@@ -10,7 +10,6 @@
 
 ## DCGAN, Deep Convolutional GAN
 ---
-!TODO
 
 - [2016 ICLR] Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
 - https://github.com/carpedm20/DCGAN-tensorflow
@@ -116,9 +115,9 @@ StyleGAN2-ada 提出了 adaptive discriminator augmentation (ADA), 可以将所�
 - [2020] LSUN-Stanford Car Dataset_ Enhancing Large-Scale Car Image Datasets Using Deep Learning for Usage in GAN Training
 
 
-# GAN Inversion, Image-to-code inversion
-----
-GAN Inversion 由 [2016 ECCV] Generative visual manipulation on the natural image manifold 提出. In this task, the latent vector from which a pretrained GAN most accurately reconstructs a given, known image, is sought.
+# GAN Inversion
+
+GAN Inversion 由 `[2016 ECCV] Generative visual manipulation on the natural image manifold` 提出. In this task, the latent vector from which a pretrained GAN most accurately reconstructs a given, known image, is sought.
 
 ## [2021] GAN inversion: A survey
 ---

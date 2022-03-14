@@ -193,6 +193,5 @@ PoseTrack is a large-scale benchmark for human pose estimation and articulated t
 
 ## COCO keypoint
 ---
-
-
+**References**:
 - [2014 ECCV] Microsoft coco: Common objects in context

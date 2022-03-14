@@ -17,8 +17,6 @@
 
 ## [2018 ECCV] Bi-box regression for pedestrian detection and occlusion estimation
 ---
-!TODO
-
 The Bi-box model proposes a network to simultaneously detect pedestrian and estimate occlusion by regressing two bounding boxes for full body and visible part estimation respectively. These methods can alleviate the occlusion issue to some extent.
 
 ## [2018 CVPR] Domain Adaptive Faster R-CNN for Object Detection in the Wild
