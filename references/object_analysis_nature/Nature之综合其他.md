@@ -14,7 +14,7 @@ The Stanford Dogs dataset contains images of 120 breeds of dogs from around the 
 - https://www.kaggle.com/jessicali9530/stanford-dogs-dataset
 
 
-## Oxford-IIIT Pet Dataset
+## Oxford-IIIT Pet, Oxford-IIIT Pets
 ---
 We have created a 37 category pet dataset with roughly 200 images for each class. The images have a large variations in scale, pose and lighting. All images have an associated ground truth annotation of breed, head ROI, and pixel level trimap segmentation.
 

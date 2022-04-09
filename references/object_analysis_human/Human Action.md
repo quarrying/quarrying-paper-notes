@@ -109,6 +109,9 @@ HMDB-51 共 51 个类别, 6766 个短视频.
 
 ## YouTube-8M
 ---
+**References**:
+- [2016] Youtube-8M: A large-scale video classification benchmark
+
 
 ## Kinetics-400
 ---

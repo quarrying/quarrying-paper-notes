@@ -18,6 +18,8 @@ $$\mathrm{Attention}(\boldsymbol{Q},\boldsymbol{K},\boldsymbol{V}) = \mathrm{sof
 
 ## ViT, Vision Transformer
 ---
+!TODO
+
 - [2020] An image is worth 16x16 words_ Transformers for image recognition at scale
 
 ## DETR
@@ -50,3 +52,5 @@ Swin-L | 2x    | /
 ## DeiT
 ---
 - [2020] Training data-efficient image transformers & distillation through attention
+
+## 
