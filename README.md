@@ -4,6 +4,8 @@
 
 ## 2022
 
+- [ ] 20220412 [2022] Towards Online Domain Adaptive Object Detection
+- [ ] 20220411 [2020] Channel Distillation_ Channel-Wise Attention for Knowledge Distillation
 - [ ] 20220312 [2021] GAN inversion: A survey
 - [ ] 20220311 [2022 WACV] Latent to Latent_ A Learned Mapper for Identity Preserving Editing of Multiple Face Attributes in StyleGAN-generated Images
 - [ ] 20220308 [2021] Pivotal Tuning for Latent-based Editing of Real Images

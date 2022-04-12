@@ -77,6 +77,8 @@ VGG 是 Visual Geometry Group 的简称. 常见的有: VGG16 和 VGG19, 其中�
 
 ## SKNet
 ---
+> SKNet convolves the feature map with 3 × 3 and 5 × 5 kernels respectively, and then obtains the weight of the two convolution results through GAP to do attention.
+
 - [2019] Selective Kernel Networks
 
 ## Res2Net
@@ -91,7 +93,11 @@ VGG 是 Visual Geometry Group 的简称. 常见的有: VGG16 和 VGG19, 其中�
 ---
 - [2020] ResNeSt_ Split-Attention Networks
 
-    
+## SGE-NET
+----
+- [2019] Spatial group-wise enhance: Improving semantic feature learning in convolutional networks
+
+
 # 轻量型 CNN
 ---
 ## SqueezeNet
