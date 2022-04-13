@@ -81,7 +81,7 @@ PNet 是全卷积的, RNet 和 ONet 都不是全卷积的 (但理论上都可以
 ---
 - [2017 ICCV] S3FD_ Single Shot Scale-invariant Face Detector
 
-## SSH
+## SSH, Single Stage Headless
 ---
 - [2017 ICCV] SSH_ Single Stage Headless Face Detector
 - https://github.com/imistyrain/SSH-Windows
@@ -117,8 +117,13 @@ PNet 是全卷积的, RNet 和 ONet 都不是全卷积的 (但理论上都可以
 - [2019] BlazeFace_ Sub-millisecond Neural Face Detection on Mobile GPUs
 - https://github.com/shanglianlm0525/BlazeFace
 
-## RetinaFace
+## **RetinaFace**
 ---
+> A narrow definition of face localisation may refer to traditional face detection [53, 62], which aims at estimating the face bounding boxes without any scale and position prior. Nevertheless, in this paper we refer to a broader definition of face localisation which includes face detection [39], face alignment [13], pixelwise face parsing [48] and 3D dense correspondence regression [2, 12]. That kind of dense face localisation provides accurate facial position information for all different scales.
+
+> Different from generic object detection, face detection features smaller ratio variations (from 1:1 to 1:1.5) but much larger scale variations (from several pixels to thousand pixels).
+
+
 - [2019] RetinaFace_ Single-stage Dense Face Localisation in the Wild
 - https://github.com/deepinsight/insightface/tree/master/RetinaFace
 

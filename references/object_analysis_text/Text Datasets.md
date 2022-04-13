@@ -172,7 +172,7 @@ CUTE80: Curve Text Dataset
 
 ## MSRA-TD500, MSRA Text Detection 500
 ---
-The MSRA Text Detection 500 Database (MSRA-TD500) contains 500 natural images, which are taken from indoor (office and mall) and outdoor (street) scenes using a pocket camera. MSRA-TD500 is a multi-lingual long text dataset for Chinese and English. It includes 300 training images and 200 testing images with arbitrary orientations.
+>The MSRA Text Detection 500 Database (MSRA-TD500) contains 500 natural images, which are taken from indoor (office and mall) and outdoor (street) scenes using a pocket camera. MSRA-TD500 is a multi-lingual long text dataset for Chinese and English. It includes 300 training images and 200 testing images with arbitrary orientations.
 
 **References**:
 - [2012 CVPR] Detecting texts of arbitrary orientations in natural images
