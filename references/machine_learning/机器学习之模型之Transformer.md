@@ -17,7 +17,6 @@ $$\mathrm{Attention}(Q,K,V) = \mathrm{softmax}\left(\frac{QK^{\top}}{\sqrt{d_k}}
 关于为什么要除以 $\sqrt{d_k}$, 下面摘抄一下原文:
 > We suspect that for large values of $d_k$, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients. To counteract this effect, we scale the dot products by $1/\sqrt{d_k}$ .
 
-
 ### Multi-Head Attention
 
 $$\mathrm{MultiHead}(Q, K, V) = \mathrm{Concat}(\mathrm{head}_1, ..., \mathrm{head}_h)W_O$$
@@ -36,7 +35,7 @@ $QW_i^Q$, $KW_i^K$, $VW_i^V$ 的计算量均为 $nd^2$. 共 $h$ 个头, 所以�
 
 不妨令 $S = \mathrm{Concat}(\mathrm{head}_1, ..., \mathrm{head}_h)$, 其尺寸为 $n\times hd$, $S W_O$ 的计算量为 $hnd^2$.
 
-综上计算量为: $4hnd^2 + 2hn^2d$
+综上计算量为: $4hnd^2 + 2hn^2d$, 计算复杂度为 $O(nd^2 + hn^2d)$.
 
 ### **References**
 - [《Attention is All You Need》浅读（简介+代码）](https://kexue.fm/archives/4765)
@@ -56,7 +55,7 @@ iGPT 和 ViT 是 transformer 在 CV 中的两大先驱工作.
 
 - [2020] An image is worth 16x16 words_ Transformers for image recognition at scale
 
-## [2020] Visual Transformers_ Token-based Image Representation and Processing for Computer Vision
+## [2020] Visual Transformers: Token-based Image Representation and Processing for Computer Vision
 ---
 
 ## [2021] A Survey on Visual Transformer
