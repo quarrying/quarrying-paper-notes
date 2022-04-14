@@ -34,3 +34,15 @@ ILSVRC 2012 uses a subset of ImageNet with roughly 1000 images in each of 1000 c
 
 - [2020] Are we done with ImageNet?
 
+
+## ImageNet 2012 同义词表中文翻译
+---
+- ImageNet 2012 中文标签（Chinese Labels）
+    - https://blog.csdn.net/haoji007/article/details/76782642
+- ImageNet图像库1000个类别名称（中文注释不断更新）
+    - https://blog.csdn.net/weixin_41770169/article/details/80482942
+- ImageNet2012数据集中英文标签对照
+    - https://www.cnblogs.com/cpxlll/p/13493247.html
+- lajifenlei
+    - https://github.com/hongchongqin/lajifenlei/tree/master
+    
