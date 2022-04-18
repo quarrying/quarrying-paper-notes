@@ -63,6 +63,8 @@ iGPT 和 ViT 是 transformer 在 CV 中的两大先驱工作.
 
 ## [2021] Swin Transformer
 ---
+**TIPS**: Swin 系 shift window 的缩略词.
+
 > We observe that significant chalenges in transferring its high performance in the language domain to the visual domain can be explained by differences between the two modalities. One of these differences involves scale. Unlike the word tokens that serve as the basic elements of processing in language Transformers, visual elements can vary substantially in scale, a problem that receives attention in tasks such as object detection [41, 52, 53]. In existing Transformer-based models [61, 19], tokens are all of a fixed scale, a property unsuitable for these vision applications. Another difference is the much higher resolution of pixels in images compared to words in passages of text. There exist many vision tasks such as semantic segmentation that require dense prediction at the pixel level, and this would be intractable for Transformer on high-resolution images, as the computational complexity of its self-attention is quadratic to image size.
 
 name   | scale | counterpart
@@ -73,6 +75,12 @@ Swin-S | 0.5x  | ResNet-101
 Swin-L | 2x    | /
 
 - [2021] Swin transformer: Hierarchical vision transformer using shifted windows
+
+
+## [2021] Swin Transformer V2: Scaling Up Capacity and Resolution
+---
+使用 scaled cosine attention 替换常见的 scaled dot-product attention.
+
 
 ## [2020] DeiT
 ---
