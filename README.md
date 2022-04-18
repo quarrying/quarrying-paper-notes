@@ -4,6 +4,7 @@
 
 ## 2022
 
+- [ ] 20220418 [2021] DataPerf: Benchmarking Data for Better ML
 - [ ] 20220413 [2018] Arbitrary-Oriented Scene Text Detection via Rotation Proposals
 - [ ] 20220413 [2017] Attention is All You Need
 - [ ] 20220412 [2022] Towards Online Domain Adaptive Object Detection
