@@ -103,9 +103,17 @@ This paper leverage the soft-argmax operation to retrieve joint locations from h
 
 - [2018 ECCV] Integral human pose regression
 
-## Lite-HRNet
+## Lite-HRNet, LiteHRNet
 ---
 - [2021] Lite-HRNet_ A Lightweight High-Resolution Network
+
+## EfficientPose
+---
+- [2021] EfficientPose: Efficient human pose estimation with neural architecture search
+
+## LitePose
+----
+- [2022 CVPR] Lite Pose: Efficient Architecture Design for 2D Human Pose Estimation
 
 
 # Datasets & Challenges

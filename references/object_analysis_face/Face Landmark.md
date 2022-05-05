@@ -160,12 +160,7 @@ Projects: This dataset can be used to recognising faces in unconstrained videos.
 
 ## 300-VW
 ---
-300VW is designed as a benchmark for videos, con-
-taining 50 training videos and 64 testing videos. The testing
-set of 300VW is divided into three scenarios, i.e. category
-A: well-lit arbitrary expressions, category B: unconstrained
-illuminations and category C: arbitrary conditions. In this
-paper, these two datasets are combined in training.
+> 300VW is designed as a benchmark for videos, containing 50 training videos and 64 testing videos. The testing set of 300VW is divided into three scenarios, i.e. category A: well-lit arbitrary expressions, category B: unconstrained illuminations and category C: arbitrary conditions. In this paper, these two datasets are combined in training.
 
 **References**:
 - [2015 ICCVW] The first facial landmark tracking in-the-wild challenge: Benchmark and results
@@ -173,11 +168,7 @@ paper, these two datasets are combined in training.
     
 ## RWMB, Real-World Motion Blur
 ---
-It currently con-
-tains 20 videos with obvious real-world motion blur picked
-from YouTube, which include dancing, boxing, jumping,
-etc. There are 35,540 frames, which are all annotated with
-98 landmarks following the protocol of WFLW.
+> It currently contains 20 videos with obvious real-world motion blur picked from YouTube, which include dancing, boxing, jumping, etc. There are 35,540 frames, which are all annotated with 98 landmarks following the protocol of WFLW.
 
 **References**:
 - [201910] FAB_ A Robust Facial Landmark Detection Framework for Motion-Blurred Videos

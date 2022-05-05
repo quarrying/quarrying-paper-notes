@@ -4,6 +4,8 @@
 
 ## 2022
 
+- [ ] 20220430 泛读 self-supervised learning 相关文献
+- [ ] 20220429 泛读 self-supervised learning 相关文献
 - [ ] 20220418 [2021] DataPerf: Benchmarking Data for Better ML
 - [ ] 20220413 [2018] Arbitrary-Oriented Scene Text Detection via Rotation Proposals
 - [ ] 20220413 [2017] Attention is All You Need

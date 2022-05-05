@@ -920,6 +920,7 @@ n04592741 wing
 n04596742 wok
 n04597913 wooden spoon
 n04599235 wool, woolen, woollen
+    羊毛, 毛织物
 n04604644 worm fence, snake fence, snake-rail fence, Virginia fence
 n04606251 wreck
 n04612504 yawl

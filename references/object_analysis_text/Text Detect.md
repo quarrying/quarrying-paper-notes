@@ -37,7 +37,7 @@
 
 ## TextBoxes
 ---
-SSD的模型基础上改了一下Anchor
+在 SSD 的模型基础上改了一下 Anchor.
 
 - [2017 AAAI] TextBoxes_ A Fast Text Detector with a Single Deep Neural Network
 - https://github.com/MhLiao/TextBoxes
