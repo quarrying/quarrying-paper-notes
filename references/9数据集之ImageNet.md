@@ -3,7 +3,7 @@ The ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
 
 ImageNet is a dataset of over 15 million labeled high-resolution images belonging to roughly 22,000 categories.
 
-- ImageNet-1K: 1.28 million images and 1000 classes. Each image has a single label. 50K validation images.
+- ImageNet-1K: 1.28 million images and 1000 classes. Each image has a single label. **50K** validation images.
 - ImageNet-5K
 - ImageNet-21K: 14.2 million images and 21k classes organized by the WordNet hierarchy. Images may contain multiple labels.
 

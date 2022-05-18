@@ -33,14 +33,6 @@ We have created a 37 category pet dataset with roughly 200 images for each class
 - https://github.com/datitran/raccoon_dataset
 
 
-## Datasets on Kaggle
----
-**References**:
-- https://www.kaggle.com/c/dog-breed-identification/overview
-- https://www.kaggle.com/alessiocorrado99/animals10
-- https://www.kaggle.com/slothkong/10-monkey-species
-- https://www.kaggle.com/antoreepjana/animals-detection-images-dataset
-
 ## WebFG 5000
 ---
 数据集是从网络上收集的图片数据，jpg 格式。数据集中包含的类别包括各种动物和植物。
@@ -55,30 +47,6 @@ We have created a 37 category pet dataset with roughly 200 images for each class
 - ACCV2020细粒度比赛记录-数据处理和Baseline结果分享
     - https://blog.csdn.net/u013347145/article/details/109250455
 - [2020 ACCV] Webly-Supervised Fine-Grained Recognition Challenge
-
-
-## iNat2017
----
-Super-Class             | Class | Train   | Val    | BBoxes
-------------------------|-------|---------|--------|--------
-Plantae 植物界          | 2,101 | 158,407 | 38,206 | -
-Insecta 昆虫纲          | 1,021 | 100,479 | 18,076 | 125,679
-Aves 鸟纲               |   964 | 214,295 | 21,226 | 311,669
-Reptilia 爬行纲         |   289 |  35,201 |  5,680 |  42,351
-Mammalia 哺乳纲         |   186 |  29,333 |  3,490 |  35,222
-Fungi 真菌              |   121 |   5,826 |  1,780 | -
-Amphibia 两栖纲         |   115 |  15,318 |  2,385 |  18,281
-Mollusca 软体动物门     |    93 |   7,536 |  1,841 |  10,821
-Animalia 动物界         |    77 |   5,228 |  1,362 |   8,536
-Arachnida 蛛形纲        |    56 |   4,873 |  1,086 |   5,826
-Actinopterygii 辐鳍鱼纲 |    53 |   1,982 |    637 |   3,382
-Chromista 假菌界        |     9 |     398 |    144 | -
-Protozoa 原生动物门     |     4 |     308 |     73 | -
-Total                   | 5,089 | 579,184 | 95,986 | 561,767
-
-**References**:
-- [2018] The iNaturalist Species Classification and Detection Dataset
-- https://github.com/visipedia/inat_comp/tree/master/2017
 
 
 ## AwA2, Animals with Attributes v2
@@ -104,3 +72,13 @@ Animal faces (AFHQ) includes ∼5k closeups per category for dogs, cats, and wil
 
 **References**:
 - [2020 CVPR] StarGAN v2: Diverse image synthesis for multiple domains
+
+
+## Datasets on Kaggle
+---
+**References**:
+- https://www.kaggle.com/c/dog-breed-identification/overview
+- https://www.kaggle.com/alessiocorrado99/animals10
+- https://www.kaggle.com/slothkong/10-monkey-species
+- https://www.kaggle.com/antoreepjana/animals-detection-images-dataset
+
