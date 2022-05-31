@@ -64,6 +64,7 @@ It consists of 37322 images of 50 animals classes with pre-extracted feature rep
 **References**:
 - https://www.paperswithcode.com/dataset/ndd20
 
+
 ## AFHQ, Animal faces
 ---
 该数据集包含猫, 狗, 野生动物三大类的面部特写照片, 每一类大约 5000 张. 
@@ -75,10 +76,44 @@ Animal faces (AFHQ) includes ∼5k closeups per category for dogs, cats, and wil
 
 
 ## Datasets on Kaggle
----
+----
 **References**:
 - https://www.kaggle.com/c/dog-breed-identification/overview
 - https://www.kaggle.com/alessiocorrado99/animals10
 - https://www.kaggle.com/slothkong/10-monkey-species
 - https://www.kaggle.com/antoreepjana/animals-detection-images-dataset
+
+
+## Kaggle 165-different-snakes-species
+---
+- https://www.kaggle.com/datasets/goelyash/165-different-snakes-species
+
+
+## Kaggle HackerEarth Deep Learning Identify The Snake Breed
+---
+- https://www.kaggle.com/datasets/oossiiris/hackerearth-deep-learning-identify-the-snake-breed
+
+
+## classification snake species
+---
+- https://www.kaggle.com/datasets/nikhilshingadiya/sample-0
+
+## Identifying different Breeds of Snakes
+---
+- https://www.kaggle.com/datasets/duttadebadri/identifying-different-breeds-of-snakes
+
+
+## SnakeCLEF2021
+---
+- https://www.aicrowd.com/challenges/snakeclef2021-snake-species-identification-challenge
+
+
+## SnakeCLEF2022
+---
+- https://www.imageclef.org/SnakeCLEF2022
+
+
+## FungiCLEF2022
+----
+- https://www.imageclef.org/FungiCLEF2022
 

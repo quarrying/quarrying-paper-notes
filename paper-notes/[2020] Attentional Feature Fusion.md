@@ -9,12 +9,12 @@
 ## Introduction
 提高 CNN 表示能力的方式有: 网络加深 (ResNet), 网络加宽 (Wide ResNet), 提高基数 (ResNeXt), 动态优化特征(注意力机制, 代表有 SENet), 特征融合等. 
 
-笔者注: DenseNet是稠密连接, ResNeXt是稀疏连接.
+笔者注: DenseNet 是稠密连接, ResNeXt 是稀疏连接.
 
 > The AFF framework generalizes the attention-based feature fusion from the same-layer scenario to cross-layer scenarios including short and long skip connections, and even the initial integration inside AFF itself. It provides a universal and consistent way to improve the performance of various networks, e.g., InceptionNet, ResNet, ResNeXt, and FPN, by simply replacing existing feature fusion operators with the proposed AFF module. Moreover, the AFF framework supports to gradually refine the initial integration, namely the input of the fusion weight generator, by iteratively integrating the received features with another AFF module, which we refer to as iterative attentional feature fusion (iAFF).
 
 ## Related Work
-物体的scale variation是计算机视觉的一大挑战 (The scale variation of objects is one of the key challenges in computer vision). 常见的解决方法有: 图像金字塔和特征金字塔.
+物体的 scale variation 是计算机视觉的一大挑战 (The scale variation of objects is one of the key challenges in computer vision). 常见的解决方法有: 图像金字塔和特征金字塔.
 
 ## MS-CAM
 ![](<[2020] Attentional Feature Fusion/ms_cam.png>)

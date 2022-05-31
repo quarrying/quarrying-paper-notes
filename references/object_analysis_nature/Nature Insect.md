@@ -69,15 +69,24 @@ The IP102 datset contains more than 75,000 images belongs to 102 categories. A n
 
 **References**:
 - https://github.com/xpwu95/IP102
+- https://www.kaggle.com/datasets/rtlmhjbn/ip02-dataset
+- https://www.kaggle.com/datasets/leonidkulyk/ip102-yolov5
 
 
 ## Datasets on Kaggle
 ---
+搜索关键词: insect, butterfly, spider, species
+
 **References**
 - https://www.kaggle.com/jerzydziewierz/bee-vs-wasp
 - https://www.kaggle.com/kmldas/insect-identification-from-habitus-images
 - https://www.kaggle.com/friso1987/yellow-sticky-traps
 - https://www.kaggle.com/gpiosenka/yikes-spiders-15-species
+- https://www.kaggle.com/datasets/gpiosenka/butterfly-images40-species
+    - 9285 train, 375 test, 375 validation images 224 X 224 X 3 jpg format
+- https://www.kaggle.com/datasets/saini39/indian-butterflies
+- https://www.kaggle.com/datasets/ayshine/butterfly
+
 
 ## Butterfly-200 Dataset
 ---
