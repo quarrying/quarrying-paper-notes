@@ -84,6 +84,8 @@ Swin-L | 2x    | /
 
 ## [2020] DeiT
 ---
+!TODO
+
 - [2020] Training data-efficient image transformers & distillation through attention
 
 ## [2022] DaViT

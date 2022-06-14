@@ -3,12 +3,10 @@
 # JFT-300M
 JFT (Sun et al., 2017) with 18k classes and 303M million high-resolution images.
 
-JFT-300M dataset, which contains 300M noisily labelled images.
-
-JFT-300M consists of around 300 million images with 1.26 labels per image on average. The labels are organized into a hierarchy of 18291 classes. Annotation is performed using an automatic pipeline, and are therefore imperfect; approximately 20% of the labels are noisy.
+JFT-300M consists of around 300 million noisily labelled images with 1.26 labels per image on average. The labels are organized into a hierarchy of 18291 classes. Annotation is performed using an automatic pipeline, and are therefore imperfect; approximately 20% of the labels are noisy.
 
 **References**:
-- Chen Sun, Abhinav Shrivastava, Saurabh Singh, and Abhinav Gupta. Revisiting unreasonable effectiveness of data in deep learning era. In ICCV, 2017.
+- [2017 ICCV] Revisiting unreasonable effectiveness of data in deep learning era
 
 
 # Instagram-1B

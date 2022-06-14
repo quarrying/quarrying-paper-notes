@@ -4,6 +4,7 @@
 
 ## 2022
 
+- [ ] 20220614 [2021] Are Large-scale Datasets Necessary for Self-Supervised Pre-training
 - [ ] 20220430 泛读 self-supervised learning 相关文献
 - [ ] 20220429 泛读 self-supervised learning 相关文献
 - [ ] 20220418 [2021] DataPerf: Benchmarking Data for Better ML

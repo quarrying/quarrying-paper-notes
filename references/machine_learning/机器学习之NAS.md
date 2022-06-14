@@ -19,8 +19,14 @@
 
 ## EfficientNet
 ---
+先用 NAS 搜索得到 EfficientNet-B0, 然后再按一定的 scaling 策略, 得到: EfficientNet-B1 到 EfficientNet-B7.
+
 - [2019 ICML] Rethinking model scaling for convolutional neural networks
 
 ## Mnasnet
 ----
 - [2019 CVPR] Mnasnet_ Platform-aware neural architecture search for mobile
+
+## RegNet
+---
+- [2020 CVPR] Designing network design spaces
