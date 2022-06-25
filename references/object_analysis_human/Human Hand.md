@@ -120,3 +120,8 @@ The TV-Hand dataset contains 9498 image frames extracted from the ActionThread d
 **References**:
 - [2021] Hand Image Understanding via Deep Multi-Task Learning
 
+## HaGRID, HAnd Gesture Recognition Image Dataset 
+---
+**References**:
+- http://github.com/hukenovs/hagrid
+

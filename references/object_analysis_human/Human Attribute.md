@@ -1,6 +1,27 @@
 # Literatures
+
+## Survey
+---
 - https://github.com/wangxiao5791509/Pedestrian-Attribute-Recognition-Paper-List
 - [2019] Pedestrian Attribute Recognition_ A Survey
+
+## [2018] MsVAA
+---
+- [2018 ECCV] Deep imbalanced attribute classification using visual attention aggregation
+
+## [2019] VAC
+---
+- [2019 CVPR] Visual attention consistency under image transforms for multi-label image classification
+
+## ALM
+---
+- [2019 ICCV] Improving pedestrian attribute recognition with weakly-supervised multi-scale attribute-specic localization
+
+## [2020] Rethinking of Pedestrian Attribute Recognition_ Realistic Datasets and A Strong Baseline
+---
+该论文指出 PETA, RAPv1, RAPv2 数据集的训练集和测试集存在身份重叠.
+
+论文中碰到一个概念: **data leakage**
 
 
 # Challenges & Datasets
@@ -108,15 +129,27 @@ Our database contains 9344 images, with annotations for 27 attributes.
 - https://www.vision.rwth-aachen.de/page/parse27k
 
 
-## DeepFashion
+## RAP
 ---
 **References**:
-- [2016 CVPR] DeepFashion: Powering Robust Clothes Recognition and Retrieval with Rich Annotations
+- **RAPv1**: [2016] A richly annotated dataset for pedestrian attribute recognition
+- **RAPv2**: [2018 TIP] A richly annotated pedestrian dataset for person retrieval in real surveillance scenarios
+
+
+## PA100k
+----
+**References**:
+- [2017] Hydraplus-net_ Attentive deep features for pedestrian analysis
+
+
+## APiS
+----
+**References**:
+- [2013 ICCVW] Pedestrian attribute classification in surveillance: Database and evaluation
 
 
 ## Safety-Helmet-Wearing
 ---
 **References**:
 - https://github.com/njvisionpower/Safety-Helmet-Wearing-Dataset
-
 
