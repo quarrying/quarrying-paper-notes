@@ -99,6 +99,8 @@ Our database contains 9344 images, with annotations for 27 attributes.
 
 ## WIDERAttribute
 ---
+> WIDER Attribute is a large-scale human attribute dataset. It contains 13789 images belonging to 30 scene categories, and 57524 human bounding boxes each annotated with 14 binary attributes.
+
 **References**:
 - http://mmlab.ie.cuhk.edu.hk/projects/WIDERAttribute.html
 - [2016 ECCV] Human Attribute Recognition by Deep Hierarchical Contexts

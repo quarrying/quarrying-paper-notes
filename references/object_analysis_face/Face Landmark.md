@@ -247,11 +247,11 @@ LFPW (29 landmarks) is collected from the web.
 - [2011 CVPR] Localizing parts of faces using a consensus of exemplars
 
 
-## MTFL
+## MTFL, Multi-Task Facial Landmark
 ---
-Multi-Task Facial Landmark (MTFL) dataset contains annotations of five facial landmarks and attributes of gender, head pose, etc. consisting of 10,000 outdoor face images from the web. Each image is annotated with bounding box and five landmarks, i.e. centers of the eyes, nose, corners of the mouth.
+> Multi-Task Facial Landmark (MTFL) dataset contains annotations of five facial landmarks and attributes of gender, head pose, etc. consisting of 10,000 outdoor face images from the web. Each image is annotated with bounding box and five landmarks, i.e. centers of the eyes, nose, corners of the mouth.
 
-Multi-Task Facial Landmark (MTFL) dataset contains 12,995 face images annotated with 5 facial landmarks, namely, eye centers, nose tip and mouth corners. The images in the dataset contain various pose angles and occlusion, thus it is challenging to accurately localize facial landmarks.
+> Multi-Task Facial Landmark (MTFL) dataset contains 12,995 face images annotated with 5 facial landmarks, namely, eye centers, nose tip and mouth corners. The images in the dataset contain various pose angles and occlusion, thus it is challenging to accurately localize facial landmarks.
 
 **References**:
 - [2013 CVPR] Deep Convolutional Network Cascade for Facial Point Detection

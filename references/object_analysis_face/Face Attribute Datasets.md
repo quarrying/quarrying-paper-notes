@@ -1,6 +1,6 @@
 ## MAAD-Face
 ---
-MAAD-Face is build on the VGGFace2 database and thus, consists of **3.3M faces of over 9k individuals**. Using a novel annotation transfer-pipeline that allows an accurate label-transfer from multiple source-datasets to a target-dataset, MAAD-Face consists of 123.9M attribute annotations of 47 different binary attributes. Consequently, it provides 15 and 137 times more attribute labels than CelebA and LFW.
+> MAAD-Face is build on the VGGFace2 database and thus, consists of **3.3M faces of over 9k individuals**. Using a novel annotation transfer-pipeline that allows an accurate label-transfer from multiple source-datasets to a target-dataset, MAAD-Face consists of 123.9M attribute annotations of 47 different binary attributes. Consequently, it provides 15 and 137 times more attribute labels than CelebA and LFW.
 
 **References**:
 - [202012] MAAD-Face_ A Massively Annotated Attribute Dataset for Face Images
@@ -52,21 +52,11 @@ This dataset contains [CoarseData](https://drive.google.com/open?id=0B0A9UsiwtVT
 
 **References**:
 - https://github.com/Juyong/3DFace
-    
-
-## MTFL, Multi-Task Facial Landmark
----
-Multi-Task Facial Landmark (MTFL) dataset contains annotations of five facial landmarks and attributes of gender, head pose, etc. Consisting of 10,000 outdoor face images from the web. Each image is annotated with bounding box and five landmarks, i.e. centers of the eyes, nose, corners of the mouth.
-
-**References**:
-- [2013 CVPR] Deep Convolutional Network Cascade for Facial Point Detection
-- [2014 ECCV] Facial landmark detection by deep multi-task learning
-- http://mmlab.ie.cuhk.edu.hk/projects/TCDCN/data/MTFL.zip
 
 
 ## CEW, Closed Eyes In The Wild
 ---
-Eye closeness detection is a challenging task in the unconstrained real-world application scenario which is full of challenging variations caused by individual difference and kinds of environment changes including lighting, blur, occlusion, and disguise. To investigate the performance of eye closeness detection in these conditions, we collected a dataset for eye closeness detection in the Wild. In particular, this dataset contains 2423 subjects, among which 1192 subjects with both eyes closed are collected directly from Internet, and 1231 subjects with eyes open are selected from the Labeled Face in the Wild database. 
+> Eye closeness detection is a challenging task in the unconstrained real-world application scenario which is full of challenging variations caused by individual difference and kinds of environment changes including lighting, blur, occlusion, and disguise. To investigate the performance of eye closeness detection in these conditions, we collected a dataset for eye closeness detection in the Wild. In particular, this dataset contains 2423 subjects, among which 1192 subjects with both eyes closed are collected directly from Internet, and 1231 subjects with eyes open are selected from the Labeled Face in the Wild database. 
 
 **References**:
 - http://parnec.nuaa.edu.cn/xtan/data/ClosedEyeDatabases.html
