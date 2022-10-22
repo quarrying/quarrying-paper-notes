@@ -13,6 +13,9 @@ JFT-300M consists of around 300 million noisily labelled images with 1.26 labels
 **References**
 - [2019] Billion-scale semi-supervised learning for image classification
 
+#  YFCC100M, YFCC
+----
+- [2016] Yfcc100m: The new data in multimedia research
 
 # Open Images
 

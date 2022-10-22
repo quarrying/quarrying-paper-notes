@@ -7,7 +7,7 @@
 
 
 ## Introduction
-提高 CNN 表示能力的方式有: 网络加深 (ResNet), 网络加宽 (Wide ResNet), 提高基数 (ResNeXt), 动态优化特征(注意力机制, 代表有 SENet), 特征融合等. 
+提高 CNN 表示能力的方式有: 网络加深 (如: ResNet), 网络加宽 (如: Wide ResNet), 提高基数 (如: ResNeXt), 动态优化特征(注意力机制, 代表有 SENet), 特征融合等. 
 
 笔者注: DenseNet 是稠密连接, ResNeXt 是稀疏连接.
 

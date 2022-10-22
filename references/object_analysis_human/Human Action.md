@@ -48,10 +48,7 @@ The Penn Action dataset is composed by 2,326 videos in the wild with 15 differen
 
 ## NTU RGB+D
 ---
-It is composed of more than 56K videos in Full HD of 60 actions 
-performed by 40 different actors and recorded by 3
-cameras in 17 different positioning setups, which results in
-more than 4M video frames.
+> It is composed of more than 56K videos in Full HD of 60 actions performed by 40 different actors and recorded by 3 cameras in 17 different positioning setups, which results in more than 4M video frames.
 
 
 ## UCF Sports Action Data Set
@@ -60,7 +57,7 @@ more than 4M video frames.
 - http://crcv.ucf.edu/data/UCF_Sports_Action.php
 
 
-## UCF101
+## UCF101, UCF-101
 ---
 > UCF101 dataset is an extension of UCF50 and consists of 13,320 video clips, which are classified into 101 categories. These 101 categories can be classified into 5 types (Body motion, Human-human interactions, Human-object interactions, Playing musical instruments and Sports). The total length of these video clips is over 27 hours. All the videos are collected from YouTube and have a fixed frame rate of 25 FPS with the resolution of 320 × 240.
 
@@ -115,8 +112,7 @@ HMDB-51 共 51 个类别, 6766 个短视频.
 
 ## Kinetics-400
 ---
-Kinetics-400 contains ~300k video clips with 400 human action categories. 
-The videos in Kinetics-400, trimmed from raw YouTube videos, are around 10s.
+> Kinetics-400 contains ~300k video clips with 400 human action categories. The videos in Kinetics-400, trimmed from raw YouTube videos, are around 10s.
 
 **References**:
 - [2017] The kinetics human action video dataset

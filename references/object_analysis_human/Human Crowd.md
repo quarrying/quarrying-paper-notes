@@ -1,5 +1,6 @@
 
 # Papers
+
 ## Overview
 ---
 - https://github.com/gjy3035/Awesome-Crowd-Counting
@@ -56,11 +57,14 @@
 ---
 - [2020 CVPR] Attention Scaling for Crowd Counting
 
-## [2020 CVPR] Reverse Perspective Network for Perspective-Aware Object Counting
+## Reverse Perspective Network
 ---
+-  [2020 CVPR] Reverse Perspective Network for Perspective-Aware Object Counting
 
-## [2020 CVPR] Adaptive Dilated Network With Self-Correction Supervision for Counting
+## Adaptive Dilated Network
 ---
+- [2020 CVPR] Adaptive Dilated Network With Self-Correction Supervision for Counting
+
 
 # Datasets & Challenges
 

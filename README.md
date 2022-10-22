@@ -4,6 +4,10 @@
 
 ## 2022
 
+- [ ] 20221019 [2021 CVPR] Benchmarking Representation Learning for Natural World Image Collections
+- [ ] 20220906 [2019 CVPR] Feature Selective Anchor-Free Module for Single-Shot Object Detection
+- [ ] 20220729 [2022] Language Models are General-Purpose Interfaces
+- [ ] 20220728 [2022 ICML] OFA_ Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework
 - [ ] 20220621 [2020] Rethinking of Pedestrian Attribute Recognition_ Realistic Datasets and A Strong Baseline
 - [ ] 20220614 [2021] Are Large-scale Datasets Necessary for Self-Supervised Pre-training
 - [ ] 20220430 泛读 self-supervised learning 相关文献
@@ -11,7 +15,7 @@
 - [ ] 20220418 [2021] DataPerf: Benchmarking Data for Better ML
 - [ ] 20220413 [2018] Arbitrary-Oriented Scene Text Detection via Rotation Proposals
 - [ ] 20220413 [2017] Attention is All You Need
-- [ ] 20220412 [2022] Towards Online Domain Adaptive Object Detection
+- [x] 20220412 [2022] Towards Online Domain Adaptive Object Detection
 - [ ] 20220411 [2020] Channel Distillation_ Channel-Wise Attention for Knowledge Distillation
 - [ ] 20220312 [2021] GAN inversion: A survey
 - [ ] 20220311 [2022 WACV] Latent to Latent_ A Learned Mapper for Identity Preserving Editing of Multiple Face Attributes in StyleGAN-generated Images

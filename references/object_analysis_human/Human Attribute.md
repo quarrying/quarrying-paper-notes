@@ -82,7 +82,7 @@ We annotate 23 attributes for DukeMTMC-reID, which is a subset of the DukeMTMC. 
     
 ## MARS-Attribute
 ---
-We labeled 32 attributes for MARS, the definition of the attributes is from the MARKET-1501_Attribute, the main difference between these two attributes dataset is that MARKET-1501_Attribute is instance-level, while ours is trackets-level.
+> We labeled 32 attributes for MARS, the definition of the attributes is from the MARKET-1501_Attribute, the main difference between these two attributes dataset is that MARKET-1501_Attribute is instance-level, while ours is trackets-level.
 
 **References**:
 - https://github.com/yuange250/MARS-Attribute
