@@ -36,8 +36,10 @@ graph TB
 - https://github.com/shihenw/convolutional-pose-machines-release
 - https://github.com/timctho/convolutional-pose-machines-tensorflow
 
-## DeeperCut
+## DeepCut, DeeperCut
 ---
+DeepCut 和 DeeperCut 属于自底向上的 multi-person pose estimation 算法.
+
 - [2016 CVPR] DeepCut: Joint Subset Partition and Labeling for Multi Person Pose Estimation
 - [2016 ECCV] DeeperCut: A Deeper, Stronger, and Faster Multi-Person Pose Estimation Model
 - https://github.com/eldar/pose-tensorflow
@@ -65,6 +67,10 @@ graph TB
 
 ## CPN, Cascaded Pyramid Network
 ---
+该文献的网络结构类似于 PANet.
+
+> Our models are only trained on MS COCO[27] trainval dataset (includes 57K images and 150K person instances) and validated on MS COCO minival dataset (includes 5000 images). The testing sets includes test-dev set (20K images) and test-challenge set (20K images).
+
 - [2018 CVPR] Cascaded Pyramid Network for Multi-Person Pose Estimation
 - https://github.com/chenyilun95/tf-cpn
 
@@ -114,6 +120,10 @@ This paper leverage the soft-argmax operation to retrieve joint locations from h
 ## LitePose
 ----
 - [2022 CVPR] Lite Pose: Efficient Architecture Design for 2D Human Pose Estimation
+
+## Towards Accurate Multi-person Pose Estimation in the Wild
+----
+- [2017] Towards Accurate Multi-person Pose Estimation in the Wild
 
 
 # Datasets & Challenges

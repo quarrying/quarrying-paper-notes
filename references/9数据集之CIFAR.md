@@ -1,4 +1,4 @@
-CIFAR (Canadian Institute For Advanced Research) 是由 Hinton 的两个大弟子 Alex Krizhevsky, Ilya Sutskever 收集的一个用于普适物体识别的数据集. 图像尺寸为 32x32.
+CIFAR (Canadian Institute For Advanced Research) 是由 Hinton 的两个学生 Alex Krizhevsky, Ilya Sutskever 收集的一个用于通用物体识别的数据集. 图像尺寸为 `32x32`.
 
 > Both of the CIFAR datasets consist of 60,000 colour images of size 32 × 32 pixels. CIFAR-10 has 10 distinct classes, such as cat, dog, car, and boat. CIFAR-100 contains 100 classes, but requires much more fine-grained recognition compared to CIFAR-10 as some classes are very visually similar. For example, it contains five different classes of trees: maple, oak, palm, pine, and willow. Each dataset is split into a training set with 50,000 images and a test set with 10,000 images.
 

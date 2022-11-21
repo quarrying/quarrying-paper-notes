@@ -36,3 +36,8 @@
 ## cleanlab
 ----
 - https://github.com/cleanlab/cleanlab
+
+## ProMix
+----
+- [2022] ProMix: Combating Label Noise via Maximizing Clean Sample Utility
+

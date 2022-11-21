@@ -13,7 +13,7 @@
 ---
 - [2019 CVPR] Visual attention consistency under image transforms for multi-label image classification
 
-## ALM
+## [2019 ICCV] ALM
 ---
 - [2019 ICCV] Improving pedestrian attribute recognition with weakly-supervised multi-scale attribute-specic localization
 
@@ -26,7 +26,7 @@
 
 # Challenges & Datasets
 
-## PETA, PEdesTrian Attribute
+## [2014 ACM MM] PETA, PEdesTrian Attribute
 ---
 The PETA dataset consists of 19000 images, with resolution ranging from 17-by-39 to 169-by-365 pixels. Those 19000 images include 8705 persons, each annotated with 61 binary and 4 multi-class attributes.
 
@@ -35,7 +35,7 @@ The PETA dataset consists of 19000 images, with resolution ranging from 17-by-39
 - http://mmlab.ie.cuhk.edu.hk/projects/PETA.html
 
 
-## Market-1501 Attribute
+## [2019] Market-1501 Attribute
 ---
 We annotate 27 attributes for Market-1501. The original dataset contains 751 identities for training and 750 identities for testing. The attributes are annotated in the identity level, thus the file contains 28 x 751 attributes for training and 28 x 750 attributesfor test.
 
@@ -97,7 +97,7 @@ Our database contains 9344 images, with annotations for 27 attributes.
 - [2011 BMVC] Learning discriminative spatial representation for image classification
 
 
-## WIDERAttribute
+## [2016 ECCV] WIDERAttribute
 ---
 > WIDER Attribute is a large-scale human attribute dataset. It contains 13789 images belonging to 30 scene categories, and 57524 human bounding boxes each annotated with 14 binary attributes.
 

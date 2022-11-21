@@ -4,6 +4,8 @@
 
 ## 2022
 
+- [ ] 20221121 [2022 CVPR] Fine-Grained Object Classification via Self-Supervised Pose Alignment
+- [ ] 20221121 [2018 CVPR] Cascaded Pyramid Network for Multi-Person Pose Estimation
 - [ ] 20221019 [2021 CVPR] Benchmarking Representation Learning for Natural World Image Collections
 - [ ] 20220906 [2019 CVPR] Feature Selective Anchor-Free Module for Single-Shot Object Detection
 - [ ] 20220729 [2022] Language Models are General-Purpose Interfaces

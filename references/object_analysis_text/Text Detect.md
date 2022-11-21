@@ -44,7 +44,7 @@
 
 ## TextBoxes++
 ---
-可以做任意多方向的四边形文字的检测，同时可结合CRNN网络做成端到端协调训练的解决方案
+可以做任意多方向的四边形文字的检测，同时可结合 CRNN 网络做成端到端协调训练的解决方案.
 
 - [2018 TIP] TextBoxes++_ A Single-Shot Oriented Scene Text Detector
 - https://github.com/MhLiao/TextBoxes_plusplus

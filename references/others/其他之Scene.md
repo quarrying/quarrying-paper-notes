@@ -17,7 +17,7 @@ ADE20K is composed of more than 27K images from the SUN and Places databases. Im
 
 ## SUN 
 ---
-Scene categorization is a fundamental problem in computer vision. However, scene understanding research has been constrained by the limited scope of currently-used databases which do not capture the full variety of scene categories. Whereas standard databases for object categorization contain hundreds of different classes of objects, the largest available dataset of scene categories contains only 15 classes. In this paper we propose the extensive Scene UNderstanding (SUN) database that contains 899 categories and 130,519 images. We use 397 well-sampled categories to evaluate numerous state-of-the-art algorithms for scene recognition and establish new bounds of performance. We measure human scene classification performance on the SUN database and compare this with computational methods.
+> Scene categorization is a fundamental problem in computer vision. However, scene understanding research has been constrained by the limited scope of currently-used databases which do not capture the full variety of scene categories. Whereas standard databases for object categorization contain hundreds of different classes of objects, the largest available dataset of scene categories contains only 15 classes. In this paper we propose the extensive Scene UNderstanding (SUN) database that contains 899 categories and 130,519 images. We use 397 well-sampled categories to evaluate numerous state-of-the-art algorithms for scene recognition and establish new bounds of performance. We measure human scene classification performance on the SUN database and compare this with computational methods.
 
 **References**:
 - [2010 CVPR] Sun database: Large-scale scene recognition from abbey to zoo
@@ -42,7 +42,7 @@ Cityscapes contains 50 scenes of different views, different backgrounds and diff
 
 ## Places
 ---
-Scene Places recognition is one of the hallmark tasks of computer vision, allowing defining a context for object recognition. Here we introduce a new scene-centric database called Places, with 205 scene categories and 2.5 millions of images with a category label.
+205 scene categories and 2.5 millions of images with a category label.
 
 **References**:
 - [2014 NIPS] Learning deep features for scene recognition using places database
