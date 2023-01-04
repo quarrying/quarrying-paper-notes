@@ -4,6 +4,8 @@
 
 ## 2022
 
+- [ ] 20221212 泛读 image editing 相关文献
+- [ ] 20221122 [2018 ECCV] Learning to Navigate for Fine-grained Classification
 - [ ] 20221121 [2022 CVPR] Fine-Grained Object Classification via Self-Supervised Pose Alignment
 - [ ] 20221121 [2018 CVPR] Cascaded Pyramid Network for Multi-Person Pose Estimation
 - [ ] 20221019 [2021 CVPR] Benchmarking Representation Learning for Natural World Image Collections

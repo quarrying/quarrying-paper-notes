@@ -148,9 +148,9 @@ The repulsion loss pushes each proposal not only to approach its designated targ
 
 ## CityPersons
 ---
-CityPersons, a new set of person annotations on top of the Cityscapes dataset.
+> CityPersons, a new set of person annotations on top of the Cityscapes dataset. There are 6.5 pedestrians per image and the image resolution is of 2048x1024 pixels.
 
-There are 6.5 pedestrians per image and the image resolution is of 2048x1024 pixels.
+> the bounding boxes annotated are generated via drawing a line from top of the head and the middle of feet with a fixed aspect ratio (0.41). 
 
 **References**:
 - [2017 CVPR] CityPersons_ A Diverse Dataset for Pedestrian Detection
@@ -193,7 +193,7 @@ The standard Caltech pedestrian dataset consists of 4,250 images for training an
 ---
 Face++ 开源的一份数据集. 
 
-> Finally, ∼25,000 images are collected in the CrowdHuman dataset. We randomly select 15,000, 4,370 and 5,000 images for training, validation, and testing, respectively.
+> The images with only a small number of persons, or with small overlaps between persons, are filtered. Finally, ∼25,000 images are collected in the CrowdHuman dataset. We randomly select 15,000, 4,370 and 5,000 images for training, validation, and testing, respectively.
 
 **References**:
 - [2018] CrowdHuman_ A Benchmark for Detecting Human in a Crowd

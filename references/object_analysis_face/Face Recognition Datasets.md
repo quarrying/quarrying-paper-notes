@@ -407,7 +407,7 @@ The extended Yale Face Database B contains 16128 images of 28 human subjects und
 
     
 # Infrared Face Datasets
----
+
 ## CASIA NIR / CASIA NIR-VIS2.0
 ---
 **References**:
@@ -430,7 +430,7 @@ The extended Yale Face Database B contains 16128 images of 28 human subjects und
 
 
 # Multi-modal Face Datasets
----
+
 ## Tufts Face Database
 ---
 Tufts Face Database is the most comprehensive, large-scale face dataset that contains 7 image modalities: visible, near-infrared, thermal, computerised sketch, LYTRO, recorded video, and 3D images. 
@@ -444,7 +444,6 @@ Projects: This database will be available to researchers worldwide in order to b
 
 
 # Hyperspectral Face Datasets
----
 
 ## The Hong Kong Polytechnic University Hyperspectral Face Database (PolyU-HSFD)
 ---
@@ -453,7 +452,7 @@ Projects: This database will be available to researchers worldwide in order to b
 
 
 # *Surveillance Scene Face Datasets*
----
+
 ## QMUL-SurvFace
 ---
 Surveillance Face Recognition Challenge

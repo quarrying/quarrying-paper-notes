@@ -1,7 +1,7 @@
 # Transformer
 ---
 
-## Attention is All You Need
+## [2017] Attention is All You Need
 ---
 !TODO: 精读
 
@@ -25,7 +25,7 @@ $$\mathrm{head}_i = \mathrm{Attention}(QW_i^Q, KW_i^K, VW_i^V)$$
 
 其中 $h$ 表示头的个数, $W_i^Q \in \mathbb{R}^{d_{model}\times d_k}$, $W_i^K \in \mathbb{R}^{d_{model}\times d_k}$, $W_i^V \in \mathbb{R}^{d_{model}\times d_v}$, $W^O \in \mathbb{R}^{hd_{v}\times d_{model}}$.
 
-### *Multi-Head Attention 的计算量*
+### Multi-Head Attention 的计算量
 
 简便起见, 假设 $d_{model} = d_k = d_v = d$, 且 $Q, K,V\in \mathbb{R}^{n\times d}$.
 
@@ -37,17 +37,17 @@ $QW_i^Q$, $KW_i^K$, $VW_i^V$ 的计算量均为 $nd^2$. 共 $h$ 个头, 所以�
 
 综上计算量为: $4hnd^2 + 2hn^2d$, 计算复杂度为 $O(nd^2 + hn^2d)$.
 
-### **References**
+### References
 - [《Attention is All You Need》浅读（简介+代码）](https://kexue.fm/archives/4765)
-- [[2017] Attention is All You Need]()
+- [[2017] Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
 - https://stackoverflow.com/questions/65703260/computational-complexity-of-self-attention-in-the-transformer-model
 
 
-## iGPT
+## [2020 ICML] iGPT
 ---
 - [2020 ICML] Generative pretraining from pixels
 
-## ViT, Vision Transformer
+## [2020] ViT, Vision Transformer
 ---
 !TODO: 
 
@@ -97,14 +97,19 @@ Swin-L | 2x    | /
 **References**
 - [2022] DaViT_ Dual Attention Vision Transformers
 
-## Others
----
-- PVT, Pyramid vision transformer
-    - [2021 ICCV] Pyramid vision transformer: A versatile backbone for dense prediction without convolutions
-- CvT, convolutions to vision transformers
-    - [2021] Cvt: Introducing convolutions to vision transformers
-- ViL
-    - [2021 ICCV] Multi-scale vision longformer: A new vision transformer for high-resolution image encoding
-- HaloNet
-    - [2021 CVPR] Scaling local self-attention for parameter efficient visual backbones
+## [2021 ICCV] PVT, Pyramid vision transformer
+----
+- [2021 ICCV] Pyramid vision transformer: A versatile backbone for dense prediction without convolutions
+
+## [2021] CvT, convolutions to vision transformers
+----
+- [2021] Cvt: Introducing convolutions to vision transformers
+
+## [2021 ICCV] ViL
+----
+- [2021 ICCV] Multi-scale vision longformer: A new vision transformer for high-resolution image encoding
+
+## [2021 CVPR] HaloNet
+----
+- [2021 CVPR] Scaling local self-attention for parameter efficient visual backbones
 

@@ -58,7 +58,7 @@
 
 ## PersonX
 ---
-- Dissecting Person Re-identification from the Viewpoint of Viewpoint
+- [2019 CVPR] Dissecting Person Re-identification from the Viewpoint of Viewpoint
     
 
 # Codes
