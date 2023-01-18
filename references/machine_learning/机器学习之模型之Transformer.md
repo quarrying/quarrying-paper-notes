@@ -113,3 +113,9 @@ Swin-L | 2x    | /
 ----
 - [2021 CVPR] Scaling local self-attention for parameter efficient visual backbones
 
+## MobileViT
+----
+- MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer
+- Separable Self-attention for Mobile Vision Transformers
+- MobileViTv3: Mobile-Friendly Vision Transformer with Simple and Effective Fusion of Local, Global and Input Features
+

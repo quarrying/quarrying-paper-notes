@@ -60,12 +60,12 @@ DeepCut 和 DeeperCut 属于自底向上的 multi-person pose estimation 算法.
 ---
 - [2016] Stacked hourglass networks for human pose estimation.
 
-## SimplePose, SimpleBaseline
+## [2018 ECCV] SimplePose, SimpleBaseline
 ---
 - [2018 ECCV] Simple Baselines for Human Pose Estimation and Tracking
 - https://github.com/Microsoft/human-pose-estimation.pytorch
 
-## CPN, Cascaded Pyramid Network
+## [2018 CVPR] CPN, Cascaded Pyramid Network
 ---
 该文献的网络结构类似于 PANet.
 
@@ -74,7 +74,7 @@ DeepCut 和 DeeperCut 属于自底向上的 multi-person pose estimation 算法.
 - [2018 CVPR] Cascaded Pyramid Network for Multi-Person Pose Estimation
 - https://github.com/chenyilun95/tf-cpn
 
-## MSPN,  multi-stage pose estimation network
+## [2019] MSPN, multi-stage pose estimation network
 ---
 - [2019] Rethinking on Multi-Stage Networks for Human Pose Estimation
 
@@ -82,7 +82,7 @@ DeepCut 和 DeeperCut 属于自底向上的 multi-person pose estimation 算法.
 ---
 - https://github.com/ilovepose/fast-human-pose-estimation.pytorch
 
-## HRNet
+## [2019 CVPR] HRNet
 ---
 - [2019 CVPR] Deep High-Resolution Representation Learning for Human Pose Estimation
 - https://github.com/HRNet/Higher-HRNet-Human-Pose-Estimation
@@ -99,31 +99,35 @@ DeepCut 和 DeeperCut 属于自底向上的 multi-person pose estimation 算法.
 ---
 - https://github.com/mks0601/V2V-PoseNet_RELEASE
 
-## HigherHRNet
+## [2020] HigherHRNet
 ---
 - [2020] HigherHRNet_ Scale-Aware Representation Learning for Bottom-Up Human Pose Estimation
 
-## Integral Pose
+## [2018 ECCV] Integral Pose
 ---
 This paper leverage the soft-argmax operation to retrieve joint locations from heatmaps in a differentiable manner, which allows end-to-end training. It prevents quantization error.
 
 - [2018 ECCV] Integral human pose regression
 
-## Lite-HRNet, LiteHRNet
+## [2021] Lite-HRNet, LiteHRNet
 ---
 - [2021] Lite-HRNet_ A Lightweight High-Resolution Network
 
-## EfficientPose
+## [2021] EfficientPose
 ---
 - [2021] EfficientPose: Efficient human pose estimation with neural architecture search
 
-## LitePose
+## [2022 CVPR] LitePose
 ----
 - [2022 CVPR] Lite Pose: Efficient Architecture Design for 2D Human Pose Estimation
 
-## Towards Accurate Multi-person Pose Estimation in the Wild
+## [2017] Towards Accurate Multi-person Pose Estimation in the Wild
 ----
 - [2017] Towards Accurate Multi-person Pose Estimation in the Wild
+
+## [2020] BlazePose
+----
+- [2020] BlazePose_ On-device Real-time Body Pose tracking
 
 
 # Datasets & Challenges
