@@ -52,12 +52,3 @@ causal language model
 ---
 - [2020 ICLR] Albert: Alite bert for self-supervised learning of language representations
 
-
-# Datasets
-
-## WMT 2014 English-to-German
----
-
-## WMT 2014 English-to-French
-----
-
