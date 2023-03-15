@@ -4,11 +4,26 @@
 ---
 non-causal language model
 
+- BERT base
+- BERT large
+
 - [2019]] Bert: Pre-training of deep bidirectional transformers for language understanding
+
+## [2018] GPT, generative pre-training
+----
+- [2018] Improving language understanding by generative pre-training
+
 
 ## [2019] GTP-2
 ----
-WebText 的训练集为 WebText.
+GTP-2 的训练集为 WebText.
+
+Parameters | Layers | $d_{model}$
+-----------|--------|--------------
+117M       | 12     | 768
+345M       | 24     | 1024
+762M       | 36     | 1280
+1542M      | 48     | 1600
 
 - [2019] Language models are unsupervised multitask learners
 

@@ -8,24 +8,104 @@
 Attention (Scaled Dot-Product Attention) 的定义: 
 $$\mathrm{Attention}(Q,K,V) = \mathrm{softmax}\left(\frac{QK^{\top}}{\sqrt{d_k}}\right)V$$
 
-其中 $Q\in\mathbb{R}^{n\times d_k}, K\in\mathbb{R}^{m\times d_k}, V\in\mathbb{R}^{m\times d_v}$. $Q,K,V$ 分别是 query, (memory) key, (memory) value 的简写. 最终的 $\mathrm{Attention}(Q,K,V)$ 的尺寸为 $n\times d_v$. 可见 attention 将 $n\times d_k$ 的 $Q$ 编码成了一个新的 $n\times d_v$ 的序列.
+符号说明: 
+1) $Q\in\mathbb{R}^{n\times d_k}$ 为 query, $n$ 是 target sequence length.
+2) $K\in\mathbb{R}^{m\times d_k}$ 为 key, $m$ 是 source sequence length.
+3) $V\in\mathbb{R}^{m\times d_v}$ 为 (memory) value.
 
-当 $Q = K = V$ 时, 称为自注意力 (self attention). 此时不妨设它们的尺寸为 $n\times d$.
+最终的 $\mathrm{Attention}(Q,K,V)$ 的尺寸为 $n\times d_v$, 即 attention 将 $n\times d_k$ 的 $Q$ 编码成了一个新的 $n\times d_v$ 的序列. 
 
-**TIPS** (自己理解, 待明确): softmax 函数是多元函数 (自变量是向量), 上面式子中的 softmax 函数的自变量是矩阵, 与定义不符, 此处的 `softmax(x)` 应该理解为 `torch.nn.functional.softmax(x, dim=1)` (借用 pytorch 中的函数.)
+当 $Q = K = V$ 时, 称为自注意力 (self attention). 此时不妨设它们的尺寸为 $n\times d$, 输出的尺寸也为 $n\times d$.
 
 关于为什么要除以 $\sqrt{d_k}$, 下面摘抄一下原文:
 > We suspect that for large values of $d_k$, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients. To counteract this effect, we scale the dot products by $1/\sqrt{d_k}$ .
 
-### Multi-Head Attention
+**TIPS** (自己理解, 待明确): 
+1) softmax 函数是多元函数 (自变量是向量), 上面式子中的 softmax 函数的自变量是矩阵, 与定义不符, 此处的 `softmax(x)` 应该理解为 `torch.nn.functional.softmax(x, dim=1)` (借用 pytorch 中的函数.)
+2) Q 的尺寸不是 $n\times d_q$, $d_q$ 的缺失可以用 key-value pair 键值对来助记.
+
+
+### 带投影的 Scaled Dot-Product Attention
+
+$$ \mathrm{Attention}(QW^Q, KW^K, VW^V)W^O$$
+
+$Q\in\mathbb{R}^{n\times e_q}$ 为 query embedding, $n$ 为 target sequence length, $e_q$ 为 query embedding dimension.
+
+$K\in\mathbb{R}^{m\times e_k}$ 为 key embedding, $m$ 为 source sequence length, $e_k$ 为 key embedding dimension.
+
+$V\in\mathbb{R}^{m\times e_v}$ 为 value embedding, $m$ 为 source sequence length, $e_v$ 为 value embedding dimension.
+
+$W^Q \in \mathbb{R}^{e_q\times d_k}$ 为 query projection matrix?
+
+$W^K \in \mathbb{R}^{e_k\times d_k}$ 为 key projection matrix.
+
+$W^V \in \mathbb{R}^{e_v\times d_v}$ 为 value projection matrix.
+
+$W^O \in \mathbb{R}^{d_{v}\times d_o}$ 为 output projection matrix?
+
+参考实现:
+```python
+from math import sqrt
+
+import torch
+import torch.nn as nn
+
+class ScaledDotProductAttention(nn.Module):
+    def __init__(self, dim_model, dim_k, dim_v):
+        super(ScaledDotProductAttention, self).__init__()
+        self.dim_model = dim_model
+        self.dim_k = dim_k
+        self.dim_v = dim_v
+        # projection layers
+        self.linear_q = nn.Linear(dim_model, dim_k, bias=False)
+        self.linear_k = nn.Linear(dim_model, dim_k, bias=False)
+        self.linear_v = nn.Linear(dim_model, dim_v, bias=False)
+
+    def forward(self, x):
+        batch_size, sequence_len, dim_model = x.shape
+        assert dim_model == self.dim_model
+
+        q = self.linear_q(x)  # batch_size, sequence_len, dim_k
+        k = self.linear_k(x)  # batch_size, sequence_len, dim_k
+        v = self.linear_v(x)  # batch_size, sequence_len, dim_v
+
+        dist = torch.bmm(q, k.transpose(1, 2))
+        dist = dist / sqrt(self.dim_k) 
+        dist = torch.softmax(dist, dim=-1)
+        att = torch.bmm(dist, v)
+        return att
+```
+
+
+### 多头注意力 (Multi-Head Attention)
 
 $$\mathrm{MultiHead}(Q, K, V) = \mathrm{Concat}(\mathrm{head}_1, ..., \mathrm{head}_h)W_O$$
 
 $$\mathrm{head}_i = \mathrm{Attention}(QW_i^Q, KW_i^K, VW_i^V)$$
 
-其中 $h$ 表示头的个数, $W_i^Q \in \mathbb{R}^{d_{model}\times d_k}$, $W_i^K \in \mathbb{R}^{d_{model}\times d_k}$, $W_i^V \in \mathbb{R}^{d_{model}\times d_v}$, $W^O \in \mathbb{R}^{hd_{v}\times d_{model}}$.
+其中 $h$ 表示头的个数.
 
-### Multi-Head Attention 的计算量
+
+```python
+>>> multihead_attn = nn.MultiheadAttention(embed_dim=256, num_heads=1, kdim=32, vdim=16)
+>>> print_named_parameters(multihead_attn)
+[1] q_proj_weight                                     : torch.Size([256, 256])
+[2] k_proj_weight                                     : torch.Size([256, 32])
+[3] v_proj_weight                                     : torch.Size([256, 16])
+[4] in_proj_bias                                      : torch.Size([768])
+[5] out_proj.weight                                   : torch.Size([256, 256])
+[6] out_proj.bias                                     : torch.Size([256])
+>>> multihead_attn = nn.MultiheadAttention(embed_dim=256, num_heads=4, kdim=32, vdim=16)
+>>> print_named_parameters(multihead_attn)
+[1] q_proj_weight                                     : torch.Size([256, 256])
+[2] k_proj_weight                                     : torch.Size([256, 32])
+[3] v_proj_weight                                     : torch.Size([256, 16])
+[4] in_proj_bias                                      : torch.Size([768])
+[5] out_proj.weight                                   : torch.Size([256, 256])
+[6] out_proj.bias                                     : torch.Size([256])
+```
+
+### 多头注意力的计算量
 
 简便起见, 假设 $d_{model} = d_k = d_v = d$, 且 $Q, K,V\in \mathbb{R}^{n\times d}$.
 
@@ -100,6 +180,7 @@ Swin-L | 2x    | /
 ## [2021 ICCV] PVT, Pyramid vision transformer
 ----
 - [2021 ICCV] Pyramid vision transformer: A versatile backbone for dense prediction without convolutions
+- [2021] PVTv2_ Improved Baselines with Pyramid Vision Transformer
 
 ## [2021] CvT, convolutions to vision transformers
 ----
@@ -113,9 +194,19 @@ Swin-L | 2x    | /
 ----
 - [2021 CVPR] Scaling local self-attention for parameter efficient visual backbones
 
+## [2021] Twins
+----
+- [2021] Twins: Revisiting spatial attention design in vision transformers
+
 ## MobileViT
 ----
 - MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer
 - Separable Self-attention for Mobile Vision Transformers
 - MobileViTv3: Mobile-Friendly Vision Transformer with Simple and Effective Fusion of Local, Global and Input Features
+
+## CPVT
+----
+CPVT uses 3 × 3 Conv together with the PE to implement a data-driven PE (positional encoding).
+
+- [2021] Conditional positional encodings for vision transformers
 

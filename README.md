@@ -4,6 +4,7 @@
 
 ## 2022
 
+- [ ] 20230206 [2021 NIPS] SegFormer_ Simple and Efficient Design for Semantic Segmentation with Transformers
 - [ ] 20221212 泛读 image editing 相关文献
 - [ ] 20221122 [2018 ECCV] Learning to Navigate for Fine-grained Classification
 - [ ] 20221121 [2022 CVPR] Fine-Grained Object Classification via Self-Supervised Pose Alignment

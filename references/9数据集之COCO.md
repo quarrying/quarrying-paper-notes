@@ -242,3 +242,10 @@ LVIS uses the COCO 2017 train, validation, and test image sets. If you have alre
 - http://www.lvisdataset.org/
 - [2019 CVPR] LVIS_ A Dataset for Large Vocabulary Instance Segmentation
 
+
+## COCO Stuff, COCO-Stuff
+----
+COCO-Stuff covers 172 labels and consists of 164k images: 118k for training, 5k for validation, 20k for test-dev and 20k for the test-challenge.
+
+- [2018 CVPR] Coco-stuff: Thing and stuff classes in context
+
