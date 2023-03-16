@@ -11,7 +11,7 @@ $$\mathrm{Attention}(Q,K,V) = \mathrm{softmax}\left(\frac{QK^{\top}}{\sqrt{d_k}}
 符号说明: 
 1) $Q\in\mathbb{R}^{n\times d_k}$ 为 query, $n$ 是 target sequence length.
 2) $K\in\mathbb{R}^{m\times d_k}$ 为 key, $m$ 是 source sequence length.
-3) $V\in\mathbb{R}^{m\times d_v}$ 为 (memory) value.
+3) $V\in\mathbb{R}^{m\times d_v}$ 为 value.
 
 最终的 $\mathrm{Attention}(Q,K,V)$ 的尺寸为 $n\times d_v$, 即 attention 将 $n\times d_k$ 的 $Q$ 编码成了一个新的 $n\times d_v$ 的序列. 
 
@@ -22,7 +22,6 @@ $$\mathrm{Attention}(Q,K,V) = \mathrm{softmax}\left(\frac{QK^{\top}}{\sqrt{d_k}}
 
 **TIPS** (自己理解, 待明确): 
 1) softmax 函数是多元函数 (自变量是向量), 上面式子中的 softmax 函数的自变量是矩阵, 与定义不符, 此处的 `softmax(x)` 应该理解为 `torch.nn.functional.softmax(x, dim=1)` (借用 pytorch 中的函数.)
-2) Q 的尺寸不是 $n\times d_q$, $d_q$ 的缺失可以用 key-value pair 键值对来助记.
 
 
 ### 带投影的 Scaled Dot-Product Attention
@@ -35,47 +34,19 @@ $K\in\mathbb{R}^{m\times e_k}$ 为 key embedding, $m$ 为 source sequence length
 
 $V\in\mathbb{R}^{m\times e_v}$ 为 value embedding, $m$ 为 source sequence length, $e_v$ 为 value embedding dimension.
 
-$W^Q \in \mathbb{R}^{e_q\times d_k}$ 为 query projection matrix?
+$W^Q \in \mathbb{R}^{e_q\times d_k}$ 为 query projection matrix.
 
 $W^K \in \mathbb{R}^{e_k\times d_k}$ 为 key projection matrix.
 
 $W^V \in \mathbb{R}^{e_v\times d_v}$ 为 value projection matrix.
 
-$W^O \in \mathbb{R}^{d_{v}\times d_o}$ 为 output projection matrix?
+$W^O \in \mathbb{R}^{d_v\times d_o}$ 为 output projection matrix.
 
-参考实现:
-```python
-from math import sqrt
+$QW^Q \in \mathbb{R}^{n\times d_k}$ 为 query.
 
-import torch
-import torch.nn as nn
+$KW^K \in \mathbb{R}^{m\times d_k}$ 为 key.
 
-class ScaledDotProductAttention(nn.Module):
-    def __init__(self, dim_model, dim_k, dim_v):
-        super(ScaledDotProductAttention, self).__init__()
-        self.dim_model = dim_model
-        self.dim_k = dim_k
-        self.dim_v = dim_v
-        # projection layers
-        self.linear_q = nn.Linear(dim_model, dim_k, bias=False)
-        self.linear_k = nn.Linear(dim_model, dim_k, bias=False)
-        self.linear_v = nn.Linear(dim_model, dim_v, bias=False)
-
-    def forward(self, x):
-        batch_size, sequence_len, dim_model = x.shape
-        assert dim_model == self.dim_model
-
-        q = self.linear_q(x)  # batch_size, sequence_len, dim_k
-        k = self.linear_k(x)  # batch_size, sequence_len, dim_k
-        v = self.linear_v(x)  # batch_size, sequence_len, dim_v
-
-        dist = torch.bmm(q, k.transpose(1, 2))
-        dist = dist / sqrt(self.dim_k) 
-        dist = torch.softmax(dist, dim=-1)
-        att = torch.bmm(dist, v)
-        return att
-```
-
+$VW^V \in \mathbb{R}^{m\times d_v}$ 为 value.
 
 ### 多头注意力 (Multi-Head Attention)
 
@@ -85,6 +56,25 @@ $$\mathrm{head}_i = \mathrm{Attention}(QW_i^Q, KW_i^K, VW_i^V)$$
 
 其中 $h$ 表示头的个数.
 
+在 PyTorch 的 `nn.MultiheadAttention` 中 $n = m$; $d_k = d_v = d_o$, 且其值等于 `embed_dim`.
+
+`q` 的尺寸为 `(..., embed_dim)`
+
+`k` 的尺寸为 `(..., e_k)`
+
+`v` 的尺寸为 `(..., e_v)`
+
+`q_proj_weight` 的尺寸为 `(embed_dim, embed_dim)`
+
+`k_proj_weight` 的尺寸为 `(embed_dim, e_k)`
+
+`v_proj_weight` 的尺寸为 `(embed_dim, e_v)`
+
+`out_proj.weight` 的尺寸为 `(embed_dim, embed_dim)`
+
+`attn_output` 的尺寸为 `(n, embed_dim)`
+
+当 `embed_dim = e_k = e_v` 时, 会将 `q_proj_weight`, `k_proj_weight` 和 `v_proj_weight` 合并为 `in_proj_weight`, 其尺寸为 `(3*embed_dim, embed_dim)`
 
 ```python
 >>> multihead_attn = nn.MultiheadAttention(embed_dim=256, num_heads=1, kdim=32, vdim=16)
@@ -103,15 +93,21 @@ $$\mathrm{head}_i = \mathrm{Attention}(QW_i^Q, KW_i^K, VW_i^V)$$
 [4] in_proj_bias                                      : torch.Size([768])
 [5] out_proj.weight                                   : torch.Size([256, 256])
 [6] out_proj.bias                                     : torch.Size([256])
+>> multihead_attn = nn.MultiheadAttention(embed_dim=256, num_heads=4)
+>>> print_named_parameters(multihead_attn)
+[1] in_proj_weight                                    : torch.Size([768, 256])
+[2] in_proj_bias                                      : torch.Size([768])
+[3] out_proj.weight                                   : torch.Size([256, 256])
+[4] out_proj.bias                                     : torch.Size([256])
 ```
 
 ### 多头注意力的计算量
 
-简便起见, 假设 $d_{model} = d_k = d_v = d$, 且 $Q, K,V\in \mathbb{R}^{n\times d}$.
+简便起见, $Q, K, V\in \mathbb{R}^{n\times d}$, $W_i^Q, W_i^K, W_i^V \in \mathbb{R}^{d \times d}$
 
 $QW_i^Q$, $KW_i^K$, $VW_i^V$ 的计算量均为 $nd^2$. 共 $h$ 个头, 所以总计算量为 $3hnd^2$.
 
-不妨令 $Q'=QW_i^Q, K'=KW_i^K, V'=VW_i^V$, $\mathrm{head}_i = \mathrm{Attention}(Q', K', V')$ 的计算量为 $2n^2d$ ( $Q'K'^T$ 的计算量为 $n^2d$, 其经过 softmax 等操作, 乘上 $V'$ 的计算量也为 $2n^2d$ ). 共 $h$ 个头, 所以总计算量为 $2hn^2d$.
+不妨令 $Q'=QW_i^Q, K'=KW_i^K, V'=VW_i^V$, $\mathrm{head}_i = \mathrm{Attention}(Q', K', V')$ 的计算量为 $2n^2d$ ( $Q'K'^T$ 的计算量为 $n^2d$, 其经过 softmax 等操作, 乘上 $V'$ 的计算量也为 $n^2d$ ). 共 $h$ 个头, 所以总计算量为 $2hn^2d$.
 
 不妨令 $S = \mathrm{Concat}(\mathrm{head}_1, ..., \mathrm{head}_h)$, 其尺寸为 $n\times hd$, $S W_O$ 的计算量为 $hnd^2$.
 
