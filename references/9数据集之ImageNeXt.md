@@ -1,7 +1,7 @@
 注: ImageNeXt 是自拟的单词, 它表示: 和 ImageNet 一样, 属于图像分类数据集, 同时一般具有比 ImageNet 更多的类别和图像.
 
 # JFT-300M
-JFT (Sun et al., 2017) with 18k classes and 303M million high-resolution images.
+JFT-300M 是谷歌内部数据集.
 
 JFT-300M consists of around 300 million noisily labelled images with 1.26 labels per image on average. The labels are organized into a hierarchy of 18291 classes. Annotation is performed using an automatic pipeline, and are therefore imperfect; approximately 20% of the labels are noisy.
 

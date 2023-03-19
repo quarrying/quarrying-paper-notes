@@ -125,7 +125,7 @@ $QW_i^Q$, $KW_i^K$, $VW_i^V$ 的计算量均为 $nd^2$. 共 $h$ 个头, 所以�
 
 ## [2020] ViT, Vision Transformer
 ---
-!TODO: 
+!TODO: 精读
 
 iGPT 和 ViT 是 transformer 在 CV 中的两大先驱工作.
 
