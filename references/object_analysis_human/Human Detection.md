@@ -40,7 +40,7 @@ The Bi-box model proposes a network to simultaneously detect pedestrian and esti
 
 ## [2018 CVPR] Repulsion loss_ Detecting pedestrians in a crowd
 ---
-The repulsion loss pushes each proposal not only to approach its designated target, but also to keep it away from the other ground truth objects and their corresponding designated proposals.
+> The repulsion loss pushes each proposal not only to approach its designated target, but also to keep it away from the other ground truth objects and their corresponding designated proposals.
 
 ## [2017 WACV] Fused DNN_ A deep neural network fusion approach to fast and robust pedestrian detection
 ---
@@ -185,18 +185,21 @@ The standard Caltech pedestrian dataset consists of 4,250 images for training an
 
 ## WIDER Pedestrian
 ---
+该数据集来自于交通监控相机和车载相机. 注意捕不要与 WiderPerson 混淆.
+
 **References**:
 - http://wider-challenge.org/
+- https://competitions.codalab.org/competitions/20132
 
 
 ## CrowdHuman
 ---
-Face++ 开源的一份数据集. 
+Face++ 开源的一份数据集, 数据源来自爬虫, 爬取自谷歌. 该数据集主打密集人体目标检测, 含有少量人体目标, 人体间轻微遮挡的图像被滤除掉. 该数据集标注了: 可见人体 (Visible Body), 完整人体 (Full Body) 和人头 (Head), 比较全面, 值得借鉴.
 
 > The images with only a small number of persons, or with small overlaps between persons, are filtered. Finally, ∼25,000 images are collected in the CrowdHuman dataset. We randomly select 15,000, 4,370 and 5,000 images for training, validation, and testing, respectively.
 
 **References**:
-- [2018] CrowdHuman_ A Benchmark for Detecting Human in a Crowd
+- [2018] CrowdHuman_ A Benchmark for Detec Human in a Crowd
 - http://www.crowdhuman.org/
 
 
@@ -208,10 +211,12 @@ Face++ 开源的一份数据集.
 
 ## WiderPerson
 ---
-It consists of 13,382 images with 399,786 annotations, i.e., 29.87 annotations per image, varying largely in scenario and occlusion.
+论文第一作者来自 CASIA (中科院自动化所). 该数据集是利用爬虫从百度, 必应, 谷歌上爬取的.
+
+> It consists of 13,382 images with 399,786 annotations, i.e., 29.87 annotations per image, varying largely in scenario and occlusion.
 
 **References**:
-- [201909] WiderPerson_ A Diverse Dataset for Dense Pedestrian Detection in the Wild
+- [2019] WiderPerson_ A Diverse Dataset for Dense Pedestrian Detection in the Wild
 - http://www.cbsr.ia.ac.cn/users/sfzhang/WiderPerson/
 
 
@@ -232,8 +237,11 @@ It consists of 13,382 images with 399,786 annotations, i.e., 29.87 annotations p
 **References**:
 - [2018 TPAMI] The eurocity persons dataset_ A novel benchmark for object detection
 
+
 ## COCOPersons, person subset of MSCOCO
 ----
+> COCOPersons is a subset of MSCOCO from the images with groundtruth bounding box of "person". The other 79 classes are ignored in our evaluation. After the filtering process, there are 64115 images from the trainval minus minival for training, and the other 2639 images from minival for validation. All the persons in COCOPersons are annotated as the **visible body** with different type of human poses.
+
 
 # 早期数据集
 ---
