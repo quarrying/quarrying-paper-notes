@@ -2,9 +2,12 @@
 
 记录阅读 1 小时以上的文献 (不一定读完), 勾选表示做了笔记.
 
+## 2023
+- [ ] 20230404 [2022] Confident Learning_ Estimating Uncertainty in Dataset Labels
+- [ ] 20230206 [2021 NIPS] SegFormer_ Simple and Efficient Design for Semantic Segmentation with Transformers
+
 ## 2022
 
-- [ ] 20230206 [2021 NIPS] SegFormer_ Simple and Efficient Design for Semantic Segmentation with Transformers
 - [ ] 20221212 泛读 image editing 相关文献
 - [ ] 20221122 [2018 ECCV] Learning to Navigate for Fine-grained Classification
 - [ ] 20221121 [2022 CVPR] Fine-Grained Object Classification via Self-Supervised Pose Alignment

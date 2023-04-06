@@ -48,7 +48,7 @@ $KW^K \in \mathbb{R}^{m\times d_k}$ 为 key.
 
 $VW^V \in \mathbb{R}^{m\times d_v}$ 为 value.
 
-### 多头注意力 (Multi-Head Attention)
+### 多头注意力 (Multi-Head Attention; MHA)
 
 $$\mathrm{MultiHead}(Q, K, V) = \mathrm{Concat}(\mathrm{head}_1, ..., \mathrm{head}_h)W_O$$
 

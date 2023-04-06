@@ -23,19 +23,22 @@
 
 # 半自动化清洗
 
-## [2021] Confident learning_ Estimating uncertainty in dataset labels
+## Confident learning, CL, cleanlab
 ----
-!TODO:
+
+### Out-of-sample and in-sample predicted probabilities 
+> Out-of-sample predicted probabilities refer to the model's probabilistic predictions made only on datapoints that were not shown to the model during training. In contrast, in-sample predicted probabilities on the model's training data will often be way overconfident and cannot be trusted.
+
+### References
+- https://cleanlab.ai/
+- https://github.com/cleanlab/cleanlab
+- [2022] Confident Learning_ Estimating Uncertainty in Dataset Labels
 
 ## [2021] Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks
 ----
 
 ## [2020] A survey on deep learning with noisy labels: How to train your model when you cannot trust on the annotations?
 ----
-
-## cleanlab
-----
-- https://github.com/cleanlab/cleanlab
 
 ## ProMix
 ----

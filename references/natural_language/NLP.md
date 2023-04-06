@@ -1,3 +1,14 @@
+# Tasks
+- sentiment analysis
+- topic detection
+- language detection
+- key phrase extraction
+- document categorization
+- question answering
+- machine translation
+- reading comprehension
+- summarization
+
 # Papers
 
 ## [2019] BERT
@@ -51,4 +62,18 @@ causal language model
 ## [2020] ALBERT
 ---
 - [2020 ICLR] Albert: Alite bert for self-supervised learning of language representations
+
+## [2020] DeBERTa
+---
+- [2020] DeBERTa: Decoding-enhanced BERT with Disentangled Attention
+
+## [2021] LoRA,  Low-Rank Adaptation
+---
+- [2021] LoRA: Low-Rank Adaptation of Large Language Models
+
+## ChatGLM
+----
+- https://github.com/THUDM/ChatGLM-6B
+- https://chatglm.cn
+
 

@@ -81,8 +81,12 @@ HMDB-51 共 51 个类别, 6766 个短视频.
 
 ## Sports-1M Dataset
 ---
+1 million YouTube videos belonging to 487 classes.
+
 **References**:
-- http://cs.stanford.edu/people/karpathy/deepvideo/
+- https://cs.stanford.edu/people/karpathy/deepvideo/
+- https://cs.stanford.edu/people/karpathy/deepvideo/classes.html
+- [2014 CVPR] Large-scale Video Classification with Convolutional Neural Networks
 
 
 ## MSR Action Recognition Datasets
@@ -138,30 +142,45 @@ Kinetics-700 dataset 被用于 ActivityNet 比赛, 包含约 650000 个视频, 7
 - http://moments.csail.mit.edu/
 
 
-## UR Fall Detection Dataset (人体跌倒行为)
+## UR Fall Detection Dataset
 ---
+人体跌倒行为检测数据集.
+
 **References**:
 - http://fenix.univ.rzeszow.pl/~mkepski/ds/uf.html
 
 
-## Fall detection Dataset (人体跌倒行为)
+## Fall detection Dataset
 ---
+人体跌倒行为检测数据集.
+
 **References**:
 - http://falldataset.com/
 
 
-## Violence-Recognition-Dataset (暴力行为识别)
+## Violence-Recognition-Dataset
 ---
+暴力行为识别数据集.
+
 **References**:
 - https://github.com/ZHEQIUSHUI/Violence-Recognition-Dataset
 
 
-## RWF-2000 (暴力行为识别)
+## RWF-2000
 ---
+暴力行为识别数据集.
+
 **References**:
 - [2020 ICASSP] RWF-2000_ An Open Large Scale Video Database for Violence Detection
 
 
 ## JHMDB
 -----
+JHMDB 是对 HMDB 数据集的二次标注, 即 joint-annotated HMDB. HMDB 数据集有 51 类， 5100 多视频. JHMDB 只标注了 HMDB 的一部分, 有 21 类。
+
+
+## HACS, Human Action Clips and Segments
+-----
+- http://hacs.csail.mit.edu/
+
 
