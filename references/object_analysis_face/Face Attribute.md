@@ -1,9 +1,17 @@
 # Face Expression
 
+任务: 微表情识别 (MER); 人脸动作单元 (FAU) 识别.
+
+
 ## ExpNet
 ---
 - [2018 FG] ExpNet_ Landmark-Free, Deep, 3D Facial Expressions
 - https://github.com/fengju514/Expression-Net
+
+## Facial Micro-Expressions Grand Challenge, MEGC
+----
+- https://megc2020.github.io/
+- https://megc2022.github.io/
 
 ## Others
 ---

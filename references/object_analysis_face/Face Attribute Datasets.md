@@ -276,8 +276,19 @@ Acted Facial Expressions In The Wild (AFEW) is a dynamic temporal facial express
 
 ## CASME, Chinese Academy of Sciences Micro-expression
 ----
-微表情数据集.
+微表情数据集. 
+
+> CASME II contains 26 subjects and 255 ME sequences. All videos are at 200 fps to retain more facial information and the resolution is 640 × 480.
 
 - http://casme.psych.ac.cn/casme/
 
+## SAMM
+----
+- [2018] Samm: A spontaneous micro-facial movement dataset
+- [2020] Samm long videos: A spontaneous facial micro-and macro-expressions dataset
+- http://www2.docm.mmu.ac.uk/STAFF/M.Yap/dataset.php
+
+## SMIC
+----
+- [2013] A spontaneous micro-expression database: Inducement, collection and baseline
 
