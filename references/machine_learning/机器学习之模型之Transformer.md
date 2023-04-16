@@ -129,6 +129,8 @@ $QW_i^Q$, $KW_i^K$, $VW_i^V$ 的计算量均为 $nd^2$. 共 $h$ 个头, 所以�
 
 iGPT 和 ViT 是 transformer 在 CV 中的两大先驱工作.
 
+若图像尺寸为 224x224, patch 尺寸为 14x14, 则图像可以转化为 256 (`(224 / 14) * (224 / 14)`)个 token.
+
 - [2020] An image is worth 16x16 words_ Transformers for image recognition at scale
 
 ## [2020] Visual Transformers: Token-based Image Representation and Processing for Computer Vision
@@ -205,4 +207,9 @@ Swin-L | 2x    | /
 CPVT uses 3 × 3 Conv together with the PE to implement a data-driven PE (positional encoding).
 
 - [2021] Conditional positional encodings for vision transformers
+
+## ViT-22B
+----
+- [2023] Scaling Vision Transformers to 22 Billion Parameters
+
 

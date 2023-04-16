@@ -3,8 +3,12 @@
 记录阅读 1 小时以上的文献 (不一定读完), 勾选表示做了笔记.
 
 ## 2023
-- [ ] 20230404 [2022] Confident Learning_ Estimating Uncertainty in Dataset Labels
-- [ ] 20230206 [2021 NIPS] SegFormer_ Simple and Efficient Design for Semantic Segmentation with Transformers
+ 
+- 20230416 [2023] Scaling Vision Transformers to 22 Billion Parameters
+- 20230416 [2022] LiT_ Zero-Shot Transfer with Locked-image text Tuning
+- 20230416 [2021 ICML] Scaling up visual and vision-language representation learning with noisy text supervision
+- 20230404 [2022] Confident Learning_ Estimating Uncertainty in Dataset Labels
+- 20230206 [2021 NIPS] SegFormer_ Simple and Efficient Design for Semantic Segmentation with Transformers
 
 ## 2022
 
