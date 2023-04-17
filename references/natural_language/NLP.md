@@ -8,12 +8,18 @@
 - machine translation
 - reading comprehension
 - summarization
+- part-of-speech (POS)
+- named entity recognition (NER)
+- dependency parsing (DEP)
+
 
 # Papers
 
-## [2019] BERT
+## [2019] BERT, BERT-wwm 
 ---
-non-causal language model
+BERT 系 Bidirectional Encoder Representations from Transformers 的简称.
+
+wwm 系 Whole Word Masking 的简称.
 
 - BERT base
 - BERT large
