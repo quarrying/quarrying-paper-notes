@@ -4,6 +4,7 @@
 
 ## 2023
  
+- 20230417 [2021] Emerging Properties in Self-Supervised Vision Transformers
 - 20230416 [2023] Scaling Vision Transformers to 22 Billion Parameters
 - 20230416 [2022] LiT_ Zero-Shot Transfer with Locked-image text Tuning
 - 20230416 [2021 ICML] Scaling up visual and vision-language representation learning with noisy text supervision

@@ -17,13 +17,15 @@
 
 ## [2019] BERT, BERT-wwm 
 ---
-BERT 系 Bidirectional Encoder Representations from Transformers 的简称.
+- BERT, Bidirectional Encoder Representations from Transformers
+- WWM, Whole Word Masking
+- MLM, Masked Language Modeling
 
-wwm 系 Whole Word Masking 的简称.
-
+### 模型结构
 - BERT base
 - BERT large
 
+### 参考
 - [2019]] Bert: Pre-training of deep bidirectional transformers for language understanding
 
 ## [2018] GPT, generative pre-training
@@ -77,9 +79,27 @@ causal language model
 ---
 - [2021] LoRA: Low-Rank Adaptation of Large Language Models
 
-## ChatGLM
+## GLM, ChatGLM
 ----
 - https://github.com/THUDM/ChatGLM-6B
+- https://github.com/THUDM/GLM
 - https://chatglm.cn
+
+## LLaMA
+----
+Meta 开源的大语言模型, 很多学术界的 LLM 都是基于它微调的.
+
+LLaMA 完全基于开源数据训练, 在很多基准数据集上 LLaMA-13B 可以匹敌 GPT-3 (175B), LLaMA-65B 可以匹敌 Chinchilla-70B 和 PaLM-540B.
+
+- https://ai.facebook.com/blog/large-language-model-llama-meta-ai/
+- [2023] LLaMA: Open and Efficient Foundation Language Models
+
+## BLOOM
+----
+
+## Stanford Alpaca
+----
+- https://github.com/tatsu-lab/stanford_alpaca
+- [2023] Stanford Alpaca: An Instruction-following LLaMA model
 
 
