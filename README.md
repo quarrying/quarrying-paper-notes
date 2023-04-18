@@ -3,7 +3,10 @@
 记录阅读 1 小时以上的文献 (不一定读完), 勾选表示做了笔记.
 
 ## 2023
- 
+
+- 20230418 [2021] BEiT_ BERT Pre-Training of Image Transformers
+- 20230418 [2021] iBOT_ Image BERT Pre-Training with Online Tokenizer
+- 20230418 [2023] DINOv2_ Learning Robust Visual Features without Supervision
 - 20230417 [2021] Emerging Properties in Self-Supervised Vision Transformers
 - 20230416 [2023] Scaling Vision Transformers to 22 Billion Parameters
 - 20230416 [2022] LiT_ Zero-Shot Transfer with Locked-image text Tuning
