@@ -97,7 +97,7 @@ Our database contains 9344 images, with annotations for 27 attributes.
 - [2011 BMVC] Learning discriminative spatial representation for image classification
 
 
-## [2016 ECCV] WIDERAttribute
+## [2016 ECCV] WIDERAttribute, WIDER-Attribute
 ---
 > WIDER Attribute is a large-scale human attribute dataset. It contains 13789 images belonging to 30 scene categories, and 57524 human bounding boxes each annotated with 14 binary attributes.
 
