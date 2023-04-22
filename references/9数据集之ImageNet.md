@@ -7,6 +7,9 @@ ImageNet is a dataset of over 15 million labeled high-resolution images belongin
 - ImageNet-5K
 - ImageNet-21K: 14.2 million images and 21k classes organized by the WordNet hierarchy. Images may contain multiple labels.
 
+**the ImageNet-21K dataset and ImageNet-22K are the same dataset, and the names have changed due to differences in understanding.**
+
+
 **References**:
 - http://www.image-net.org/
 - [2015 IJCV] ImageNet Large Scale Visual Recognition Challenge

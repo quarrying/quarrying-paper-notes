@@ -129,15 +129,11 @@ $QW_i^Q$, $KW_i^K$, $VW_i^V$ 的计算量均为 $nd^2$. 共 $h$ 个头, 所以�
 
 iGPT 和 ViT 是 transformer 在 CV 中的两大先驱工作.
 
-若图像尺寸为 224x224, patch 尺寸为 14x14, 则图像可以转化为 256 (`(224 / 14) * (224 / 14)`)个 token.
+若图像尺寸为 224x224, patch 尺寸为 16x16, 则图像可以转化为 196 (`(224 / 16) * (224 / 16)`) 个 patch, 每个 patch 的维度为 768 (`16 * 16 * 3`).
+
+ViT 没有 CNN 的两个归纳偏置 (inductive bias, 可以理解为先验知识): 局部连接 (locality), 平移等变性 (translation equivariance).
 
 - [2020] An image is worth 16x16 words_ Transformers for image recognition at scale
-
-## [2020] Visual Transformers: Token-based Image Representation and Processing for Computer Vision
----
-
-## [2021] A Survey on Visual Transformer
----
 
 ## [2021] Swin Transformer
 ---
@@ -207,6 +203,12 @@ Swin-L | 2x    | /
 CPVT uses 3 × 3 Conv together with the PE to implement a data-driven PE (positional encoding).
 
 - [2021] Conditional positional encodings for vision transformers
+
+## ViT-G
+----
+ViT-G/14 包含 2B 参数量.
+
+- [2021] Scaling Vision Transformers
 
 ## ViT-22B
 ----

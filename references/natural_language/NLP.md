@@ -11,15 +11,17 @@
 - part-of-speech (POS)
 - named entity recognition (NER)
 - dependency parsing (DEP)
+- text classification
 
 
 # Papers
 
-## [2019] BERT, BERT-wwm 
+## [2019] BERT, Bidirectional Encoder Representations from Transformers; BERT-wwm 
 ---
-- BERT, Bidirectional Encoder Representations from Transformers
 - WWM, Whole Word Masking
 - MLM, Masked Language Modeling
+
+BERT 的思想通俗来说就是完形填空 (cloze).
 
 ### 模型结构
 - BERT base

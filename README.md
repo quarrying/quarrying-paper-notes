@@ -4,6 +4,8 @@
 
 ## 2023
 
+- 20230422 [2020] An image is worth 16x16 words_ Transformers for image recognition at scale
+- 20230422 [2021] Align before Fuse_ Vision and Language Representation Learning with Momentum Distillation
 - 20230418 [2021] BEiT_ BERT Pre-Training of Image Transformers
 - 20230418 [2021] iBOT_ Image BERT Pre-Training with Online Tokenizer
 - 20230418 [2023] DINOv2_ Learning Robust Visual Features without Supervision
