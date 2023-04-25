@@ -53,8 +53,6 @@ Parameters | Layers | $d_{model}$
 
 ## [2020] GPT-3
 ----
-causal language model
-
 - [2020 NeurIPS] Language models are few-shot learners
 
 ## [2018] ELMo
@@ -77,17 +75,13 @@ causal language model
 ---
 - [2020] DeBERTa: Decoding-enhanced BERT with Disentangled Attention
 
-## [2021] LoRA,  Low-Rank Adaptation
----
-- [2021] LoRA: Low-Rank Adaptation of Large Language Models
-
 ## GLM, ChatGLM
 ----
 - https://github.com/THUDM/ChatGLM-6B
 - https://github.com/THUDM/GLM
 - https://chatglm.cn
 
-## LLaMA
+## [2023] LLaMA
 ----
 Meta 开源的大语言模型, 很多学术界的 LLM 都是基于它微调的.
 
@@ -96,10 +90,11 @@ LLaMA 完全基于开源数据训练, 在很多基准数据集上 LLaMA-13B 可�
 - https://ai.facebook.com/blog/large-language-model-llama-meta-ai/
 - [2023] LLaMA: Open and Efficient Foundation Language Models
 
-## BLOOM
+## [2022] BLOOM, BigScience Language Open-science Open-access Multilingual
 ----
+- [2022] BLOOM: A 176B-Parameter Open-Access Multilingual Language Model
 
-## Stanford Alpaca
+## [2023] Stanford Alpaca
 ----
 - https://github.com/tatsu-lab/stanford_alpaca
 - [2023] Stanford Alpaca: An Instruction-following LLaMA model

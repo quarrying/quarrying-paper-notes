@@ -50,6 +50,6 @@ ILSVRC 2012 uses a subset of ImageNet with roughly 1000 images in each of 1000 c
     - https://github.com/hongchongqin/lajifenlei/tree/master
     
     
-## ImageNet-V2
+## [2019] ImageNet-V2, ImageNetV2
 ---
 - [2019] Do imagenet classifiers generalize to imagenet

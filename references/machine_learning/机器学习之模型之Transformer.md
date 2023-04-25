@@ -15,14 +15,12 @@ $$\mathrm{Attention}(Q,K,V) = \mathrm{softmax}\left(\frac{QK^{\top}}{\sqrt{d_k}}
 
 最终的 $\mathrm{Attention}(Q,K,V)$ 的尺寸为 $n\times d_v$, 即 attention 将 $n\times d_k$ 的 $Q$ 编码成了一个新的 $n\times d_v$ 的序列. 
 
-当 $Q = K = V$ 时, 称为自注意力 (self attention). 此时不妨设它们的尺寸为 $n\times d$, 输出的尺寸也为 $n\times d$.
-
 关于为什么要除以 $\sqrt{d_k}$, 下面摘抄一下原文:
 > We suspect that for large values of $d_k$, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients. To counteract this effect, we scale the dot products by $1/\sqrt{d_k}$ .
 
-**TIPS** (自己理解, 待明确): 
+**TIPS** (自己理解): 
 1) softmax 函数是多元函数 (自变量是向量), 上面式子中的 softmax 函数的自变量是矩阵, 与定义不符, 此处的 `softmax(x)` 应该理解为 `torch.nn.functional.softmax(x, dim=1)` (借用 pytorch 中的函数.)
-
+2) $K$ 和 $V$ 总是成对出现的 (key-value pair 也是生活中的常见词汇, $K$ 和 $V$ 的序列长度是一样的, 但维度不同), 例如在多模态中, $K$ 和 $V$ 来自同一个模态, $Q$ 来自另一个模态.
 
 ### 带投影的 Scaled Dot-Product Attention
 
@@ -48,13 +46,14 @@ $KW^K \in \mathbb{R}^{m\times d_k}$ 为 key.
 
 $VW^V \in \mathbb{R}^{m\times d_v}$ 为 value.
 
+
 ### 多头注意力 (Multi-Head Attention; MHA)
 
 $$\mathrm{MultiHead}(Q, K, V) = \mathrm{Concat}(\mathrm{head}_1, ..., \mathrm{head}_h)W_O$$
 
 $$\mathrm{head}_i = \mathrm{Attention}(QW_i^Q, KW_i^K, VW_i^V)$$
 
-其中 $h$ 表示头的个数.
+其中 $h$ 表示头的个数. 多头注意力的特例是多头自注意力 (Multi-head Self Attention; MSA).
 
 在 PyTorch 的 `nn.MultiheadAttention` 中 $n = m$; $d_k = d_v = d_o$, 且其值等于 `embed_dim`.
 
@@ -137,8 +136,9 @@ ViT 没有 CNN 的两个归纳偏置 (inductive bias, 可以理解为先验知�
 
 ## [2021] Swin Transformer
 ---
-**TIPS**: Swin 系 shift window 的缩略词.
+**TIPS**: Swin 系 shifted window (注意不是 sliding window) 的缩略词.
 
+### text token 和 visual token 之间的区别
 > We observe that significant chalenges in transferring its high performance in the language domain to the visual domain can be explained by differences between the two modalities. One of these differences involves scale. Unlike the word tokens that serve as the basic elements of processing in language Transformers, visual elements can vary substantially in scale, a problem that receives attention in tasks such as object detection [41, 52, 53]. In existing Transformer-based models [61, 19], tokens are all of a fixed scale, a property unsuitable for these vision applications. Another difference is the much higher resolution of pixels in images compared to words in passages of text. There exist many vision tasks such as semantic segmentation that require dense prediction at the pixel level, and this would be intractable for Transformer on high-resolution images, as the computational complexity of its self-attention is quadratic to image size.
 
 name   | scale | counterpart
@@ -156,9 +156,9 @@ Swin-L | 2x    | /
 使用 scaled cosine attention 替换常见的 scaled dot-product attention.
 
 
-## [2020] DeiT
+## [2020] DeiT, Data-efficient image Transformers
 ---
-!TODO
+提出了 distillation token 的概念, 它的监督信号是 teacher model 的 hard 或 soft 标签. 
 
 - [2020] Training data-efficient image transformers & distillation through attention
 
@@ -198,11 +198,21 @@ Swin-L | 2x    | /
 - Separable Self-attention for Mobile Vision Transformers
 - MobileViTv3: Mobile-Friendly Vision Transformer with Simple and Effective Fusion of Local, Global and Input Features
 
-## CPVT
+## [2021] CPVT
 ----
 CPVT uses 3 × 3 Conv together with the PE to implement a data-driven PE (positional encoding).
 
 - [2021] Conditional positional encodings for vision transformers
+
+## [2021] Benchmarking detection transfer learning with vision transformers
+----
+
+## [2022] Exploring plain vision transformer backbones for object detection
+----
+
+## [2023 ICLR] ViT-Adapter
+----
+- [2023 ICLR] Vision Transformer Adapter for Dense Predictions
 
 ## ViT-G
 ----
@@ -214,4 +224,9 @@ ViT-G/14 包含 2B 参数量.
 ----
 - [2023] Scaling Vision Transformers to 22 Billion Parameters
 
+## [2021] How to train your ViT? Data, Augmentation, and Regularization in Vision Transformers
+----
+>  In comparison to convolutional neural networks, the Vision Transformer's weaker inductive bias is generally found to cause an increased reliance on model regularization or data augmentation ("AugReg" for short) when training on smaller training datasets.
+
+设计了一系列的受控实验:
 
