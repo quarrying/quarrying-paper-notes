@@ -4,6 +4,8 @@
 
 ## 2023
 
+- 20230427 [2021] Swin Transformer_ Hierarchical Vision Transformer using Shifted Windows
+- 20230427 [2022] Expanding Language-Image Pretrained Models for General Video Recognition
 - 20230422 [2020] An image is worth 16x16 words_ Transformers for image recognition at scale
 - 20230422 [2021] Align before Fuse_ Vision and Language Representation Learning with Momentum Distillation
 - 20230418 [2021] BEiT_ BERT Pre-Training of Image Transformers

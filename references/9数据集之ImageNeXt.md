@@ -3,14 +3,13 @@
 # JFT, JFT-300M
 JFT-300M 是谷歌内部数据集.
 
-JFT-300M consists of around 300 million noisily labelled images with 1.26 labels per image on average. The labels are organized into a hierarchy of 18291 classes. Annotation is performed using an automatic pipeline, and are therefore imperfect; approximately 20% of the labels are noisy.
+> JFT-300M consists of around 300 million noisily labelled images with 1.26 labels per image on average. The labels are organized into a hierarchy of 18291 classes. Annotation is performed using an automatic pipeline, and are therefore imperfect; approximately 20% of the labels are noisy.
 
 **References**:
 - [2017 ICCV] Revisiting unreasonable effectiveness of data in deep learning era
 
 
 # Instagram-1B
-**References**
 - [2019] Billion-scale semi-supervised learning for image classification
 
 #  YFCC100M, YFCC

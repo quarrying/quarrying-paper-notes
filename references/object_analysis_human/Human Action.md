@@ -122,12 +122,19 @@ HMDB-51 共 51 个类别, 6766 个短视频.
 - [2017] The kinetics human action video dataset
 
 
+## Kinetics-600
+---
+包含 600 类, 每类至少 600 个视频剪辑, 是 Kinetics-400 数据集的扩展.
+
+- [2018] A short note about kinetics-600
+
+
 ## Kinetics-700
 ---
-Kinetics-700 dataset 被用于 ActivityNet 比赛, 包含约 650000 个视频, 700 个类别.
+包含 700 类, 每类至少 600 个视频剪辑, 是 Kinetics-600 数据集的扩展.
 
 **References**:
-- A Short Note on the Kinetics-700 Human Action Dataset
+- [2019] A Short Note on the Kinetics-700 Human Action Dataset
 
 
 ## 20BN-something-something Dataset V1/V2

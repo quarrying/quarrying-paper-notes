@@ -18,8 +18,10 @@
 
 ## [2019] BERT, Bidirectional Encoder Representations from Transformers; BERT-wwm 
 ---
-- WWM, Whole Word Masking
-- MLM, Masked Language Modeling
+**MLM (Masked Language Modeling) 中 Masking 方法**:
+- Single-token Masking: 原始 BERT 中的方法.
+- Whole Word Masking (WWM)
+- Entity Mention Replacement (EMR)
 
 BERT 的思想通俗来说就是完形填空 (cloze).
 
@@ -57,6 +59,8 @@ Parameters | Layers | $d_{model}$
 
 ## [2018] ELMo
 ----
+基于 LSTM, 双向编码.
+
 - [2018 NAACL] Deep contextualized word representations
 
 ## [2019] XLNet

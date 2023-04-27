@@ -53,7 +53,7 @@ $$\mathrm{MultiHead}(Q, K, V) = \mathrm{Concat}(\mathrm{head}_1, ..., \mathrm{he
 
 $$\mathrm{head}_i = \mathrm{Attention}(QW_i^Q, KW_i^K, VW_i^V)$$
 
-其中 $h$ 表示头的个数. 多头注意力的特例是多头自注意力 (Multi-head Self Attention; MSA).
+其中 $h$ 表示头的个数. 多头注意力的特例是多头自注意力 (Multi-head Self Attention; MSA, MHSA).
 
 在 PyTorch 的 `nn.MultiheadAttention` 中 $n = m$; $d_k = d_v = d_o$, 且其值等于 `embed_dim`.
 
@@ -122,6 +122,7 @@ $QW_i^Q$, $KW_i^K$, $VW_i^V$ 的计算量均为 $nd^2$. 共 $h$ 个头, 所以�
 ---
 - [2020 ICML] Generative pretraining from pixels
 
+
 ## [2020] ViT, Vision Transformer
 ---
 !TODO: 精读
@@ -132,43 +133,63 @@ iGPT 和 ViT 是 transformer 在 CV 中的两大先驱工作.
 
 ViT 没有 CNN 的两个归纳偏置 (inductive bias, 可以理解为先验知识): 局部连接 (locality), 平移等变性 (translation equivariance).
 
+### ViT 网络结构
+
+name             | parameters 
+-----------------|------------
+ViT-Base, ViT-B  | 86M
+ViT-Large, ViT-L | 307M
+ViT-Huge, ViT-H  | 632M
+
+
 - [2020] An image is worth 16x16 words_ Transformers for image recognition at scale
-
-## [2021] Swin Transformer
----
-**TIPS**: Swin 系 shifted window (注意不是 sliding window) 的缩略词.
-
-### text token 和 visual token 之间的区别
-> We observe that significant chalenges in transferring its high performance in the language domain to the visual domain can be explained by differences between the two modalities. One of these differences involves scale. Unlike the word tokens that serve as the basic elements of processing in language Transformers, visual elements can vary substantially in scale, a problem that receives attention in tasks such as object detection [41, 52, 53]. In existing Transformer-based models [61, 19], tokens are all of a fixed scale, a property unsuitable for these vision applications. Another difference is the much higher resolution of pixels in images compared to words in passages of text. There exist many vision tasks such as semantic segmentation that require dense prediction at the pixel level, and this would be intractable for Transformer on high-resolution images, as the computational complexity of its self-attention is quadratic to image size.
-
-name   | scale | counterpart
--------|-------|--------
-Swin-B | 1x    | ViT-B, DeiT-B
-Swin-T | 0.25x | ResNet-50, DeiT-S
-Swin-S | 0.5x  | ResNet-101
-Swin-L | 2x    | /
-
-- [2021] Swin transformer: Hierarchical vision transformer using shifted windows
-
-
-## [2021] Swin Transformer V2: Scaling Up Capacity and Resolution
----
-使用 scaled cosine attention 替换常见的 scaled dot-product attention.
 
 
 ## [2020] DeiT, Data-efficient image Transformers
 ---
-提出了 distillation token 的概念, 它的监督信号是 teacher model 的 hard 或 soft 标签. 
+对 ViT 的训练方式做了改进, 提出了 distillation token 的概念, 它的监督信号是 teacher model 的 hard 或 soft 标签. 
+
+提出了两个轻量级网络, 可以作为 ViT 的补充.
+
+name      | parameters | counterpart
+----------|------------|---------
+DeiT-Ti   | 5M         | ResNet18
+DeiT-S    | 22M        | ResNet50
+
 
 - [2020] Training data-efficient image transformers & distillation through attention
 
+
+## [2021] Swin Transformer
+---
+Swin 系 shifted window (注意不是 sliding window) 的缩略词.
+
+注意区分 patch 和 window 的概念.
+
+Swin Transformer V2 使用 scaled cosine attention 替换常见的 scaled dot-product attention.
+
+### text token 和 visual token 之间的区别
+> We observe that significant chalenges in transferring its high performance in the language domain to the visual domain can be explained by differences between the two modalities. One of these differences involves scale. Unlike the word tokens that serve as the basic elements of processing in language Transformers, visual elements can vary substantially in scale, a problem that receives attention in tasks such as object detection [41, 52, 53]. In existing Transformer-based models [61, 19], tokens are all of a fixed scale, a property unsuitable for these vision applications. Another difference is the much higher resolution of pixels in images compared to words in passages of text. There exist many vision tasks such as semantic segmentation that require dense prediction at the pixel level, and this would be intractable for Transformer on high-resolution images, as the computational complexity of its self-attention is quadratic to image size.
+
+### 网络结构
+
+name          | parameters | counterpart
+--------------|------------|----------
+Swin-T        | 29M        | ResNet-50, DeiT-S
+Swin-S        | 50M        | ResNet-101
+Swin-B        | 88M        | ViT-B
+Swin-L        | 197M       | 
+SwinV2-B      | 88M        | 
+SwinV2-L      | 197M       |  
+SwinV2-G      | 3.0B       | 
+
+
+- [2021] Swin transformer: Hierarchical vision transformer using shifted windows
+- [2021] Swin Transformer V2: Scaling Up Capacity and Resolution
+
+
 ## [2022] DaViT
 ---
-
-### Typo
-1) in `2 Related Work`: objection detection
-
-**References**
 - [2022] DaViT_ Dual Attention Vision Transformers
 
 ## [2021 ICCV] PVT, Pyramid vision transformer
@@ -210,23 +231,17 @@ CPVT uses 3 × 3 Conv together with the PE to implement a data-driven PE (positi
 ## [2022] Exploring plain vision transformer backbones for object detection
 ----
 
-## [2023 ICLR] ViT-Adapter
-----
-- [2023 ICLR] Vision Transformer Adapter for Dense Predictions
-
-## ViT-G
+## [2021] ViT-G
 ----
 ViT-G/14 包含 2B 参数量.
 
 - [2021] Scaling Vision Transformers
 
-## ViT-22B
+## [2023] ViT-22B
 ----
 - [2023] Scaling Vision Transformers to 22 Billion Parameters
 
 ## [2021] How to train your ViT? Data, Augmentation, and Regularization in Vision Transformers
 ----
 >  In comparison to convolutional neural networks, the Vision Transformer's weaker inductive bias is generally found to cause an increased reliance on model regularization or data augmentation ("AugReg" for short) when training on smaller training datasets.
-
-设计了一系列的受控实验:
 

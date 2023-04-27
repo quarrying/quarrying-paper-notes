@@ -13,12 +13,13 @@
 ## WMT 2014 English-to-French
 ----
 
-## WuDaoCorpora
+## WuDaoCorpora, WuDao
 ----
 中文语料库.
 
 - [2021] WuDaoCorpora: A super large-scale Chinese corpora for pre-training language models
 - https://github.com/THUDM/Chinese-Transformer-XL
+- https://data.baai.ac.cn/details/WuDaoCorporaText
 
 ## C4, colossal clean crawled corpus
 ---
@@ -33,4 +34,7 @@
 - https://github.com/thunlp/THUCTC
 - http://thuctc.thunlp.org/
 
+## Pile
+---
+- [2020] The Pile: An 800GB Dataset of Diverse Text for Language Modeling
 
