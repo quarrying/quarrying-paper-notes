@@ -179,8 +179,10 @@ Swin-T        | 29M        | ResNet-50, DeiT-S
 Swin-S        | 50M        | ResNet-101
 Swin-B        | 88M        | ViT-B
 Swin-L        | 197M       | 
+SwinV2-T      | 29M        | 
+SwinV2-S      | 50M        | 
 SwinV2-B      | 88M        | 
-SwinV2-L      | 197M       |  
+SwinV2-L      | 197M       | 
 SwinV2-G      | 3.0B       | 
 
 
