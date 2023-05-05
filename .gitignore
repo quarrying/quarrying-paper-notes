@@ -1,0 +1,7 @@
+*.pyc
+debug.log
+
+local/
+_local/
+__pycache__/
+*.egg-info/

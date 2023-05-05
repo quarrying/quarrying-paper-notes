@@ -133,6 +133,9 @@ iGPT 和 ViT 是 transformer 在 CV 中的两大先驱工作.
 
 ViT 没有 CNN 的两个归纳偏置 (inductive bias, 可以理解为先验知识): 局部连接 (locality), 平移等变性 (translation equivariance).
 
+**One sight**: On the other hand, transformers are known for their fixed dimensionality throughout the model, and as a result, plain ViTs downsample inputs aggressively from the very beginning to alleviate the quadratic cost of self attention, which in turn hinders the application of plain ViTs as backbones to dense vision tasks.
+
+
 ### ViT 网络结构
 
 name             | parameters 
@@ -149,7 +152,7 @@ ViT-Huge, ViT-H  | 632M
 ---
 对 ViT 的训练方式做了改进, 提出了 distillation token 的概念, 它的监督信号是 teacher model 的 hard 或 soft 标签. 
 
-提出了两个轻量级网络, 可以作为 ViT 的补充.
+提出了两个轻量级网络, 作为 ViT 的补充.
 
 name      | parameters | counterpart
 ----------|------------|---------
@@ -246,4 +249,11 @@ ViT-G/14 包含 2B 参数量.
 ## [2021] How to train your ViT? Data, Augmentation, and Regularization in Vision Transformers
 ----
 >  In comparison to convolutional neural networks, the Vision Transformer's weaker inductive bias is generally found to cause an increased reliance on model regularization or data augmentation ("AugReg" for short) when training on smaller training datasets.
+
+## [2022] DiNAT
+----
+- [2022] Dilated Neighborhood Attention Transformer
+
+## [2021] Going deeper with Image Transformers
+----
 
