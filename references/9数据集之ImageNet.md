@@ -31,13 +31,6 @@ ILSVRC 2012 uses a subset of ImageNet with roughly 1000 images in each of 1000 c
 > The ILSVRC 2014 classification challenge involves the task of classifying the image into one of 1000 leaf-node categories in the ImageNet hierarchy. There are about 1.2 million images for training, 50,000 for validation and 100,000 images for testing. Each image is associated with one ground truth category, and performance is measured based on the highest scoring classifier predictions. Two numbers are usually reported: the top-1 accuracy rate, which compares the ground truth against the first predicted class, and the top-5 error rate, which compares the ground truth against the first 5 predicted classes: an image is deemed correctly classified if the ground truth is among the top-5, regardless of its rank in them.
 
 
-## cleaned-up ReaL labels
----
-对 ILSVRC2012 ImageNet 的标签进行了清洗.
-
-- [2020] Are we done with ImageNet?
-
-
 ## ImageNet 2012 同义词表中文翻译
 ---
 - ImageNet 2012 中文标签（Chinese Labels）
@@ -50,6 +43,15 @@ ILSVRC 2012 uses a subset of ImageNet with roughly 1000 images in each of 1000 c
     - https://github.com/hongchongqin/lajifenlei/tree/master
     
     
+## cleaned-up ReaL labels
+---
+对 ILSVRC2012 ImageNet 的标签进行了清洗.
+
+- [2020] Are we done with ImageNet?
+
 ## [2019] ImageNet-V2, ImageNetV2
 ---
 - [2019] Do imagenet classifiers generalize to imagenet
+
+## [2021 CVPR] Re-labeling imagenet: from single to multi-labels, from global to localized labels
+----

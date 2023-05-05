@@ -91,6 +91,8 @@ Meta 开源的大语言模型, 很多学术界的 LLM 都是基于它微调的.
 
 LLaMA 完全基于开源数据训练, 在很多基准数据集上 LLaMA-13B 可以匹敌 GPT-3 (175B), LLaMA-65B 可以匹敌 Chinchilla-70B 和 PaLM-540B.
 
+> LLaMA is an auto-regressive language model, based on the transformer architecture. The model comes in different sizes: 7B, 13B, 33B and 65B parameters.
+
 - https://ai.facebook.com/blog/large-language-model-llama-meta-ai/
 - [2023] LLaMA: Open and Efficient Foundation Language Models
 
@@ -102,5 +104,9 @@ LLaMA 完全基于开源数据训练, 在很多基准数据集上 LLaMA-13B 可�
 ----
 - https://github.com/tatsu-lab/stanford_alpaca
 - [2023] Stanford Alpaca: An Instruction-following LLaMA model
+
+## [2022] Self-Instruct
+----
+- [2022] Self-Instruct: Aligning Language Model with Self Generated Instructions
 
 
