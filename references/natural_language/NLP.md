@@ -16,6 +16,11 @@
 
 # Papers
 
+## [2015] Byte Pair Encoding, BPE
+----
+- [2015] Neural Machine Translation of Rare Words with Subword Units
+
+
 ## [2019] BERT, Bidirectional Encoder Representations from Transformers; BERT-wwm 
 ---
 **MLM (Masked Language Modeling) 中 Masking 方法**:
