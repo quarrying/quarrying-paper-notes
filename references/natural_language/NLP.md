@@ -5,13 +5,15 @@
 - key phrase extraction
 - document categorization
 - question answering
-- machine translation
+- machine translation: 机器翻译.
 - reading comprehension
-- summarization
-- part-of-speech (POS)
-- named entity recognition (NER)
+- text summarization: 文本摘要
+- part-of-speech (POS) tagging: 词性标注
+- named entity recognition (NER): 命名实体识别
 - dependency parsing (DEP)
 - text classification
+- knowledge graph: 知识图谱
+- relation extraction: 关系抽取
 
 
 # Papers
@@ -42,9 +44,9 @@ BERT 的思想通俗来说就是完形填空 (cloze).
 - [2018] Improving language understanding by generative pre-training
 
 
-## [2019] GTP-2
+## [2019] GPT-2
 ----
-GTP-2 的训练集为 WebText.
+GPT-2 的训练集为 WebText.
 
 Parameters | Layers | $d_{model}$
 -----------|--------|--------------
@@ -54,6 +56,10 @@ Parameters | Layers | $d_{model}$
 1542M      | 48     | 1600
 
 - [2019] Language models are unsupervised multitask learners
+
+## [2019] T5, Text-to-Text Transfer Transformer
+----
+- [2019] Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
 
 ## [2020] Scaling laws for neural language models
 ----
@@ -84,11 +90,16 @@ Parameters | Layers | $d_{model}$
 ---
 - [2020] DeBERTa: Decoding-enhanced BERT with Disentangled Attention
 
-## GLM, ChatGLM
+## [2021] RoFormer
+---
+- [2021] RoFormer: Enhanced transformer with rotary position embedding
+
+## [2022 ACL] GLM, ChatGLM
 ----
 - https://github.com/THUDM/ChatGLM-6B
 - https://github.com/THUDM/GLM
 - https://chatglm.cn
+- [2022 ACL] GLM: General Language Model Pretraining with Autoregressive Blank Infilling
 
 ## [2023] LLaMA
 ----
@@ -113,5 +124,21 @@ LLaMA 完全基于开源数据训练, 在很多基准数据集上 LLaMA-13B 可�
 ## [2022] Self-Instruct
 ----
 - [2022] Self-Instruct: Aligning Language Model with Self Generated Instructions
+
+## Other LLMs
+- MPT, MosaicML Pretrained Transformer
+- StableLM
+- Pythia
+- RedPajama
+- Megatron-Turing NLG 530B, MT-530B
+- Megatron-11B
+- GPT-Neo
+- GPT-J-6B
+- Pangu-α-13B
+- FairSeq
+- [GPT-NeoX-20B](https://github.com/EleutherAI/gpt-neox)
+
+# Survey
+- [Awesome-Chinese-NLP](https://github.com/crownpku/Awesome-Chinese-NLP )
 
 

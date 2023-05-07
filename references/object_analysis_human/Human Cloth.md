@@ -3,7 +3,6 @@
 ## [2020] A Strong Baseline for Fashion Retrieval with Person Re-identification Models
 ---
 
-## 
 # Datasets
 
 ## DeepFashion, In-Shop Clothes

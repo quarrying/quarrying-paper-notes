@@ -191,3 +191,7 @@ JHMDB 是对 HMDB 数据集的二次标注, 即 joint-annotated HMDB. HMDB 数�
 - http://hacs.csail.mit.edu/
 
 
+## PPMI, People Playing Musical Instrument
+---
+- http://ai.stanford.edu/~bangpeng/ppmi.html
+

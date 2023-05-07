@@ -38,3 +38,14 @@
 ---
 - [2020] The Pile: An 800GB Dataset of Diverse Text for Language Modeling
 
+
+## RedPajama-Data
+----
+- https://github.com/togethercomputer/RedPajama-Data
+
+
+## [awesome-nlp-chinese-corpus](https://github.com/wangmuy/awesome-nlp-chinese-corpus )
+---
+
+## [Chinese-Names-Corpus](https://github.com/wainshine/Chinese-Names-Corpus )
+---
