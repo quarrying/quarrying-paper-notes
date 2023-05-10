@@ -1,6 +1,3 @@
-# Transformer
----
-
 ## [2017] Attention is All You Need
 ---
 !TODO: 精读

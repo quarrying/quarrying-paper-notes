@@ -1,3 +1,6 @@
+# Emotional Reaction Intensity (ERI)
+是一种多模态识别任务.
+
 # Portrait Segmentation
 > Portrait segmentation refers to the separation of the portrait subject and background in an image.
 

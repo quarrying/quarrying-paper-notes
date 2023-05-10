@@ -1,9 +1,13 @@
 # Face Expression
 
-任务: 微表情识别 (MER); 人脸动作单元 (FAU) 识别.
+**任务**
+- 微表情识别 (micro-expression recognition; MER)
+- 微表情发现 (micro-expression spotting; MES)
+- 人脸动作单元 (Facial action uint; FAU) 识别 
+- 人脸表情识别 (Facial expression recognition; FER)
 
 
-## ExpNet
+## [2018 FG] ExpNet
 ---
 - [2018 FG] ExpNet_ Landmark-Free, Deep, 3D Facial Expressions
 - https://github.com/fengju514/Expression-Net
@@ -12,6 +16,10 @@
 ----
 - https://megc2020.github.io/
 - https://megc2022.github.io/
+
+## [2021] DAN
+----
+- [2021] Distract your attention: Multi-head cross attention network for facial expression recognition
 
 ## Others
 ---
@@ -51,6 +59,10 @@
 ## FairFace
 ---
 - [2019] FairFace_ Face Attribute Dataset for Balanced Race, Gender, and Age
+
+## FAb-Net
+---
+- [2018] Selfsupervised learning of a facial attribute embedding from video
 
 ## Others
 ----

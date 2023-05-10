@@ -142,3 +142,7 @@ LLaMA 完全基于开源数据训练, 在很多基准数据集上 LLaMA-13B 可�
 - [Awesome-Chinese-NLP](https://github.com/crownpku/Awesome-Chinese-NLP )
 
 
+## CLUE, 中文语言理解测评基准
+---
+- https://www.cluebenchmarks.com/index.html
+

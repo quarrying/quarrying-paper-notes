@@ -4,6 +4,7 @@
 
 ## 2023
 
+- 20220510 泛读视觉语言预训练相关文献
 - 20230427 [2021] Swin Transformer_ Hierarchical Vision Transformer using Shifted Windows
 - 20230427 [2022] Expanding Language-Image Pretrained Models for General Video Recognition
 - 20230422 [2020] An image is worth 16x16 words_ Transformers for image recognition at scale

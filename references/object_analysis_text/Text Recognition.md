@@ -6,11 +6,19 @@
 ## [2016 IJCV] Reading Text in the Wild with Convolutional Neural Networks
 ---
 
-## **RARE**
+## [2016] Star-net
+----
+基本思想: 使用 STN 进行文本校正.
+
+- [2016] Star-net: a spatial attention residue network for scene text recognition
+
+## [2016 CVPR] RARE
 ---
+基本思想: 使用 TPS (Thin-Plate Spline) 进行文本校正.
+
 - [2016 CVPR] Robust scene text recognition with automatic rectification
 
-## **CRNN**
+## [2017 TPAMI] CRNN
 ---
 !TODO: 精读
 
@@ -20,25 +28,24 @@
 ## [2018] A Novel Integrated Framework for Learning both Text Detection and Recognition
 ---
 
-## PP-OCR
+## [2020] PP-OCR
 ---
 - [2020] PP-OCR_ A Practical Ultra Lightweight OCR System
 
-## [2019 ICCV] Towards Unconstrained End-to-End Text Spotting
-----
 
-## 票据识别
----
+## [2023] TPS++
+----
+- [2023] TPS++: Attention-Enhanced Thin-Plate Spline for Scene Text Recognition
+
+
+# 票据识别
+
 - [2019] Research on information recognition of vat invoice based on computer vision
 - [2020] An end to end method for taxi receipt automatic recognition based on neural network
 - [2021] Research on Fast Text Recognition Method for Financial Ticket Image
 
 
-# 综合其他
-
-## ICDAR Robust Reading Competition
----
-- https://rrc.cvc.uab.es/
+# 代码框架
 
 ## tesseract-ocr
 ---
@@ -94,4 +101,9 @@
 - [cnocr](https://github.com/breezedeus/cnocr)
 - [crnn-mxnet-chinese-text-recognition](https://github.com/diaomin/crnn-mxnet-chinese-text-recognition )
 
+# Challenges
+
+## ICDAR Robust Reading Competition
+---
+- https://rrc.cvc.uab.es/
 

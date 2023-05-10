@@ -8,13 +8,13 @@ JFT-300M 是谷歌内部数据集.
 **References**:
 - [2017 ICCV] Revisiting unreasonable effectiveness of data in deep learning era
 
-
 # Instagram-1B
 - [2019] Billion-scale semi-supervised learning for image classification
 
-#  YFCC100M, YFCC
+#  YFCC100M, YFCC, Yahoo Flickr Creative Commons
 ----
 - [2016] Yfcc100m: The new data in multimedia research
+
 
 # Open Images
 
