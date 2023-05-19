@@ -41,6 +41,8 @@ BERT 的思想通俗来说就是完形填空 (cloze).
 
 ## [2018] GPT, generative pre-training
 ----
+与 generative pre-training 相对的是 contrastive pre-training.
+
 - [2018] Improving language understanding by generative pre-training
 
 

@@ -109,6 +109,11 @@ $QW_i^Q$, $KW_i^K$, $VW_i^V$ 的计算量均为 $nd^2$. 共 $h$ 个头, 所以�
 
 综上计算量为: $4hnd^2 + 2hn^2d$, 计算复杂度为 $O(nd^2 + hn^2d)$.
 
+### 特殊的 token
+> 初始化方式
+> Just like other tokens, the CLS token is randomly initialized from a normal distribution. The only exception is the padding token, which is set to zero.
+
+
 ### References
 - [《Attention is All You Need》浅读（简介+代码）](https://kexue.fm/archives/4765)
 - [[2017] Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
@@ -142,7 +147,27 @@ ViT-Large, ViT-L | 307M
 ViT-Huge, ViT-H  | 632M
 
 
+### ViT 开源模型之 HuggingFace
+    google/vit-base-patch16-224
+    google/vit-base-patch32-224-in21k
+    google/vit-base-patch16-384
+    google/vit-base-patch16-224-in21k
+    google/vit-base-patch32-384
+    google/vit-large-patch16-224-in21k
+    google/vit-large-patch16-224
+    google/vit-large-patch32-384
+    google/vit-large-patch16-384
+    google/vit-large-patch32-224-in21k
+    google/vit-huge-patch14-224-in21k
+    google/vit-hybrid-base-bit-384
+
+- 不带 in21k 后缀的表示: 在 ImageNet-21k 上做预训练, 然后在 ImageNet 上做微调
+- 带 in21k 后缀的表示: 直接上 ImageNet-21k 上做训练.
+
+### 参考
 - [2020] An image is worth 16x16 words_ Transformers for image recognition at scale
+- https://github.com/google-research/vision_transformer
+
 
 
 ## [2020] DeiT, Data-efficient image Transformers

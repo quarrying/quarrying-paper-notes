@@ -43,6 +43,11 @@ ILSVRC 2012 uses a subset of ImageNet with roughly 1000 images in each of 1000 c
     - https://github.com/hongchongqin/lajifenlei/tree/master
     
     
+## ImageNet21K
+---
+- https://image-net.org/data/winter21_whole.tar.gz
+    - MD5: ab313ce03179fd803a401b02c651c0a2
+
 ## cleaned-up ReaL labels
 ---
 对 ILSVRC2012 ImageNet 的标签进行了清洗.
@@ -55,3 +60,11 @@ ILSVRC 2012 uses a subset of ImageNet with roughly 1000 images in each of 1000 c
 
 ## [2021 CVPR] Re-labeling imagenet: from single to multi-labels, from global to localized labels
 ----
+
+## [2021] ImageNet-21K-P 
+----
+- [2021] ImageNet-21K Pretraining for the Masses
+- https://image-net.org/data/imagenet21k_resized.tar.gz
+    - MD5: c314e95f17e357b3e9cbf0a18ef7ecd6
+- https://github.com/Alibaba-MIIL/ImageNet21K
+
