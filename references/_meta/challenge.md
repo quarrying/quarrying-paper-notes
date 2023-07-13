@@ -1,3 +1,7 @@
+## eval.ai
+---
+- https://eval.ai/web/challenges/list
+
 ## Kesci 和鲸社区
 ---
 - https://www.kesci.com/home/competition

@@ -125,7 +125,7 @@ $QW_i^Q$, $KW_i^K$, $VW_i^V$ 的计算量均为 $nd^2$. 共 $h$ 个头, 所以�
 - [2020 ICML] Generative pretraining from pixels
 
 
-## [2020] ViT, Vision Transformer
+## [2020 @Google] ViT, Vision Transformer
 ---
 !TODO: 精读
 
@@ -133,7 +133,10 @@ iGPT 和 ViT 是 transformer 在 CV 中的两大先驱工作.
 
 若图像尺寸为 224x224, patch 尺寸为 16x16, 则图像可以转化为 196 (`(224 / 16) * (224 / 16)`) 个 patch, 每个 patch 的维度为 768 (`16 * 16 * 3`).
 
-ViT 没有 CNN 的两个归纳偏置 (inductive bias, 可以理解为先验知识): 局部连接 (locality), 平移等变性 (translation equivariance).
+ViT 网络结构没有 CNN 的两个归纳偏置 (inductive bias, 可以理解为先验知识): 局部连接 (locality), 平移等变性 (translation equivariance). 但不能说 ViT 没有任何关于图像的归纳偏置, 文中有述 (可否理解为: ViT 网络结构本身没有关于图像的归纳偏置, 但 ViT 的输入是有归纳偏置的?)
+> Note that this resolution adjustment and patch extraction are the only points at which an inductive bias about the 2D structure of the images is manually injected into the Vision Transformer.
+
+B/32 和 B/16 的 ViT 在参数量上是相同的 (ViT 之前的 linear projection 会将所有的 vectorized patch 变成相同的维度), 但计算量上后者要大 (因为块数多一些).
 
 **One sight**: On the other hand, transformers are known for their fixed dimensionality throughout the model, and as a result, plain ViTs downsample inputs aggressively from the very beginning to alleviate the quadratic cost of self attention, which in turn hinders the application of plain ViTs as backbones to dense vision tasks.
 
@@ -149,28 +152,31 @@ ViT-Huge, ViT-H  | 632M
 
 ### ViT 开源模型之 HuggingFace
     google/vit-base-patch16-224
-    google/vit-base-patch32-224-in21k
-    google/vit-base-patch16-384
     google/vit-base-patch16-224-in21k
+    google/vit-base-patch16-384
     google/vit-base-patch32-384
-    google/vit-large-patch16-224-in21k
+    google/vit-base-patch32-224-in21k
     google/vit-large-patch16-224
-    google/vit-large-patch32-384
+    google/vit-large-patch16-224-in21k
     google/vit-large-patch16-384
     google/vit-large-patch32-224-in21k
+    google/vit-large-patch32-384
     google/vit-huge-patch14-224-in21k
     google/vit-hybrid-base-bit-384
 
 - 不带 in21k 后缀的表示: 在 ImageNet-21k 上做预训练, 然后在 ImageNet 上做微调
 - 带 in21k 后缀的表示: 直接上 ImageNet-21k 上做训练.
 
+### ViT 开源模型之 
+    timm/vit_giant_patch14_dinov2.lvd142m
+
+
 ### 参考
-- [2020] An image is worth 16x16 words_ Transformers for image recognition at scale
+- [2020 @Google] An image is worth 16x16 words_ Transformers for image recognition at scale
 - https://github.com/google-research/vision_transformer
 
 
-
-## [2020] DeiT, Data-efficient image Transformers
+## [2020 @Facebook] DeiT, Data-efficient image Transformers
 ---
 对 ViT 的训练方式做了改进, 提出了 distillation token 的概念, 它的监督信号是 teacher model 的 hard 或 soft 标签. 
 
@@ -182,7 +188,19 @@ DeiT-Ti   | 5M         | ResNet18
 DeiT-S    | 22M        | ResNet50
 
 
-- [2020] Training data-efficient image transformers & distillation through attention
+### DeiT 开源模型之 HuggingFace
+    facebook/deit-tiny-patch16-224
+    facebook/deit-tiny-distilled-patch16-224
+    facebook/deit-small-patch16-224
+    facebook/deit-small-distilled-patch16-224
+    facebook/deit-base-patch16-224
+    facebook/deit-base-distilled-patch16-224
+    facebook/deit-base-patch16-384
+    facebook/deit-base-distilled-patch16-384
+    
+### 参考
+- [2020 @Facebook] Training data-efficient image transformers & distillation through attention
+- https://github.com/facebookresearch/deit
 
 
 ## [2021] Swin Transformer
@@ -258,15 +276,19 @@ CPVT uses 3 × 3 Conv together with the PE to implement a data-driven PE (positi
 ## [2022] Exploring plain vision transformer backbones for object detection
 ----
 
-## [2021] ViT-G
+## [2021 CVPR @Google] ViT-G
 ----
 ViT-G/14 包含 2B 参数量.
 
-- [2021] Scaling Vision Transformers
+- [2022 CVPR @Google] Scaling Vision Transformers
 
-## [2023] ViT-22B
+## [2022] ViT-e
 ----
-- [2023] Scaling Vision Transformers to 22 Billion Parameters
+- [2022] PaLI: A jointly-scaled multilingual language-image model
+
+## [2023 @Google] ViT-22B
+----
+- [2023 @Google] Scaling Vision Transformers to 22 Billion Parameters
 
 ## [2021] How to train your ViT? Data, Augmentation, and Regularization in Vision Transformers
 ----
@@ -276,6 +298,9 @@ ViT-G/14 包含 2B 参数量.
 ----
 - [2022] Dilated Neighborhood Attention Transformer
 
-## [2021] Going deeper with Image Transformers
+## [2021 @Facebook] CaiT 
 ----
+主要贡献是提出了 LayerScale.
+
+- [2021 @Facebook] Going deeper with Image Transformers
 

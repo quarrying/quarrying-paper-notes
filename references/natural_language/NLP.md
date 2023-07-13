@@ -18,10 +18,13 @@
 
 # Papers
 
+## Survey
+---
+- [Awesome-Chinese-NLP](https://github.com/crownpku/Awesome-Chinese-NLP )
+
 ## [2015] Byte Pair Encoding, BPE
 ----
 - [2015] Neural Machine Translation of Rare Words with Subword Units
-
 
 ## [2019] BERT, Bidirectional Encoder Representations from Transformers; BERT-wwm 
 ---
@@ -33,11 +36,12 @@
 BERT 的思想通俗来说就是完形填空 (cloze).
 
 ### 模型结构
-- BERT base
-- BERT large
+- BERT base, 参数量 110M
+- BERT large, 参数量 340M
 
 ### 参考
 - [2019]] Bert: Pre-training of deep bidirectional transformers for language understanding
+
 
 ## [2018] GPT, generative pre-training
 ----
@@ -139,12 +143,27 @@ LLaMA 完全基于开源数据训练, 在很多基准数据集上 LLaMA-13B 可�
 - Pangu-α-13B
 - FairSeq
 - [GPT-NeoX-20B](https://github.com/EleutherAI/gpt-neox)
+- baichuan-7B
 
-# Survey
-- [Awesome-Chinese-NLP](https://github.com/crownpku/Awesome-Chinese-NLP )
-
+# Benchmark
 
 ## CLUE, 中文语言理解测评基准
 ---
 - https://www.cluebenchmarks.com/index.html
+
+## C-Eval
+----
+> C-Eval评测基准由上海交通大学、清华大学以及爱丁堡大学联合创建，是面向中文语言模型的综合考试评测集，覆盖了52个来自不同行业领域的学科。
+
+## AGIEval
+----
+> AGIEval评测基准由微软研究院发起，旨在全面评估基础模型在人类认知和问题解决相关任务上的能力，包含了中国的高考、司法考试，以及美国的SAT、LSAT、GRE和GMAT等20个公开且严谨的官方入学和职业资格考试。
+
+## Gaokao
+----
+> Gaokao评测基准是复旦大学研究团队创建的评测框架，以中国高考题目作为数据集，用于测试大模型在中文语言理解和逻辑推理能力方面的表现。
+
+## MMLU
+----
+> MMLU由加州大学伯克利分校等知名高校共同打造，集合了科学、工程、数学、人文、社会科学等领域的57个科目，主要目标是对模型的英文跨学科专业能力进行深入测试。其内容广泛，从初级水平一直涵盖到高级专业水平。
 

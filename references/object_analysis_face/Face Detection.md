@@ -95,7 +95,7 @@ PNet 是全卷积的, RNet 和 ONet 都不是全卷积的 (但理论上都可以
 
 ## FAN, Face Attention Network
 ---
-- [2017 Face++] Face Attention Network_ An Effective Face Detector for the Occluded Faces
+- [2017 @Face++] Face Attention Network_ An Effective Face Detector for the Occluded Faces
 - https://github.com/rainofmine/Face_Attention_Network
 
 ## FaceBox
@@ -104,7 +104,7 @@ PNet 是全卷积的, RNet 和 ONet 都不是全卷积的 (但理论上都可以
 
 ## PyramidBox
 ---
-- [2018 Baidu] PyramidBox_ A Context-assisted Single Shot Face Detector
+- [2018 @Baidu] PyramidBox_ A Context-assisted Single Shot Face Detector
 
 ## PyramidBox++
 ---

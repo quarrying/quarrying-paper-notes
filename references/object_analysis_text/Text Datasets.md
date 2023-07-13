@@ -29,10 +29,15 @@ There are 73,257 images in the training set, 26,032 images in the test set, and 
 - [2011 NIPSW] Reading Digits in Natural Images with Unsupervised Feature Learning
 
 
-## HWDB1.0
+## CISIA-HWDB, HWDB1.0
 ---
 **References**:
 - http://www.nlpr.ia.ac.cn/databases/handwriting/download.html
+
+
+## HCL2000
+---
+- [2009] HCL2000 - A Large-scale Handwritten Chinese Character Database for Handwritten Character Recognition
 
 
 ## Chars74K

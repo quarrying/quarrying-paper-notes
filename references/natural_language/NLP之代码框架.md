@@ -34,8 +34,9 @@
 
 ## [Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
 ---
+- [2021] Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM
 
-## [DeepSeed](https://github.com/microsoft/DeepSpeed)
+## [DeepSpeed](https://github.com/microsoft/DeepSpeed)
 ---
 
 

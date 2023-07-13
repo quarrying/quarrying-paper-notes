@@ -49,3 +49,10 @@
 
 ## [Chinese-Names-Corpus](https://github.com/wainshine/Chinese-Names-Corpus )
 ---
+
+## [2013 EMNLP] SST, Stanford Sentiment Treebank
+---
+> The Stanford Sentiment Treebank is a corpus with fully labeled parse trees that allows for a complete analysis of the compositional effects of sentiment in language. The corpus is based on the dataset introduced by Pang and Lee (2005) and consists of 11,855 single sentences extracted from movie reviews. It was parsed with the Stanford parser and includes a total of 215,154 unique phrases from those parse trees, each annotated by 3 human judges.
+> Each phrase is labelled as either negative, somewhat negative, neutral, somewhat positive or positive. The corpus with all 5 labels is referred to as SST-5 or SST fine-grained. Binary classification experiments on full sentences (negative or somewhat negative vs somewhat positive or positive with neutral sentences discarded) refer to the dataset as SST-2 or SST binary.
+
+- [2013 EMNLP] Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank

@@ -34,3 +34,11 @@ JFT-300M 是谷歌内部数据集.
 **References**:
 - https://data.vision.ee.ethz.ch/cvl/webvision/index.html
 
+
+# ImageNetV2
+
+# ImageNet-Sketch
+
+# ImageNet-A
+
+# ImageNet-R

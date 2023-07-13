@@ -4,7 +4,7 @@
         vision computing
     machine vision
     image processing
-    digital image processing
+        digital image processing
     image analysis
     image understanding
     computer graphics
@@ -23,12 +23,9 @@
     image registration 图像配准
     image stitching 图像缝合
     image editing 图像编辑
-    scene categorization 场景分类
-
+    
     texture synthesis 纹理合成
-        需一小块样本图像就能够合成任意大小的纹理图像
     texture transfer 纹理传输, 纹理迁移
-        涉及到两个图像, 把源图像的纹理特征传递到目标图像上
     feature detection 特征检测
     feature extraction 特征提取
     object detection 目标检测
@@ -37,16 +34,15 @@
     edge detection 边缘检测
 
     motion analysis 运动分析
-        motion object detection              运动目标检测
-        motion object tracking               运动目标跟踪
-        motion object classification         运动目标分类
-        motion object recognition            运动目标识别
-        motion estimation and compensation   运动估计与补偿
-        motion object behavior analysis      运动目标行为分析
-        异常视频检测
-        视频摘要
-        视频的感兴趣帧 (关键帧)
-        
+        motion object detection 运动目标检测
+        motion object tracking 运动目标跟踪
+        motion object classification 运动目标分类
+        motion object recognition 运动目标识别
+        motion estimation and compensation 运动估计与补偿
+        motion object behavior analysis 运动目标行为分析
+        video abnormal detection 异常视频检测
+        video summarization 视频摘要
+
     dense prediction
         semantic segmentation
         depth estimation

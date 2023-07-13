@@ -36,10 +36,10 @@
 
 ## Face++ Series
 ---
-- [2013 Face++] Extensive Facial Landmark Localization with Coarse-to-fine Convolutional Network Cascade
-- [2015 Face++] Coarse-to-fine Face Alignment with Multi-Scale Local Patch Regression
-- [2016 Face++] Approaching Human Level Facial Landmark Localization by Deep Learning
-- [2017 Face++] Delving Deep into Coarse-to-fine Framework for Facial Landmark Localization
+- [2013 @Face++] Extensive Facial Landmark Localization with Coarse-to-fine Convolutional Network Cascade
+- [2015 @Face++] Coarse-to-fine Face Alignment with Multi-Scale Local Patch Regression
+- [2016 @Face++] Approaching Human Level Facial Landmark Localization by Deep Learning
+- [2017 @Face++] Delving Deep into Coarse-to-fine Framework for Facial Landmark Localization
 
 ## Wing Loss
 ---

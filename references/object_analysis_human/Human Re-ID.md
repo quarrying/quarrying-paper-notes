@@ -198,3 +198,7 @@ The IAS-Lab RGBD-ID Dataset is a RGB-D dataset of people targeted to long-term p
 **References**:
 - http://robotics.dei.unipd.it/reid/index.php/8-dataset/5-overview-iaslab
 
+## SYSU30K
+----
+- [2021] Weakly Supervised Person Re-ID: Differentiable Graphical Learning and a New Benchmark
+

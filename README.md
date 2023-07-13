@@ -4,6 +4,10 @@
 
 ## 2023
 
+- 20230627 [2023] Segment Anything
+- 20230627 [2020] End-to-End Object Detection with Transformers
+- 20220621 [2022 ECCV] Visual Prompt Tuning
+- 20220621 [2023] Segment Anything in High Quality
 - 20220510 泛读视觉语言预训练相关文献
 - 20230427 [2021] Swin Transformer_ Hierarchical Vision Transformer using Shifted Windows
 - 20230427 [2022] Expanding Language-Image Pretrained Models for General Video Recognition
