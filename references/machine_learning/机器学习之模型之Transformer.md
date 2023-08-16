@@ -43,6 +43,8 @@ $KW^K \in \mathbb{R}^{m\times d_k}$ 为 key.
 
 $VW^V \in \mathbb{R}^{m\times d_v}$ 为 value.
 
+注意到: $W^Q, W^K, W^V, W^O$ 这些参数的尺寸与 $n$ 或 $m$ 均无关系.
+
 
 ### 多头注意力 (Multi-Head Attention; MHA)
 
@@ -118,6 +120,7 @@ $QW_i^Q$, $KW_i^K$, $VW_i^V$ 的计算量均为 $nd^2$. 共 $h$ 个头, 所以�
 - [《Attention is All You Need》浅读（简介+代码）](https://kexue.fm/archives/4765)
 - [[2017] Attention is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
 - https://stackoverflow.com/questions/65703260/computational-complexity-of-self-attention-in-the-transformer-model
+- http://nlp.seas.harvard.edu/2018/04/03/attention.html
 
 
 ## [2020 ICML] iGPT

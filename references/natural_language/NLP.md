@@ -7,13 +7,15 @@
 - question answering
 - machine translation: 机器翻译.
 - reading comprehension
-- text summarization: 文本摘要
 - part-of-speech (POS) tagging: 词性标注
 - named entity recognition (NER): 命名实体识别
 - dependency parsing (DEP)
-- text classification
+- text classification: 文本分类
+- text matching: 文本匹配
+- text summarization: 文本摘要
 - knowledge graph: 知识图谱
 - relation extraction: 关系抽取
+- Recognizing Textual Entailment (RTE): 文本蕴涵
 
 
 # Papers
@@ -26,7 +28,7 @@
 ----
 - [2015] Neural Machine Translation of Rare Words with Subword Units
 
-## [2019] BERT, Bidirectional Encoder Representations from Transformers; BERT-wwm 
+## [2018] BERT, Bidirectional Encoder Representations from Transformers; BERT-wwm 
 ---
 **MLM (Masked Language Modeling) 中 Masking 方法**:
 - Single-token Masking: 原始 BERT 中的方法.
@@ -35,17 +37,26 @@
 
 BERT 的思想通俗来说就是完形填空 (cloze).
 
+BERT 支持的最大序列长度为 512, 词汇表大小默认为 30522.
+
 ### 模型结构
-- BERT base, 参数量 110M
-- BERT large, 参数量 340M
+
+name       | #layers  | hidden size | #heads | #params
+-----------|----------|-------------|--------|-----------
+BERT base  | 12       | 768         | 12     | 110M
+BERT large | 24       | 1024        | 16     | 340M
+
 
 ### 参考
-- [2019]] Bert: Pre-training of deep bidirectional transformers for language understanding
+- [2019]] Bert_ Pre-training of deep bidirectional transformers for language understanding
 
 
 ## [2018] GPT, generative pre-training
 ----
 与 generative pre-training 相对的是 contrastive pre-training.
+
+GPT 的词汇表大小为 40,478?
+
 
 - [2018] Improving language understanding by generative pre-training
 
@@ -53,6 +64,9 @@ BERT 的思想通俗来说就是完形填空 (cloze).
 ## [2019] GPT-2
 ----
 GPT-2 的训练集为 WebText.
+
+GPT-2 的词汇表大小为 50,257?
+
 
 Parameters | Layers | $d_{model}$
 -----------|--------|--------------
@@ -72,7 +86,13 @@ Parameters | Layers | $d_{model}$
 
 ## [2020] GPT-3
 ----
+175B
+
 - [2020 NeurIPS] Language models are few-shot learners
+
+## GPT-3.5, GPT-4
+----
+GPT3.5 的 max tokens 是 4K (相当于 5 页纸?), GPT4 的 max tokens 是 32K (相当于 40 页纸?).
 
 ## [2018] ELMo
 ----
@@ -118,6 +138,10 @@ LLaMA 完全基于开源数据训练, 在很多基准数据集上 LLaMA-13B 可�
 - https://ai.facebook.com/blog/large-language-model-llama-meta-ai/
 - [2023] LLaMA: Open and Efficient Foundation Language Models
 
+## [2023] LLaMA 2
+----
+LLaMA 2 有 7B, 13B, 34B, 70B 四种参数大小的模型.
+
 ## [2022] BLOOM, BigScience Language Open-science Open-access Multilingual
 ----
 - [2022] BLOOM: A 176B-Parameter Open-Access Multilingual Language Model
@@ -143,27 +167,26 @@ LLaMA 完全基于开源数据训练, 在很多基准数据集上 LLaMA-13B 可�
 - Pangu-α-13B
 - FairSeq
 - [GPT-NeoX-20B](https://github.com/EleutherAI/gpt-neox)
-- baichuan-7B
+- 百川, baichuan-7B
+- 通义千问, Qwen-7B
 
-# Benchmark
-
-## CLUE, 中文语言理解测评基准
----
-- https://www.cluebenchmarks.com/index.html
-
-## C-Eval
+## word2vec
 ----
-> C-Eval评测基准由上海交通大学、清华大学以及爱丁堡大学联合创建，是面向中文语言模型的综合考试评测集，覆盖了52个来自不同行业领域的学科。
 
-## AGIEval
+## GloVe
 ----
-> AGIEval评测基准由微软研究院发起，旨在全面评估基础模型在人类认知和问题解决相关任务上的能力，包含了中国的高考、司法考试，以及美国的SAT、LSAT、GRE和GMAT等20个公开且严谨的官方入学和职业资格考试。
 
-## Gaokao
+## FastText
 ----
-> Gaokao评测基准是复旦大学研究团队创建的评测框架，以中国高考题目作为数据集，用于测试大模型在中文语言理解和逻辑推理能力方面的表现。
 
-## MMLU
+## EMLo
 ----
-> MMLU由加州大学伯克利分校等知名高校共同打造，集合了科学、工程、数学、人文、社会科学等领域的57个科目，主要目标是对模型的英文跨学科专业能力进行深入测试。其内容广泛，从初级水平一直涵盖到高级专业水平。
+
+## OPT
+----
+- [2022] OPT_ open pre-trained transformer language models
+
+## FlanT5
+----
+- [2022] Scaling instruction-finetuned language models
 

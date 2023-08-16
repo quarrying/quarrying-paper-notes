@@ -1,3 +1,27 @@
+# Benchmark
+
+## CLUE, 中文语言理解测评基准
+---
+- https://www.cluebenchmarks.com/index.html
+
+## C-Eval
+----
+> C-Eval评测基准由上海交通大学、清华大学以及爱丁堡大学联合创建，是面向中文语言模型的综合考试评测集，覆盖了52个来自不同行业领域的学科。
+
+## AGIEval
+----
+> AGIEval评测基准由微软研究院发起，旨在全面评估基础模型在人类认知和问题解决相关任务上的能力，包含了中国的高考、司法考试，以及美国的SAT、LSAT、GRE和GMAT等20个公开且严谨的官方入学和职业资格考试。
+
+## Gaokao
+----
+> Gaokao评测基准是复旦大学研究团队创建的评测框架，以中国高考题目作为数据集，用于测试大模型在中文语言理解和逻辑推理能力方面的表现。
+
+## MMLU
+----
+> MMLU由加州大学伯克利分校等知名高校共同打造，集合了科学、工程、数学、人文、社会科学等领域的57个科目，主要目标是对模型的英文跨学科专业能力进行深入测试。其内容广泛，从初级水平一直涵盖到高级专业水平。
+
+# Datasets
+
 ## CoQA
 -----
 
@@ -56,3 +80,29 @@
 > Each phrase is labelled as either negative, somewhat negative, neutral, somewhat positive or positive. The corpus with all 5 labels is referred to as SST-5 or SST fine-grained. Binary classification experiments on full sentences (negative or somewhat negative vs somewhat positive or positive with neutral sentences discarded) refer to the dataset as SST-2 or SST binary.
 
 - [2013 EMNLP] Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank
+
+## MultiNLI, Multi-Genre Natural Language Inference
+----
+433k sentence pairs annotated with textual entailment information
+
+- https://cims.nyu.edu/~sbowman/multinli/
+
+## SQuAD
+---
+
+## LCQMC, A Large-scale Chinese Question Matching Corpus
+----
+> Question matching is a fundamental task of QA, which is usually recognized as a semantic matching task, sometimes a paraphrase identification task. The goal of the task is to search questions that have similar intent as the input question from an existing database. We introduce a large-scale Chinese question matching corpus (named LCQMC). LCQMC is more general than paraphrase corpus as it focuses on intent matching rather than paraphrase. The corpus contains 260,068 question pairs with manual annotation and we split it into three parts, i.e., a training set containing 238,766 question pairs, a development set with 8,802 question pairs, and a test set with 12,500 question pairs. 
+
+- http://icrc.hitsz.edu.cn/Article/show/171.html
+
+## BQ Corpus, Bank Question Corpus
+----
+> As the semantic matching task, sentence semantic equivalence identification (SSEI) is a fundamental task of natural language processing (NLP) in question answering (QA), automatic customer service and chat-bots. In customer service systems, two questions are defined as semantically equivalent if they convey the same intent or they could be answered by the same answer. We introduce the Bank Question (BQ) corpus, a large-scale domain-specific Chinese corpus for SSEI. The BQ corpus contains 120,000 question pairs from online bank custom service logs. It is split into three parts: 100,000 pairs for training, 10,000 pairs for validation, and 10,000 pairs for test. We present five SSEI benchmark performance on our corpus, including state-of-the-art algorithms. As the largest manually annotated public Chinese SSEI corpus in the bank domain, the BQ corpus is not only useful for Chinese question semantic matching research, but also a significant resource for cross-lingual and cross-domain SSEI research.
+
+- http://icrc.hitsz.edu.cn/info/1037/1162.htm
+
+
+## STS-Benchmark, STS-B
+----
+
