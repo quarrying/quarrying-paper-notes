@@ -120,14 +120,19 @@ GPT3.5 的 max tokens 是 4K (相当于 5 页纸?), GPT4 的 max tokens 是 32K 
 ---
 - [2021] RoFormer: Enhanced transformer with rotary position embedding
 
+## [2022] Self-Instruct
+----
+- [2022] Self-Instruct: Aligning Language Model with Self Generated Instructions
+
 ## [2022 ACL] GLM, ChatGLM
 ----
+- [2022 ACL] GLM: General Language Model Pretraining with Autoregressive Blank Infilling
+- https://huggingface.co/THUDM/chatglm-6b
 - https://github.com/THUDM/ChatGLM-6B
 - https://github.com/THUDM/GLM
 - https://chatglm.cn
-- [2022 ACL] GLM: General Language Model Pretraining with Autoregressive Blank Infilling
 
-## [2023] LLaMA
+## [2023] LLaMA, LLaMA 2
 ----
 Meta 开源的大语言模型, 很多学术界的 LLM 都是基于它微调的.
 
@@ -135,13 +140,13 @@ LLaMA 完全基于开源数据训练, 在很多基准数据集上 LLaMA-13B 可�
 
 > LLaMA is an auto-regressive language model, based on the transformer architecture. The model comes in different sizes: 7B, 13B, 33B and 65B parameters.
 
+LLaMA 2 有 7B, 13B, 34B, 70B 四种参数大小的模型.
+
+
 - https://ai.facebook.com/blog/large-language-model-llama-meta-ai/
 - [2023] LLaMA: Open and Efficient Foundation Language Models
 
-## [2023] LLaMA 2
-----
-LLaMA 2 有 7B, 13B, 34B, 70B 四种参数大小的模型.
-
+#
 ## [2022] BLOOM, BigScience Language Open-science Open-access Multilingual
 ----
 - [2022] BLOOM: A 176B-Parameter Open-Access Multilingual Language Model
@@ -151,9 +156,13 @@ LLaMA 2 有 7B, 13B, 34B, 70B 四种参数大小的模型.
 - https://github.com/tatsu-lab/stanford_alpaca
 - [2023] Stanford Alpaca: An Instruction-following LLaMA model
 
-## [2022] Self-Instruct
-----
-- [2022] Self-Instruct: Aligning Language Model with Self Generated Instructions
+## Vicuna
+---
+Vicuna-13B 是基于 LLaMA 微调的.
+> Vicuna-13B, an open-source chatbot trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT. 
+
+- https://lmsys.org/blog/2023-03-30-vicuna/
+
 
 ## Other LLMs
 - MPT, MosaicML Pretrained Transformer
@@ -166,6 +175,7 @@ LLaMA 2 有 7B, 13B, 34B, 70B 四种参数大小的模型.
 - GPT-J-6B
 - Pangu-α-13B
 - FairSeq
+- Google Bard
 - [GPT-NeoX-20B](https://github.com/EleutherAI/gpt-neox)
 - 百川, baichuan-7B
 - 通义千问, Qwen-7B
@@ -185,8 +195,10 @@ LLaMA 2 有 7B, 13B, 34B, 70B 四种参数大小的模型.
 ## OPT
 ----
 - [2022] OPT_ open pre-trained transformer language models
+- https://huggingface.co/facebook/opt-66b
 
 ## FlanT5
 ----
 - [2022] Scaling instruction-finetuned language models
+- https://huggingface.co/google/flan-t5-xxl
 
