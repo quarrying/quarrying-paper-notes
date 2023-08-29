@@ -4,6 +4,9 @@
 
 ## 2023
 
+- 20230829 [2021] RegionCLIP_ Region-based Language-Image Pretraining
+- 20230829 [2021] OpenPrompt_ An Open-source Framework for Prompt-learning
+- 20230630 泛读多模态任务微调相关文献
 - 20230627 [2023] Segment Anything
 - 20230627 [2020] End-to-End Object Detection with Transformers
 - 20220621 [2022 ECCV] Visual Prompt Tuning

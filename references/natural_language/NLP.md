@@ -14,9 +14,11 @@
 - text matching: 文本匹配
 - text summarization: 文本摘要
 - knowledge graph: 知识图谱
+- knowledge probing: 知识探索
 - relation extraction: 关系抽取
+- Fine-grained Entity Typing (FET): 细粒度实体分类
 - Recognizing Textual Entailment (RTE): 文本蕴涵
-
+- natural language understanding (NLU): 自然语言理解
 
 # Papers
 
@@ -163,6 +165,11 @@ Vicuna-13B 是基于 LLaMA 微调的.
 
 - https://lmsys.org/blog/2023-03-30-vicuna/
 
+## 通义千问
+----
+- 通用模型 Qwen-7B
+- 对话模型 Qwen-7B-Chat 
+- 视觉语言模型 Qwen-VL, Qwen-VL-Chat
 
 ## Other LLMs
 - MPT, MosaicML Pretrained Transformer
@@ -178,7 +185,6 @@ Vicuna-13B 是基于 LLaMA 微调的.
 - Google Bard
 - [GPT-NeoX-20B](https://github.com/EleutherAI/gpt-neox)
 - 百川, baichuan-7B
-- 通义千问, Qwen-7B
 
 ## word2vec
 ----
