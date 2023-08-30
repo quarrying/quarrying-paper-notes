@@ -107,15 +107,21 @@ ICDAR 2017 MLT (IC17-MLT) is a large scale multi-lingual text dataset, which inc
 **References**:
 - http://icdar2019.org/
 
-### ICDAR2019-LSVT
+### ICDAR2019-LSVT, ICDAR 2019 Robust Reading Challenge on Large-scale Street View Text with Partial Labeling
 共 45w 中文街景图像, 包含 5w (2w 测试 + 3w 训练) 全标注数据 (文本坐标 + 文本内容), 40w 弱标注数据 (仅文本内容). 
 **References**:
 - https://ai.baidu.com/broad/download?dataset=lsvt
 
-### ICDAR2019-ArT
+### ICDAR2019-ArT, ICDAR 2019 Robust Reading Challenge on Arbitrary-Shaped Text
 共包含 10,166 张图像, 训练集 5603 图, 测试集 4563 图. 由 Total-Text, SCUT-CTW1500, Baidu Curved Scene Text 三部分组成, 包含水平, 多方向和弯曲等多种形状的文本. 
 **References**:
 - https://ai.baidu.com/broad/download?dataset=art
+
+### ICDAR2019-ReCTS, ICDAR 2019 Robust Reading Challenge on Reading Chinese Text on Signboard
+> We collect and construct a practical and challenging multi-orientation natural scene text dataset (ReCTS) with 25,000 images, which consist of lots of signboards. In the dataset, all text lines and characters are labeled with locations and character codes. Besides, four tasks are presents for this competition: (1) end-to-end recognition on the signboards, (2) text line localization on the signboards, (3) character recognition on the signboards, (4) text line recognition on the signboards.
+
+**References**:
+- https://rrc.cvc.uab.es/?ch=12
 
 
 ## ICDAR 2021
