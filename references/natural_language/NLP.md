@@ -94,7 +94,9 @@ Parameters | Layers | $d_{model}$
 
 ## GPT-3.5, GPT-4
 ----
-GPT3.5 的 max tokens 是 4K (相当于 5 页纸?), GPT4 的 max tokens 是 32K (相当于 40 页纸?).
+GPT-3.5 的 max tokens 是 4K (相当于 5 页纸?), GPT-4 的 max tokens 是 32K (相当于 40 页纸?).
+
+GPT-3.5 和 GPT-4 的 tokenization 方法为 byte pair encoding (BPE).
 
 ## [2018] ELMo
 ----
@@ -185,6 +187,7 @@ Vicuna-13B 是基于 LLaMA 微调的.
 - Google Bard
 - [GPT-NeoX-20B](https://github.com/EleutherAI/gpt-neox)
 - 百川, baichuan-7B
+- 书生, InternLM-7B
 
 ## word2vec
 ----

@@ -1,32 +1,53 @@
-# Benchmark
+# Benchmark & Datasets
 
-## CLUE, 中文语言理解测评基准
+## CLUE, Chinese Language Understanding Evaluation Benchmark
 ---
 - https://www.cluebenchmarks.com/index.html
+
+## OpenCompass
+----
+> OpenCompass is an open-source, efficient, and comprehensive evaluation suite and platform designed for large models.
+
+- https://opencompass.org.cn/
+
+## GLUE, General Language Understanding Evaluation; SuperGLUE
+----
+- https://gluebenchmark.com/
+- https://super.gluebenchmark.com/
 
 ## C-Eval
 ----
 > C-Eval评测基准由上海交通大学、清华大学以及爱丁堡大学联合创建，是面向中文语言模型的综合考试评测集，覆盖了52个来自不同行业领域的学科。
 
+- https://cevalbenchmark.com/
+
+## MMLU, Massive Multitask Language Understanding
+----
+> MMLU由加州大学伯克利分校等知名高校共同打造，集合了科学、工程、数学、人文、社会科学等领域的57个科目，主要目标是对模型的英文跨学科专业能力进行深入测试。其内容广泛，从初级水平一直涵盖到高级专业水平。
+
+- https://github.com/hendrycks/test
+- https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu
+
+## SQuAD, Stanford Question Answering Dataset
+---
+- https://rajpurkar.github.io/SQuAD-explorer/
+
+## CoQA, A Conversational Question Answering Challenge
+-----
+- https://stanfordnlp.github.io/coqa/
+
 ## AGIEval
 ----
 > AGIEval评测基准由微软研究院发起，旨在全面评估基础模型在人类认知和问题解决相关任务上的能力，包含了中国的高考、司法考试，以及美国的SAT、LSAT、GRE和GMAT等20个公开且严谨的官方入学和职业资格考试。
+
+- https://github.com/microsoft/AGIEval
 
 ## Gaokao
 ----
 > Gaokao评测基准是复旦大学研究团队创建的评测框架，以中国高考题目作为数据集，用于测试大模型在中文语言理解和逻辑推理能力方面的表现。
 
-## MMLU
-----
-> MMLU由加州大学伯克利分校等知名高校共同打造，集合了科学、工程、数学、人文、社会科学等领域的57个科目，主要目标是对模型的英文跨学科专业能力进行深入测试。其内容广泛，从初级水平一直涵盖到高级专业水平。
+- https://github.com/OpenLMLab/GAOKAO-Bench
 
-# Datasets
-
-## CoQA
------
-
-## GLUE
------
 
 ## decaNLP
 -----
@@ -86,9 +107,8 @@
 433k sentence pairs annotated with textual entailment information
 
 - https://cims.nyu.edu/~sbowman/multinli/
+- https://paperswithcode.com/sota/natural-language-inference-on-multinli
 
-## SQuAD
----
 
 ## LCQMC, A Large-scale Chinese Question Matching Corpus
 ----

@@ -10,9 +10,9 @@
 
 2) In the problem of crack detection, thick cracks are easy to detect while thin cracks are not. Thus, accuracy is mostly determined by how well the method can detect thin cracks.  crack detection的准确率主要受细裂痕的影响. 
 
-3) In the case of concrete surfaces of a typical type of bridges, it is requested to find cracks with 0.5mm width and sometimes even those with 0.1mm width. 在某些场景下, crack detection的精度要求比较高, 到亚毫米级别.
+3) In the case of concrete surfaces of a typical type of bridges, it is requested to find cracks with 0.5mm width and sometimes even those with 0.1mm width. 在某些场景下, crack detection 的精度要求比较高, 到亚毫米级别.
 
-4) As we employ the same formulation as semantic segmentation, the network outputs a map of crack likelihood. Even for a thick crack having several pixel widths on the image, it has one pixel width in the label map, resulting in that many pixels on the imaged crack will be annotated as non-crack. The standard loss function used for semantic segmentation may not work well in the presence of such label differences. 该论文将crack detection定义为语义分割问题. 但本文标注方式比较特殊(只有一像素宽, 即使对于宽裂纹也是如此), 不能直接使用语义分割的交叉熵损失.
+4) As we employ the same formulation as semantic segmentation, the network outputs a map of crack likelihood. Even for a thick crack having several pixel widths on the image, it has one pixel width in the label map, resulting in that many pixels on the imaged crack will be annotated as non-crack. The standard loss function used for semantic segmentation may not work well in the presence of such label differences. 该论文将 crack detection 定义为语义分割问题. 但本文标注方式比较特殊(只有一像素宽, 即使对于宽裂纹也是如此), 不能直接使用语义分割的交叉熵损失.
 
 5) Cracks emerging on concrete surfaces tend to have more than a certain length and usually do not form isolated short segments due to a physical reason. 混凝土上的裂纹通常具有一定的长度.
 

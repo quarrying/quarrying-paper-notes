@@ -41,6 +41,11 @@
 
 # Datasets & Challenges
 
+## Home Action Genome
+---
+- https://homeactiongenome.org/index.html
+- [2021] Home Action Genome: Contrastive Compositional Action Understanding
+
 ## Penn Action
 ----
 The Penn Action dataset is composed by 2,326 videos in the wild with 15 different actions.

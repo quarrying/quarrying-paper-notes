@@ -1,17 +1,20 @@
-# Paper Reading History (incomplete)
+# Incomplete Record of Paper Reading 
 
 记录阅读 1 小时以上的文献 (不一定读完), 勾选表示做了笔记.
 
 ## 2023
 
+- 20231019 [2021] Improving Calibration for Long-Tailed Recognition
+- 20231017 [2023 NeurIPS] Multi-modal Queried Object Detection in the Wild
+- 20231017 [2019] Objects365_ A Large-scale, High-quality Dataset for Object Detection
 - 20230829 [2021] RegionCLIP_ Region-based Language-Image Pretraining
 - 20230829 [2021] OpenPrompt_ An Open-source Framework for Prompt-learning
-- 20230630 泛读多模态任务微调相关文献
+- 20230630 泛读**多模态任务微调**相关文献
 - 20230627 [2023] Segment Anything
 - 20230627 [2020] End-to-End Object Detection with Transformers
 - 20220621 [2022 ECCV] Visual Prompt Tuning
 - 20220621 [2023] Segment Anything in High Quality
-- 20220510 泛读视觉语言预训练相关文献
+- 20220510 泛读**视觉语言预训练**相关文献
 - 20230427 [2021] Swin Transformer_ Hierarchical Vision Transformer using Shifted Windows
 - 20230427 [2022] Expanding Language-Image Pretrained Models for General Video Recognition
 - 20230422 [2020] An image is worth 16x16 words_ Transformers for image recognition at scale

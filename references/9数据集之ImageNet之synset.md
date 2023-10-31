@@ -572,7 +572,7 @@ n02123159 tiger cat
 n02123394 Persian cat
           波斯猫
 n02123597 Siamese cat, Siamese
-          暹罗暹罗猫,
+          暹罗猫
 n02124075 Egyptian cat
           埃及猫
 n02125311 cougar, puma, catamount, mountain lion, painter, panther, Felis concolor

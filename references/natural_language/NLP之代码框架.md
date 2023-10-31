@@ -39,6 +39,10 @@
 ## [DeepSpeed](https://github.com/microsoft/DeepSpeed)
 ---
 
+## tiktoken
+---
+- https://github.com/openai/tiktoken
+
 
 # 中文分词
 
