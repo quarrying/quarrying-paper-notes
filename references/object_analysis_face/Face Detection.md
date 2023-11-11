@@ -225,11 +225,11 @@ NPD is invariant to scale change of the pixel intensities.
 
 ## Wider Face
 ---
-WIDER FACE dataset is a face detection benchmark dataset, of which images are selected from the publicly available WIDER dataset. WIDER FACE dataset consists of **393,703 labeled face bounding boxes in 32,203 images** where 50% of them for testing, 40% for training and the remaining for validation. Specifically, the validation set and the test set are divided into three subsets (Easy, Medium, and Hard) for evaluation based on different level of difficulties.
+> WIDER FACE dataset is a face detection benchmark dataset, of which images are selected from the publicly available WIDER dataset. WIDER FACE dataset consists of **393,703 labeled face bounding boxes in 32,203 images** where 50% of them for testing, 40% for training and the remaining for validation. Specifically, the validation set and the test set are divided into three subsets (Easy, Medium, and Hard) for evaluation based on different level of difficulties.
 
-WiderFace dataset contains 32,203 images and 393,703 annotated faces with a high degree of variability in scale, pose and occlusion. 158,989 of these are chosen as train set, 39,496 are in validation set and the rest are test set. The validation set and test set are split into 'easy', 'medium', 'hard' subsets, in terms of the difficulties of the detection.
+> WiderFace dataset contains 32,203 images and 393,703 annotated faces with a high degree of variability in scale, pose and occlusion. 158,989 of these are chosen as train set, 39,496 are in validation set and the rest are test set. The validation set and test set are split into 'easy', 'medium', 'hard' subsets, in terms of the difficulties of the detection.
 
-Furthermore, based on the detection rate of EdgeBox, each subset is defined into three levels of difficulty: 'Easy', 'Medium', 'Hard'. And from further analysis, we find that data in 'Hard' covers 'Medium' and 'Easy', which demonstrate that performance on 'Hard' can better reflect the effectiveness of different methods.
+> Furthermore, based on the detection rate of EdgeBox, each subset is defined into three levels of difficulty: 'Easy', 'Medium', 'Hard'. And from further analysis, we find that data in 'Hard' covers 'Medium' and 'Easy', which demonstrate that performance on 'Hard' can better reflect the effectiveness of different methods.
 
 **References**:
 - http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/

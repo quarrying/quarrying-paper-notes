@@ -4,6 +4,8 @@
 
 ## 2023
 
+- 20231107 [2023] Visual Instruction Tuning
+- 20231107 [2023] What Makes for Good Visual Instructions_ Synthesizing Complex Visual Reasoning Instructions for Visual Instruction Tuning
 - 20231019 [2021] Improving Calibration for Long-Tailed Recognition
 - 20231017 [2023 NeurIPS] Multi-modal Queried Object Detection in the Wild
 - 20231017 [2019] Objects365_ A Large-scale, High-quality Dataset for Object Detection

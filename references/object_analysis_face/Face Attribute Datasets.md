@@ -84,7 +84,7 @@ containing 108,501 images, with an emphasis of balanced race composition in the 
 
 **References**:
 - [2019] FairFace_ Face Attribute Dataset for Balanced Race, Gender, and Age
-
+- https://github.com/dchen236/FairFace
 
 ## IMBD-WIKI
 ---

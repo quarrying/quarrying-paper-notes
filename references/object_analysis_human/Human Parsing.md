@@ -1,6 +1,11 @@
-# 数据集
+# Papers
 
-## MHP, Multi-Human Parsing
+## [2023] Deep Learning Technique for Human Parsing: A Survey and Outlook
+---
+
+# Datasets
+
+## MHP, Multi-Human Parsing, MHP-v2
 ---
 Multi-Human Parsing refers to partitioning a crowd scene image into semantically consistent regions belonging to the body parts or clothes items while differentiating different identities, such that each pixel in the image is assigned a semantic part label, as well as the identity it belongs to. 
 
@@ -14,7 +19,7 @@ Multi-Human Parsing refers to partitioning a crowd scene image into semantically
 **References**:
 - Parsing Clothing in Fashion Photographs
 
-## Person-Part
+## Person-Part, PASCAL-Person-Part
 ---
 **References**:
 - http://www.stat.ucla.edu/~xianjie.chen/pascal_part_dataset/pascal_part.html
@@ -30,6 +35,7 @@ Multi-Human Parsing refers to partitioning a crowd scene image into semantically
 **References**:
 - Look into Person: Self-supervised Structure-sensitive Learning and A New Benchmark for Human Parsing
 - https://github.com/Engineering-Course/LIP_SSL
+- https://lip.sysuhcp.com/overview.php
 
 ## CIHP
 ---
