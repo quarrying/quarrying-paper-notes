@@ -2,8 +2,21 @@
 
 记录阅读 1 小时以上的文献 (不一定读完), 勾选表示做了笔记.
 
+## 2024
+
+- 20240221 泛读**大模型压缩**相关文献
+- 20240221 [2018] Improving language understanding by generative pre-training
+- 20240220 [2023 ACL] Distilling Step-by-Step_ Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes
+- 20240220 [2018] Distilling Task-Specific Knowledge from BERT into Simple Neural Networks
+- 20240220 [2020] DistilBERT, a distilled version of BERT_ smaller, faster, cheaper and lighter
+- 20240204 [2023 CVPR] Micron-BERT_ BERT-based Facial Micro-Expression Recognition
+
+
 ## 2023
 
+- 20231120 [2023] Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection
+- 20231116 [2023] Shikra_ Unleashing Multimodal LLM’s Referential Dialogue Magic
+- 20231116 [2023] Ferret_ Refer and Ground Anything Anywhere at Any Granularity
 - 20231107 [2023] Visual Instruction Tuning
 - 20231107 [2023] What Makes for Good Visual Instructions_ Synthesizing Complex Visual Reasoning Instructions for Visual Instruction Tuning
 - 20231019 [2021] Improving Calibration for Long-Tailed Recognition

@@ -13,6 +13,49 @@ CelebA 系 CelebFaces Attributes 的简称. CelebA 包含 200K 张图像, 40 个
 
 CelebA 的衍生数据集有: CelebA-HQ (主要用于人脸生成), CelebAMask-HQ (主要用于人脸解析, 人脸生成和编辑), CelebA-Spoof (主要用于人脸防作伪).
 
+### CelebA 人脸属性
+- 5_o_Clock_Shadow: 刚长出的双颊胡须
+- Arched_Eyebrows: 柳叶眉
+- Attractive: 吸引人的
+- Bags_Under_Eyes: 眼袋
+- Bald: 秃头
+- Bangs: 刘海
+- Big_Lips: 大嘴唇
+- Big_Nose: 大鼻子
+- Black_Hair: 黑发
+- Blond_Hair: 金发
+- Blurry: 模糊的
+- Brown_Hair: 棕发
+- Bushy_Eyebrows: 浓眉
+- Chubby: 圆胖的
+- Double_Chin: 双下巴
+- Eyeglasses: 眼镜
+- Goatee: 山羊胡子
+- Gray_Hair: 灰发或白发
+- Heavy_Makeup: 浓妆
+- High_Cheekbones: 高颧骨
+- Male: 男性
+- Mouth_Slightly_Open: 微微张开嘴巴
+- Mustache: 胡子，髭
+- Narrow_Eyes: 细长的眼睛
+- No_Beard: 无胡子
+- Oval_Face: 椭圆形的脸
+- Pale_Skin: 苍白的皮肤
+- Pointy_Nose: 尖鼻子
+- Receding_Hairline: 发际线后移
+- Rosy_Cheeks: 红润的双颊
+- Sideburns: 连鬓胡子
+- Smiling: 微笑
+- Straight_Hair: 直发
+- Wavy_Hair: 卷发
+- Wearing_Earrings: 戴着耳环
+- Wearing_Hat: 戴着帽子
+- Wearing_Lipstick: 涂了唇膏
+- Wearing_Necklace: 戴着项链
+- Wearing_Necktie: 戴着领带
+- Young: 年轻人
+
+
 **References**:
 - http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 - [2015 ICCV] Deep Learning Face Attributes in the Wild
@@ -141,6 +184,9 @@ The All-Age-Faces (AAF) Dataset contains 13'322 face images (mostly Asian) distr
 - https://github.com/JingchunCheng/All-Age-Faces-Dataset
 - [2019] Exploiting effective facial patches for robust gender recognition
 
+## FDEA, Face Dataset with Ethnicity Attribute
+---
+- https://github.com/GZHU-DVL/FDEA
 
 # Face Expression Attribute
 
@@ -292,3 +338,6 @@ Acted Facial Expressions In The Wild (AFEW) is a dynamic temporal facial express
 ----
 - [2013] A spontaneous micro-expression database: Inducement, collection and baseline
 
+## Aff-Wild
+---
+- [2018] Deep Affect Prediction in-the-wild: Aff-Wild Database and Challenge, Deep Architectures, and Beyond

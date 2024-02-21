@@ -21,6 +21,10 @@
 ----
 - [2021] Distract your attention: Multi-head cross attention network for facial expression recognition
 
+## [2023 CVPR] Micron-BERT
+----
+[2023 CVPR] Micron-BERT_ BERT-based Facial Micro-Expression Recognition
+
 ## Others
 ---
 - [2009] Facial expression recognition based on local binary patterns_ A comprehensive study

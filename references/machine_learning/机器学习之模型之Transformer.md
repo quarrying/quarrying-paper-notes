@@ -1,4 +1,4 @@
-## [2017] Attention is All You Need
+## [2017 NIPS@Google] Attention is All You Need
 ---
 !TODO: 精读
 
@@ -10,7 +10,7 @@ $$\mathrm{Attention}(Q,K,V) = \mathrm{softmax}\left(\frac{QK^{\top}}{\sqrt{d_k}}
 2) $K\in\mathbb{R}^{m\times d_k}$ 为 key, $m$ 是 source sequence length.
 3) $V\in\mathbb{R}^{m\times d_v}$ 为 value.
 
-最终的 $\mathrm{Attention}(Q,K,V)$ 的尺寸为 $n\times d_v$, 也就是 attention 将 $n\times d_k$ 的 $Q$ 编码成了一个新的 $n\times d_v$ 的序列, 没有改变 $Q$ 的尺寸. 
+最终的 $\mathrm{Attention}(Q,K,V)$ 的尺寸为 $n\times d_v$, 也就是 attention 将 $n\times d_k$ 的 $Q$ 编码成了一个新的 $n\times d_v$ 的序列, 没有改变 $Q$ 的序列长度. 
 
 关于为什么要除以 $\sqrt{d_k}$, 下面摘抄一下原文:
 > We suspect that for large values of $d_k$, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients. To counteract this effect, we scale the dot products by $1/\sqrt{d_k}$ .
@@ -118,6 +118,54 @@ $QW_i^Q$, $KW_i^K$, $VW_i^V$ 的计算量均为 $nd^2$. 共 $h$ 个头, 所以�
 > 初始化方式
 > Just like other tokens, the CLS token is randomly initialized from a normal distribution. The only exception is the padding token, which is set to zero.
 
+### PostNorm 和 PreNorm
+
+**PostNorm**
+
+```mermaid
+graph BT
+    x_i --> mha --> add1
+    x_i --> add1 --> norm1
+    norm1 --> ffn --> add2
+    norm1 --> add2 --> norm2
+    norm2 --> x_o
+
+    mha[multi-head attention]
+    ffn[feed-forward network]
+    add1[add]
+    add2[add]
+    norm1[norm]
+    norm2[norm]
+```
+
+**PreNorm**
+
+```mermaid
+graph BT
+    x_i --> norm1 --> mha --> add1
+    x_i --> add1
+    add1 --> norm2 --> ffn --> add2
+    add1 --> add2 
+    add2 --> x_o
+    
+    mha[multi-head attention]
+    ffn[feed-forward network]
+    add1[add]
+    add2[add]
+    norm1[norm]
+    norm2[norm]
+```
+
+### Transformer 
+Transformer 的主要参数
+- hidden_dim
+- num_heads
+- mlp_dim
+- num_layers
+
+Transformer 还在输入, 注意力层和前向层中使用了 dropout.
+
+hidden_dim 的一般小于 mlp_dim.
 
 ### References
 - [《Attention is All You Need》浅读（简介+代码）](https://kexue.fm/archives/4765)
@@ -128,7 +176,7 @@ $QW_i^Q$, $KW_i^K$, $VW_i^V$ 的计算量均为 $nd^2$. 共 $h$ 个头, 所以�
 
 ## [2020 ICML] iGPT
 ---
-- [2020 ICML] Generative pretraining from pixels
+- [2020 ICML@OpenAI] Generative pretraining from pixels
 
 
 ## [2020 @Google] ViT, Vision Transformer
@@ -137,7 +185,9 @@ $QW_i^Q$, $KW_i^K$, $VW_i^V$ 的计算量均为 $nd^2$. 共 $h$ 个头, 所以�
 
 iGPT 和 ViT 是 transformer 在 CV 中的两大先驱工作.
 
-若图像尺寸为 224x224, patch 尺寸为 16x16, 则图像可以转化为 196 (`(224 / 16) * (224 / 16)`) 个 patch, 每个 patch 的维度为 768 (`16 * 16 * 3`).
+若图像尺寸为 $W\times H$, 通道数为 $C$, patch 尺寸为 $P_W \times P_H$ (注意 $P_W$ 要能整除 $W$, 且 $P_H$ 要能整除 $H$), 则图像可以转化为 $\frac{W}{P_W} \times \frac{H}{P_H}$ 个 patch , 每个 patch 的维度为 $P_W \times P_H \times C$, 即转化为序列长度 (`seq_length`) 为 $\frac{W}{P_W} \times \frac{H}{P_H}$, 隐层特征维度 (`hidden_dim`) 为 $P_W \times P_H \times C$ 的张量. 可以用步长为 $P$, 卷积核尺寸为 $P \times P$ 的卷积来实现图像分块.
+
+例子: 若图像尺寸为 224x224, 通道数为 3, patch 尺寸为 16x16, 则图像可以转化为 196 (`(224 / 16) * (224 / 16)`) 个 patch, 每个 patch 的维度为 768 (`16 * 16 * 3`).
 
 ViT 网络结构没有 CNN 的两个归纳偏置 (inductive bias, 可以理解为先验知识): 局部连接 (locality), 平移等变性 (translation equivariance). 但不能说 ViT 没有任何关于图像的归纳偏置, 文中有述 (可否理解为: ViT 网络结构本身没有关于图像的归纳偏置, 但 ViT 的输入是有归纳偏置的?)
 > Note that this resolution adjustment and patch extraction are the only points at which an inductive bias about the 2D structure of the images is manually injected into the Vision Transformer.
@@ -173,7 +223,7 @@ ViT-Huge, ViT-H  | 632M
 - 不带 in21k 后缀的表示: 在 ImageNet-21k 上做预训练, 然后在 ImageNet 上做微调
 - 带 in21k 后缀的表示: 直接上 ImageNet-21k 上做训练.
 
-### ViT 开源模型之 
+### ViT 开源模型之 timm
     timm/vit_giant_patch14_dinov2.lvd142m
 
 
@@ -208,6 +258,10 @@ DeiT-S    | 22M        | ResNet50
 - [2020 @Facebook] Training data-efficient image transformers & distillation through attention
 - https://github.com/facebookresearch/deit
 
+
+## [2021] Early Convolutions Help Transformers See Better
+---
+基本思想: 在 ViT 中, 用多个小尺寸小步长的卷积层替换原来的一个大尺寸大步长的卷积层.
 
 ## [2021] Swin Transformer
 ---

@@ -79,7 +79,7 @@ unlabeled   | 123,403
 ## COCO-Things 类名
 注意: COCO 中 Things 和 Stuffs 之间的区别.
 
-COCO 原来有 91 类, 去掉 11 类, 还剩下 80 类. (在 `instances_train2017.json` 或 `instances_val2017.json` 文件内容中的 `categories `字段可以看到有哪些类别及其 ID). 下表中 Removed 为 YEAH 即为被去掉的类. 
+COCO 原来有 91 类, 去掉 11 类, 还剩下 80 类. (在 `instances_train2017.json` 或 `instances_val2017.json` 文件内容中的 `categories` 字段可以看到有哪些类别及其 ID). 下表中 Removed 为 YEAH 即为被去掉的类. 
 
 PASCAL VOC 中的标签在 COCO 中全都有.
 
@@ -236,10 +236,12 @@ if __name__ == '__main__':
 
 
 ## LVIS, Large Vocabulary Instance Segmentation
-The LVIS dataset has 1,000 object classes and 164k images.
+The LVIS dataset has 1200+ object classes and 164k images.
 
 LVIS uses the COCO 2017 train, validation, and test image sets. If you have already downloaded the COCO images, you only need to download the LVIS annotations. LVIS val set contains images from COCO 2017 train in addition to the COCO 2017 val split.
  
+LVIS 标注文件的格式也类似于 COCO.
+
 **References**:
 - http://www.lvisdataset.org/
 - [2019 CVPR] LVIS_ A Dataset for Large Vocabulary Instance Segmentation

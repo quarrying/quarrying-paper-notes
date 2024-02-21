@@ -4,6 +4,13 @@
 
 
 # Hand Pose
+
+## HaMuCo
+---
+- [2023 ICCV] HaMuCo: Hand Pose Estimation via Multiview Collaborative Self-Supervised Learning
+
+## Others
+---
 - [2017 CVPR] Hand Keypoint Detection in Single Images using Multiview Bootstrapping
 - [2017 ICCV] Learning to Estimate 3D Hand Pose from Single RGB Images
 - [2019 CVPR] 3D Hand Shape and Pose Estimation from a Single RGB Image
@@ -12,8 +19,8 @@
     - https://github.com/TerenceCYJ/SO-HandNet
 - https://github.com/xinghaochen/awesome-hand-pose-estimation
 
-
 ## Multiview 3D Hand Pose
+----
 - http://www.rovit.ua.es/dataset/mhpdataset/
 - [2017] Large-scale Multiview 3D Hand Pose Dataset
 - https://gitcode.net/EricLee/handpose_x

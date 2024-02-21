@@ -19,6 +19,8 @@
 - Fine-grained Entity Typing (FET): 细粒度实体分类
 - Recognizing Textual Entailment (RTE): 文本蕴涵
 - natural language understanding (NLU): 自然语言理解
+- Retrieval Augmented Generation (RAG): 检索增强生成
+- Supervised Fine-Tuning (SFT): 监督微调
 
 # Papers
 
@@ -55,9 +57,9 @@ BERT large | 24       | 1024        | 16     | 340M
 
 ## [2018] GPT, generative pre-training
 ----
-与 generative pre-training 相对的是 contrastive pre-training.
+与 generative pre-training 相对的是 contrastive pre-training. GPT 的词汇表大小为 40,478?
 
-GPT 的词汇表大小为 40,478?
+> During transfer, we utilize task-specific input adaptations derived from traversal-style approaches [52], which process structured text input as a single contiguous sequence of tokens.
 
 - [2018] Improving language understanding by generative pre-training
 
@@ -143,7 +145,7 @@ Parameters | Layers | $d_{model}$
 - [2022] Scaling instruction-finetuned language models
 - https://huggingface.co/google/flan-t5-xxl
 
-## PaLM
+## PaLM, PaLM2
 ---
 - [2022] Palm_ Scaling language modeling with pathways
 
@@ -215,8 +217,16 @@ Vicuna-13B 是基于 LLaMA 微调的.
 - [GPT-NeoX-20B](https://github.com/EleutherAI/gpt-neox)
 - 百川, baichuan-7B
 - 书生, InternLM-7B
+- Claude
+- [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)
+
 
 # Instruction tuning
 
-## [2022] Training language models to follow instructions with human feedback
-=----
+## InstructGPT
+----
+- [2022] Training language models to follow instructions with human feedback
+
+## [2023] Exploring the Relationship between In-Context Learning and Instruction Tuning
+----
+> In-Context Learning (ICL) and Instruction Tuning (IT) are two primary paradigms of adopting Large Language Models (LLMs) to downstream applications. However, they are significantly different. In ICL, a set of demonstrations are provided at inference time but the LLM's parameters are not updated. In IT, a set of demonstrations are used to tune LLM's parameters in training time but no demonstrations are used at inference time. Although a growing body of literature has explored ICL and IT, studies on these topics have largely been conducted in isolation, leading to a disconnect between these two paradigms. In this work, we explore the relationship between ICL and IT by examining how the hidden states of LLMs change in these two paradigms. Through carefully designed experiments conducted with LLaMA-2 (7B and 13B), we find that ICL is implicit IT. In other words, ICL changes an LLM's hidden states as if the demonstrations were used to instructionally tune the model. Furthermore, the convergence between ICL and IT is largely contingent upon several factors related to the provided demonstrations. Overall, this work offers a unique perspective to explore the connection between ICL and IT and sheds light on understanding the behaviors of LLM.

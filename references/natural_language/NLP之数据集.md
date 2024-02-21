@@ -12,8 +12,11 @@
 
 ## GLUE, General Language Understanding Evaluation; SuperGLUE
 ----
+a collection of 9 datasets for evaluating natural language understanding systems.
+
 - https://gluebenchmark.com/
 - https://super.gluebenchmark.com/
+- [2018 ICLR] Glue: A multi-task benchmark and analysis platform for natural language understanding
 
 ## C-Eval
 ----
@@ -126,3 +129,16 @@
 ## STS-Benchmark, STS-B
 ----
 
+## IMDb sentiment classification
+---
+- [2011 ACL] Learning word vectors for sentiment analysis
+
+## BooksCorpus
+----
+> It contains over 7,000 unique unpublished books from a variety of genres including Adventure, Fantasy, and Romance.
+
+- [2015 ICCV] Aligning books and movies: Towards story-like visual explanations by watching movies and reading books
+
+## [2017 EMNLP] RACE
+---
+- [2017 EMNLP] RACE_ Large-scale reading comprehension dataset from examinations

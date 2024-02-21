@@ -1,3 +1,12 @@
+
+# Tasks
+- Visual place recognition, VPR; Visual Geo-localization; VG
+- Visual Localization
+- Landmark Retrieval 
+- Scene Classification
+- Scene Understanding
+
+
 # Papers
 
 ## UPerNet
@@ -6,6 +15,40 @@
 
 
 # Datasets
+
+## Google Landmarks Dataset v2
+---
+**References**:
+- https://github.com/cvdfoundation/google-landmark
+- https://www.kaggle.com/c/landmark-retrieval-2019
+- https://www.kaggle.com/c/landmark-recognition-2019
+
+
+## Oxford Paris
+---
+The Paris Dataset consists of 6412 images collected from Flickr by searching for particular Paris landmarks.
+
+**References**:
+- http://www.robots.ox.ac.uk/~vgg/data/parisbuildings/
+
+
+## Oxford Building 5K
+---
+The Oxford Buildings Dataset consists of 5062 images collected from Flickr by searching for particular Oxford landmarks. The collection has been manually annotated to generate a comprehensive ground truth for 11 different landmarks, each represented by 5 possible queries. This gives a set of 55 queries over which an object retrieval system can be evaluated.
+
+**References**:
+- [2007 CVPR] Object retrieval with large vocabularies and fast spatial matching
+- http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/
+
+
+## INRIA Holidays
+---
+**References**:
+- [2008 ECCV] Hamming embedding and weak geometric consistency for large scale image search
+- http://lear.inrialpes.fr/people/jegou/data.php#holidays
+
+
+# Scene Datasets
 
 ## ADE20K
 ---
@@ -16,7 +59,7 @@ ADE20K is composed of more than 27K images from the SUN and Places databases. Im
 
 **References**:
 - http://groups.csail.mit.edu/vision/datasets/ADE20K/
-- [2016] Semantic Understanding of Scenes through ADE20K Dataset.
+- [2016] Semantic Understanding of Scenes through ADE20K Dataset
 - [2017 CVPR] Scene Parsing through ADE20K Dataset
 - http://data.csail.mit.edu/places/ADEchallenge/ADEChallengeData2016.zip
 - http://data.csail.mit.edu/places/ADEchallenge/release_test.zip
@@ -78,3 +121,4 @@ Cityscapes contains 50 scenes of different views, different backgrounds and diff
 
 **References**:
 - [2019 CVPR] Recognizing indoor scenes
+

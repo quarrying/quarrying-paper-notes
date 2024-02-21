@@ -1,3 +1,11 @@
+# 任务
+- action recognition, action classification
+- temporal action detection; TAD
+    - temporal action localization
+- spatio-temporal action detection; STAD
+- Action quality assessment; AQA
+
+
 # 代码框架
 
 ## mmaction
