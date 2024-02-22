@@ -320,7 +320,9 @@ SwinV2-G      | 3.0B       |
 
 ## MobileViT
 ----
-- MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer
+论文指出, 在移动设备上, ViT 系列的模型推理速度明显比 CNN 系列的模型要慢. 
+
+- [2022 ICLR] MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer
 - Separable Self-attention for Mobile Vision Transformers
 - MobileViTv3: Mobile-Friendly Vision Transformer with Simple and Effective Fusion of Local, Global and Input Features
 

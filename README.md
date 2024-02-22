@@ -4,6 +4,9 @@
 
 ## 2024
 
+- 20240222 泛读**大模型压缩**相关文献
+- 20240222 [2022] Contrastive Learning Rivals Masked Image Modeling in Fine-tuning via Feature Distillation
+- 20240222 [2023] Multimodal Chain-of-Thought Reasoning in Language Models
 - 20240221 泛读**大模型压缩**相关文献
 - 20240221 [2018] Improving language understanding by generative pre-training
 - 20240220 [2023 ACL] Distilling Step-by-Step_ Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes

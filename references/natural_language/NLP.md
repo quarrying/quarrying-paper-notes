@@ -21,6 +21,7 @@
 - natural language understanding (NLU): 自然语言理解
 - Retrieval Augmented Generation (RAG): 检索增强生成
 - Supervised Fine-Tuning (SFT): 监督微调
+- CoT (Chain-of-Thought): 思维链
 
 # Papers
 
