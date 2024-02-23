@@ -198,6 +198,7 @@ HMDB-51 共 51 个类别, 6766 个短视频.
 -----
 JHMDB 是对 HMDB 数据集的二次标注, 即 joint-annotated HMDB. HMDB 数据集有 51 类， 5100 多视频. JHMDB 只标注了 HMDB 的一部分, 有 21 类。
 
+- [2013 ICCV] Towards understanding action recognition
 
 ## HACS, Human Action Clips and Segments
 -----

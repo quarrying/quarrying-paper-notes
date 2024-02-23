@@ -139,6 +139,9 @@ a collection of 9 datasets for evaluating natural language understanding systems
 
 - [2015 ICCV] Aligning books and movies: Towards story-like visual explanations by watching movies and reading books
 
-## [2017 EMNLP] RACE
+## [2017 EMNLP] RACE, ReAding Comprehension from Examinations
 ---
+> The ReAding Comprehension from Examinations (RACE) (Lai et al., 2017) task is a large-scale reading comprehension dataset with more than 28,000 passages and nearly 100,000 questions. The dataset is collected from English examinations in China, which are designed for middle and high school students. In RACE, each passage is associated with multiple questions. For every question, the task is to select one correct answer from four options. RACE has significantly longer context than other popular reading comprehension datasets and the proportion of questions that requires reasoning is very large.
+
 - [2017 EMNLP] RACE_ Large-scale reading comprehension dataset from examinations
+
