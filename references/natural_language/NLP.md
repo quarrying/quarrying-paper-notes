@@ -101,7 +101,9 @@ Parameters | Layers | $d_{model}$
 
 ## [2020] GPT-3
 ----
-175B
+参数量为 175B. 
+
+提出 in-context learning 的概念.
 
 - [2020 NeurIPS] Language models are few-shot learners
 
@@ -152,7 +154,7 @@ Parameters | Layers | $d_{model}$
 - [2022] OPT_ open pre-trained transformer language models
 - https://huggingface.co/facebook/opt-66b
 
-## FlanT5, FLAN-T5
+## FlanT5, FLAN-T5, Flan-PaLM
 ----
 - [2022] Scaling instruction-finetuned language models
 - https://huggingface.co/google/flan-t5-xxl
@@ -197,6 +199,8 @@ LLaMA 2 有 7B, 13B, 34B, 70B 四种参数大小的模型.
 
 ## [2023] Stanford Alpaca
 ----
+Alpaca 是基于 LLaMA 微调的.
+
 - https://github.com/tatsu-lab/stanford_alpaca
 - [2023] Stanford Alpaca: An Instruction-following LLaMA model
 
@@ -233,9 +237,13 @@ Vicuna-13B 是基于 LLaMA 微调的.
 - [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)
 
 
-# Instruction tuning
+# Instruction tuning, instruction finetuning
 
-## InstructGPT
+## [2022 ICLR] Finetuned Language Models Are Zero-Shot Learners
+---
+提出 Instruction tuning 的概念.
+
+## [2022] InstructGPT
 ----
 - [2022] Training language models to follow instructions with human feedback
 

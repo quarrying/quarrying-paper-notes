@@ -4,6 +4,8 @@
 
 ## 2024
 
+- 20240227 泛读**大模型压缩**相关文献
+- 20240227 [2022 ICLR] Finetuned Language Models Are Zero-Shot Learners
 - 20240223 [2015] Cross Modal Distillation for Supervision Transfer
 - 20240222 泛读**大模型压缩**相关文献
 - 20240222 [2022] Contrastive Learning Rivals Masked Image Modeling in Fine-tuning via Feature Distillation
