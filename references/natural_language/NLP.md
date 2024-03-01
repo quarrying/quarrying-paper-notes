@@ -71,6 +71,8 @@ BERT large | 24       | 1024        | 16     | 340M
 ----
 与 generative pre-training 相对的是 contrastive pre-training. GPT 的词汇表大小为 40,478?
 
+pretext task 为 next-token prediction task.
+
 > During transfer, we utilize task-specific input adaptations derived from traversal-style approaches [52], which process structured text input as a single contiguous sequence of tokens.
 
 - [2018] Improving language understanding by generative pre-training
