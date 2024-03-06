@@ -10,7 +10,7 @@ $$\mathrm{Attention}(Q,K,V) = \mathrm{softmax}\left(\frac{QK^{\top}}{\sqrt{d_k}}
 2) $K\in\mathbb{R}^{m\times d_k}$ 为 key, $m$ 是 source sequence length.
 3) $V\in\mathbb{R}^{m\times d_v}$ 为 value.
 
-最终的 $\mathrm{Attention}(Q,K,V)$ 的尺寸为 $n\times d_v$, 也就是 attention 将 $n\times d_k$ 的 $Q$ 编码成了一个新的 $n\times d_v$ 的序列, 没有改变 $Q$ 的序列长度. 
+最终的 $\mathrm{Attention}(Q,K,V)$ 的尺寸为 $n\times d_v$, 也就是 attention 将 $n\times d_k$ 的 $Q$ 编码成了一个新的 $n\times d_v$ 的序列, 没有改变 $Q$ 的序列长度 (sequence length), 但维度可能会有变化. 
 
 关于为什么要除以 $\sqrt{d_k}$, 下面摘抄一下原文:
 > We suspect that for large values of $d_k$, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients. To counteract this effect, we scale the dot products by $1/\sqrt{d_k}$ .
@@ -46,7 +46,7 @@ $KW^K \in \mathbb{R}^{m\times d_k}$ 为 key.
 
 $VW^V \in \mathbb{R}^{m\times d_v}$ 为 value.
 
-注意到: $W^Q, W^K, W^V, W^O$ 这些参数的尺寸与 $n$ 或 $m$ 均无关系.
+注意到: $W^Q, W^K, W^V, W^O$ 这些参数的尺寸与 $n$ 或 $m$ 均无关系, 即参数与序列长度无关.
 
 
 ### 多头注意力 (Multi-Head Attention; MHA)
@@ -55,67 +55,12 @@ $$\mathrm{MultiHead}(Q, K, V) = \mathrm{Concat}(\mathrm{head}_1, ..., \mathrm{he
 
 $$\mathrm{head}_i = \mathrm{Attention}(QW_i^Q, KW_i^K, VW_i^V)$$
 
-其中 $h$ 表示头的个数. 多头注意力的特例是多头自注意力 (Multi-head Self Attention; MSA, MHSA).
+其中 $h$ 表示头的个数. 多头自注意力 (Multi-head Self Attention; MSA, MHSA) 是多头注意力的特例.
 
-在 PyTorch 的 `nn.MultiheadAttention` 中 $n = m$; $d_k = d_v = d_o$, 且其值等于 `embed_dim`.
-
-`q` 的尺寸为 `(..., embed_dim)`
-
-`k` 的尺寸为 `(..., e_k)`
-
-`v` 的尺寸为 `(..., e_v)`
-
-`q_proj_weight` 的尺寸为 `(embed_dim, embed_dim)`
-
-`k_proj_weight` 的尺寸为 `(embed_dim, e_k)`
-
-`v_proj_weight` 的尺寸为 `(embed_dim, e_v)`
-
-`out_proj.weight` 的尺寸为 `(embed_dim, embed_dim)`
-
-`attn_output` 的尺寸为 `(n, embed_dim)`
-
-当 `embed_dim = e_k = e_v` 时, 会将 `q_proj_weight`, `k_proj_weight` 和 `v_proj_weight` 合并为 `in_proj_weight`, 其尺寸为 `(3*embed_dim, embed_dim)`
-
-```python
->>> multihead_attn = nn.MultiheadAttention(embed_dim=256, num_heads=1, kdim=32, vdim=16)
->>> print_named_parameters(multihead_attn)
-[1] q_proj_weight                                     : torch.Size([256, 256])
-[2] k_proj_weight                                     : torch.Size([256, 32])
-[3] v_proj_weight                                     : torch.Size([256, 16])
-[4] in_proj_bias                                      : torch.Size([768])
-[5] out_proj.weight                                   : torch.Size([256, 256])
-[6] out_proj.bias                                     : torch.Size([256])
->>> multihead_attn = nn.MultiheadAttention(embed_dim=256, num_heads=4, kdim=32, vdim=16)
->>> print_named_parameters(multihead_attn)
-[1] q_proj_weight                                     : torch.Size([256, 256])
-[2] k_proj_weight                                     : torch.Size([256, 32])
-[3] v_proj_weight                                     : torch.Size([256, 16])
-[4] in_proj_bias                                      : torch.Size([768])
-[5] out_proj.weight                                   : torch.Size([256, 256])
-[6] out_proj.bias                                     : torch.Size([256])
->> multihead_attn = nn.MultiheadAttention(embed_dim=256, num_heads=4)
->>> print_named_parameters(multihead_attn)
-[1] in_proj_weight                                    : torch.Size([768, 256])
-[2] in_proj_bias                                      : torch.Size([768])
-[3] out_proj.weight                                   : torch.Size([256, 256])
-[4] out_proj.bias                                     : torch.Size([256])
-```
-
-### 多头注意力的计算量
-
-简便起见, $Q, K, V\in \mathbb{R}^{n\times d}$, $W_i^Q, W_i^K, W_i^V \in \mathbb{R}^{d \times d}$
-
-$QW_i^Q$, $KW_i^K$, $VW_i^V$ 的计算量均为 $nd^2$. 共 $h$ 个头, 所以总计算量为 $3hnd^2$.
-
-不妨令 $Q'=QW_i^Q, K'=KW_i^K, V'=VW_i^V$, $\mathrm{head}_i = \mathrm{Attention}(Q', K', V')$ 的计算量为 $2n^2d$ ( $Q'K'^T$ 的计算量为 $n^2d$, 其经过 softmax 等操作, 乘上 $V'$ 的计算量也为 $n^2d$ ). 共 $h$ 个头, 所以总计算量为 $2hn^2d$.
-
-不妨令 $S = \mathrm{Concat}(\mathrm{head}_1, ..., \mathrm{head}_h)$, 其尺寸为 $n\times hd$, $S W_O$ 的计算量为 $hnd^2$.
-
-综上计算量为: $4hnd^2 + 2hn^2d$, 计算复杂度为 $O(nd^2 + hn^2d)$.
 
 ### 特殊的 token
 > 初始化方式
+> 
 > Just like other tokens, the CLS token is randomly initialized from a normal distribution. The only exception is the padding token, which is set to zero.
 
 ### PostNorm 和 PreNorm
@@ -155,17 +100,6 @@ graph BT
     norm1[norm]
     norm2[norm]
 ```
-
-### Transformer 
-Transformer 的主要参数
-- hidden_dim
-- num_heads
-- mlp_dim
-- num_layers
-
-Transformer 还在输入, 注意力层和前向层中使用了 dropout.
-
-hidden_dim 的一般小于 mlp_dim.
 
 ### References
 - [《Attention is All You Need》浅读（简介+代码）](https://kexue.fm/archives/4765)
@@ -365,4 +299,7 @@ ViT-G/14 包含 2B 参数量.
 主要贡献是提出了 LayerScale.
 
 - [2021 @Facebook] Going deeper with Image Transformers
+
+## [2020] GLU Variants Improve Transformer
+---
 
