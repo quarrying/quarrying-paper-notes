@@ -17,7 +17,7 @@ $$\mathrm{Attention}(Q,K,V) = \mathrm{softmax}\left(\frac{QK^{\top}}{\sqrt{d_k}}
 
 **Opinions** (自己理解): 
 1) softmax 函数是多元函数 (自变量是向量), 上面式子中的 softmax 函数的自变量是矩阵, 与定义不符, 此处的 `softmax(x)` 应该理解为 `torch.nn.functional.softmax(x, dim=1)` (借用 pytorch 中的函数.)
-2) $K$ 和 $V$ 总是成对出现的 (key-value pair 也是生活中的常见词汇, $K$ 和 $V$ 的序列长度是一样的, 但维度可以不同), 例如在多模态中, $K$ 和 $V$ 来自同一个模态, $Q$ 来自另一个模态.
+2) $K$ 和 $V$ 总是成对出现的 (key-value pair 也是生活中的常见词汇, $K$ 和 $V$ 的序列长度是一样的, 但维度可以不同), 例如在交叉注意力中, $K$ 和 $V$ 来自同一个模态, $Q$ 来自另一个模态.
 3) Attention 公式的助记口诀: `Q-KTV`.
 4) Attention 的作用简单说就是: 利用 $K$ 和 $V$ 来增强 $Q$ 的特征表达能力.
 5) 为什么不对 $Q$, $K$, $V$ 进行归一化?
@@ -46,8 +46,27 @@ $KW^K \in \mathbb{R}^{m\times d_k}$ 为 key.
 
 $VW^V \in \mathbb{R}^{m\times d_v}$ 为 value.
 
+最终输出的尺寸为 ${n\times d_o}$.
+
 注意到: $W^Q, W^K, W^V, W^O$ 这些参数的尺寸与 $n$ 或 $m$ 均无关系, 即参数与序列长度无关.
 
+在 Pytorch 的 `nn.MultiheadAttention` 中, 有 $e_q = d_k = d_v = d_o$, 由下面关键代码可见
+```python
+self.q_proj_weight = Parameter(torch.empty((embed_dim, embed_dim), **factory_kwargs))
+self.k_proj_weight = Parameter(torch.empty((embed_dim, self.kdim), **factory_kwargs))
+self.v_proj_weight = Parameter(torch.empty((embed_dim, self.vdim), **factory_kwargs))
+self.out_proj = NonDynamicallyQuantizableLinear(embed_dim, embed_dim, bias=bias, **factory_kwargs)
+```
+
+在 transformers 的 `BertModel` 中, 亦有 $e_q = d_k = d_v = d_o$, 同时还有 $e_q = e_k = e_v$, 由下面关键代码可见
+```python
+# 在 BertSelfAttention 中, self.all_head_size 实际上等于 config.hidden_size,
+self.query = nn.Linear(config.hidden_size, self.all_head_size)
+self.key = nn.Linear(config.hidden_size, self.all_head_size)
+self.value = nn.Linear(config.hidden_size, self.all_head_size)
+# 在 BertSelfOutput 中
+self.dense = nn.Linear(config.hidden_size, config.hidden_size)
+```
 
 ### 多头注意力 (Multi-Head Attention; MHA)
 
@@ -64,6 +83,10 @@ $$\mathrm{head}_i = \mathrm{Attention}(QW_i^Q, KW_i^K, VW_i^V)$$
 > Just like other tokens, the CLS token is randomly initialized from a normal distribution. The only exception is the padding token, which is set to zero.
 
 ### PostNorm 和 PreNorm
+
+PostNorm: $X_{t+1} = \mathrm{Norm}(X_t + F_t(X_t))$
+
+PreNorm: $X_{t+1} = X_t + F_t(\mathrm{Norm}(X_t))$
 
 **PostNorm**
 

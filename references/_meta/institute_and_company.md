@@ -164,6 +164,14 @@ pony.ai 的创始人楼天城.
 ## [知衣](https://www.zhiyitech.cn/home)
 ---
 
+## [MiniMax](https://www.minimaxi.com/)
+---
+
+## [月之暗面](https://www.moonshot.cn/)
+---
+创始人杨植麟.
+
+
 # 国外商业机构
 
 ## Facebook FAIR

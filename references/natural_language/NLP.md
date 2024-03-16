@@ -174,7 +174,7 @@ GPT-3.5 的 max tokens 是 4K (相当于 5 页纸?), GPT-4 的 max tokens 是 32
 
 GPT-3.5 和 GPT-4 的 tokenization 方法为 byte pair encoding (BPE).
 
-## [2022] GLM, ChatGLM, General Language Model
+## GLM, ChatGLM, General Language Model
 ----
 - [2022 ACL] GLM: General Language Model Pretraining with Autoregressive Blank Infilling
 - https://huggingface.co/THUDM/chatglm-6b
@@ -182,7 +182,7 @@ GPT-3.5 和 GPT-4 的 tokenization 方法为 byte pair encoding (BPE).
 - https://github.com/THUDM/GLM
 - https://chatglm.cn
 
-## [2023] LLaMA, LLaMA 2
+## LLaMA, LLaMA 2
 ----
 Meta 开源的大语言模型, 很多学术界的 LLM 都是基于它微调的.
 
@@ -195,11 +195,11 @@ LLaMA 2 有 7B, 13B, 34B, 70B 四种参数大小的模型.
 - https://ai.facebook.com/blog/large-language-model-llama-meta-ai/
 - [2023] LLaMA: Open and Efficient Foundation Language Models
 
-## [2022] BLOOM, BigScience Language Open-science Open-access Multilingual
+## BLOOM, BigScience Language Open-science Open-access Multilingual
 ----
 - [2022] BLOOM: A 176B-Parameter Open-Access Multilingual Language Model
 
-## [2023] Stanford Alpaca
+## Stanford Alpaca
 ----
 Alpaca 是基于 LLaMA 微调的.
 
@@ -219,6 +219,10 @@ Vicuna-13B 是基于 LLaMA 微调的.
 - 对话模型 Qwen-7B-Chat 
 - 视觉语言模型 Qwen-VL, Qwen-VL-Chat
 
+## Mistral
+---
+- [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)
+
 ## Other LLMs
 ---
 - MPT, MosaicML Pretrained Transformer
@@ -236,7 +240,6 @@ Vicuna-13B 是基于 LLaMA 微调的.
 - 百川, baichuan-7B
 - 书生, InternLM-7B
 - Claude
-- [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)
 
 
 # Instruction tuning, instruction finetuning
