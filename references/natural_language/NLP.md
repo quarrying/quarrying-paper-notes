@@ -33,6 +33,21 @@
 ----
 - [2015] Neural Machine Translation of Rare Words with Subword Units
 
+## [2014] GloVe
+----
+- [2014] GloVe: Global Vectors for Word Representation
+- https://nlp.stanford.edu/projects/glove/
+
+## [2018] SentencePiece
+----
+- [2018] SentencePiece: A simple and language independent subword tokenizer and detokenizer for neural text processing
+
+## [2018] ELMo
+----
+基于 LSTM, 双向编码.
+
+- [2018 NAACL] Deep contextualized word representations
+
 ## [2018] BERT, Bidirectional Encoder Representations from Transformers; BERT-wwm 
 ---
 **MLM (Masked Language Modeling) 中 Masking 方法**:
@@ -109,12 +124,6 @@ Parameters | Layers | $d_{model}$
 
 - [2020 NeurIPS] Language models are few-shot learners
 
-## [2018] ELMo
-----
-基于 LSTM, 双向编码.
-
-- [2018 NAACL] Deep contextualized word representations
-
 ## [2019] XLNet
 ----
 - [2019 NeurIPS] Xlnet: Generalized autoregressive pretraining for language understanding
@@ -139,29 +148,17 @@ Parameters | Layers | $d_{model}$
 ----
 - [2022] Self-Instruct: Aligning Language Model with Self Generated Instructions
 
-## word2vec
-----
-
-## GloVe
-----
-
-## FastText
-----
-
-## EMLo
-----
-
-## OPT
+## [2022] OPT
 ----
 - [2022] OPT_ open pre-trained transformer language models
 - https://huggingface.co/facebook/opt-66b
 
-## FlanT5, FLAN-T5, Flan-PaLM
+## [2022] FlanT5, FLAN-T5, Flan-PaLM
 ----
 - [2022] Scaling instruction-finetuned language models
 - https://huggingface.co/google/flan-t5-xxl
 
-## PaLM, PaLM2
+## [2022] PaLM, PaLM2
 ---
 - [2022] Palm_ Scaling language modeling with pathways
 
@@ -222,6 +219,10 @@ Vicuna-13B 是基于 LLaMA 微调的.
 ## Mistral
 ---
 - [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)
+
+## Chinese LLM
+---
+extending the original LLaMA’s vocabulary with an additional 20,000 Chinese tokens.
 
 ## Other LLMs
 ---
