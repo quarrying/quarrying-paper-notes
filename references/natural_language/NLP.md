@@ -59,16 +59,11 @@ BERT 的思想通俗来说就是完形填空 (cloze).
 
 BERT 支持的最大序列长度为 512, 词汇表大小默认为 30522.
 
+BERT 的损失函数: MLM (Masked LM) loss + NSP ( Next Sentence Prediction) loss.
+
 > In contrast to denoising auto-encoders (Vincent et al., 2008), we only predict the masked words rather than reconstructing the entire input.
 
-> The training data generator
-> chooses 15% of the token positions at random for
-> prediction. If the i-th token is chosen, we replace
-> the i-th token with (1) the [MASK] token 80% of
-> the time (2) a random token 10% of the time (3)
-> the unchanged i-th token 10% of the time. Then,
-> Ti will be used to predict the original token with
-> cross entropy loss.
+> The training data generator chooses 15% of the token positions at random for prediction. If the i-th token is chosen, we replace the i-th token with (1) the [MASK] token 80% of the time (2) a random token 10% of the time (3) the unchanged i-th token 10% of the time. Then, Ti will be used to predict the original token with cross entropy loss.
 
 ### 模型结构
 
