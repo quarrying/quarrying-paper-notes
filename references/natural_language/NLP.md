@@ -5,7 +5,7 @@
 - key phrase extraction
 - document categorization
 - question answering
-- machine translation: 机器翻译.
+- machine translation: 机器翻译
 - reading comprehension
 - part-of-speech (POS) tagging: 词性标注
 - named entity recognition (NER): 命名实体识别
@@ -21,7 +21,8 @@
 - natural language understanding (NLU): 自然语言理解
 - Retrieval Augmented Generation (RAG): 检索增强生成
 - Supervised Fine-Tuning (SFT): 监督微调
-- CoT (Chain-of-Thought): 思维链
+- Chain-of-Thought (CoT): 思维链
+- semantic textual similarity (STS)
 
 # Papers
 
@@ -127,6 +128,21 @@ Parameters | Layers | $d_{model}$
 ---
 - [2019] RoBERTa_ A robustly optimized bert pretraining approach
 
+## [2019 EMNLP] Sentence-BERT, SBERT
+---
+- [2019 EMNLP] Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks
+- https://www.sbert.net/
+
+## [2020] DistillBERT
+---
+- student 模型将 BERT 的层数减半
+- 使用 teacher 模型对 student 模型进行初始化 (二取其一).
+- 损失函数: distillation loss, masked language modeling loss, cosine embedding loss
+
+DistilBERT vs BERT: 40% smaller, 60% faster, that retains 97% of the language understanding capabilities.
+
+- [2020] DistilBERT, a distilled version of BERT_ smaller, faster, cheaper and lighter
+
 ## [2020] ALBERT
 ---
 - [2020 ICLR] Albert: Alite bert for self-supervised learning of language representations
@@ -213,7 +229,12 @@ Vicuna-13B 是基于 LLaMA 微调的.
 
 ## Mistral
 ---
+- mistralai/Mistral-7B-Instruct-v0.1
+- mistralai/Mistral-7B-Instruct-v0.2
+
+**References**
 - [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)
+- [[2023] Mistral 7B](https://arxiv.org/abs/2310.06825)
 
 ## Chinese LLM
 ---

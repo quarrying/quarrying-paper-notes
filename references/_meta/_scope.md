@@ -1,4 +1,14 @@
-# 学科
+# Mathematics
+    Compressive Sensing
+    Sparse Coding
+    Numerical Analysis
+    Matrix Analysis
+    Operations research
+    optimization Theory
+    discrete mathematics
+        graph theory
+
+# Vision
     computer vision
         computational vision
         vision computing
