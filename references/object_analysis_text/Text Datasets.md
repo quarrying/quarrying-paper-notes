@@ -87,6 +87,7 @@ ICDAR2015 contains natural images that are captured by Google Glasses casually, 
 
 ### ICDAR2017-RCTW, RCTW-17, ICDAR2017 Competition on Reading Chinese Text in the Wild
 共包含 12,000+ 图像, 大部分图片是通过手机摄像头在野外采集的. 有些是截图. 这些图片展示了各种各样的场景, 包括街景, 海报, 菜单, 室内场景和手机应用程序的截图. 
+
 **References**:
 - http://rctw.vlrlab.net/result/
 - [2017] Icdar2017 competition on reading chinese text in the wild (rctw-17)
@@ -98,6 +99,7 @@ ICDAR2015 contains natural images that are captured by Google Glasses casually, 
 
 ### ICDAR2017-MLT
 ICDAR 2017 MLT (IC17-MLT) is a large scale multi-lingual text dataset, which includes 7200 training images, 1800 validation images and 9000 testing images. The dataset is composed of complete scene images which come from 9 languages. Similarly with ICDAR 2015, the text regions in ICDAR 2017 MLT are also annotated by 4 vertices of the quadrangle.
+
 **References**:
 - [2017] ICDAR2017 robust reading challenge on multi-lingual scene text detection and script identification-rrc-mlt
 
@@ -109,11 +111,13 @@ ICDAR 2017 MLT (IC17-MLT) is a large scale multi-lingual text dataset, which inc
 
 ### ICDAR2019-LSVT, ICDAR 2019 Robust Reading Challenge on Large-scale Street View Text with Partial Labeling
 共 45w 中文街景图像, 包含 5w (2w 测试 + 3w 训练) 全标注数据 (文本坐标 + 文本内容), 40w 弱标注数据 (仅文本内容). 
+
 **References**:
 - https://ai.baidu.com/broad/download?dataset=lsvt
 
 ### ICDAR2019-ArT, ICDAR 2019 Robust Reading Challenge on Arbitrary-Shaped Text
 共包含 10,166 张图像, 训练集 5603 图, 测试集 4563 图. 由 Total-Text, SCUT-CTW1500, Baidu Curved Scene Text 三部分组成, 包含水平, 多方向和弯曲等多种形状的文本. 
+
 **References**:
 - https://ai.baidu.com/broad/download?dataset=art
 
@@ -200,21 +204,40 @@ CUTE80: Curve Text Dataset
 ## MLT-2017
 ---
 MLT-2017 dataset is a multi-language dataset. It includes 9 languages representing 6 different scripts. There are 7,200 training images, 1,800 validation images and 9,000 testing images in this dataset.
+
 **References**:
 - https://rrc.cvc.uab.es/?ch=8
 
 
+## CTW
+---
+- 32,285 high resolution images
+- 1,018,402 character instances
+- 3,850 character categories
+- 6 kinds of attributes
+
+**References**:
+- [2019] A Large Chinese Text Dataset in the Wild
+- https://ctwdataset.github.io/
+- https://github.com/yuantailing/ctw-baseline
+
+
+## Chinese Calligraphy Styles by Calligraphers
+---
+- https://www.kaggle.com/datasets/yuanhaowang486/chinese-calligraphy-styles-by-calligraphers
+
 ## 其他: 中文街景文字识别
 ---
 共包括29万张图片, 其中21万张图片作为训练集 (带标注) , 8万张作为测试集 (无标注) . 数据集采自中国街景, 并由街景图片中的文字行区域 (例如店铺标牌, 地标等等) 截取出来而形成. 所有图像都经过一些预处理, 将文字区域利用仿射变化, 等比映射为一张高为48像素的图片. 
+
 **References**:
 - https://aistudio.baidu.com/aistudio/competition/detail/8
+
 
 ## 其他: 中文文档文字识别
 ---
 共约364万张图片, 按照99:1划分成训练集和验证集. 数据利用中文语料库 (新闻 + 文言文) , 通过字体, 大小, 灰度, 模糊, 透视, 拉伸等变化随机生成.
+
 **References**:
 - https://github.com/YCG09/chinese_ocr
-
-
 
