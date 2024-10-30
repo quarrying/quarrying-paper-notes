@@ -112,6 +112,10 @@
 ---
 - [2019 AAAI] Disentangled Variational Representation for Heterogeneous Face Recognition
 
+## Face-NMS
+---
+- [2021] Face-NMS: A Core-set Selection Approach for Efficient Face Recognition
+
 ## 人脸数据增强
 ---
 - [2016] Frankenstein_ Learning Deep Face Representations using Small Data

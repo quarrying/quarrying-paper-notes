@@ -1,19 +1,26 @@
-# 任务
-- action recognition, action classification
-- temporal action detection; TAD
-    - temporal action localization
-- spatio-temporal action detection; STAD
-- Action quality assessment; AQA
+# Tasks
 
+## Action recognition, action classification
+---
 
-# 代码框架
+## Temporal action detection; TAD; temporal action localization
+---
+> Temporal action detection (TAD) aims to find time intervals of actions of interest in untrimmed videos as well as classifying the instance.
+
+## Spatio-temporal action detection; STAD
+---
+
+## Action quality assessment; AQA
+---
+
+# Codes
 
 ## mmaction
 ---
 - https://github.com/open-mmlab/mmaction
 
 
-# 文献
+# Papers
 
 ## [2019 CVPR] An Attention Enhanced Graph Convolutional LSTM Network for Skeleton-Based Action Recognition
 ---

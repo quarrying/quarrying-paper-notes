@@ -216,6 +216,8 @@ MLT-2017 dataset is a multi-language dataset. It includes 9 languages representi
 - 3,850 character categories
 - 6 kinds of attributes
 
+6 种属性为 occluded, bgcomplex, distorted, raised, wordart, handwritten
+
 **References**:
 - [2019] A Large Chinese Text Dataset in the Wild
 - https://ctwdataset.github.io/
@@ -224,6 +226,10 @@ MLT-2017 dataset is a multi-language dataset. It includes 9 languages representi
 
 ## Chinese Calligraphy Styles by Calligraphers
 ---
+Over 100,000 images for 20 famous Chinese calligraphers
+
+该数据集是用字体文件生成的.
+
 - https://www.kaggle.com/datasets/yuanhaowang486/chinese-calligraphy-styles-by-calligraphers
 
 ## 其他: 中文街景文字识别

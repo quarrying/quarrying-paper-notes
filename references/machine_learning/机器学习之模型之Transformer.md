@@ -99,7 +99,7 @@ graph BT
     norm2 --> x_o
 
     mha[multi-head attention]
-    ffn[feed-forward network]
+    ffn[MLP]
     add1[add]
     add2[add]
     norm1[norm]
@@ -117,7 +117,7 @@ graph BT
     add2 --> x_o
     
     mha[multi-head attention]
-    ffn[feed-forward network]
+    ffn[MLP]
     add1[add]
     add2[add]
     norm1[norm]
