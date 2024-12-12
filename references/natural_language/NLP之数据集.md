@@ -145,3 +145,6 @@ a collection of 9 datasets for evaluating natural language understanding systems
 
 - [2017 EMNLP] RACE_ Large-scale reading comprehension dataset from examinations
 
+## CoNLL-2003 Named Entity Recognition
+---
+- Introduction to the CoNLL-2003 Shared Task: Language-Independent Named Entity Recognition

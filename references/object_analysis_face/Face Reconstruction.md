@@ -36,6 +36,8 @@
 
 ## PRNet
 ---
+> UV position map or position map for short, is a 2D image recording 3D positions of all points in UV space. In the past years, UV space or UV coordinates, which is a 2D image plane parameterized from the 3D space, has been utilized as a way to express information including the texture of faces(texture map) [35,52,53,54], 2.5D geometry(height map)[55,56] and the correspondences between 3D facial meshes[57].
+
 - [2018] Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network
 - https://github.com/YadiraF/PRNet
 

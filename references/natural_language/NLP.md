@@ -75,7 +75,8 @@ BERT large | 24       | 1024        | 16     | 340M
 
 
 ### 参考
-- [2019]] Bert_ Pre-training of deep bidirectional transformers for language understanding
+- [2019] Bert_ Pre-training of deep bidirectional transformers for language understanding
+- https://github.com/google-research/bert
 
 
 ## [2018] GPT, generative pre-training
@@ -126,6 +127,8 @@ Parameters | Layers | $d_{model}$
 
 ## [2019] RoBERTa
 ---
+相对于 BERT, 移除了 next sentence prediction objective.
+
 - [2019] RoBERTa_ A robustly optimized bert pretraining approach
 
 ## [2019 EMNLP] Sentence-BERT, SBERT
@@ -150,6 +153,10 @@ DistilBERT vs BERT: 40% smaller, 60% faster, that retains 97% of the language un
 ## [2020] DeBERTa
 ---
 - [2020] DeBERTa: Decoding-enhanced BERT with Disentangled Attention
+
+## [2020] MiniLM
+---
+- [2020] Minilm: Deep self-attention distillation for task-agnostic compression of pre-trained transformers
 
 ## [2021] RoFormer
 ---
@@ -190,7 +197,7 @@ GPT-3.5 和 GPT-4 的 tokenization 方法为 byte pair encoding (BPE).
 - https://github.com/THUDM/GLM
 - https://chatglm.cn
 
-## LLaMA, LLaMA 2
+## LLaMA
 ----
 Meta 开源的大语言模型, 很多学术界的 LLM 都是基于它微调的.
 
@@ -198,7 +205,10 @@ LLaMA 完全基于开源数据训练, 在很多基准数据集上 LLaMA-13B 可�
 
 > LLaMA is an auto-regressive language model, based on the transformer architecture. The model comes in different sizes: 7B, 13B, 33B and 65B parameters.
 
+### LLaMA 2
 LLaMA 2 有 7B, 13B, 34B, 70B 四种参数大小的模型.
+
+### LLaMa 3
 
 - https://ai.facebook.com/blog/large-language-model-llama-meta-ai/
 - [2023] LLaMA: Open and Efficient Foundation Language Models
@@ -223,9 +233,19 @@ Vicuna-13B 是基于 LLaMA 微调的.
 
 ## Qwen, 通义千问
 ----
+### Qwen1
 - 通用模型 Qwen-7B
 - 对话模型 Qwen-7B-Chat 
 - 视觉语言模型 Qwen-VL, Qwen-VL-Chat
+
+### Qwen2
+- Qwen2-0.5B
+- Qwen2-1.5B
+- Qwen2-7B
+- Qwen2-72B, Qwen2-72B-Instruct
+- Qwen2-57B-A14B
+
+> All models were pre-trained on a high-quality, large-scale dataset comprising over 7 trillion tokens, covering a wide range of domains and languages.
 
 ## Mistral
 ---
@@ -235,10 +255,6 @@ Vicuna-13B 是基于 LLaMA 微调的.
 **References**
 - [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)
 - [[2023] Mistral 7B](https://arxiv.org/abs/2310.06825)
-
-## Chinese LLM
----
-extending the original LLaMA’s vocabulary with an additional 20,000 Chinese tokens.
 
 ## Other LLMs
 ---

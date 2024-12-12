@@ -25,17 +25,25 @@
 - [2017 TPAMI] An End-to-End Trainable Neural Network for Image-Based Sequence Recognition and Its Application to Scene Text Recognition
 - https://github.com/meijieru/crnn.pytorch
 
-## [2018] A Novel Integrated Framework for Learning both Text Detection and Recognition
+## [2019 TPAMI] ASTER
 ---
+- [2019 TPAMI] ASTER: An attentional scene text recognizer with flexible rectification
 
 ## [2020] PP-OCR
 ---
 - [2020] PP-OCR_ A Practical Ultra Lightweight OCR System
 
-
 ## [2023] TPS++
 ----
 - [2023] TPS++: Attention-Enhanced Thin-Plate Spline for Scene Text Recognition
+
+## [2021] TrOCR
+---
+- [2021] TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models
+
+## [2022 IJCAI] SVTR
+---
+- [2022 IJCAI] SVTR_ Scene Text Recognition with a Single Visual Model
 
 
 # 票据识别
@@ -43,6 +51,29 @@
 - [2019] Research on information recognition of vat invoice based on computer vision
 - [2020] An end to end method for taxi receipt automatic recognition based on neural network
 - [2021] Research on Fast Text Recognition Method for Financial Ticket Image
+
+
+# Mathematical Expression Recognition; MER
+
+- [2017 ICDAR] Training an End-to-End System for Handwritten Mathematical Expression Recognition by Generated Patterns
+- [2018 ICPR] Multi-Scale Attention with Dense Encoder for Handwritten Mathematical Expression Recognition
+
+## [2024] UniMERNet, UniMER-1M
+---
+提出了一个数据集 UniMER, 包含一百万个实例.
+
+- [2024] UniMERNet_ A Universal Network for Real-World Mathematical Expression Recognition
+
+## texify
+---
+- https://github.com/VikParuchuri/texify
+
+
+# 配料表识别
+
+- [2024] OCR-Based Ingredient Recognition for Consumer Well-Being
+- [2024] Online Analysis of Ingredient Safety, Leveraging OCR and Machine Learning for Enhanced Consumer Product Safety
+- https://github.com/JSerwatka/Optical-Character-Recognition-of-food-ingredients
 
 
 # 代码框架

@@ -4,6 +4,8 @@
 
 ## 2024
 
+- 20241111 [2022 IJCAI] SVTR_ Scene Text Recognition with a Single Visual Model
+- 20241111 [2020 AAAI] Real-time Scene Text Detection with Differentiable Binarization
 - 20240408 [2023] Improved Baselines with Visual Instruction Tuning
 - 20240227 泛读**大模型压缩**相关文献
 - 20240227 [2022 ICLR] Finetuned Language Models Are Zero-Shot Learners

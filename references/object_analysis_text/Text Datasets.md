@@ -28,6 +28,11 @@ There are 73,257 images in the training set, 26,032 images in the test set, and 
 - http://ufldl.stanford.edu/housenumbers/
 - [2011 NIPSW] Reading Digits in Natural Images with Unsupervised Feature Learning
 
+## [2014 NIPS] MJSynth
+---
+合成数据集. MJ 是做作者 Jaderberg, M 的首字母缩写.
+
+- [2014 NIPS] Synthetic Data and Artificial Neural Networks for Natural Scene Text Recognition
 
 ## CISIA-HWDB, HWDB1.0
 ---
@@ -63,7 +68,7 @@ The ICDAR 2011 dataset includes 229 and 255 images for training and testing.
 
 ## ICDAR 2013
 ---
-The ICDAR 2013 dataset consists of 229 training images and 233 testing images in different resolutions. This dataset contains only horizontal or nearly horizontal text.
+> The ICDAR 2013 dataset consists of 229 training images and 233 testing images in different resolutions. This dataset contains only horizontal or nearly horizontal text.
 
 **References**:
 - ICDAR 2013 robust reading competition (2013)
@@ -71,12 +76,18 @@ The ICDAR 2013 dataset consists of 229 training images and 233 testing images in
 
 ## ICDAR 2015
 ---
-ICDAR2015 contains natural images that are captured by Google Glasses casually, and most of them are severely distorted or blurred. There are 1000 training images and 500 testing images, which are annotated with quadrilaterals.
+> ICDAR2015 contains natural images that are captured by Google Glasses casually, and most of them are severely distorted or blurred. There are 1000 training images and 500 testing images, which are annotated with quadrilaterals.
 
 **References**:
 - ICDAR 2015 competition on robust reading (2015)
 
 ### ICDAR 2015 Competition Challenge 4: Incidental Scene Text
+
+## IIIT-HWS
+---
+> IIIT-HWS dataset comprising of nearly 9M synthetic word images rendered out of 750 publicly available handwritten fonts. We use 90K unique words as the vocabulary which is picked from a popular open source English dictionary Hunspell.
+
+-[2016] Generating Synthetic Data for Text Recognition
 
 
 ## ICDAR 2017
@@ -98,7 +109,7 @@ ICDAR2015 contains natural images that are captured by Google Glasses casually, 
 - [2017] ICDAR2017 Robust Reading Challenge on COCO-Text
 
 ### ICDAR2017-MLT
-ICDAR 2017 MLT (IC17-MLT) is a large scale multi-lingual text dataset, which includes 7200 training images, 1800 validation images and 9000 testing images. The dataset is composed of complete scene images which come from 9 languages. Similarly with ICDAR 2015, the text regions in ICDAR 2017 MLT are also annotated by 4 vertices of the quadrangle.
+> ICDAR 2017 MLT (IC17-MLT) is a large scale multi-lingual text dataset, which includes 7200 training images, 1800 validation images and 9000 testing images. The dataset is composed of complete scene images which come from 9 languages. Similarly with ICDAR 2015, the text regions in ICDAR 2017 MLT are also annotated by 4 vertices of the quadrangle.
 
 **References**:
 - [2017] ICDAR2017 robust reading challenge on multi-lingual scene text detection and script identification-rrc-mlt
@@ -127,6 +138,12 @@ ICDAR 2017 MLT (IC17-MLT) is a large scale multi-lingual text dataset, which inc
 **References**:
 - https://rrc.cvc.uab.es/?ch=12
 
+## ICDAR2019-SROIE, Robust Reading Challenge on Scanned Receipts OCR and Information Extraction 2019
+---
+
+**References**:
+- https://rrc.cvc.uab.es/?ch=13
+
 
 ## ICDAR 2021
 ---
@@ -142,7 +159,7 @@ ICDAR 2017 MLT (IC17-MLT) is a large scale multi-lingual text dataset, which inc
 
 ## CTW-1500, SCUT-CTW1500
 ---
-CTW1500 is a curved English text dataset that consists of 1000 training images and 500 testing images. All the text instances are annotated with 14 vertices.
+> CTW1500 is a curved English text dataset that consists of 1000 training images and 500 testing images. All the text instances are annotated with 14 vertices.
 
 **References**:
 - [2017] Detecting curve text in the wild_ New dataset and new solution
@@ -151,7 +168,7 @@ CTW1500 is a curved English text dataset that consists of 1000 training images a
 
 ## Total-Text
 ---
-Total-Text is a word-level based English text dataset. It consists of 1255 training images and 300 testing images, which contain horizontal texts, multi-oriented texts, and curved texts.
+> Total-Text is a word-level based English text dataset. It consists of 1255 training images and 300 testing images, which contain horizontal texts, multi-oriented texts, and curved texts.
 
 **References**:
 - [2017 ICDAR] Total-text_ A comprehensive dataset for scene text detection and recognition
@@ -160,7 +177,9 @@ Total-Text is a word-level based English text dataset. It consists of 1255 train
 
 ## SynthText
 ---
-The SynthText dataset contains 800k synthesized text images, created via blending rendered words with natural images. As the location and transform of text are carefully chosen with a learning algorithm, the synthesized images look realistic.
+> The SynthText dataset contains 800k synthesized text images, created via blending rendered words with natural images. As the location and transform of text are carefully chosen with a learning algorithm, the synthesized images look realistic.
+
+该数据集是合成的, 但量较大, 常用作预训练.
 
 **References**:
 - [2016 CVPR] Synthetic data for text localisation in natural images
@@ -168,9 +187,9 @@ The SynthText dataset contains 800k synthesized text images, created via blendin
 
 ## COCO-Text
 ---
-It reuses the images from MS-COCO dataset.  Word regions are annotated in the form of axis-aligned bounding box (AABB)
-
-The COCO-Text dataset is currently the largest dataset for scene text detection and recognition. It contains 43686 training images and 20000 images for validation/testing.
+> It reuses the images from MS-COCO dataset.  Word regions are annotated in the form of axis-aligned bounding box (AABB)
+> 
+> The COCO-Text dataset is currently the largest dataset for scene text detection and recognition. It contains 43686 training images and 20000 images for validation/testing.
 
 **References**:
 - [2016] Coco-text_ Dataset and benchmark for text detection and recognition in natural images
@@ -189,6 +208,8 @@ CUTE80: Curve Text Dataset
 ---
 >The MSRA Text Detection 500 Database (MSRA-TD500) contains 500 natural images, which are taken from indoor (office and mall) and outdoor (street) scenes using a pocket camera. MSRA-TD500 is a multi-lingual long text dataset for Chinese and English. It includes 300 training images and 200 testing images with arbitrary orientations.
 
+该数据集的标注级别是: text-line.
+
 **References**:
 - [2012 CVPR] Detecting texts of arbitrary orientations in natural images
 - [2018 ACM MM] Arbitrary-Oriented Scene Text Detection via Rotation Proposals
@@ -203,7 +224,7 @@ CUTE80: Curve Text Dataset
 
 ## MLT-2017
 ---
-MLT-2017 dataset is a multi-language dataset. It includes 9 languages representing 6 different scripts. There are 7,200 training images, 1,800 validation images and 9,000 testing images in this dataset.
+> MLT-2017 dataset is a multi-language dataset. It includes 9 languages representing 6 different scripts. There are 7,200 training images, 1,800 validation images and 9,000 testing images in this dataset.
 
 **References**:
 - https://rrc.cvc.uab.es/?ch=8
@@ -224,6 +245,11 @@ MLT-2017 dataset is a multi-language dataset. It includes 9 languages representi
 - https://github.com/yuantailing/ctw-baseline
 
 
+## Chinese Scene Dataset
+---
+- [2021] Benchmarking chinese text recognition: Datasets, baselines, and an empirical study
+
+
 ## Chinese Calligraphy Styles by Calligraphers
 ---
 Over 100,000 images for 20 famous Chinese calligraphers
@@ -231,6 +257,7 @@ Over 100,000 images for 20 famous Chinese calligraphers
 该数据集是用字体文件生成的.
 
 - https://www.kaggle.com/datasets/yuanhaowang486/chinese-calligraphy-styles-by-calligraphers
+
 
 ## 其他: 中文街景文字识别
 ---
