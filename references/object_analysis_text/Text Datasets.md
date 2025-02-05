@@ -274,3 +274,11 @@ Over 100,000 images for 20 famous Chinese calligraphers
 **References**:
 - https://github.com/YCG09/chinese_ocr
 
+
+## Union14M
+---
+> Union14M is a large scene text recognition (STR) dataset collected from 17 publicly available datasets, which contains 4M of labeled data (Union14M-L) and 10M of unlabeled data (Union14M-U)
+
+- https://github.com/Mountchicken/Union14M
+
+

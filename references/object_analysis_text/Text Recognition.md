@@ -132,6 +132,10 @@
 - [cnocr](https://github.com/breezedeus/cnocr)
 - [crnn-mxnet-chinese-text-recognition](https://github.com/diaomin/crnn-mxnet-chinese-text-recognition )
 
+## OpenOCR
+---
+- https://github.com/Topdu/OpenOCR
+
 # Challenges
 
 ## ICDAR Robust Reading Competition

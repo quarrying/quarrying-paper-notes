@@ -2,6 +2,10 @@
 
 记录阅读 1 小时以上的文献 (不一定读完), 勾选表示做了笔记.
 
+
+## 2025
+- 20250121 [2022] SVTR_ Scene Text Recognition with a Single Visual Model
+
 ## 2024
 
 - 20241111 [2022 IJCAI] SVTR_ Scene Text Recognition with a Single Visual Model
