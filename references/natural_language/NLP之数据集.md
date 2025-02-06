@@ -71,6 +71,7 @@ a collection of 9 datasets for evaluating natural language understanding systems
 
 ## C4, colossal clean crawled corpus
 ---
+C4 语料库被用来训练 T5 模型, 806GB.
 
 ## CLUECorpus2020 
 ----
@@ -82,7 +83,7 @@ a collection of 9 datasets for evaluating natural language understanding systems
 - https://github.com/thunlp/THUCTC
 - http://thuctc.thunlp.org/
 
-## Pile
+## Pile, The Pile
 ---
 - [2020] The Pile: An 800GB Dataset of Diverse Text for Language Modeling
 
@@ -148,3 +149,10 @@ a collection of 9 datasets for evaluating natural language understanding systems
 ## CoNLL-2003 Named Entity Recognition
 ---
 - Introduction to the CoNLL-2003 Shared Task: Language-Independent Named Entity Recognition
+
+## OpenWebText
+---
+仿照 WebText 构建的数据集, 有 38GB.
+
+- https://skylion007.github.io/OpenWebTextCorpus/
+

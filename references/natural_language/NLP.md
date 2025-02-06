@@ -92,7 +92,7 @@ pretext task 为 next-token prediction task.
 
 ## [2019] GPT-2
 ----
-GPT-2 的训练集为 WebText.
+GPT-2 的训练集为 WebText, 该数据集未开源. 
 
 GPT-2 的词汇表大小为 50,257?
 
