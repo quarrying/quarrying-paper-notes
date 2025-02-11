@@ -146,7 +146,7 @@ iGPT 和 ViT 是 transformer 在 CV 中的两大先驱工作.
 
 例子: 若图像尺寸为 224x224, 通道数为 3, patch 尺寸为 16x16, 则图像可以转化为 196 (`(224 / 16) * (224 / 16)`) 个 patch, 每个 patch 的维度为 768 (`16 * 16 * 3`).
 
-ViT 网络结构与 CNN 相比不具有以下两个归纳偏置 (inductive bias, 可以理解为先验知识): 局部连接 (locality), 平移等变性 (translation equivariance). 但不能说 ViT 没有任何关于图像的归纳偏置, 文中有述 (可否理解为: ViT 网络结构本身没有关于图像的归纳偏置, 但 ViT 的输入是有归纳偏置的?)
+ViT 网络结构与 CNN 相比没有以下两个归纳偏置 (inductive bias, 可以理解为先验知识): 局部连接 (locality), 平移等变性 (translation equivariance). 但不能说 ViT 没有任何关于图像的归纳偏置, 文中有述 (即对输入图像进行缩放, 以及分块操作是有归纳偏置.)
 > Note that this resolution adjustment and patch extraction are the only points at which an inductive bias about the 2D structure of the images is manually injected into the Vision Transformer.
 
 B/32 和 B/16 的 ViT 在参数量上是相同的 (ViT 之前的 linear projection 会将所有的 vectorized patch 变成相同的维度).
@@ -184,7 +184,7 @@ ViT-Huge, ViT-H  | 632M
     timm/vit_giant_patch14_dinov2.lvd142m
 
 
-### 参考
+### References
 - [2020 @Google] An image is worth 16x16 words_ Transformers for image recognition at scale
 - https://github.com/google-research/vision_transformer
 
@@ -211,7 +211,7 @@ DeiT-S    | 22M        | ResNet50
     facebook/deit-base-patch16-384
     facebook/deit-base-distilled-patch16-384
     
-### 参考
+### References
 - [2020 @Facebook] Training data-efficient image transformers & distillation through attention
 - https://github.com/facebookresearch/deit
 
@@ -325,4 +325,8 @@ ViT-G/14 包含 2B 参数量.
 
 ## [2020] GLU Variants Improve Transformer
 ---
+
+## [2025] Scaling Laws in Patchification_ An Image Is Worth 50,176 Tokens And More
+---
+主要思想是: 一个 token 一个像素效果最好.
 

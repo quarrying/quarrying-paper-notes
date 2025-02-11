@@ -1,7 +1,3 @@
-## [2020] wav2vec
-----
-- [2020] wav2vec 2.0: A framework for self-supervised learning of speech representations
-
 ## [2017] VGGish
 ----
 - https://github.com/tensorflow/models/tree/master/research/audioset/vggish
@@ -10,6 +6,14 @@
 ---
 - [2019] PANNs_ Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition
 - https://github.com/qiuqiangkong/audioset_tagging_cnn
+
+## [2020] wav2vec
+----
+- [2020] wav2vec 2.0: A framework for self-supervised learning of speech representations
+
+## [2021] Audio ALBERT
+---
+- [2021] Audio ALBERT: A Lite BERT for Self-supervised Learning of Audio Representation
 
 
 # Datasets

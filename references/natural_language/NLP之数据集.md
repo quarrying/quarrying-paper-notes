@@ -152,9 +152,20 @@ C4 语料库被用来训练 T5 模型, 806GB.
 - Introduction to the CoNLL-2003 Shared Task: Language-Independent Named Entity Recognition
 - https://data.deepai.org/conll2003.zip
 
-## OpenWebText
+
+## OpenWebText, Open WebText
 ---
-仿照 WebText 构建的数据集, 有 38GB.
+仿照 WebText (GPT-2 的训练数据) 构建的数据集, 有 38GB.
+
+> We started by extracting all Reddit post urls from the `Reddit submissions dataset`. These links were deduplicated, filtered to exclude non-html content, and then shuffled randomly. The links were then distributed to several machines in parallel for download, and all web pages were extracted using the newspaper python package. Using Facebook FastText, non-English web pages were filtered out.
+> 
+> Subsequently, near-duplicate documents were identified using local-sensitivity hashing (LSH). Documents were hashed into sets of 5-grams and all documents that had a similarity threshold of greater than 0.5 were removed. The the remaining documents were tokenized, and documents with fewer than 128 tokens were removed. This left 38GB of text data (40GB using SI units) from 8,013,769 documents.
 
 - https://skylion007.github.io/OpenWebTextCorpus/
+- https://huggingface.co/datasets/Skylion007/openwebtext
 
+
+## OpenAssistant Conversations
+---
+- [2023] OpenAssistant Conversations - Democratizing Large Language Model Alignment
+- https://huggingface.co/datasets/OpenAssistant/oasst1
