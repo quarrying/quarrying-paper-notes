@@ -30,18 +30,10 @@
 ---
 - [Awesome-Chinese-NLP](https://github.com/crownpku/Awesome-Chinese-NLP )
 
-## [2015] Byte Pair Encoding, BPE
-----
-- [2015] Neural Machine Translation of Rare Words with Subword Units
-
 ## [2014] GloVe
 ----
 - [2014] GloVe: Global Vectors for Word Representation
 - https://nlp.stanford.edu/projects/glove/
-
-## [2018] SentencePiece
-----
-- [2018] SentencePiece: A simple and language independent subword tokenizer and detokenizer for neural text processing
 
 ## [2018] ELMo
 ----
@@ -256,6 +248,9 @@ Vicuna-13B 是基于 LLaMA 微调的.
 - [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/)
 - [[2023] Mistral 7B](https://arxiv.org/abs/2310.06825)
 
+## DeepSeek
+---
+
 ## Other LLMs
 ---
 - MPT, MosaicML Pretrained Transformer
@@ -264,9 +259,6 @@ Vicuna-13B 是基于 LLaMA 微调的.
 - RedPajama
 - Megatron-Turing NLG 530B, MT-530B
 - Megatron-11B
-- GPT-Neo
-- GPT-J-6B
-- Pangu-α-13B
 - FairSeq
 - Google Bard
 - [GPT-NeoX-20B](https://github.com/EleutherAI/gpt-neox)

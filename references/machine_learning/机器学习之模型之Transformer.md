@@ -10,7 +10,7 @@ $$\mathrm{Attention}(Q,K,V) = \mathrm{softmax}\left(\frac{QK^{\top}}{\sqrt{d_k}}
 2) $K\in\mathbb{R}^{m\times d_k}$ 为 key, $m$ 是 source sequence length.
 3) $V\in\mathbb{R}^{m\times d_v}$ 为 value.
 
-最终的 $\mathrm{Attention}(Q,K,V)$ 的尺寸为 $n\times d_v$, 也就是 attention 将 $n\times d_k$ 的 $Q$ 编码成了一个新的 $n\times d_v$ 的序列, 没有改变 $Q$ 的序列长度 (sequence length), 但维度可能会有变化. 
+最终的 $\mathrm{Attention}(Q,K,V)$ 的尺寸为 $n\times d_v$, 也就是说 attention 将 $n\times d_k$ 的 $Q$ 编码成了一个新的 $n\times d_v$ 的序列, 即 attention 没有改变 $Q$ 的序列长度 (sequence length), 但维度可能会有变化. 
 
 关于为什么要除以 $\sqrt{d_k}$, 下面摘抄一下原文:
 > We suspect that for large values of $d_k$, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients. To counteract this effect, we scale the dot products by $1/\sqrt{d_k}$ .
@@ -20,7 +20,7 @@ $$\mathrm{Attention}(Q,K,V) = \mathrm{softmax}\left(\frac{QK^{\top}}{\sqrt{d_k}}
 2) $K$ 和 $V$ 总是成对出现的 (key-value pair 也是生活中的常见词汇, $K$ 和 $V$ 的序列长度是一样的, 但维度可以不同), 例如在交叉注意力中, $K$ 和 $V$ 来自同一个模态, $Q$ 来自另一个模态.
 3) Attention 公式的助记口诀: `Q-KTV`.
 4) Attention 的作用简单说就是: 利用 $K$ 和 $V$ 来增强 $Q$ 的特征表达能力.
-5) 为什么不对 $Q$, $K$, $V$ 进行归一化?
+
 
 ### 带投影的 Scaled Dot-Product Attention
 
