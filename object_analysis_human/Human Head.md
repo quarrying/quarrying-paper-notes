@@ -3,7 +3,6 @@
 
 ## [2018 ICIP] Key parts context and scene geometry in human head detection
 ---
-!TODO
 
 ## [2020 CVPRW] Fast Human Head and Shoulder Detection Using Convolutional Networks and RGBD Data
 ---

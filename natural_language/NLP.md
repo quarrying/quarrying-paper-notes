@@ -23,6 +23,8 @@
 - Supervised Fine-Tuning (SFT): 监督微调
 - Chain-of-Thought (CoT): 思维链
 - semantic textual similarity (STS)
+- task-oriented dialogue (TOD) 
+- Language Agents (LA)
 
 # Papers
 

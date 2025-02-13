@@ -4,6 +4,8 @@
 
 
 ## 2025
+
+- 20250213 [2020] End-to-end object detection with transformer
 - 20250121 [2022] SVTR_ Scene Text Recognition with a Single Visual Model
 
 ## 2024

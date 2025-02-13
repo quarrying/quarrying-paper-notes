@@ -5,7 +5,7 @@
 - WebFace260M : 4M identities / 260M faces
 - WebFace42M:   2M identities / 42M faces
 
-Face number of WebFace42M in each identity varies from 3 to more than 300, and the average face number is 21 per identity.
+> Face number of WebFace42M in each identity varies from 3 to more than 300, and the average face number is 21 per identity.
 
 **References**:
 - [2021 CVPR] WebFace260M: A Benchmark Unveiling the Power of Million-Scale Deep Face Recognition
@@ -14,7 +14,7 @@ Face number of WebFace42M in each identity varies from 3 to more than 300, and t
 
 ## Glint360K
 ---
-Furthermore, we clean Celeb-500k and add more celebrities to merge into a new training set, which we call Glint360K. The released dataset contains 18 million images of 360K individuals, which is the largest and cleanest training set by far in academia.
+> Furthermore, we clean Celeb-500k and add more celebrities to merge into a new training set, which we call Glint360K. The released dataset contains 18 million images of 360K individuals, which is the largest and cleanest training set by far in academia.
 
 **References**:
 - [2020] Partial FC_ Training 10 Million Identities on a Single Machine
@@ -80,7 +80,7 @@ The LFW protocol consists of face verification based on ten-fold cross-validatio
 
 
 ### BLUFR protocol
-The Benchmark of Large-scale Unconstrained Face Recognition (BLUFR) is a new benchmark for LFW evaluations, which contains both verification and open- set identification. There are 10-fold experiments, with each fold containing about 156,915 genuine matching and 46,960,863 impostor matching on average for performance evaluation. It is more challenging and generalized for LFW.
+> The Benchmark of Large-scale Unconstrained Face Recognition (BLUFR) is a new benchmark for LFW evaluations, which contains both verification and open- set identification. There are 10-fold experiments, with each fold containing about 156,915 genuine matching and 46,960,863 impostor matching on average for performance evaluation. It is more challenging and generalized for LFW.
 
 **References**:
 - [2014 IJCB] A benchmark study of large-scale unconstrained face recognition
@@ -145,7 +145,7 @@ IARPA Janus Benchmark-B (IJB-B) dataset consists of 1,845 subjects with a total 
 
 ## Face-Disguise-Dataset
 ---
-The dataset contains 4000 images (2000 images each corresponding to simple and complex backgrounds dataset) recorded with male and female subjects aged from 18 years to 30 years. The dataset was collected in 8 different backgrounds,25 subjects and 10 different disguises.
+> The dataset contains 4000 images (2000 images each corresponding to simple and complex backgrounds dataset) recorded with male and female subjects aged from 18 years to 30 years. The dataset was collected in 8 different backgrounds,25 subjects and 10 different disguises.
 
 **References**:
 - https://github.com/DevendraPatil/Face-Disguise-Dataset
@@ -214,7 +214,7 @@ There are 22 overlapping subjects between the CASIA WebFace and IJB-A datasets.
 - [2014] Learning face representation from scratch
 
 
-## MS-Celeb-1M (MS1M)
+## MS-Celeb-1M, MS1M
 ---
 从 1M 个名人中, 根据受欢迎程度选择 100K 个. 然后利用搜索引擎, 给 100K 个人, 每人搜大概 100 张图片. 共 `100K*100=10M` 张图片. 测试集包括 1000 个名人, 这 1000 个名人来自于 1M 个明星中随机挑选, 而且经过微软标注, 每个名人大概有 20 张图片. 
 
