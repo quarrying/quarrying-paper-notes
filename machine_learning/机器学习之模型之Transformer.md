@@ -15,7 +15,7 @@ $$\mathrm{Attention}(Q,K,V) = \mathrm{softmax}\left(\frac{QK^{\top}}{\sqrt{d_k}}
 关于为什么要除以 $\sqrt{d_k}$, 下面摘抄一下原文:
 > We suspect that for large values of $d_k$, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients. To counteract this effect, we scale the dot products by $1/\sqrt{d_k}$ .
 
-**Opinions** (自己理解): 
+**Opinions** : 
 1) softmax 函数是多元函数 (自变量是向量), 上面式子中的 softmax 函数的自变量是矩阵, 与定义不符, 此处的 `softmax(x)` 应该理解为 `torch.nn.functional.softmax(x, dim=1)` (借用 pytorch 中的函数.)
 2) $K$ 和 $V$ 总是成对出现的 (key-value pair 也是生活中的常见词汇, $K$ 和 $V$ 的序列长度是一样的, 但维度可以不同), 例如在交叉注意力中, $K$ 和 $V$ 来自同一个模态, $Q$ 来自另一个模态.
 3) Attention 公式的助记口诀: `Q-KTV`.
@@ -328,5 +328,4 @@ ViT-G/14 包含 2B 参数量.
 
 ## [2025] Scaling Laws in Patchification_ An Image Is Worth 50,176 Tokens And More
 ---
-主要思想是: 一个 token 一个像素效果最好.
-
+主要思想是: 一个像素一个 token 效果最好.

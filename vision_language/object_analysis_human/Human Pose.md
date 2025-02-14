@@ -1,16 +1,3 @@
-# Overview
-
-```mermaid
-graph TB
-    HumanPose[human pose estimation]
-    HumanPose --> single[single-person pose estimation]
-    HumanPose --> multiple[multi-person pose estimation]
-    HumanPose --> 2d[2D pose estimation]
-    HumanPose --> 3d[3D pose estimation]
-    HumanPose --> regression[regression-based pose estimation]
-    HumanPose --> heatmap[heatmap-based pose estimation]
-```
-
 # Codes
 - https://github.com/bearpaw/pytorch-pose
 - https://github.com/princeton-vl/pose-ae-train
