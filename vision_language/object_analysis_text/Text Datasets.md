@@ -172,6 +172,7 @@ The ICDAR 2011 dataset includes 229 and 255 images for training and testing.
 
 **References**:
 - [2017 ICDAR] Total-text_ A comprehensive dataset for scene text detection and recognition
+- [2020 IJDAR] Total-Text: toward orientation robustness in scene text detection
 - https://github.com/cs-chan/Total-Text-Dataset
 
 
