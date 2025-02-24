@@ -30,9 +30,12 @@ There are 73,257 images in the training set, 26,032 images in the test set, and 
 
 ## [2014 NIPS] MJSynth
 ---
-合成数据集. MJ 是做作者 Jaderberg, M 的首字母缩写.
+合成数据集. MJ 是作者 Max Jaderberg 的首字母缩写.
+
+> This dataset consists of 9 million images covering 90k English words, and includes the training, validation and test splits used in our work.
 
 - [2014 NIPS] Synthetic Data and Artificial Neural Networks for Natural Scene Text Recognition
+- https://www.robots.ox.ac.uk/~vgg/data/text/
 
 ## CISIA-HWDB, HWDB1.0
 ---
@@ -176,14 +179,17 @@ The ICDAR 2011 dataset includes 229 and 255 images for training and testing.
 - https://github.com/cs-chan/Total-Text-Dataset
 
 
-## SynthText
+## [2016 CVPR] SynthText
 ---
 > The SynthText dataset contains 800k synthesized text images, created via blending rendered words with natural images. As the location and transform of text are carefully chosen with a learning algorithm, the synthesized images look realistic.
+
+> The dataset consists of 800 thousand images with approximately 8 million synthetic word instances. Each text instance is annotated with its text-string, word-level and character-level bounding-boxes.
 
 该数据集是合成的, 但量较大, 常用作预训练.
 
 **References**:
 - [2016 CVPR] Synthetic data for text localisation in natural images
+- https://www.robots.ox.ac.uk/~vgg/data/scenetext/
 
 
 ## COCO-Text
