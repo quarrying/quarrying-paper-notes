@@ -1,4 +1,4 @@
-## LSTM
+## [1997] LSTM
 ----
 - 遗忘门
 - 记忆门
@@ -10,8 +10,8 @@ References:
 - http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 
 
-## GRU
+## [2014] GRU
 ----
-- [2014]  Empirical evaluation of gated recurrent neural networks on sequence modeling
+- [2014] Empirical evaluation of gated recurrent neural networks on sequence modeling
 
 
