@@ -13,6 +13,10 @@
 ## [2013] Unsupervised Writer Retrieval using NetRVLAD and Graph Similarity Reranking
 ----
 
+# Table Detection 
+
+# Table Structure Parsing, TSP
 
 # 其他
 - 揭秘！文字识别在高德地图数据生产中的演进
+

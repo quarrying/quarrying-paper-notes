@@ -289,6 +289,8 @@ Over 100,000 images for 20 famous Chinese calligraphers
 - https://github.com/Mountchicken/Union14M
 
 
+# Formula
+
 ## latex-formulas
 ----
 > There are two datasets: raw_formulas and cleaned_formulas (This dataset has 550K formula-image pairs).
@@ -302,3 +304,20 @@ Over 100,000 images for 20 famous Chinese calligraphers
 ---
 - https://github.com/Miffyli/im2latex-dataset
 - [2017 ICML] Image-to-Markup Generation with Coarse-to-Fine Attention
+
+
+# Table
+
+## WTW-Dataset
+---
+> WTW-Dataset is the first wild table dataset for table detection and table structure recongnition tasks, which is constructed from photoing, scanning and web pages, covers 7 challenging cases like: (1)Inclined tables, (2) Curved tables, (3) Occluded tables or blurredtables (4) Extreme aspect ratio tables (5) Overlaid tables, (6) Multi-color tables and (7) Irregular tables in table structure recognition.
+
+- https://github.com/wangwen-whu/WTW-Dataset
+
+
+# Layout
+
+## PubLayNet
+----
+- https://github.com/ibm-aur-nlp/PubLayNet
+
