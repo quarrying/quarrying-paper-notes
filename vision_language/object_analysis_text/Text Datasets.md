@@ -321,3 +321,11 @@ Over 100,000 images for 20 famous Chinese calligraphers
 ----
 - https://github.com/ibm-aur-nlp/PubLayNet
 
+
+# Logo
+
+## LogoDet-3K
+----
+> has 3,000 logo categories, about 200,000 manually annotated logo objects and 158,652 images. 
+
+- LogoDet-3K: A Large-Scale Image Dataset for Logo Detection

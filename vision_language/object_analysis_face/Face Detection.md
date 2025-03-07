@@ -199,28 +199,6 @@ NPD is invariant to scale change of the pixel intensities.
 - [2012 CVPR] Face detection, pose estimation, and landmark localization in the wild
 
 
-# 戴口罩人脸检测
-- 肺炎疫情攻防战--口罩佩戴识别检测 
-    - https://god.yanxishe.com/38
-- 极市平台视觉算法季度赛-口罩识别
-    - http://www.cvmart.net/race/4/base
-- Real-World Masked Face Dataset
-    - https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset
-- face-mask: Wear face masks in the given picture.
-    - https://github.com/Prodesire/face-mask
-    
-    
-# 代码
-- libfacedetection, 于仕琪开源的项目
-    - https://github.com/ShiqiYu/libfacedetection
-- DBFace
-    - https://github.com/dlunion/DBFace
-- Ultra-Light-Fast-Generic-Face-Detector-1MB
-    - https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB
-- Lightweight-face-detection-CenterNet
-    - https://github.com/nvlong21/Lightweight-face-detection-CenterNet
-
-    
 # 数据集
 
 ## Wider Face
@@ -290,4 +268,7 @@ Pascal Faces is a subset of the Pascal VOC dataset and contains 851 images annot
 - [2014] Face detection by structural models
 
 
+## Real-World Masked Face Dataset
+---
+- https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset
 

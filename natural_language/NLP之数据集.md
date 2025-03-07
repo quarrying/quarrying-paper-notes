@@ -169,3 +169,9 @@ C4 语料库被用来训练 T5 模型, 806GB.
 ---
 - [2023] OpenAssistant Conversations - Democratizing Large Language Model Alignment
 - https://huggingface.co/datasets/OpenAssistant/oasst1
+
+
+## zhwiki, 中文维基百科
+---
+- https://dumps.wikimedia.org/zhwiki/
+

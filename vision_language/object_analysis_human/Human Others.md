@@ -9,6 +9,8 @@
 - <https://cloud.baidu.com/doc/BODY/s/Fk3cpyxua>
 - <https://developer.huawei.com/consumer/en/hiai/engine/portrait-segmentation>
 
+# Person Search
+- Text-based Person Search; TBPS
 
 # 人脸跟踪
 

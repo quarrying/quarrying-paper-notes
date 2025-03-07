@@ -1,4 +1,4 @@
-# 文本识别
+# Papers
 
 ## [2012 ICPR] End-to-end text recognition with convolutional neural networks
 ---
@@ -44,36 +44,6 @@
 ## [2022 IJCAI] SVTR
 ---
 - [2022 IJCAI] SVTR_ Scene Text Recognition with a Single Visual Model
-
-
-# 票据识别
-
-- [2019] Research on information recognition of vat invoice based on computer vision
-- [2020] An end to end method for taxi receipt automatic recognition based on neural network
-- [2021] Research on Fast Text Recognition Method for Financial Ticket Image
-
-
-# Mathematical Expression Recognition; MER
-
-- [2017 ICDAR] Training an End-to-End System for Handwritten Mathematical Expression Recognition by Generated Patterns
-- [2018 ICPR] Multi-Scale Attention with Dense Encoder for Handwritten Mathematical Expression Recognition
-
-## [2024] UniMERNet, UniMER-1M
----
-提出了一个数据集 UniMER, 包含一百万个实例.
-
-- [2024] UniMERNet_ A Universal Network for Real-World Mathematical Expression Recognition
-
-## texify
----
-- https://github.com/VikParuchuri/texify
-
-
-# 配料表识别
-
-- [2024] OCR-Based Ingredient Recognition for Consumer Well-Being
-- [2024] Online Analysis of Ingredient Safety, Leveraging OCR and Machine Learning for Enhanced Consumer Product Safety
-- https://github.com/JSerwatka/Optical-Character-Recognition-of-food-ingredients
 
 
 # Challenges

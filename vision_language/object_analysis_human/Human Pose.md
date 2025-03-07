@@ -1,9 +1,3 @@
-# Codes
-- https://github.com/bearpaw/pytorch-pose
-- https://github.com/princeton-vl/pose-ae-train
-- https://github.com/cbsudux/awesome-human-pose-estimation
-
-
 # Papers
 
 ## DeepPose

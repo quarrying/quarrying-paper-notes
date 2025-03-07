@@ -13,13 +13,6 @@
 ## Action quality assessment; AQA
 ---
 
-# Codes
-
-## mmaction
----
-- https://github.com/open-mmlab/mmaction
-
-
 # Papers
 
 ## [2019 CVPR] An Attention Enhanced Graph Convolutional LSTM Network for Skeleton-Based Action Recognition

@@ -61,17 +61,6 @@
 - [2019 CVPR] Dissecting Person Re-identification from the Viewpoint of Viewpoint
     
 
-# Codes
-- https://github.com/Cysu/open-reid
-- https://github.com/L1aoXingyu/reid_baseline
-- https://github.com/KaiyangZhou/deep-person-reid
-- https://github.com/NEU-Gou/awesome-reid-dataset
-- https://handong1587.github.io/deep_learning/2015/10/09/re-id.html
-- fast-reid
-    - [FastReID: 一个面向学术界和工业界的 ReID Toolbox](https://zhuanlan.zhihu.com/p/144944220)
-    - https://github.com/JDAI-CV/fast-reid
-
-
 # Datasets & Challenges
 
 Datasets   | MSMT17          | Duke     | Market  | CUHK03    | CUHK01 | VIPeR   | PRID    | CAVIAR
