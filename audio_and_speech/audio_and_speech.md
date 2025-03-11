@@ -15,12 +15,18 @@
 ---
 - [2021] Audio ALBERT: A Lite BERT for Self-supervised Learning of Audio Representation
 
+## [2024 ICASSP] CED
+---
+- https://github.com/RicherMans/CED
+- [2024 ICASSP] Consistent Ensemble Distillation for Audio Tagging
 
 # Datasets
 
 ## AudioSet
 ---
 > Audioset is an audio event dataset, which consists of over 2M human-annotated 10-second video clips. These clips are collected from YouTube, therefore many of which are in poor-quality and contain multiple sound-sources. A hierarchical ontology of 632 event classes is employed to annotate these data, which means that the same sound could be annotated as different labels. For example, the sound of barking is annotated as Animal, Pets, and Dog. All the videos are split into Evaluation/Balanced-Train/Unbalanced-Train set.
+
+被称为声音领域的 ImageNet.
 
 - https://research.google.com/audioset/index.html
 - [2017] Audio Set: An ontology and human-labeled dataset for audio events
