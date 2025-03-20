@@ -1,18 +1,3 @@
-# Tasks
-
-## Action recognition, action classification
----
-
-## Temporal action detection; TAD; temporal action localization
----
-> Temporal action detection (TAD) aims to find time intervals of actions of interest in untrimmed videos as well as classifying the instance.
-
-## Spatio-temporal action detection; STAD
----
-
-## Action quality assessment; AQA
----
-
 # Papers
 
 ## [2019 CVPR] An Attention Enhanced Graph Convolutional LSTM Network for Skeleton-Based Action Recognition
@@ -36,12 +21,12 @@
 ## [2019 CVPR] DMC-Net: Generating Discriminative Motion Cues for Fast Compressed Video Action Recognition
 ---
 
-## FineGym
+## [2020 CVPR] FineGym
 ---
 - https://sdolivia.github.io/FineGym/
 - [2020 CVPR] FineGym_ A Hierarchical Video Dataset for Fine-grained Action Understanding
 
-## ST-GCN
+## [2018 AAAI] ST-GCN
 ---
 - [2018 AAAI] Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition
 - https://github.com/yysijie/st-gcn

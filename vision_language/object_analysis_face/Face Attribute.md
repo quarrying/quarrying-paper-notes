@@ -1,12 +1,5 @@
 # Face Expression
 
-**任务**
-- 微表情识别 (micro-expression recognition; MER)
-- 微表情发现 (micro-expression spotting; MES)
-- 人脸动作单元 (Facial action uint; FAU) 识别 
-- 人脸表情识别 (Facial expression recognition; FER)
-
-
 ## [2018 FG] ExpNet
 ---
 - [2018 FG] ExpNet_ Landmark-Free, Deep, 3D Facial Expressions

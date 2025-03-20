@@ -1,3 +1,5 @@
+# Papers
+
 ## [2017] VGGish
 ----
 - https://github.com/tensorflow/models/tree/master/research/audioset/vggish
@@ -6,6 +8,7 @@
 ---
 - [2019] PANNs_ Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition
 - https://github.com/qiuqiangkong/audioset_tagging_cnn
+- https://github.com/qiuqiangkong/panns_inference
 
 ## [2020] wav2vec
 ----
@@ -15,7 +18,7 @@
 ---
 - [2021] Audio ALBERT: A Lite BERT for Self-supervised Learning of Audio Representation
 
-## [2024 ICASSP] CED
+## [2024 ICASSP] CED, Consistent Ensemble Distillation
 ---
 - https://github.com/RicherMans/CED
 - [2024 ICASSP] Consistent Ensemble Distillation for Audio Tagging

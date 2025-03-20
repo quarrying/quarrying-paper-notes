@@ -1,29 +1,36 @@
 # Hand Detection
-- [2011 BMVC] Hand detection using multiple proposals  
-- [2019 AAAI] Scale Invariant Fully Convolutional Network_ Detecting Hands Efficiently
+
+## [2011 BMVC] Hand detection using multiple proposals  
+---
+
+## [2019 AAAI] Scale Invariant Fully Convolutional Network_ Detecting Hands Efficiently
+---
 
 
 # Hand Pose
 
-## HaMuCo
+## [2023 ICCV] HaMuCo
 ---
 - [2023 ICCV] HaMuCo: Hand Pose Estimation via Multiview Collaborative Self-Supervised Learning
 
-## Others
----
-- [2017 CVPR] Hand Keypoint Detection in Single Images using Multiview Bootstrapping
-- [2017 ICCV] Learning to Estimate 3D Hand Pose from Single RGB Images
-- [2019 CVPR] 3D Hand Shape and Pose Estimation from a Single RGB Image
-- [2019 CVPR] Pushing the Envelope for RGB-based Dense 3D Hand Pose Estimation via Neural Rendering
-- [2019 ICCV] SO-HandNet: Self-Organizing Network for 3D Hand Pose Estimation with Semi-supervised Learning
-    - https://github.com/TerenceCYJ/SO-HandNet
-- https://github.com/xinghaochen/awesome-hand-pose-estimation
-
-## Multiview 3D Hand Pose
+## [2017 CVPR] Hand Keypoint Detection in Single Images using Multiview Bootstrapping
 ----
-- http://www.rovit.ua.es/dataset/mhpdataset/
-- [2017] Large-scale Multiview 3D Hand Pose Dataset
-- https://gitcode.net/EricLee/handpose_x
+
+## [2017 ICCV] Learning to Estimate 3D Hand Pose from Single RGB Images
+----
+
+## [2019 CVPR] 3D Hand Shape and Pose Estimation from a Single RGB Image
+----
+
+## [2019 CVPR] Pushing the Envelope for RGB-based Dense 3D Hand Pose Estimation via Neural Rendering
+----
+
+## [2019 ICCV] SO-HandNet: Self-Organizing Network for 3D Hand Pose Estimation with Semi-supervised Learning
+----
+- https://github.com/TerenceCYJ/SO-HandNet
+
+## [2017] Large-scale Multiview 3D Hand Pose Dataset
+---
 
 
 # Gesture Recognition
@@ -33,13 +40,14 @@
 
 
 # Sign Language Recognition
+
 - [2020 AAAI] Spatial-Temporal Multi-Cue Network for Continuous Sign Language Recognition
 
 
 # 3D Hand Reconstruction
-- MANO: generative hand model
-    - [2017 TOG] Embodied hands: Modeling and capturing hands and bodies together
 
+## [2017 TOG] Embodied hands: Modeling and capturing hands and bodies together
+---
 
 # Datasets & Challenges
 
@@ -116,6 +124,7 @@ The TV-Hand dataset contains 9498 image frames extracted from the ActionThread d
 ---
 **References**:
 - [2019 ICCV] Freihand: A dataset for markerless capture of hand pose and shape from single rgb images
+- https://github.com/lmb-freiburg/freihand
 
 ## Dexter Object
 ---
@@ -130,8 +139,5 @@ The TV-Hand dataset contains 9498 image frames extracted from the ActionThread d
 ## HaGRID, HAnd Gesture Recognition Image Dataset 
 ---
 **References**:
-- http://github.com/hukenovs/hagrid
-
-## SHREC
-----
+- https://github.com/hukenovs/hagrid
 

@@ -1,5 +1,4 @@
 # Head Detection
----
 
 ## [2018 ICIP] Key parts context and scene geometry in human head detection
 ---
@@ -8,7 +7,6 @@
 ---
 
 # Head Pose Estimation, HPE
----
 
 ## [2002 ICPR] Head pose estimation using view based eigenspaces
 ---

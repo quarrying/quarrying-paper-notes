@@ -1,31 +1,3 @@
-# Tasks
-- sentiment analysis
-- topic detection
-- language detection
-- key phrase extraction
-- document categorization
-- question answering
-- machine translation: 机器翻译
-- reading comprehension
-- part-of-speech (POS) tagging: 词性标注
-- named entity recognition (NER): 命名实体识别
-- dependency parsing (DEP)
-- text classification: 文本分类
-- text matching: 文本匹配
-- text summarization: 文本摘要
-- knowledge graph: 知识图谱
-- knowledge probing: 知识探索
-- relation extraction: 关系抽取
-- Fine-grained Entity Typing (FET): 细粒度实体分类
-- Recognizing Textual Entailment (RTE): 文本蕴涵
-- natural language understanding (NLU): 自然语言理解
-- Retrieval Augmented Generation (RAG): 检索增强生成
-- Supervised Fine-Tuning (SFT): 监督微调
-- Chain-of-Thought (CoT): 思维链
-- semantic textual similarity (STS)
-- task-oriented dialogue (TOD) 
-- Language Agents (LA)
-
 # Papers
 
 ## Survey

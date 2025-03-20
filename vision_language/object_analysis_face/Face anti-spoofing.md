@@ -1,29 +1,68 @@
-# 文献
-- [2013 BTAS] Spoofing in 2D Face Recognition with 3D Masks and Anti-spoofing with Kinect
-- [2014 TIFS] Spoofing Face Recognition with 3D Masks
-- [2014] Face Anti-spoofing: Multi-spectral Approach  
-- [2015 TIFS] Using Visual Rhythms for Detecting Video-Based Facial Spoof Attack 
-- [2016 ICB] Reliable Face Anti-Spoofing Using Multispectral SWIR Imaging  
-- [2016 ICPR] Generalized Face Anti-spoofing by Detecting Pulse from Face Videos
-- [2017 TIFS] Detecting Silicone Mask-Based Presentation Attack via Deep Dictionary Learning
-- [2017 Standards] The ISOIEC Standards for Testing of Presentation Attack Detection  
-- [2017 CSUR] Presentation Attack Detection Methods for Face Recognition System A Comprehensive Survey  
-- [2018 SIST] Face Liveness Detection Based on Joint Analysis of RGB and Near-Infrared Image of Faces  
-- [2018 CVPRW] Detecting Presentation Attacks from 3D Face Masks under Multispectral Imaging
-- [2018 CVPRW] Time Analysis of Pulse-based Face Anti-Spoofing in Visible and NIR
-- [2018 CVPR] Learning Deep Models for Face Anti-Spoofing-Binary or Auxiliary Supervision
-- [2018 arXiv] Exploiting Temporal and Depth Information for Multi-frame Face Anti-spoofing
-- [2018 arXiv] Exploring Hypergraph Representation on Face Anti-spoofing Beyond 2D Attacks
-- [2019] Aurora Guard_ Real-Time Face Anti-Spoofing via Light Reflection
-- [2019 CVPR] Deep Anomaly Detection for Generalized Face Anti-Spoofing
-- [2019 CVPR] Deep Tree Learning for Zero-shot Face Anti-Spoofing
-- [2019 CVPR] FeatherNets: Convolutional Neural Networks as Light as Feather for Face Anti-spoofing
-    - https://github.com/SoftwareGift/FeatherNets_Face-Anti-spoofing-Attack-Detection-Challenge-CVPR2019
-- [2019 CVPR] A Dataset and Benchmark for Large-scale Multi-modal Face Anti-spoofing
-    - https://github.com/sacmehta/ESPNetv2
+# Papers
+
+## [2013 BTAS] Spoofing in 2D Face Recognition with 3D Masks and Anti-spoofing with Kinect
+---
+
+## [2014 TIFS] Spoofing Face Recognition with 3D Masks
+---
+
+## [2014] Face Anti-spoofing: Multi-spectral Approach  
+---
+
+## [2015 TIFS] Using Visual Rhythms for Detecting Video-Based Facial Spoof Attack 
+---
+
+## [2016 ICB] Reliable Face Anti-Spoofing Using Multispectral SWIR Imaging  
+---
+
+## [2016 ICPR] Generalized Face Anti-spoofing by Detecting Pulse from Face Videos
+---
+
+## [2017 TIFS] Detecting Silicone Mask-Based Presentation Attack via Deep Dictionary Learning
+---
+
+## [2017 Standards] The ISOIEC Standards for Testing of Presentation Attack Detection  
+---
+
+## [2017 CSUR] Presentation Attack Detection Methods for Face Recognition System A Comprehensive Survey  
+---
+
+## [2018 SIST] Face Liveness Detection Based on Joint Analysis of RGB and Near-Infrared Image of Faces  
+---
+
+## [2018 CVPRW] Detecting Presentation Attacks from 3D Face Masks under Multispectral Imaging
+---
+
+## [2018 CVPRW] Time Analysis of Pulse-based Face Anti-Spoofing in Visible and NIR
+---
+
+## [2018 CVPR] Learning Deep Models for Face Anti-Spoofing-Binary or Auxiliary Supervision
+
+## [2018 arXiv] Exploiting Temporal and Depth Information for Multi-frame Face Anti-spoofing
+---
+
+## [2018 arXiv] Exploring Hypergraph Representation on Face Anti-spoofing Beyond 2D Attacks
+---
+
+## [2019] Aurora Guard_ Real-Time Face Anti-Spoofing via Light Reflection
+---
+
+## [2019 CVPR] Deep Anomaly Detection for Generalized Face Anti-Spoofing
+---
+
+## [2019 CVPR] Deep Tree Learning for Zero-shot Face Anti-Spoofing
+---
+
+## [2019 CVPR] FeatherNets: Convolutional Neural Networks as Light as Feather for Face Anti-spoofing
+---
+- https://github.com/SoftwareGift/FeatherNets_Face-Anti-spoofing-Attack-Detection-Challenge-CVPR2019
+
+## [2019 CVPR] A Dataset and Benchmark for Large-scale Multi-modal Face Anti-spoofing
+---
+- https://github.com/sacmehta/ESPNetv2
 
 
-# 数据集
+# Datasets
 
 ## NUAA Imposter Database
 ---

@@ -1,12 +1,3 @@
-
-# Tasks
-- Visual place recognition, VPR; Visual Geo-localization; VG
-- Visual Localization
-- Landmark Retrieval 
-- Scene Classification
-- Scene Understanding
-
-
 # Papers
 
 ## UPerNet
