@@ -3,10 +3,15 @@
 ## [2019 ICCV] Towards Unconstrained End-to-End Text Spotting
 ----
 
+
 # Key Information Extraction, KIE
 
 ## [2021] Spatial Dual-Modality Graph Reasoning for Key Information Extraction
 ---
+
+## [2021] LayoutXLM: Multimodal Pre-training for Multilingual Visually-rich Document Understanding
+----
+
 
 # Writer Retrieval
 
