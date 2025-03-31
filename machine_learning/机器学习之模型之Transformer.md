@@ -201,3 +201,7 @@ ViT-G/14 包含 2B 参数量.
 ## [2025] Scaling Laws in Patchification_ An Image Is Worth 50,176 Tokens And More
 ---
 主要思想是: 一个像素一个 token 效果最好.
+
+## [2025] DyT, Dynamic Tanh 
+----
+- [2025] Transformers without Normalization
