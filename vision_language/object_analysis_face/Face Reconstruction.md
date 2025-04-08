@@ -46,7 +46,7 @@
 - https://github.com/YadiraF/face3d/blob/master/3D%20Face%20Papers.md
 
 
-# Models
+# Face Models
 
 ## [The Basel Face Model](https://faces.dmi.unibas.ch/bfm/main.php)
 - The Basel Face Model 2017

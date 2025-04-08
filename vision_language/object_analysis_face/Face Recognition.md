@@ -116,8 +116,9 @@
 ---
 - [2021] Face-NMS: A Core-set Selection Approach for Efficient Face Recognition
 
-## 人脸数据增强
----
+
+# 人脸数据增强
+
 - [2016] Frankenstein_ Learning Deep Face Representations using Small Data
 - [2018] Training Deep Face Recognition Systems with Synthetic Data
 - [2016 ECCV] Do we really need to collect millions of faces for effective face recognition
@@ -126,8 +127,9 @@
 - [2018] Generating Photo-Realistic Training Data to Improve Face Recognition Accuracy
 - [2018] Priming Deep Neural Networks with Synthetic Faces for Enhanced Performance
 
-## 人脸聚类
----
+
+# 人脸聚类
+
 - [2016] Clustering Millions of Faces by Identity
 - [2019 CVPR] Linkage based face clustering via graph convolution network
 
@@ -146,7 +148,7 @@
 
 
 
-##  基于图像集或视频的人脸识别
+# 基于图像集或视频的人脸识别
 
 ## NAN
 ---
@@ -254,35 +256,4 @@
 ## Sparse Representation
 ---
 - [2009] Robust Face Recognition via Sparse Representation
-
-
-# 综合其他
-- [handong1587 face-recognition](https://handong1587.github.io/deep_learning/2015/10/09/face-recognition.html)
-- OpenFace
-    - https://github.com/cmusatyalab/openface
-- FaceNet
-    - https://github.com/davidsandberg/facenet
-- SeetaFace
-    - https://github.com/seetaface/SeetaFaceEngine
-- face_recognition
-    - https://github.com/ageitgey/face_recognition
-- insightface
-    - https://github.com/deepinsight/insightface
-- OpenBR
-    - https://github.com/biometrics/openbr
-    - http://www.openbiometrics.org
-- DeepFace
-    - https://github.com/RiweiChen/DeepFace
-- gluon-face
-    - https://github.com/THUFutureLab/gluon-face
-- FaceX-Zoo
-    - https://github.com/JDAI-CV/FaceX-Zoo
-- face.evoLVe
-    - https://github.com/ZhaoJ9014/face.evoLVe.PyTorch
-- https://github.com/meownoid/face-identification-tpe
-- https://bitbucket.org/marcopede/face-eval
-- https://github.com/SelinaFelton/LightFaceNet
-- https://gitee.com/kuaikuaikim/dface
-- https://github.com/auroua/InsightFace_TF/
-- https://github.com/hanson-young/nniefacelib
 
