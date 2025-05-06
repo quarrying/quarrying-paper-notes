@@ -319,5 +319,28 @@ Over 100,000 images for 20 famous Chinese calligraphers
 
 ## PubLayNet
 ----
+训练集合中包含 35 万张图像，验证集合中包含 1.1 万张图像。总共包含 5 个类别，分别是： text, title, list, table, figure
+
 - https://github.com/ibm-aur-nlp/PubLayNet
+
+## CDLA
+---
+训练集合中包含 5000 张图像，验证集合中包含 1000 张图像。总共包含 10 个类别，分别是： Text, Title, Figure, Figure caption, Table, Table caption, Header, Footer, Reference, Equation
+
+- https://github.com/buptlihang/CDLA
+
+
+# KIE
+
+## FUNSD
+---
+- https://guillaumejaume.github.io/FUNSD/
+
+## XFUND
+---
+- https://github.com/doc-analysis/XFUND
+
+## WildReceipt
+---
+- [2021] Spatial Dual-Modality Graph Reasoning for Key Information Extraction
 

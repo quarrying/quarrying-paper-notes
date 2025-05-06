@@ -175,3 +175,11 @@ C4 语料库被用来训练 T5 模型, 806GB.
 ---
 - https://dumps.wikimedia.org/zhwiki/
 
+
+## 弱智吧
+---
+- https://huggingface.co/datasets/LooksJuicy/ruozhiba
+- https://github.com/Leymore/ruozhiba
+- https://github.com/FunnySaltyFish/Better-Ruozhiba
+
+
