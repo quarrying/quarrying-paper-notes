@@ -183,3 +183,9 @@ C4 语料库被用来训练 T5 模型, 806GB.
 - https://github.com/FunnySaltyFish/Better-Ruozhiba
 
 
+## SWE-bench
+----
+> SWE-bench is a benchmark for evaluating large language models on real world software issues collected from GitHub. Given a codebase and an issue, a language model is tasked with generating a patch that resolves the described problem.
+
+- https://www.swebench.com
+

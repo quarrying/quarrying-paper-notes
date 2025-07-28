@@ -1,3 +1,5 @@
+# Transformer
+
 ## [2017 NIPS@Google] Attention is All You Need
 ---
 !TODO: 精读
@@ -205,3 +207,4 @@ ViT-G/14 包含 2B 参数量.
 ## [2025] DyT, Dynamic Tanh 
 ----
 - [2025] Transformers without Normalization
+
