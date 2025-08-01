@@ -341,3 +341,31 @@ Acted Facial Expressions In The Wild (AFEW) is a dynamic temporal facial express
 ## Aff-Wild
 ---
 - [2018] Deep Affect Prediction in-the-wild: Aff-Wild Database and Challenge, Deep Architectures, and Beyond
+
+## MAFW
+---
+
+## FABA-Instruct
+---
+
+## [2025] EmoCap100K, EmoCapCLIP
+---
+利用 Gemini-1.5-Flash 构建了 EmoCap100K, 一个语义丰富的人脸表情/情绪 caption 数据集.
+
+- [2025] Learning Transferable Facial Emotion Representations from Large-Scale Semantically Rich Captions
+
+
+# Face caption
+
+## FFHQ-Text
+
+## MM-CelebA-HQ
+
+## CelebA-Dialog
+
+## FaceCaption-15M
+
+## LAION-Face
+
+## FLIP-80M
+
