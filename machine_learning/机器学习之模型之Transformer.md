@@ -1,5 +1,3 @@
-# Transformer
-
 ## [2017 NIPS@Google] Attention is All You Need
 ---
 !TODO: 精读
