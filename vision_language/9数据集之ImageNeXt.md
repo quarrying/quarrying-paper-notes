@@ -14,7 +14,6 @@ JFT-300M 是谷歌内部数据集.
 
 
 # YFCC100M, YFCC, Yahoo Flickr Creative Commons
-----
 - [2016] Yfcc100m: The new data in multimedia research
 - http://multimediacommons.org/
 

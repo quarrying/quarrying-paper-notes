@@ -1,8 +1,4 @@
-## Overview
-----
-**References**:
-- OCR_DataSet: https://github.com/WenmuZhou/OCR_DataSet
-
+# Text
 
 ## MNIST
 ---
@@ -10,7 +6,7 @@
 - http://yann.lecun.com/exdb/mnist/
 
 
-## SVT, Street View Text
+## [2010 ECCV] SVT, Street View Text
 ---
 **References**:
 - http://vision.ucsd.edu/~kai/svt/
@@ -18,7 +14,7 @@
 - [2011 ICCV] End-to-end Scene Text Recognition
 
 
-## SVHN, Street View House Numbers
+## [2011 NIPSW] SVHN, Street View House Numbers
 ---
 > SVHN is a real-world image dataset for developing machine learning and object recognition algorithms with minimal requirement on data preprocessing and formatting. It can be seen as similar in flavor to MNIST (e.g., the images are of small cropped digits), but incorporates an order of magnitude more labeled data (over 600,000 digit images) and comes from a significantly harder, unsolved, real world problem (recognizing digits and numbers in natural scene images). SVHN is obtained from house numbers in Google Street View images. 
 
@@ -37,31 +33,31 @@ There are 73,257 images in the training set, 26,032 images in the test set, and 
 - [2014 NIPS] Synthetic Data and Artificial Neural Networks for Natural Scene Text Recognition
 - https://www.robots.ox.ac.uk/~vgg/data/text/
 
-## CISIA-HWDB, HWDB1.0
+## [2013] CISIA-HWDB, HWDB1.0
 ---
 **References**:
 - http://www.nlpr.ia.ac.cn/databases/handwriting/download.html
 
 
-## HCL2000
+## [2009] HCL2000
 ---
 - [2009] HCL2000 - A Large-scale Handwritten Chinese Character Database for Handwritten Character Recognition
 
 
-## Chars74K
+## [2009] Chars74K
 ---
 **References**:
 - http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/
 - [2009] Character recognition in natural images
 
 
-## ICDAR 2003
+## [2003 ICDAR] ICDAR 2003
 ---
 **References**:
 - [2003 ICDAR] ICDAR 2003 robust reading competitions
 
 
-## ICDAR 2011
+## [2011] ICDAR 2011
 ---
 The ICDAR 2011 dataset includes 229 and 255 images for training and testing.
 
@@ -69,7 +65,7 @@ The ICDAR 2011 dataset includes 229 and 255 images for training and testing.
 - Snoopertext: A multiresolution system for text detection in complex visual scenes
 
 
-## ICDAR 2013
+## [2013] ICDAR 2013
 ---
 > The ICDAR 2013 dataset consists of 229 training images and 233 testing images in different resolutions. This dataset contains only horizontal or nearly horizontal text.
 
@@ -77,23 +73,22 @@ The ICDAR 2011 dataset includes 229 and 255 images for training and testing.
 - ICDAR 2013 robust reading competition (2013)
 
 
-## ICDAR 2015
+## [2015] ICDAR 2015
 ---
 > ICDAR2015 contains natural images that are captured by Google Glasses casually, and most of them are severely distorted or blurred. There are 1000 training images and 500 testing images, which are annotated with quadrilaterals.
 
 **References**:
-- ICDAR 2015 competition on robust reading (2015)
+- ICDAR 2015 Competition on robust reading (2015)
+- ICDAR 2015 Competition Challenge 4: Incidental Scene Text
 
-### ICDAR 2015 Competition Challenge 4: Incidental Scene Text
-
-## IIIT-HWS
+## [2016] IIIT-HWS
 ---
 > IIIT-HWS dataset comprising of nearly 9M synthetic word images rendered out of 750 publicly available handwritten fonts. We use 90K unique words as the vocabulary which is picked from a popular open source English dictionary Hunspell.
 
--[2016] Generating Synthetic Data for Text Recognition
+- [2016] Generating Synthetic Data for Text Recognition
 
 
-## ICDAR 2017
+## [2017] ICDAR 2017
 ---
 **References**:
 - http://u-pat.org/ICDAR2017/index.php
@@ -111,14 +106,16 @@ The ICDAR 2011 dataset includes 229 and 255 images for training and testing.
 - https://rrc.cvc.uab.es/?ch=5&com=introduction
 - [2017] ICDAR2017 Robust Reading Challenge on COCO-Text
 
-### ICDAR2017-MLT
+### ICDAR2017-MLT, MLT-2017
 > ICDAR 2017 MLT (IC17-MLT) is a large scale multi-lingual text dataset, which includes 7200 training images, 1800 validation images and 9000 testing images. The dataset is composed of complete scene images which come from 9 languages. Similarly with ICDAR 2015, the text regions in ICDAR 2017 MLT are also annotated by 4 vertices of the quadrangle.
+
+> MLT-2017 dataset is a multi-language dataset. It includes 9 languages representing 6 different scripts. There are 7,200 training images, 1,800 validation images and 9,000 testing images in this dataset.
 
 **References**:
 - [2017] ICDAR2017 robust reading challenge on multi-lingual scene text detection and script identification-rrc-mlt
+- https://rrc.cvc.uab.es/?ch=8
 
-
-## ICDAR 2019
+## [2019] ICDAR 2019
 ---
 **References**:
 - http://icdar2019.org/
@@ -141,26 +138,26 @@ The ICDAR 2011 dataset includes 229 and 255 images for training and testing.
 **References**:
 - https://rrc.cvc.uab.es/?ch=12
 
-## ICDAR2019-SROIE, Robust Reading Challenge on Scanned Receipts OCR and Information Extraction 2019
+### ICDAR2019-SROIE, Robust Reading Challenge on Scanned Receipts OCR and Information Extraction 2019
 ---
 
 **References**:
 - https://rrc.cvc.uab.es/?ch=13
 
 
-## ICDAR 2021
+## [2021] ICDAR 2021
 ---
 **References**:
 - https://icdar2021.org/
 
 
-## DDI-100
+## [2019] DDI-100
 ---
 **References**:
 - [2019] DDI-100_ Dataset for Text Detection and Recognition
 
 
-## CTW-1500, SCUT-CTW1500
+## [2017] CTW-1500, SCUT-CTW1500
 ---
 > CTW1500 is a curved English text dataset that consists of 1000 training images and 500 testing images. All the text instances are annotated with 14 vertices.
 
@@ -169,7 +166,7 @@ The ICDAR 2011 dataset includes 229 and 255 images for training and testing.
 - https://github.com/Yuliang-Liu/Curve-Text-Detector
 
 
-## Total-Text
+## [2017] Total-Text
 ---
 > Total-Text is a word-level based English text dataset. It consists of 1255 training images and 300 testing images, which contain horizontal texts, multi-oriented texts, and curved texts.
 
@@ -192,7 +189,7 @@ The ICDAR 2011 dataset includes 229 and 255 images for training and testing.
 - https://www.robots.ox.ac.uk/~vgg/data/scenetext/
 
 
-## COCO-Text
+## [2016] COCO-Text
 ---
 > It reuses the images from MS-COCO dataset.  Word regions are annotated in the form of axis-aligned bounding box (AABB)
 > 
@@ -202,7 +199,7 @@ The ICDAR 2011 dataset includes 229 and 255 images for training and testing.
 - [2016] Coco-text_ Dataset and benchmark for text detection and recognition in natural images
 
 
-## CUTE80
+## [2014] CUTE80
 ---
 CUTE80: Curve Text Dataset
 
@@ -211,7 +208,7 @@ CUTE80: Curve Text Dataset
 - [2014] A Robust Arbitrary Text Detection System for Natural Scene Images
 
 
-## MSRA-TD500, MSRA Text Detection 500
+## [2012 CVPR] MSRA-TD500, MSRA Text Detection 500
 ---
 >The MSRA Text Detection 500 Database (MSRA-TD500) contains 500 natural images, which are taken from indoor (office and mall) and outdoor (street) scenes using a pocket camera. MSRA-TD500 is a multi-lingual long text dataset for Chinese and English. It includes 300 training images and 200 testing images with arbitrary orientations.
 
@@ -223,21 +220,13 @@ CUTE80: Curve Text Dataset
 - http://www.iapr-tc11.org/mediawiki/index.php/MSRA_Text_Detection_500_Database_%28MSRA-TD500%29
 
 
-## HUST-TR400
+## [2014 TIP] HUST-TR400
 ---
 **References**:
 - [2014 TIP] A unified framework for multi-oriented text detection and recognition
 
 
-## MLT-2017
----
-> MLT-2017 dataset is a multi-language dataset. It includes 9 languages representing 6 different scripts. There are 7,200 training images, 1,800 validation images and 9,000 testing images in this dataset.
-
-**References**:
-- https://rrc.cvc.uab.es/?ch=8
-
-
-## CTW
+## [2019] CTW
 ---
 - 32,285 high resolution images
 - 1,018,402 character instances
@@ -252,19 +241,16 @@ CUTE80: Curve Text Dataset
 - https://github.com/yuantailing/ctw-baseline
 
 
-## Chinese Scene Dataset
+## [2021] Chinese Scene Dataset
 ---
 - [2021] Benchmarking chinese text recognition: Datasets, baselines, and an empirical study
 
 
-## Chinese Calligraphy Styles by Calligraphers
+## [2023] Union14M
 ---
-Over 100,000 images for 20 famous Chinese calligraphers
+> Union14M is a large scene text recognition (STR) dataset collected from 17 publicly available datasets, which contains 4M of labeled data (Union14M-L) and 10M of unlabeled data (Union14M-U)
 
-该数据集是用字体文件生成的.
-
-- https://www.kaggle.com/datasets/yuanhaowang486/chinese-calligraphy-styles-by-calligraphers
-
+- https://github.com/Mountchicken/Union14M
 
 ## 其他: 中文街景文字识别
 ---
@@ -280,13 +266,6 @@ Over 100,000 images for 20 famous Chinese calligraphers
 
 **References**:
 - https://github.com/YCG09/chinese_ocr
-
-
-## Union14M
----
-> Union14M is a large scene text recognition (STR) dataset collected from 17 publicly available datasets, which contains 4M of labeled data (Union14M-L) and 10M of unlabeled data (Union14M-U)
-
-- https://github.com/Mountchicken/Union14M
 
 
 # Formula
@@ -343,4 +322,18 @@ Over 100,000 images for 20 famous Chinese calligraphers
 ## WildReceipt
 ---
 - [2021] Spatial Dual-Modality Graph Reasoning for Key Information Extraction
+
+
+# Document
+
+## [2025] OmniDocBench
+---
+- https://opendatalab.com/OpenDataLab/OmniDocBench
+- [2025] OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations
+
+## [2025] MonkeyDoc 
+---
+> MonkeyDoc (the most comprehensive document parsing dataset to date), with 3.9 million instances spanning over ten document types in both Chinese and English. 
+
+- [2025] MonkeyOCR: Document Parsing with a Structure-Recognition-Relation Triplet Paradigm
 

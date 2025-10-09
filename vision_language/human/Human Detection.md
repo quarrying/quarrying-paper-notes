@@ -238,7 +238,7 @@ Face++ 开源的一份数据集, 数据源来自爬虫, 爬取自谷歌. 该数�
 - [2018 TPAMI] The eurocity persons dataset_ A novel benchmark for object detection
 
 
-## COCOPersons, person subset of MSCOCO
+## COCOPersons
 ----
 > COCOPersons is a subset of MSCOCO from the images with groundtruth bounding box of "person". The other 79 classes are ignored in our evaluation. After the filtering process, there are 64115 images from the trainval minus minival for training, and the other 2639 images from minival for validation. All the persons in COCOPersons are annotated as the **visible body** with different type of human poses.
 

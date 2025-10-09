@@ -1,8 +1,5 @@
 
 # Papers
-
-## Overview
----
 - https://github.com/gjy3035/Awesome-Crowd-Counting
 
 ## Multi-Column CNN

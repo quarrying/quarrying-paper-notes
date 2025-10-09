@@ -2,12 +2,7 @@
 
 MNIST 中图像尺寸为 28x28x1.
 
-> The MNIST database of handwritten digits, available from this page, has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.
-> 
-> The MNIST database was derived from a larger dataset known as the NIST Special Database 19 which contains digits, uppercase and lowercase handwritten letters. 
-
-**References**:
-- http://yann.lecun.com/exdb/mnist/
+> The MNIST database of handwritten digits, available from this page, has a training set of 60,000 examples, and a test set of 10,
 - [1998 IEEE] radient-based learning applied to document recognition
 - [1995] NIST special database 19 handprinted forms and characters database
 - [2016] NIST special database 19 handprinted forms and characters 2nd Edition
@@ -15,7 +10,12 @@ MNIST 中图像尺寸为 28x28x1.
 
 
 ## EMNIST
+**References**:000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.
+> 
+> The MNIST database was derived from a larger dataset known as the NIST Special Database 19 which contains digits, uppercase and lowercase handwritten letters. 
+
 **References**:
+- http://yann.lecun.com/exdb/mnist/
 - [2017] EMNIST_ an extension of MNIST to handwritten letters
 
 

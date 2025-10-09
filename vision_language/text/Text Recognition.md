@@ -22,6 +22,8 @@
 ---
 !TODO: 精读
 
+使用了 CTC loss.
+
 - [2017 TPAMI] An End-to-End Trainable Neural Network for Image-Based Sequence Recognition and Its Application to Scene Text Recognition
 - https://github.com/meijieru/crnn.pytorch
 
@@ -45,10 +47,4 @@
 ---
 - [2022 IJCAI] SVTR_ Scene Text Recognition with a Single Visual Model
 
-
-# Challenges
-
-## ICDAR Robust Reading Competition
----
-- https://rrc.cvc.uab.es/
 

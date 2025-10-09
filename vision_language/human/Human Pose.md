@@ -1,6 +1,6 @@
 # Papers
 
-## DeepPose
+## [2014 CVPR] DeepPose
 ---
 - [2014 CVPR] DeepPose_ Human Pose Estimation via Deep Neural Networks
 
@@ -11,13 +11,13 @@
 ## [2014 CVPR] 2d Human Pose Estimation_ New Benchmark and State of the Art Analysis
 ---
 
-## CPM, Convolutional Pose Machines
+## [2016 CVPR] CPM, Convolutional Pose Machines
 ---
 - [2016 CVPR] Convolutional Pose Machines
 - https://github.com/shihenw/convolutional-pose-machines-release
 - https://github.com/timctho/convolutional-pose-machines-tensorflow
 
-## DeepCut, DeeperCut
+## [2016 CVPR] DeepCut, DeeperCut
 ---
 DeepCut 和 DeeperCut 属于自底向上 (bottom-up) 的 multi-person pose estimation 算法.
 
@@ -25,19 +25,19 @@ DeepCut 和 DeeperCut 属于自底向上 (bottom-up) 的 multi-person pose estim
 - [2016 ECCV] DeeperCut: A Deeper, Stronger, and Faster Multi-Person Pose Estimation Model
 - https://github.com/eldar/pose-tensorflow
 
-## AlphaPose
+## [2017 ICCV] AlphaPose
 ---
 - http://mvig.org/research/alphapose.html
 - https://github.com/MVIG-SJTU/AlphaPose
 - [2017 ICCV] RMPE_ Regional Multi-person Pose Estimation
 
-## OpenPose
+## [2018] OpenPose
 ---
 - [2018] OpenPose_ realtime multi-person 2D pose estimation using Part Affinity Fields
 - https://github.com/CMU-Perceptual-Computing-Lab/openpose
 - https://github.com/ildoonet/tf-pose-estimation
 
-## Stacked hourglass networks
+## [2016] Stacked hourglass networks
 ---
 - [2016] Stacked hourglass networks for human pose estimation.
 

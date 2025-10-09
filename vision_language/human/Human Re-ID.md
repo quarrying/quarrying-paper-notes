@@ -1,7 +1,5 @@
 # Papers
 
-## awesome_video_person_reid
----
 - https://github.com/AsuradaYuci/awesome_video_person_reid
 
 ## LOMO, Local Maximal Occurrence
