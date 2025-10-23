@@ -52,6 +52,13 @@ DLA sub-tasks: text region detection, logical role classification, and reading o
 - [2025] MonkeyOCR: Document Parsing with a Structure-Recognition-Relation Triplet Paradigm
 - https://github.com/Yuliang-Liu/MonkeyOCR
 
+## [2025] PaddleOCR-VL
+---
+使用 PP-DocLayoutV2 做版面分析.
+
+- [2025] PaddleOCR-VL_ Boosting Multilingual Document Parsing via a 0.9B Ultra-Compact Vision-Language Model
+
+
 # Writer Retrieval
 
 ## [2013] Unsupervised Writer Retrieval using NetRVLAD and Graph Similarity Reranking
