@@ -1,6 +1,6 @@
 # Text
 
-## MNIST
+## [1994] MNIST
 ---
 **References**:
 - http://yann.lecun.com/exdb/mnist/
@@ -287,11 +287,24 @@ CUTE80: Curve Text Dataset
 
 # Table
 
-## WTW-Dataset
+## [2021 ICCV] WTW-Dataset
 ---
 > WTW-Dataset is the first wild table dataset for table detection and table structure recongnition tasks, which is constructed from photoing, scanning and web pages, covers 7 challenging cases like: (1)Inclined tables, (2) Curved tables, (3) Occluded tables or blurredtables (4) Extreme aspect ratio tables (5) Overlaid tables, (6) Multi-color tables and (7) Irregular tables in table structure recognition.
 
 - https://github.com/wangwen-whu/WTW-Dataset
+- [2021 ICCV] Parsing Table Structures in the Wild
+
+## [2020] PubTabNet
+---
+- [2020] Image-based table recognition: Data, model, and evaluation
+
+## [2021] FinTabNet
+---
+- [2021] Global table extractor (gte): A framework for joint table identification and cell structure recognition using visual context
+
+## [2022 CVPR] PubTables-1M
+----
+- [2022 CVPR] PubTables-1M: Towards comprehensive table extraction from unstructured documents
 
 
 # Layout
@@ -324,7 +337,7 @@ CUTE80: Curve Text Dataset
 - [2021] Spatial Dual-Modality Graph Reasoning for Key Information Extraction
 
 
-# Document
+# Document Parsing
 
 ## [2025] OmniDocBench
 ---

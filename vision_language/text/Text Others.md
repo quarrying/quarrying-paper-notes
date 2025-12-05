@@ -6,8 +6,6 @@
 
 # Document Layout Analysis, DLA
 
-DLA sub-tasks: text region detection, logical role classification, and reading order prediction.
-
 ## [2024] DocLayout-YOLO
 ---
 论文提出了 DocSynth-300K 数据集.
@@ -35,29 +33,6 @@ DLA sub-tasks: text region detection, logical role classification, and reading o
 ## [2021] LayoutXLM: Multimodal Pre-training for Multilingual Visually-rich Document Understanding
 ----
 
-# Document Parsing
-
-## [2024] GOT-OCR-2.0
----
-- [2024] General OCR Theory: Towards OCR-2.0 via a Unified End-to-end Model
-
-## [2024] Document Parsing Unveiled: Techniques, Challenges, and Prospects for Structured Information Extraction
-
-## [2025] MinerU2.5
----
-- [2025] MinerU2.5: A Decoupled Vision-Language Model for Efficient High-Resolution Document Parsing
-
-## [2025] MonkeyOCR
----
-- [2025] MonkeyOCR: Document Parsing with a Structure-Recognition-Relation Triplet Paradigm
-- https://github.com/Yuliang-Liu/MonkeyOCR
-
-## [2025] PaddleOCR-VL
----
-使用 PP-DocLayoutV2 做版面分析.
-
-- [2025] PaddleOCR-VL_ Boosting Multilingual Document Parsing via a 0.9B Ultra-Compact Vision-Language Model
-
 
 # Writer Retrieval
 
@@ -68,5 +43,14 @@ DLA sub-tasks: text region detection, logical role classification, and reading o
 
 # Table Structure Parsing, TSP
 
+## [2023] Optimized Table Tokenization for Table Structure Recognition
+---
 
+## [2022 CVPR] Tableformer
+---
+- [2022 CVPR] Tableformer: Table structure understanding with transformers
+
+## [2020] TAPAS
+---
+- [2020] TAPAS: Weakly Supervised Table Parsing via Pre-training
 

@@ -2,72 +2,67 @@
 
 - https://github.com/AsuradaYuci/awesome_video_person_reid
 
-## LOMO, Local Maximal Occurrence
+## [2015 CVPR] LOMO, Local Maximal Occurrence
 ---
 - [2015 CVPR] Person re-identification by Local Maximal Occurrence representation and metric learning
 
 ## [2018] Random Occlusion-recovery for Person Re-identification
 ---
 
-## K-reciprocal Encoding
+## [2017 CVPR] K-reciprocal Encoding
 ---
 - [2017 CVPR] Re-ranking Person Re-identification with k-reciprocal Encoding
 
-## AlignedReID
+## [2017] AlignedReID
 ---
 - [2017] AlignedReID_ Surpassing Human-Level Performance in Person Re-Identification
 
-## PCB
+## [2018 ECCV] PCB
 ---
 - [2018 ECCV] Beyond part models: Person retrieval with refined part pooling (and A strong convolutional baseline)
 
-## MGN
+## [2018] MGN
 ---
 - [2018] Learning discriminative features with multiple granularities for person re-identification
 
-## SCPNet
+## [2018] SCPNet
 ---
 - [2018] Scpnet_ Spatial-channel parallelism network for joint holistic and partial person re-identification
 - https://github.com/xfanplus/Open-SCPNet
 
-## BDB
+## [2019 ICCV] BDB
 ---
 - [2019 ICCV] Batch DropBlock Network for Person Re-identification and Beyond
 
-## Alignedreid++
+## [2019] Alignedreid++
 ---
 - [2019] Alignedreid++: Dynamically matching local information for person re-identification
 
-## ReID Strong Baseline
+## [2019 CVPRW] ReID Strong Baseline
 ---
 - [2019 CVPRW] Bag of Tricks and A Strong Baseline for Deep Person Re-identification
 - [2019] A Strong Baseline and Batch Normalization Neck for Deep Person Re-identification
 - https://github.com/michuanhaohao/reid-strong-baseline
 
-## MSBA
+## [2020] MSBA
 ---
 - https://github.com/TomHeaven/msba_reid
 - [2020] MSBA_ Multiple Scales, Branches and Attention Network With Bag of Tricks for Person Re-Identification
 
-## AdaptiveReID
+## [2020] AdaptiveReID
 ---
 - [2020] AdaptiveReID: Adaptive L2 Regularization in Person Re-Identification
 - https://github.com/nixingyang/AdaptiveReID
 
-## PersonX
+## [2019 CVPR] PersonX
 ---
 - [2019 CVPR] Dissecting Person Re-identification from the Viewpoint of Viewpoint
     
+## [2021] TransReID
+---
+- [2021] TransReID: Transformer-based Object Re-Identification
 
 # Datasets & Challenges
-
-Datasets   | MSMT17          | Duke     | Market  | CUHK03    | CUHK01 | VIPeR   | PRID    | CAVIAR
------------|-----------------|----------|---------|-----------|--------|---------|---------|---------
-BBoxes     | 126,441         | 36,411   | 32,668  | 28,192    | 3,884  | 1,264   | 1,134   | 610
-Identities | 4,101           | 1,812    | 1,501   | 1,467     | 971    | 632     | 934     | 72
-Cameras    | 15              | 8        | 6       | 2         | 10     | 2       | 2       | 2
-Detector   | Faster RCNN     | hand     | DPM     | DPM, hand | hand   | hand    | hand    | hand
-Scene      | outdoor, indoor | outdoor  | outdoor | indoor    | indoor | outdoor | outdoor | indoor
 
 ## Overview
 ---

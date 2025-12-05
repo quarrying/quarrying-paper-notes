@@ -25,6 +25,8 @@ B/32 和 B/16 的 ViT 在参数量上是相同的 (ViT 之前的 linear projecti
 
 **One sight**: On the other hand, transformers are known for their fixed dimensionality throughout the model, and as a result, plain ViTs downsample inputs aggressively from the very beginning to alleviate the quadratic cost of self attention, which in turn hinders the application of plain ViTs as backbones to dense vision tasks.
 
+### Position embedding
+文献采用的是 1D 可学习的绝对位置编码. 
 
 ### ViT 网络结构
 
@@ -33,27 +35,6 @@ name             | parameters
 ViT-Base, ViT-B  | 86M
 ViT-Large, ViT-L | 307M
 ViT-Huge, ViT-H  | 632M
-
-
-### ViT 开源模型之 HuggingFace
-    google/vit-base-patch16-224
-    google/vit-base-patch16-224-in21k
-    google/vit-base-patch16-384
-    google/vit-base-patch32-384
-    google/vit-base-patch32-224-in21k
-    google/vit-large-patch16-224
-    google/vit-large-patch16-224-in21k
-    google/vit-large-patch16-384
-    google/vit-large-patch32-224-in21k
-    google/vit-large-patch32-384
-    google/vit-huge-patch14-224-in21k
-    google/vit-hybrid-base-bit-384
-
-- 不带 in21k 后缀的表示: 在 ImageNet-21k 上做预训练, 然后在 ImageNet 上做微调
-- 带 in21k 后缀的表示: 直接上 ImageNet-21k 上做训练.
-
-### ViT 开源模型之 timm
-    timm/vit_giant_patch14_dinov2.lvd142m
 
 
 ### References
@@ -72,17 +53,6 @@ name      | parameters | counterpart
 DeiT-Ti   | 5M         | ResNet18
 DeiT-S    | 22M        | ResNet50
 
-
-### DeiT 开源模型之 HuggingFace
-    facebook/deit-tiny-patch16-224
-    facebook/deit-tiny-distilled-patch16-224
-    facebook/deit-small-patch16-224
-    facebook/deit-small-distilled-patch16-224
-    facebook/deit-base-patch16-224
-    facebook/deit-base-distilled-patch16-224
-    facebook/deit-base-patch16-384
-    facebook/deit-base-distilled-patch16-384
-    
 ### References
 - [2020 @Facebook] Training data-efficient image transformers & distillation through attention
 - https://github.com/facebookresearch/deit
